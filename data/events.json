@@ -1,8 +1,22 @@
 {
-  "updated": "2026-03-14T23:03:20.153727+00:00",
-  "total": 36,
-  "new_this_run": 0,
+  "updated": "2026-03-14T23:30:23.268236+00:00",
+  "total": 37,
+  "new_this_run": 1,
   "events": [
+    {
+      "id": "c5ff51892b",
+      "title": "Direct Israel-Lebanon truce talks said expected in coming days, though challenges abound",
+      "desc": "Agenda not set, and Jerusalem refuses to halt fire during negotiations; France denies report it has drafted plan that includes Beirut recognizing Israel, countries ending state of war\nThe post Direct ",
+      "link": "https://www.timesofisrael.com/direct-israel-lebanon-truce-talks-said-expected-in-coming-days-though-challenges-abound/",
+      "pub": "Sat, 14 Mar 2026 23:08:10 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": {
+        "name": "jerusalem",
+        "lat": 31.78,
+        "lng": 35.22
+      }
+    },
     {
       "id": "e053402a18",
       "title": "דרישה לאסטרטגיה אינה תבוסתנות",
@@ -410,6 +424,6 @@
     "cruise": 0,
     "intercept": 2,
     "impact": 8,
-    "general": 24
+    "general": 25
   }
 }
