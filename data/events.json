@@ -1,14 +1,415 @@
 {
-  "updated": "2026-03-14T00:00:00+00:00",
-  "total": 0,
-  "new_this_run": 0,
-  "events": [],
+  "updated": "2026-03-14T22:48:12.896496+00:00",
+  "total": 36,
+  "new_this_run": 36,
+  "events": [
+    {
+      "id": "e053402a18",
+      "title": "דרישה לאסטרטגיה אינה תבוסתנות",
+      "desc": "המלחמה באיראן מרובת הישגים ומוצדקת, אבל חייב להתלוות אליה דיון נוקב בנוגע לתכלית. השתקה מלמעלה ונכונות לשתוק מלמטה משמען הסכמה לחזור על משגי עבר ולדבוק בסיסמאות שמחליפות מדיניות מפוכחת",
+      "link": "https://www.ynet.co.il/news/article/yokra14709033",
+      "pub": "Sun, 15 Mar 2026 00:06:00 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": {
+        "name": "נתניה",
+        "lat": 32.33,
+        "lng": 34.86
+      }
+    },
+    {
+      "id": "037b5bb992",
+      "title": "לתת לציבור האמיץ של איראן לבצע את הבלתי אפשרי",
+      "desc": "סיוע מבצעי לכוחות אזרחיים לא-חמושים מעולם לא נוסה בהיסטוריה, אבל כשההמונים האיראניים יקבלו את האות לצאת מבתיהם כדי לסלק את המשטר, חילות האוויר האמריקאי והישראלי יוכלו להעניק להם בזמן אמת גיבוי צמוד במ",
+      "link": "https://www.ynet.co.il/news/article/yokra14708618",
+      "pub": "Sun, 15 Mar 2026 00:05:00 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": {
+        "name": "מודיעין",
+        "lat": 31.88,
+        "lng": 35.01
+      }
+    },
+    {
+      "id": "50b5ed2c4d",
+      "title": "ומי לא בא? מוג'תבא",
+      "desc": "גם אם פציעתו אכן קלה כפי שטוענים באיראן, הסיכויים שמוג'תבא חמינאי יופיע בפומבי בקרוב קלושים: אחרי שאביו חוסל, היורש המסתורי יודע שהוא הבא בתור",
+      "link": "https://www.ynet.co.il/news/article/yokra14708646",
+      "pub": "Sun, 15 Mar 2026 00:04:00 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "a421ae1ff4",
+      "title": "לחץ בית",
+      "desc": "זה לא רק עומס, מדובר בדרישה בלתי אפשרית: לעבוד כאילו אין מלחמה, ולגדל ילדים כאילו אין עבודה. התוצאה: תשישות, חוסר ריכוז, עצבנות ומתח. הסיבה: המוח שלכם עבר למוד חירום של “חיסכון בסוללה”.  למה אתם לא סת",
+      "link": "https://www.ynet.co.il/news/article/yokra14708625",
+      "pub": "Sun, 15 Mar 2026 00:04:00 +0200",
+      "source": "ynet חדשות",
+      "type": "intercept",
+      "location": null
+    },
+    {
+      "id": "bcec7454cc",
+      "title": "המרדף של המוסד בחו\"ל - נגד חוליות טרור איראני: \"הוסר כל רסן, המספרים מטורפים\"",
+      "desc": "בכירים בישראל מזהירים ממאמץ איראני נרחב לקדם פיגועים נגד מטרות יהודיות וישראליות בעולם, בצל זינוק במספר התקריות האנטישמיות מאז פרוץ המלחמה. \"המוסד פרוס בכל העולם, לא רק באיראן, במרדף אחרי חוליות טרור ",
+      "link": "https://www.ynet.co.il/news/article/skbd2emcwl",
+      "pub": "Sat, 14 Mar 2026 23:31:45 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "337cdd5f8f",
+      "title": "40 שניות, 40 חיסולים: כך סוכלה הצמרת הביטחונית של איראן",
+      "desc": "הסיפור שטרם סופר: כך הצליחה ישראל להפתיע את איראן – ולסכל את הצמרת הביטחונית שלה בתוך פחות מדקה | המתקפה תוכננה לשבת בערב – אבל אז התברר שפגישת בכירי המשטר הוקדמה לבוקר, וכל המהלך הוקדם ב-12 שעות. ידי",
+      "link": "https://www.ynet.co.il/news/article/yokra14704831",
+      "pub": "Sat, 14 Mar 2026 22:21:30 +0200",
+      "source": "ynet חדשות",
+      "type": "ballistic",
+      "location": null
+    },
+    {
+      "id": "ba5ca0d397",
+      "title": "\"קרב הגנה\" בעומק השטח הלבנוני - אבל זה עדיין לא תמרון קרקעי גדול",
+      "desc": "גולני השלימו את ההכנות ללחימה בלבנון אחרי 5 חודשים בעזה, וגם כוחות נח\"ל וצנחנים יצטרפו. בפיקוד הצפון מסבירים שהם מקבלים כל מה שהם צריכים, אבל איראן היא הזירה המרכזית, וכעת מנהלים מול חיזבאללה \"קרב הגנ",
+      "link": "https://www.ynet.co.il/news/article/s1y85q7qzl",
+      "pub": "Sat, 14 Mar 2026 21:57:41 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "8c3f57ce4c",
+      "title": "הסיוע של זלנסקי נגד ה\"שאהדים\" - והאיום מטהרן",
+      "desc": "נשיא אוקראינה סיפר השבוע כי ארצו שיגרה לירדן צוות מומחים כדי לסייע בהגנה על בסיסים אמריקניים בממלכה ההאשמית. סביר להניח שחלק מהידע שצברו האוקראינים בשנים האחרונות בנוגע ל\"שאהדים\" האיראניים - הגיע גם ל",
+      "link": "https://www.ynet.co.il/news/article/hjjqnym911e",
+      "pub": "Sat, 14 Mar 2026 20:54:25 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "0f9628043d",
+      "title": "אחרי האובך והחום - מגיע השינוי. ואיך זה משפיע על הירי מאיראן ולבנון? | התחזית ומכ\"ם הגשם",
+      "desc": "אחרי יממה אביכה במיוחד, ועם רוחות של עד 95 קמ\"ש, בצהריים החלו גשמים קלים מאוד ברחבי הארץ. הם ילוו אותנו גם מחר, עם סופות רעמים יחידות וחשש לשיטפונות בדרום. בשלישי תחול התחממות, ברביעי ייתכן שוב אובך -",
+      "link": "https://www.ynet.co.il/news/article/h11mqz7cwl",
+      "pub": "Sat, 14 Mar 2026 20:54:02 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": {
+        "name": "תל אביב",
+        "lat": 32.08,
+        "lng": 34.78
+      }
+    },
+    {
+      "id": "650b7473c6",
+      "title": "זו חייבת להיות המלחמה האחרונה",
+      "desc": "אנחנו דורשים בצפון את מה שקורה ברצועת עזה - העברת שטח הלחימה לצד של האויב והכרעת האיומים שעלולים לסכן את כוחותינו. זה אומר \"קו צהוב\" בצפון. אזור חיץ אמיתי, נקי מאיומים, עד נהר הליטני. הגליל לא יכול לה",
+      "link": "https://www.ynet.co.il/news/article/yokra14707965",
+      "pub": "Sat, 14 Mar 2026 19:59:17 +0200",
+      "source": "ynet חדשות",
+      "type": "impact",
+      "location": {
+        "name": "גליל",
+        "lat": 32.9,
+        "lng": 35.3
+      }
+    },
+    {
+      "id": "f8f2473ebc",
+      "title": "איראן וארה\"ב דחו יוזמות לסיום המלחמה. הדרישה של טהרן: פיצויים",
+      "desc": "נשיא ארה\"ב, לפי גורמים המעורים בפרטים, לא רוצה כרגע לדון במו\"מ עם האיראנים. עומאן ניסתה לתווך, גם המצרים שהביאו ל\"ריסון צבאי\" מסוים מצד המדינות שהותקפו על ידי איראן. גורם איראני: \"משמרות המהפכה לא יקב",
+      "link": "https://www.ynet.co.il/news/article/syloyxq9bl",
+      "pub": "Sat, 14 Mar 2026 19:54:42 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "ac140ca350",
+      "title": "פגיעות בלוד ובבאר יעקב מטיל מתפצל, 8 זירות בנס ציונה: \"בית שלם אכל אותה\"",
+      "desc": "טיל מתפצל מאיראן שוב גרם להרס אדיר.  בית בנס ציונה נפגע, הדיירים לא היו שם. \"השכנים בבתים הצמודים נשמעו להנחיות ולא נפגעו\", סיפר ראש העיר. רכבים נהרסו - ובלוד תועד רגע הנפילה בבניין סמוך למכוניות נוסע",
+      "link": "https://www.ynet.co.il/news/article/hkcfwzmc11g",
+      "pub": "Sat, 14 Mar 2026 19:26:33 +0200",
+      "source": "ynet חדשות",
+      "type": "impact",
+      "location": {
+        "name": "לוד",
+        "lat": 31.96,
+        "lng": 34.9
+      }
+    },
+    {
+      "id": "404f8e2136",
+      "title": "הפנייה של נתניהו לזלנסקי - על הכטב\"מים האיראניים",
+      "desc": "פרסום ראשון: ראש הממשלה ביקש לקיים שיחה עם נשיא אוקראינה כדי לקדם שיתוף פעולה ביירוט הכטב\"מים מאיראן. שגריר אוקראינה בישראל: \"נתמוך בשותפים שלנו, מקווה שהשיחה תתקיים בתחילת השבוע\". במוסקבה טוענים: צה\"",
+      "link": "https://www.ynet.co.il/news/article/hyzml11xqwg",
+      "pub": "Sat, 14 Mar 2026 19:15:12 +0200",
+      "source": "ynet חדשות",
+      "type": "uav",
+      "location": {
+        "name": "נתניה",
+        "lat": 32.33,
+        "lng": 34.86
+      }
+    },
+    {
+      "id": "d277c86918",
+      "title": "חזרה לכיתות - מיום שני: אלה הרשויות שיוכלו לפתוח את מוסדות החינוך",
+      "desc": "פיקוד העורף האריך את מדיניות ההתגוננות עד שני ב-6:00, ואז תחל מדיניות הרמזור. בירושלים, חרף בקשת העירייה, לא יחזרו - אך עשרות רשויות יוכלו לפתוח את המוסדות. הלמידה מרחוק צפויה להימשך בשאר האזורים לפחו",
+      "link": "https://www.ynet.co.il/news/article/ryju116zcwe",
+      "pub": "Sat, 14 Mar 2026 18:47:58 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": {
+        "name": "ירושלים",
+        "lat": 31.78,
+        "lng": 35.22
+      }
+    },
+    {
+      "id": "21a1e92c92",
+      "title": "איראן ניסתה להפיל מטוס קרב ישראלי - ונכשלה",
+      "desc": "הניסיון היה קרוב לפגיעה, אך הטייס הצליח לחמוק הודות לעירנותו. \"צוותי האוויר התמודדו עם איומים רבים בהצלחה, המשימות יושלמו בכל גיחה\", אמרו בצה\"ל",
+      "link": "https://www.ynet.co.il/news/article/syl6sbm5we",
+      "pub": "Sat, 14 Mar 2026 18:29:51 +0200",
+      "source": "ynet חדשות",
+      "type": "impact",
+      "location": null
+    },
+    {
+      "id": "e5e2c03dd0",
+      "title": "ההפצצות ב\"יהלום שבכתר\" באיראן, מטחי טילים מתפצלים - והאיום החדש של טראמפ | כותרות השבת",
+      "desc": "מטחים מאיראן, עם טילים מתפצלים: נער נפצע באילת, נפילות במרכז | מקרון קרא להפסקת אש בלבנון, והציע לארח שיחות בפריז. צה\"ל עדיין נערך לפעולה קרקעית | ארה\"ב תקפה ב\"אי הנפט\", איראן ירתה לאמירויות, טראמפ: \"",
+      "link": "https://www.ynet.co.il/news/article/hjhyeb75zx",
+      "pub": "Sat, 14 Mar 2026 18:11:25 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": {
+        "name": "רחובות",
+        "lat": 31.9,
+        "lng": 34.81
+      }
+    },
+    {
+      "id": "56c8539696",
+      "title": "נחקר במשטרה גבר שתועד מונע כניסת אנשים למקלט: \"איבדתי את קור הרוח\"",
+      "desc": "בסרטון שעלה לרשתות ועורר סערה, נראה גבר חוסם אזרחים מלהיכנס למרחב מוגן בתל אביב בזמן אזעקה. הוא שוחרר בתנאים מגבילים והתנצל: \"ספגתי קללות קשות, אבל אני לוקח אחריות מלאה\". המשטרה: \"חל איסור מוחלט למנוע",
+      "link": "https://www.ynet.co.il/news/article/hkwvylm5zg",
+      "pub": "Sat, 14 Mar 2026 17:42:21 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": {
+        "name": "תל אביב",
+        "lat": 32.08,
+        "lng": 34.78
+      }
+    },
+    {
+      "id": "cc5be74413",
+      "title": "ארה\"ב וצרפת מתווכות, נציגי ישראל ולבנון ייפגשו? \"צה\"ל יפרז, אבל יש סיכוי לשינוי דרמטי\"",
+      "desc": "בפריז ובוושינגטון מנסים להביא את נציגי ישראל ולבנון לפגישה שתקדם הפסקת אש והבנות על פירוק חיזבאללה מנשק. בישראל מתכננים בכל אופן להרחיב את הפעילות בשטח לבנון. רון דרמר הופקד על התיק והשיחות מול ביירות",
+      "link": "https://www.ynet.co.il/news/article/bjhvxxm5be",
+      "pub": "Sat, 14 Mar 2026 17:35:17 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "7a84bfe2cd",
+      "title": "המלחמה בחוץ - הירי ברחוב נמשך",
+      "desc": "נכון לרגע כתיבת שורות אלה, 65 אזרחים ערבים כבר נרצחו מאז תחילת השנה. בכל פעם נדמה שמדובר בעוד כותרת חולפת, אך עבור משפחות רבות זו אינה סטטיסטיקה אלא חיים שנקטעו",
+      "link": "https://www.ynet.co.il/news/article/rjno0yx5zg",
+      "pub": "Sat, 14 Mar 2026 16:41:07 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "c5a3bb05f2",
+      "title": "טראמפ מנסה לרתום את העולם: \"הורמוז ייפתח. נפציץ ללא רחם בחוף האיראני\"",
+      "desc": "הנשיא טען כי \"מדינות רבות\" ישלחו ספינות מלחמה לאזור, והביע תקווה באותו פוסט שמדינות כמו סין יצטרפו. בציוץ המשך כתב: \"מדינות העולם חייבות לטפל במעבר הזה. אנחנו נעזור המון\"",
+      "link": "https://www.ynet.co.il/news/article/hk00x0ym9bl",
+      "pub": "Sat, 14 Mar 2026 16:22:28 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "1b29278bf1",
+      "title": "טיל עם ראש מתפצל שוגר לאילת ויורט: 7 זירות נפילה בעיר, ילד בן 12 נפצע | תיעוד",
+      "desc": "הטיל יורט מחוץ לשטח ישראל, אך בעיר הדרומית מדווחים על 7 זירות של חימוש מתפצל. באחת הזירות נמצא ילד בן 12, שלא שהה במרחב מוגן, ונפצע בינוני. תושב העיר בן 39 נפצע קל: \"לא הספקתי להגיע למקלט. הטיל נפל על",
+      "link": "https://www.ynet.co.il/news/article/sjqqijx9zx",
+      "pub": "Sat, 14 Mar 2026 15:53:35 +0200",
+      "source": "ynet חדשות",
+      "type": "intercept",
+      "location": {
+        "name": "אילת",
+        "lat": 29.56,
+        "lng": 34.95
+      }
+    },
+    {
+      "id": "6200c7b564",
+      "title": "Iran war puts many in US on high alert, but synagogue attack shows prevention’s limits",
+      "desc": "Michigan synagogue firebombing, separate shooting in Virginia highlight challenge of detecting self-radicalized attackers as Middle East tensions ripple onto US soil\nThe post Iran war puts many in US ",
+      "link": "https://www.timesofisrael.com/iran-war-puts-many-in-us-on-high-alert-but-synagogue-attack-shows-preventions-limits/",
+      "pub": "Sat, 14 Mar 2026 22:10:24 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "a6fcb6c235",
+      "title": "Man reported killed in W. Bank settler attack; separately, 3 said hurt by settler gunfire",
+      "desc": "In Qusra, Palestinians say settlers opened fire on residents; in Ma’ale Amos, police say Palestinians allegedly started incident by throwing stones at Israeli shepherd\nThe post Man reported killed in ",
+      "link": "https://www.timesofisrael.com/man-reported-killed-in-w-bank-settler-attack-separately-3-said-hurt-by-settler-gunfire/",
+      "pub": "Sat, 14 Mar 2026 21:05:42 +0000",
+      "source": "Times of Israel",
+      "type": "impact",
+      "location": null
+    },
+    {
+      "id": "4d377b29dc",
+      "title": "Iranian missiles wound 3 in Eilat, including child; Israel hits hundreds of Iran sites",
+      "desc": "6 salvos target large swaths of country, with IDF working to improve early warning system; schools to resume in lower-threat areas; army says warplane almost shot down during war\nThe post Iranian miss",
+      "link": "https://www.timesofisrael.com/iranian-missiles-wound-3-in-eilat-including-child-israel-hits-hundreds-of-iran-sites/",
+      "pub": "Sat, 14 Mar 2026 19:45:54 +0000",
+      "source": "Times of Israel",
+      "type": "impact",
+      "location": null
+    },
+    {
+      "id": "6564f0de1a",
+      "title": "Shoulder to Shoulder — Stand Strong. Stand United. Act Now. - Sponsored Content",
+      "desc": "The United States and Israel stand together bound by freedom, security, and resilience. Invest in Israel Bonds today. Every investment sends a bold message of support.\nThe post Shoulder to Shoulder — ",
+      "link": "https://toi.li/7gJt6s",
+      "pub": "Sat, 14 Mar 2026 19:25:59 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "c8694f581c",
+      "title": "Trump and Iran both reject international efforts to launch ceasefire talks",
+      "desc": "US presses assault after strike on Iran’s Kharg Island, while Tehran refuses to discuss truce until attacks end\nThe post Trump and Iran both reject international efforts to launch ceasefire talks appe",
+      "link": "https://www.timesofisrael.com/trump-and-iran-both-reject-international-efforts-to-launch-ceasefire-talks/",
+      "pub": "Sat, 14 Mar 2026 18:14:04 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "57aaeff451",
+      "title": "Trump vows to open Strait of Hormuz ‘one way or the other’ as Iran threatens area’s ports",
+      "desc": "US president says other countries must participate in effort to prevent attacks on shipping; US embassy in Iraq and UAE oil facility targeted by Iran and allies\nThe post Trump vows to open Strait of H",
+      "link": "https://www.timesofisrael.com/trump-vows-to-open-strait-of-hormuz-one-way-or-the-other-as-iran-threatens-areas-ports/",
+      "pub": "Sat, 14 Mar 2026 17:47:02 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "8c361043cb",
+      "title": "Iranians weigh whether to flee country amid the war",
+      "desc": "Though relatively few people have so far left the Islamic Republic, its neighbors and Europe are bracing for a potential migration crisis if the conflict drags on\nThe post Iranians weigh whether to fl",
+      "link": "https://www.timesofisrael.com/iranians-weigh-whether-to-flee-country-amid-the-war/",
+      "pub": "Sat, 14 Mar 2026 16:04:56 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "d1d676e8fd",
+      "title": "Last shah’s son says ready to lead Iran transition ‘as soon as Islamic Republic falls’",
+      "desc": "Reza Pahlavi asserts transition team he's assembling will 'in the shortest possible time, establish order, security, freedom, and conditions for Iran's prosperity and flourishing'\nThe post Last shah&#",
+      "link": "https://www.timesofisrael.com/last-shahs-son-says-ready-to-lead-iran-transition-as-soon-as-the-islamic-republic-falls/",
+      "pub": "Sat, 14 Mar 2026 14:46:38 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "c2d455a568",
+      "title": "Oklahoma attorney general slams ‘rigged’ vote on proposed Jewish charter school",
+      "desc": "In a motion this week, Gentner Drummond says the board 'deliberately hobbled its own legal position' by issuing a denial that strengthens the institution's case in federal court\nThe post Oklahoma atto",
+      "link": "https://www.timesofisrael.com/oklahoma-attorney-general-slams-rigged-vote-on-proposed-jewish-charter-school/",
+      "pub": "Sat, 14 Mar 2026 14:37:31 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "5be5172f52",
+      "title": "Hamas asks Iran not to target ‘neighboring countries’ after attacks on Qatar, Turkey",
+      "desc": "Official from terror group says it's in touch with several nations in bid to end 'American and Zionist' aggression against Iran; at least 7 Gazans said killed by IDF in past 2 days\nThe post Hamas asks",
+      "link": "https://www.timesofisrael.com/hamas-asks-iran-not-to-target-neighboring-countries-after-attacks-on-qatar-turkey/",
+      "pub": "Sat, 14 Mar 2026 14:04:25 +0000",
+      "source": "Times of Israel",
+      "type": "impact",
+      "location": null
+    },
+    {
+      "id": "82b0e03b23",
+      "title": "UK extremism expert: As Islamist narratives go mainstream, politicians fear confrontation",
+      "desc": "Charlotte Littlewood says Britain is losing an 'uphill battle' as groups like the Muslim Brotherhood use antisemitism as a strategic tool to undermine Western societies\nThe post UK extremism expert: A",
+      "link": "https://www.timesofisrael.com/uk-extremism-expert-as-islamist-narratives-go-mainstream-politicians-fear-confrontation/",
+      "pub": "Sat, 14 Mar 2026 12:17:50 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "27a6afdb47",
+      "title": "Hezbollah goes ‘all in’ on an ‘existential’ war against Israel. It could be its last",
+      "desc": "Either Hezbollah 'is finished or it establishes a new equation involving Israel's complete withdrawal from Lebanon,' source in group says; group surprised Beirut when entering war\nThe post Hezbollah g",
+      "link": "https://www.timesofisrael.com/hezbollah-goes-all-in-on-an-existential-war-against-israel-it-could-be-its-last/",
+      "pub": "Sat, 14 Mar 2026 11:51:21 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "47db8b2ad9",
+      "title": "Palestinian actor says he can’t attend Academy Awards because of Trump’s travel ban",
+      "desc": "'You can block a passport. You cannot block a voice,' says Motaz Malhees, who plays call center operator in Oscar-nominated film about killing of 5-year-old Gazan girl Hind Rajab\nThe post Palestinian ",
+      "link": "https://www.timesofisrael.com/palestinian-actor-says-he-cant-attend-academy-awards-because-of-trumps-travel-ban/",
+      "pub": "Sat, 14 Mar 2026 11:37:49 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "19f3a5467e",
+      "title": "Blast damages Amsterdam Jewish school in ‘deliberate attack,’ mayor says",
+      "desc": "No one wounded in explosion at the Netherlands' only Orthodox school, the latest in a spate of attacks targeting synagogues and other Jewish institutions amid Iran war\nThe post Blast damages Amsterdam",
+      "link": "https://www.timesofisrael.com/blast-damages-amsterdam-jewish-school-in-deliberate-attack-mayor-says/",
+      "pub": "Sat, 14 Mar 2026 10:41:14 +0000",
+      "source": "Times of Israel",
+      "type": "impact",
+      "location": null
+    },
+    {
+      "id": "98a664bb00",
+      "title": "How Iranians are communicating with the world despite internet blackout",
+      "desc": "As regime-imposed data shutdown hits two weeks, Iranians risk punishment to connect via expensive Starlink satellite terminals, opposition radio broadcasts, landlines, and more\nThe post How Iranians a",
+      "link": "https://www.timesofisrael.com/how-iranians-are-communicating-with-the-world-despite-internet-blackout/",
+      "pub": "Sat, 14 Mar 2026 10:38:44 +0000",
+      "source": "Times of Israel",
+      "type": "impact",
+      "location": null
+    }
+  ],
   "stats": {
-    "ballistic": 0,
-    "uav": 0,
+    "ballistic": 1,
+    "uav": 1,
     "cruise": 0,
-    "intercept": 0,
-    "impact": 0,
-    "general": 0
+    "intercept": 2,
+    "impact": 8,
+    "general": 24
   }
 }
