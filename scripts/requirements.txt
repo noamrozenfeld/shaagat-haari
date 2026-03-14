@@ -1,0 +1,4 @@
+# אין תלויות חיצוניות — הכל stdlib של Python 3.x
+# (urllib, xml, json, re, hashlib, pathlib)
+# אם תרצה להוסיף feedparser בעתיד:
+# feedparser==6.0.11
