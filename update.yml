@@ -1,0 +1,43 @@
+name: Update Dashboard Data
+
+on:
+  schedule:
+    # כל 5 דקות (GitHub Actions מינימום: 5 דקות)
+    - cron: '*/5 * * * *'
+  # מאפשר הפעלה ידנית מה-UI של GitHub
+  workflow_dispatch:
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # נדרש כדי לעשות commit + push
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run scraper
+        run: python scripts/scrape.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/events.json
+          git diff --staged --quiet || git commit -m "auto: עדכון נתונים $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Done
+        run: echo "✅ ריצה הסתיימה"
