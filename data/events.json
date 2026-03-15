@@ -1,8 +1,32 @@
 {
-  "updated": "2026-03-15T05:40:48.180773+00:00",
-  "total": 44,
+  "updated": "2026-03-15T06:36:33.530988+00:00",
+  "total": 46,
   "new_this_run": 2,
   "events": [
+    {
+      "id": "a2940a8bf6",
+      "title": "After years of hesitation, more Druze of the Golan Heights seek Israeli citizenship",
+      "desc": "Spurred by a deadly Hezbollah rocket and the fall of the Assad regime, northern Golan residents abandon historic ties to Syria and look to strengthen their Israeli identity\nThe post After years of hes",
+      "link": "https://www.timesofisrael.com/after-years-of-hesitation-more-druze-of-the-golan-heights-seek-israeli-citizenship/",
+      "pub": "Sun, 15 Mar 2026 06:03:42 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "18b25fe5a2",
+      "title": "Israel targeted with 6 ballistic missile salvos from Iran since midnight, Hezbollah rocket fire",
+      "desc": "Couple in their 80s treated for light injuries caused by shattered glass, smoke inhalation in central Israel * Lebanon-based terror group fires at northern towns, Tel Aviv area\nThe post Israel targete",
+      "link": "https://www.timesofisrael.com/liveblog-march-15-2026/",
+      "pub": "Sun, 15 Mar 2026 01:52:58 +0000",
+      "source": "Times of Israel",
+      "type": "ballistic",
+      "location": {
+        "name": "tel aviv",
+        "lat": 32.08,
+        "lng": 34.78
+      }
+    },
     {
       "id": "378258404a",
       "title": "US urges citizens to leave Iraq after attack on embassy in Baghdad",
@@ -501,11 +525,11 @@
     }
   ],
   "stats": {
-    "ballistic": 2,
+    "ballistic": 3,
     "uav": 2,
     "cruise": 0,
     "intercept": 2,
     "impact": 10,
-    "general": 28
+    "general": 29
   }
 }
