@@ -1,8 +1,52 @@
 {
-  "updated": "2026-03-15T09:03:29.737955+00:00",
-  "total": 51,
+  "updated": "2026-03-15T11:44:26.347400+00:00",
+  "total": 55,
   "new_this_run": 0,
   "events": [
+    {
+      "id": "2543505f18",
+      "title": "IDF says ‘ready for any scenario’ amid reports that missile interceptors ‘critically low’",
+      "desc": "In late-night vote, government approves extra funds for defense procurement after US site reports that Israel informed Washington it was running out of ballistic interceptors\nThe post IDF says &#8216;",
+      "link": "https://www.timesofisrael.com/idf-says-ready-for-any-scenario-amid-reports-that-missile-interceptors-critically-low/",
+      "pub": "Sun, 15 Mar 2026 11:00:16 +0000",
+      "source": "Times of Israel",
+      "type": "ballistic",
+      "location": null
+    },
+    {
+      "id": "32a9d9b820",
+      "title": "השיגורים לישראל ולמפרץ - והתקיפות באיראן | כל הנתונים מתחילת המבצע",
+      "desc": "ישראל ספגה מתחילת \"שאגת הארי\" 290 טילים וכ-500 כטב\"מים מאיראן, ו-400 רקטות מלבנון. במדינות המפרץ נהרגו עד כה בתקיפות האיראניות 67 בני אדם, בהם 13 חיילים אמריקנים, ולפחות 579 נוספים נפצע | כל הנתונים ע",
+      "link": "https://www.ynet.co.il/news/article/byuohgn9be",
+      "pub": "Sun, 15 Mar 2026 11:56:52 +0200",
+      "source": "ynet חדשות",
+      "type": "uav",
+      "location": null
+    },
+    {
+      "id": "c706d29f2c",
+      "title": "Israeli forces kill West Bank Palestinian couple, 2 children; police say car sped at troops",
+      "desc": "Two other children injured; police say forces entered Tammun to arrest terror suspects; Palestine Red Crescent: Responders were initially prevented from treating victims\nThe post Israeli forces kill W",
+      "link": "https://www.timesofisrael.com/israeli-forces-kill-west-bank-palestinian-couple-2-children-police-say-car-sped-at-troops/",
+      "pub": "Sun, 15 Mar 2026 10:27:55 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "d4055f9203",
+      "title": "Iran targets Israel with 7 ballistic missile salvos since midnight; Hezbollah fires rockets, drones",
+      "desc": "IDF indicates that it’s not running ‘critically low’ on missile interceptors, denying recent reports * Lebanon-based terror group fires at northern towns, Tel Aviv area\nThe post Iran targets Israel wi",
+      "link": "https://www.timesofisrael.com/liveblog-march-15-2026/",
+      "pub": "Sun, 15 Mar 2026 01:52:58 +0000",
+      "source": "Times of Israel",
+      "type": "ballistic",
+      "location": {
+        "name": "tel aviv",
+        "lat": 32.08,
+        "lng": 34.78
+      }
+    },
     {
       "id": "53a55644a1",
       "title": "With Iran under US and Israeli attack, country’s Jews seek safety in silence",
@@ -583,11 +627,11 @@
     }
   ],
   "stats": {
-    "ballistic": 4,
-    "uav": 2,
+    "ballistic": 6,
+    "uav": 3,
     "cruise": 0,
     "intercept": 3,
     "impact": 11,
-    "general": 31
+    "general": 32
   }
 }
