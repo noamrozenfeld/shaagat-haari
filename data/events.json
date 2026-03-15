@@ -1,8 +1,32 @@
 {
-  "updated": "2026-03-15T06:36:33.530988+00:00",
-  "total": 46,
+  "updated": "2026-03-15T07:29:48.586660+00:00",
+  "total": 48,
   "new_this_run": 2,
   "events": [
+    {
+      "id": "a95fe46373",
+      "title": "חשד להצתה של בית כנסת ברמלה: נזק כבד נגרם - ספרי קודש חולצו | תיעוד",
+      "desc": "מבנה בית הכנסת עלה באש, כוחות ההצלה שהגיעו לזירה השתלטו על השריפה, חילצו את ספרי הקודש - אך נזק כבד נגרם למקום. תחילה סברו כי השריפה נגרמה בשל שבר יירוט - אך כעת נבדק חשד להצתה",
+      "link": "https://www.ynet.co.il/news/article/b1yqjt7cwg",
+      "pub": "Sun, 15 Mar 2026 09:02:04 +0200",
+      "source": "ynet חדשות",
+      "type": "intercept",
+      "location": null
+    },
+    {
+      "id": "0493b3b8bd",
+      "title": "Iran targets Israel with 6 ballistic missile salvos since midnight; Hezbollah fires rockets, drones",
+      "desc": "Couple in their 80s treated for light injuries caused by shattered glass, smoke inhalation in central Israel * Lebanon-based terror group fires at northern towns, Tel Aviv area\nThe post Iran targets I",
+      "link": "https://www.timesofisrael.com/liveblog-march-15-2026/",
+      "pub": "Sun, 15 Mar 2026 01:52:58 +0000",
+      "source": "Times of Israel",
+      "type": "ballistic",
+      "location": {
+        "name": "tel aviv",
+        "lat": 32.08,
+        "lng": 34.78
+      }
+    },
     {
       "id": "a2940a8bf6",
       "title": "After years of hesitation, more Druze of the Golan Heights seek Israeli citizenship",
@@ -525,10 +549,10 @@
     }
   ],
   "stats": {
-    "ballistic": 3,
+    "ballistic": 4,
     "uav": 2,
     "cruise": 0,
-    "intercept": 2,
+    "intercept": 3,
     "impact": 10,
     "general": 29
   }
