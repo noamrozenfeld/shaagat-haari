@@ -1,8 +1,28 @@
 {
-  "updated": "2026-03-15T10:01:26.503682+00:00",
-  "total": 52,
-  "new_this_run": 1,
+  "updated": "2026-03-15T10:35:21.985120+00:00",
+  "total": 54,
+  "new_this_run": 2,
   "events": [
+    {
+      "id": "32a9d9b820",
+      "title": "השיגורים לישראל ולמפרץ - והתקיפות באיראן | כל הנתונים מתחילת המבצע",
+      "desc": "ישראל ספגה מתחילת \"שאגת הארי\" 290 טילים וכ-500 כטב\"מים מאיראן, ו-400 רקטות מלבנון. במדינות המפרץ נהרגו עד כה בתקיפות האיראניות 67 בני אדם, בהם 13 חיילים אמריקנים, ולפחות 579 נוספים נפצע | כל הנתונים ע",
+      "link": "https://www.ynet.co.il/news/article/byuohgn9be",
+      "pub": "Sun, 15 Mar 2026 11:56:52 +0200",
+      "source": "ynet חדשות",
+      "type": "uav",
+      "location": null
+    },
+    {
+      "id": "c706d29f2c",
+      "title": "Israeli forces kill West Bank Palestinian couple, 2 children; police say car sped at troops",
+      "desc": "Two other children injured; police say forces entered Tammun to arrest terror suspects; Palestine Red Crescent: Responders were initially prevented from treating victims\nThe post Israeli forces kill W",
+      "link": "https://www.timesofisrael.com/israeli-forces-kill-west-bank-palestinian-couple-2-children-police-say-car-sped-at-troops/",
+      "pub": "Sun, 15 Mar 2026 10:27:55 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
     {
       "id": "d4055f9203",
       "title": "Iran targets Israel with 7 ballistic missile salvos since midnight; Hezbollah fires rockets, drones",
@@ -598,10 +618,10 @@
   ],
   "stats": {
     "ballistic": 5,
-    "uav": 2,
+    "uav": 3,
     "cruise": 0,
     "intercept": 3,
     "impact": 11,
-    "general": 31
+    "general": 32
   }
 }
