@@ -1,8 +1,56 @@
 {
-  "updated": "2026-03-15T01:08:41.648287+00:00",
-  "total": 38,
-  "new_this_run": 1,
+  "updated": "2026-03-15T04:04:40.284342+00:00",
+  "total": 42,
+  "new_this_run": 4,
   "events": [
+    {
+      "id": "4a1b4acbee",
+      "title": "אחרי האובך והחום - מגיע השינוי: גשם מקומי וירידה ניכרת בטמפרטורות | התחזית ומכ\"ם הגשם",
+      "desc": "אחרי יממה חמה מהרגיל ואביכה במיוחד, עם רוחות של עד 95 קמ\"ש, היום צפוי לרדת גשם מקומי בצפון ובמרכז עם סופות רעמים. תחול ירידה ניכרת במידות החום. בשלישי תחול התחממות וברביעי ייתכן שוב אובך - לצד חידוש ג",
+      "link": "https://www.ynet.co.il/news/article/h11mqz7cwl",
+      "pub": "Sun, 15 Mar 2026 05:27:16 +0200",
+      "source": "ynet חדשות",
+      "type": "general",
+      "location": {
+        "name": "תל אביב",
+        "lat": 32.08,
+        "lng": 34.78
+      }
+    },
+    {
+      "id": "ccebd71dc3",
+      "title": "Three more members of Iran’s national soccer team leave asylum in Australia",
+      "desc": "Seven members of visiting women's team sought asylum after state media called them 'wartime traitors' for failing to sing anthem during Asian Cup match; three remain in Australia\nThe post Three more m",
+      "link": "https://www.timesofisrael.com/three-more-members-of-irans-national-soccer-team-leave-asylum-in-australia/",
+      "pub": "Sun, 15 Mar 2026 02:44:26 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
+    {
+      "id": "488bede23d",
+      "title": "Trump threatens further strikes on Iran’s key oil export hub as war enters third week",
+      "desc": "US president says could hit Kharg Island again 'just for fun' as Tehran disrupts major energy hub in the UAE, which reiterates right to self-defense while still urging return to diplomacy\nThe post Tru",
+      "link": "https://www.timesofisrael.com/trump-threatens-further-strikes-on-irans-key-oil-export-hub-as-war-enters-third-week/",
+      "pub": "Sun, 15 Mar 2026 02:32:07 +0000",
+      "source": "Times of Israel",
+      "type": "impact",
+      "location": null
+    },
+    {
+      "id": "ed3cc37bc1",
+      "title": "Medics say two lightly injured in latest Iranian missile attack on central Israel",
+      "desc": "Man and woman, both in their 80s, treated for injuries caused by shattered glass, smoke inhalation * Government transfers NIS 2.6B to Defense Ministry for ‘urgent defense procurement’\nThe post Medics ",
+      "link": "https://www.timesofisrael.com/liveblog-march-15-2026/",
+      "pub": "Sun, 15 Mar 2026 01:52:58 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": {
+        "name": "central israel",
+        "lat": 32.0,
+        "lng": 34.8
+      }
+    },
     {
       "id": "bd1b729926",
       "title": "Man shot dead in Nazareth, latest victim of crime wave wracking Arab community",
@@ -433,7 +481,7 @@
     "uav": 1,
     "cruise": 0,
     "intercept": 2,
-    "impact": 9,
-    "general": 25
+    "impact": 10,
+    "general": 28
   }
 }
