@@ -2,16 +2,14 @@ name: Update Dashboard Data
 
 on:
   schedule:
-    # כל 5 דקות (GitHub Actions מינימום: 5 דקות)
     - cron: '*/5 * * * *'
-  # מאפשר הפעלה ידנית מה-UI של GitHub
   workflow_dispatch:
 
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # נדרש כדי לעשות commit + push
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -26,17 +24,19 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: pip install anthropic
 
-      - name: Run scraper
-        run: python scripts/scrape.py
+      - name: Run AI scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/ai_scrape.py
 
       - name: Commit and push updated data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/events.json
-          git diff --staged --quiet || git commit -m "auto: עדכון נתונים $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git add data/events.json data/seen_articles.json
+          git diff --staged --quiet || git commit -m "auto: עדכון AI $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
 
       - name: Done
