@@ -1,8 +1,22 @@
 {
-  "updated": "2026-03-15T09:44:15.278943+00:00",
-  "total": 51,
-  "new_this_run": 0,
+  "updated": "2026-03-15T10:01:26.503682+00:00",
+  "total": 52,
+  "new_this_run": 1,
   "events": [
+    {
+      "id": "d4055f9203",
+      "title": "Iran targets Israel with 7 ballistic missile salvos since midnight; Hezbollah fires rockets, drones",
+      "desc": "IDF indicates that it’s not running ‘critically low’ on missile interceptors, denying recent reports * Lebanon-based terror group fires at northern towns, Tel Aviv area\nThe post Iran targets Israel wi",
+      "link": "https://www.timesofisrael.com/liveblog-march-15-2026/",
+      "pub": "Sun, 15 Mar 2026 01:52:58 +0000",
+      "source": "Times of Israel",
+      "type": "ballistic",
+      "location": {
+        "name": "tel aviv",
+        "lat": 32.08,
+        "lng": 34.78
+      }
+    },
     {
       "id": "53a55644a1",
       "title": "With Iran under US and Israeli attack, country’s Jews seek safety in silence",
@@ -583,7 +597,7 @@
     }
   ],
   "stats": {
-    "ballistic": 4,
+    "ballistic": 5,
     "uav": 2,
     "cruise": 0,
     "intercept": 3,
