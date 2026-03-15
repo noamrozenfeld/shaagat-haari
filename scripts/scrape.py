@@ -205,8 +205,7 @@ def main():
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ נשמר: {OUTPUT}")
-    print(f"   סה\"כ: {out['total']} אירועים, חדשים: {out['new_this_run']}")
+    print(f"✅ נשמר: {OUTPUT} (updated: {out['updated']})")
 
 
 if __name__ == "__main__":

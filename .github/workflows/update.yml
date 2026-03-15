@@ -31,20 +31,13 @@ jobs:
       - name: Run scraper
         run: python scripts/scrape.py
 
-      - name: Check if data changed
-        id: diff
-        run: |
-          git diff --quiet data/events.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
-
       - name: Commit and push updated data
-        if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/events.json
-          git commit -m "auto: עדכון נתונים $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "auto: עדכון נתונים $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
 
-      - name: No changes
-        if: steps.diff.outputs.changed == 'false'
-        run: echo "📭 אין אירועים חדשים — אין commit"
+      - name: Done
+        run: echo "✅ ריצה הסתיימה"
