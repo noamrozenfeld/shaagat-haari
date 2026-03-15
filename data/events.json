@@ -1,8 +1,18 @@
 {
-  "updated": "2026-03-15T10:59:22.971192+00:00",
-  "total": 54,
-  "new_this_run": 0,
+  "updated": "2026-03-15T11:24:55.042195+00:00",
+  "total": 55,
+  "new_this_run": 1,
   "events": [
+    {
+      "id": "2543505f18",
+      "title": "IDF says ‘ready for any scenario’ amid reports that missile interceptors ‘critically low’",
+      "desc": "In late-night vote, government approves extra funds for defense procurement after US site reports that Israel informed Washington it was running out of ballistic interceptors\nThe post IDF says &#8216;",
+      "link": "https://www.timesofisrael.com/idf-says-ready-for-any-scenario-amid-reports-that-missile-interceptors-critically-low/",
+      "pub": "Sun, 15 Mar 2026 11:00:16 +0000",
+      "source": "Times of Israel",
+      "type": "ballistic",
+      "location": null
+    },
     {
       "id": "32a9d9b820",
       "title": "השיגורים לישראל ולמפרץ - והתקיפות באיראן | כל הנתונים מתחילת המבצע",
@@ -617,7 +627,7 @@
     }
   ],
   "stats": {
-    "ballistic": 5,
+    "ballistic": 6,
     "uav": 3,
     "cruise": 0,
     "intercept": 3,
