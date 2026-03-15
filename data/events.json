@@ -1,8 +1,32 @@
 {
-  "updated": "2026-03-15T04:04:40.284342+00:00",
-  "total": 42,
-  "new_this_run": 4,
+  "updated": "2026-03-15T05:40:48.180773+00:00",
+  "total": 44,
+  "new_this_run": 2,
   "events": [
+    {
+      "id": "378258404a",
+      "title": "US urges citizens to leave Iraq after attack on embassy in Baghdad",
+      "desc": "Security officials say embassy complex was struck by a drone, after strikes killed three members of Iran-backed Kataeb Hezbollah, and reportedly wounded its leader\nThe post US urges citizens to leave ",
+      "link": "https://www.timesofisrael.com/us-urges-citizens-to-leave-iraq-after-attack-on-embassy-in-baghdad/",
+      "pub": "Sun, 15 Mar 2026 04:18:26 +0000",
+      "source": "Times of Israel",
+      "type": "uav",
+      "location": null
+    },
+    {
+      "id": "66fa1aaab8",
+      "title": "Israel targeted overnight with 5 ballistic missile salvos from Iran, Hezbollah rocket fire",
+      "desc": "Couple in their 80s treated for light injuries caused by shattered glass, smoke inhalation in central Israel * Lebanon-based terror group fires at northern towns, Tel Aviv area\nThe post Israel targete",
+      "link": "https://www.timesofisrael.com/liveblog-march-15-2026/",
+      "pub": "Sun, 15 Mar 2026 01:52:58 +0000",
+      "source": "Times of Israel",
+      "type": "ballistic",
+      "location": {
+        "name": "tel aviv",
+        "lat": 32.08,
+        "lng": 34.78
+      }
+    },
     {
       "id": "4a1b4acbee",
       "title": "אחרי האובך והחום - מגיע השינוי: גשם מקומי וירידה ניכרת בטמפרטורות | התחזית ומכ\"ם הגשם",
@@ -477,8 +501,8 @@
     }
   ],
   "stats": {
-    "ballistic": 1,
-    "uav": 1,
+    "ballistic": 2,
+    "uav": 2,
     "cruise": 0,
     "intercept": 2,
     "impact": 10,
