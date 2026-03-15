@@ -1,8 +1,18 @@
 {
-  "updated": "2026-03-15T08:32:31.051541+00:00",
-  "total": 50,
-  "new_this_run": 0,
+  "updated": "2026-03-15T08:59:13.494000+00:00",
+  "total": 51,
+  "new_this_run": 1,
   "events": [
+    {
+      "id": "53a55644a1",
+      "title": "With Iran under US and Israeli attack, country’s Jews seek safety in silence",
+      "desc": "As US and Israel strike Islamic Republic, sources tell ToI that country's Jews are 'physically well' but keeping a low profile to avoid regime's eye; leaders warn against contact with Israel \nThe post",
+      "link": "https://www.timesofisrael.com/with-iran-under-us-and-israeli-attack-countrys-jews-seek-safety-in-silence/",
+      "pub": "Sun, 15 Mar 2026 08:43:28 +0000",
+      "source": "Times of Israel",
+      "type": "general",
+      "location": null
+    },
     {
       "id": "5bed595a25",
       "title": "אחרי לילות בלי שינה: פיקוד העורף מצמצם את אזורי ההתרעה המקדימה",
@@ -578,6 +588,6 @@
     "cruise": 0,
     "intercept": 3,
     "impact": 11,
-    "general": 30
+    "general": 31
   }
 }
