@@ -59,8 +59,10 @@
   .title-block h1 span { color:var(--accent); }
   .title-block p { font-size:0.68rem; font-family:var(--mono); color:var(--text-dim); letter-spacing:2px; margin-top:2px; }
   .header-right { display:flex; align-items:center; gap:16px; }
-  .blink-dot { width:8px; height:8px; border-radius:50%; background:var(--accent); animation:blink 1.2s step-end infinite; }
+  .blink-dot { width:8px; height:8px; border-radius:50%; background:var(--accent); animation:blink 1.2s step-end infinite; transition: background 0.5s; }
+  .blink-dot.stale { background: #cc2200; animation: blink-fast 0.5s step-end infinite; }
   @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0.1;} }
+  @keyframes blink-fast { 0%,100%{opacity:1;} 50%{opacity:0.15;} }
   .header-status { display:flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.72rem; color:var(--text-dim); }
 
   /* LAYOUT */
@@ -289,61 +291,39 @@
       <div class="panel">
         <div class="panel-title">💥 נפילות ושברים מתועדים</div>
         <div class="impact-list">
+          <!-- 28.2 — יום 1 -->
+          <div class="impact-item" style="border-color:rgba(204,34,0,0.6);background:rgba(204,34,0,0.08);">
+            <div class="impact-icon">💥</div>
+            <div>
+              <div class="impact-location" style="color:#ff4422;font-weight:900;">תל אביב — 28.2</div>
+              <div class="impact-desc" style="color:#ff8866;font-weight:700;">פגיעה ישירה טיל שלם — מטפלת פיליפינית נהרגה, 21 פצועים.</div>
+            </div>
+            <span class="impact-tag tag-hit">הרוגה</span>
+          </div>
+          <div class="impact-item" style="border-color:rgba(204,34,0,0.6);background:rgba(204,34,0,0.08);">
+            <div class="impact-icon">💥</div>
+            <div>
+              <div class="impact-location" style="color:#ff4422;font-weight:900;">רמת גן — 28.2</div>
+              <div class="impact-desc" style="color:#ff8866;font-weight:700;">פגיעת מצרר בבניין. קשיש בן 102 נחבל בדרכו לממ"ד — נפטר לאחר מכן.</div>
+            </div>
+            <span class="impact-tag tag-hit">הרוג</span>
+          </div>
+          <!-- 1.3 — יום 2 -->
           <div class="impact-item" style="border-color:rgba(204,34,0,0.6);background:rgba(204,34,0,0.08);">
             <div class="impact-icon">⚫</div>
             <div>
-              <div class="impact-location">בית שמש — 1.3 <span style="color:#ff4422;font-size:0.68rem;font-family:var(--mono);">הטבח הקשה ביותר</span></div>
-              <div class="impact-desc">9 הרוגים, 51 פצועים. פגיעה ישירה בבית כנסת + מקלט. טיל ~500 ק"ג נפץ. 8 בתים נהרסו כליל.</div>
+              <div class="impact-location" style="color:#ff4422;font-weight:900;">בית שמש — 1.3 <span style="font-size:0.68rem;font-family:var(--mono);">הפגיעה הקשה ביותר</span></div>
+              <div class="impact-desc" style="color:#ff8866;font-weight:700;">9 הרוגים, 51 פצועים. פגיעה ישירה בבית כנסת + מקלט. 8 בתים נהרסו כליל.</div>
             </div>
             <span class="impact-tag tag-hit">9 הרוגים</span>
           </div>
-          <div class="impact-item" style="border-color:rgba(204,34,0,0.5);background:rgba(204,34,0,0.06);">
+          <div class="impact-item" style="border-color:rgba(204,34,0,0.6);background:rgba(204,34,0,0.08);">
             <div class="impact-icon">💥</div>
             <div>
-              <div class="impact-location">זרזיר — 13.3 <span style="color:var(--accent);font-size:0.68rem;font-family:var(--mono);">★ עדכון אחרון</span></div>
-              <div class="impact-desc">פגיעה ישירה — ~60 פצועים (15 ילדים), כמעט 300 בתים ניזוקו.</div>
-            </div>
-            <span class="impact-tag tag-hit">פגיעה</span>
-          </div>
-          <div class="impact-item">
-            <div class="impact-icon">💥</div>
-            <div>
-              <div class="impact-location">תל אביב — 28.2</div>
-              <div class="impact-desc">פגיעה ישירה של טיל שלם — מטפלת פיליפינית נהרגה, 21 פצועים.</div>
+              <div class="impact-location" style="color:#ff4422;font-weight:900;">תל אביב — 1.3</div>
+              <div class="impact-desc" style="color:#ff8866;font-weight:700;">מארינה בלייב (68) קרסה בדרכה לממ"ד — נפטרה בבוקר.</div>
             </div>
             <span class="impact-tag tag-hit">הרוגה</span>
-          </div>
-          <div class="impact-item">
-            <div class="impact-icon">💥</div>
-            <div>
-              <div class="impact-location">תל אביב — 1.3</div>
-              <div class="impact-desc">מארינה בלייב (68) קרסה בדרכה לממ"ד באזעקה — נפטרה בבוקר.</div>
-            </div>
-            <span class="impact-tag tag-hit">הרוגה</span>
-          </div>
-          <div class="impact-item">
-            <div class="impact-icon">💥</div>
-            <div>
-              <div class="impact-location">רמת גן — 28.2</div>
-              <div class="impact-desc">פגיעת מצרר בבניין. קשיש בן 102 נחבל בדרכו לממ"ד — נפטר לאחר מכן.</div>
-            </div>
-            <span class="impact-tag tag-hit">הרוג</span>
-          </div>
-          <div class="impact-item">
-            <div class="impact-icon">💥</div>
-            <div>
-              <div class="impact-location">יהוד — 3.3</div>
-              <div class="impact-desc">עובד זר נהרג, עובד זר שני פונה קשה — תתי-חימוש מצרר באתר בנייה.</div>
-            </div>
-            <span class="impact-tag tag-hit">הרוג</span>
-          </div>
-          <div class="impact-item">
-            <div class="impact-icon">🔶</div>
-            <div>
-              <div class="impact-location">אור יהודה — 3.3</div>
-              <div class="impact-desc">פצוע קשה מאותו טיל מצרר שפגע ביהוד.</div>
-            </div>
-            <span class="impact-tag tag-frag">פצוע קשה</span>
           </div>
           <div class="impact-item">
             <div class="impact-icon">🔶</div>
@@ -356,11 +336,46 @@
           <div class="impact-item">
             <div class="impact-icon">🔶</div>
             <div>
-              <div class="impact-location">ירושלים — יום 2</div>
+              <div class="impact-location">ירושלים — 1.3</div>
               <div class="impact-desc">רסיסי יירוט — תקרה קרסה במבנה ציבורי, ללא נפגעים.</div>
             </div>
             <span class="impact-tag tag-frag">רסיסים</span>
           </div>
+          <!-- 2.3 — יום 3 -->
+          <div class="impact-item">
+            <div class="impact-icon">🛡</div>
+            <div>
+              <div class="impact-location">חיפה — 2.3</div>
+              <div class="impact-desc">כטב"מים וטילי חיזבאללה — יורטו.</div>
+            </div>
+            <span class="impact-tag tag-intercept">יורט</span>
+          </div>
+          <div class="impact-item">
+            <div class="impact-icon">🛡</div>
+            <div>
+              <div class="impact-location">עכו — 2.3</div>
+              <div class="impact-desc">שיגורי חיזבאללה — יורטו.</div>
+            </div>
+            <span class="impact-tag tag-intercept">יורט</span>
+          </div>
+          <!-- 3.3 — יום 4 -->
+          <div class="impact-item" style="border-color:rgba(204,34,0,0.6);background:rgba(204,34,0,0.08);">
+            <div class="impact-icon">💥</div>
+            <div>
+              <div class="impact-location" style="color:#ff4422;font-weight:900;">יהוד — 3.3</div>
+              <div class="impact-desc" style="color:#ff8866;font-weight:700;">עובד זר נהרג, עובד זר שני פונה קשה — תתי-חימוש מצרר באתר בנייה.</div>
+            </div>
+            <span class="impact-tag tag-hit">הרוג</span>
+          </div>
+          <div class="impact-item">
+            <div class="impact-icon">🔶</div>
+            <div>
+              <div class="impact-location">אור יהודה — 3.3</div>
+              <div class="impact-desc">פצוע קשה מאותו טיל מצרר שפגע ביהוד.</div>
+            </div>
+            <span class="impact-tag tag-frag">פצוע קשה</span>
+          </div>
+          <!-- 5.3 — יום 6 -->
           <div class="impact-item">
             <div class="impact-icon">🔶</div>
             <div>
@@ -369,6 +384,25 @@
             </div>
             <span class="impact-tag tag-frag">שריפה</span>
           </div>
+          <!-- יום 6 -->
+          <div class="impact-item">
+            <div class="impact-icon">🛡</div>
+            <div>
+              <div class="impact-location">שלומי — יום 6</div>
+              <div class="impact-desc">כטב"מ יורט ע"י לייזר "אור איתן" — הפעם הראשונה בלחימה.</div>
+            </div>
+            <span class="impact-tag tag-intercept">יורט</span>
+          </div>
+          <!-- יום 9 -->
+          <div class="impact-item">
+            <div class="impact-icon">🔶</div>
+            <div>
+              <div class="impact-location">גליל תחתון — יום 9</div>
+              <div class="impact-desc">שברי יירוט שאותרו — ללא נפגעים.</div>
+            </div>
+            <span class="impact-tag tag-frag">שברים</span>
+          </div>
+          <!-- 12.3 — יום 13 -->
           <div class="impact-item">
             <div class="impact-icon">🔶</div>
             <div>
@@ -393,6 +427,15 @@
             </div>
             <span class="impact-tag tag-frag">שברים</span>
           </div>
+          <!-- 13.3 — יום 14 -->
+          <div class="impact-item" style="border-color:rgba(204,34,0,0.5);background:rgba(204,34,0,0.06);">
+            <div class="impact-icon">💥</div>
+            <div>
+              <div class="impact-location">זרזיר — 13.3 <span style="color:var(--accent);font-size:0.68rem;font-family:var(--mono);">★ עדכון אחרון</span></div>
+              <div class="impact-desc">פגיעה ישירה — ~60 פצועים (15 ילדים), כמעט 300 בתים ניזוקו.</div>
+            </div>
+            <span class="impact-tag tag-hit">פגיעה</span>
+          </div>
           <div class="impact-item">
             <div class="impact-icon">🔶</div>
             <div>
@@ -408,38 +451,6 @@
               <div class="impact-desc">נפילת רסיס טיל. ללא נפגעים.</div>
             </div>
             <span class="impact-tag tag-frag">רסיסים</span>
-          </div>
-          <div class="impact-item">
-            <div class="impact-icon">🔶</div>
-            <div>
-              <div class="impact-location">גליל תחתון — יום 9</div>
-              <div class="impact-desc">שברי יירוט שאותרו — ללא נפגעים.</div>
-            </div>
-            <span class="impact-tag tag-frag">שברים</span>
-          </div>
-          <div class="impact-item">
-            <div class="impact-icon">🛡</div>
-            <div>
-              <div class="impact-location">חיפה — 2.3</div>
-              <div class="impact-desc">כטב"מים וטילי חיזבאללה — יורטו.</div>
-            </div>
-            <span class="impact-tag tag-intercept">יורט</span>
-          </div>
-          <div class="impact-item">
-            <div class="impact-icon">🛡</div>
-            <div>
-              <div class="impact-location">עכו — 2.3</div>
-              <div class="impact-desc">שיגורי חיזבאללה — יורטו.</div>
-            </div>
-            <span class="impact-tag tag-intercept">יורט</span>
-          </div>
-          <div class="impact-item">
-            <div class="impact-icon">🛡</div>
-            <div>
-              <div class="impact-location">שלומי — יום 6</div>
-              <div class="impact-desc">כטב"מ יורט ע"י לייזר "אור איתן" — הפעם הראשונה בלחימה.</div>
-            </div>
-            <span class="impact-tag tag-intercept">יורט</span>
           </div>
         </div>
       </div>
@@ -830,6 +841,37 @@
 document.getElementById('live-date').textContent =
   'עדכון: ' + new Date().toLocaleDateString('he-IL', {day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
 
+function checkDataFreshness(updatedStr) {
+  const dot = document.querySelector('.blink-dot');
+  if (!updatedStr) return;
+  const updated = new Date(updatedStr);
+  const ageMinutes = (Date.now() - updated.getTime()) / 60000;
+  if (ageMinutes > 10) {
+    dot.classList.add('stale');
+    dot.title = `עדכון אחרון לפני ${Math.round(ageMinutes)} דקות`;
+  } else {
+    dot.classList.remove('stale');
+    dot.title = 'מתעדכן';
+  }
+}
+
+async function pollFreshness() {
+  try {
+    const res = await fetch(`data/events.json?t=${Date.now()}`);
+    if (!res.ok) return;
+    const data = await res.json();
+    if (data.updated) {
+      checkDataFreshness(data.updated);
+      const d = new Date(data.updated);
+      document.getElementById('live-date').textContent =
+        'עדכון: ' + d.toLocaleString('he-IL', {day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    }
+  } catch(e) {}
+}
+
+pollFreshness();
+setInterval(pollFreshness, 5 * 60 * 1000);
+
 // ─── LEAFLET MAP ──────────────────────────────────────────────
 const map = L.map('map', {
   center: [31.5, 34.8],
@@ -838,11 +880,94 @@ const map = L.map('map', {
   attributionControl: true
 });
 
-// OSM dark-friendly tiles (CartoDB Dark Matter for best military look)
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/">CARTO</a>',
-  subdomains: 'abcd', maxZoom: 19
-}).addTo(map);
+// ─── BASEMAPS ─────────────────────────────────────────────────
+const basemaps = {
+  dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© OpenStreetMap contributors © CARTO',
+    subdomains: 'abcd', maxZoom: 19
+  }),
+  satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '© Esri, Maxar, Earthstar Geographics',
+    maxZoom: 19
+  }),
+  hybrid: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '© Esri, Maxar, Earthstar Geographics',
+    maxZoom: 19
+  })
+};
+
+// שכבת תוויות מעל הלוויין (היברידי)
+const labelLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', {
+  subdomains: 'abcd', maxZoom: 19, opacity: 0.8
+});
+
+// ─── BASEMAP TOGGLE CONTROL (bottom-left) ─────────────────────
+const BasemapControl = L.Control.extend({
+  options: { position: 'bottomleft' },
+  onAdd: function() {
+    const div = L.DomUtil.create('div', '');
+    div.style.cssText = `
+      display:flex; flex-direction:column; gap:4px;
+      font-family:'Share Tech Mono',monospace;
+    `;
+    div.innerHTML = `
+      <button id="btn-dark" onclick="setBasemap('dark')"
+        style="font-size:0.65rem;padding:5px 10px;border-radius:3px;cursor:pointer;
+               background:#e85d00;color:#fff;border:1px solid #e85d00;white-space:nowrap;">
+        🌑 כהה
+      </button>
+      <button id="btn-satellite" onclick="setBasemap('satellite')"
+        style="font-size:0.65rem;padding:5px 10px;border-radius:3px;cursor:pointer;
+               background:rgba(10,21,32,0.85);color:#6a8a9a;border:1px solid #1a3a50;white-space:nowrap;">
+        🛰 לוויין
+      </button>
+      <button id="btn-hybrid" onclick="setBasemap('hybrid')"
+        style="font-size:0.65rem;padding:5px 10px;border-radius:3px;cursor:pointer;
+               background:rgba(10,21,32,0.85);color:#6a8a9a;border:1px solid #1a3a50;white-space:nowrap;">
+        🗺 היברידי
+      </button>
+    `;
+    L.DomEvent.disableClickPropagation(div);
+    return div;
+  }
+});
+new BasemapControl().addTo(map);
+
+let currentBasemap = 'dark';
+basemaps.dark.addTo(map);
+
+function setBasemap(name) {
+  // הסר את הישן
+  map.removeLayer(basemaps[currentBasemap]);
+  if (currentBasemap === 'hybrid') map.removeLayer(labelLayer);
+
+  // הוסף את החדש
+  currentBasemap = name;
+  basemaps[name].addTo(map);
+  if (name === 'hybrid') labelLayer.addTo(map);
+
+  // עדכן סגנון כפתורים
+  ['dark','satellite','hybrid'].forEach(b => {
+    const btn = document.getElementById('btn-' + b);
+    if (b === name) {
+      btn.style.background = 'var(--accent)';
+      btn.style.color = '#fff';
+      btn.style.borderColor = 'var(--accent)';
+    } else {
+      btn.style.background = 'transparent';
+      btn.style.color = 'var(--text-dim)';
+      btn.style.borderColor = 'var(--border)';
+    }
+  });
+
+  // בלוויין — בטל את ה-filter הכהה
+  const pane = document.querySelector('.leaflet-tile-pane');
+  if (pane) {
+    pane.style.filter = (name === 'dark')
+      ? 'brightness(0.5) saturate(0.6) hue-rotate(180deg)'
+      : 'none';
+  }
+}
 
 // ─── LAYER GROUPS ─────────────────────────────────────────────
 const layers = { ballistic: L.layerGroup(), uav: L.layerGroup(), impacts: L.layerGroup() };
