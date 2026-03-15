@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-15T12:37:50.558727+00:00",
-  "total": 65,
-  "new_this_run": 10,
-  "articles_processed": 17,
+  "updated": "2026-03-15T12:55:18.119235+00:00",
+  "total": 67,
+  "new_this_run": 2,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "שבת",
+      "location": "ירושלים",
+      "lat": 31.77,
+      "lng": 35.23,
+      "type": "hit",
+      "desc": "פגיעה בבניין מגוריו של סגן קונסול ארה״ב בישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1wjgzec11x",
+      "source_name": "ynet",
+      "id": "d88836df8667",
+      "pub": "Sun, 15 Mar 2026 14:36:27 +0200"
+    },
+    {
+      "date": "שבת",
+      "location": "רחובות",
+      "lat": 31.92,
+      "lng": 34.81,
+      "type": "frag",
+      "desc": "נפילות בשורת יישובים בישראל, נזק רב",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1wjgzec11x",
+      "source_name": "ynet",
+      "id": "a5776ed5e416",
+      "pub": "Sun, 15 Mar 2026 14:36:27 +0200"
+    },
     {
       "date": "?.?",
       "location": "בני ברק",
@@ -768,8 +796,8 @@
     }
   ],
   "stats": {
-    "hit": 5,
-    "frag": 1,
+    "hit": 6,
+    "frag": 2,
     "intercept": 3,
     "ballistic": 9,
     "uav": 4
