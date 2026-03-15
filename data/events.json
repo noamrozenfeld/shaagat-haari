@@ -1,8 +1,18 @@
 {
-  "updated": "2026-03-15T00:24:32.668911+00:00",
-  "total": 37,
-  "new_this_run": 0,
+  "updated": "2026-03-15T01:08:41.648287+00:00",
+  "total": 38,
+  "new_this_run": 1,
   "events": [
+    {
+      "id": "bd1b729926",
+      "title": "Man shot dead in Nazareth, latest victim of crime wave wracking Arab community",
+      "desc": "Unnamed victim of about 30 declared dead on the scene, medics say; 25-year-old killed Friday identified as Ibrahim Mahameed, said shot in front of pregnant wife and small daughter\nThe post Man shot de",
+      "link": "https://www.timesofisrael.com/man-shot-dead-in-nazareth-latest-victim-of-crime-wave-wracking-arab-community/",
+      "pub": "Sun, 15 Mar 2026 00:23:04 +0000",
+      "source": "Times of Israel",
+      "type": "impact",
+      "location": null
+    },
     {
       "id": "c5ff51892b",
       "title": "Direct Israel-Lebanon truce talks said expected in coming days, though challenges abound",
@@ -423,7 +433,7 @@
     "uav": 1,
     "cruise": 0,
     "intercept": 2,
-    "impact": 8,
+    "impact": 9,
     "general": 25
   }
 }
