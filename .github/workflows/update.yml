@@ -6,9 +6,6 @@ on:
     - cron: '*/5 * * * *'
   # מאפשר הפעלה ידנית מה-UI של GitHub
   workflow_dispatch:
-  # גם בכל push ל-main
-  push:
-    branches: [main]
 
 jobs:
   scrape-and-deploy:
