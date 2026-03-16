@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-16T17:44:34.663980+00:00",
-  "total": 72,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-03-16T18:37:47.187775+00:00",
+  "total": 73,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "נהריה",
+      "lat": 33.0,
+      "lng": 35.1,
+      "type": "hit",
+      "desc": "רקטה שנורתה מלבנון פגעה בבית וגרמה לשריפה",
+      "killed": 0,
+      "wounded": 6,
+      "source_url": "https://www.ynet.co.il/news/article/skq00a2hcwl",
+      "source_name": "ynet",
+      "id": "c1e210223d78",
+      "pub": "Mon, 16 Mar 2026 19:43:33 +0200"
+    },
     {
       "date": "N/A",
       "location": "ישראל - צפון, מרכז, דרום וירושלים",
@@ -866,7 +880,7 @@
     }
   ],
   "stats": {
-    "hit": 7,
+    "hit": 8,
     "frag": 5,
     "intercept": 3,
     "ballistic": 10,
