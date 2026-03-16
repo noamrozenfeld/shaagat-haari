@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-16T21:24:29.484178+00:00",
-  "total": 73,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-16T21:57:41.605349+00:00",
+  "total": 76,
+  "new_this_run": 3,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "17.10",
+      "location": "בנהריה",
+      "lat": 32.83,
+      "lng": 35.1,
+      "type": "hit",
+      "desc": "פגיעה ישירה של רקטת חיזבאללה, 15 פגועים באורח קל",
+      "killed": 0,
+      "wounded": 15,
+      "source_url": "https://www.ynet.co.il/news/article/b1qpi1ucwx",
+      "source_name": "ynet",
+      "id": "d25bf2deae19",
+      "pub": "Mon, 16 Mar 2026 23:33:42 +0200"
+    },
+    {
+      "date": "17.10",
+      "location": "צפת",
+      "lat": 32.96,
+      "lng": 35.49,
+      "type": "frag",
+      "desc": "נפל שבר עצום של טיל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1qpi1ucwx",
+      "source_name": "ynet",
+      "id": "bcba7eb7438a",
+      "pub": "Mon, 16 Mar 2026 23:33:42 +0200"
+    },
+    {
+      "date": "17.10",
+      "location": "ירושלים",
+      "lat": 31.77,
+      "lng": 35.23,
+      "type": "frag",
+      "desc": "שבר של טיל תועד ליד הכנסת",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1qpi1ucwx",
+      "source_name": "ynet",
+      "id": "ea5655a93555",
+      "pub": "Mon, 16 Mar 2026 23:33:42 +0200"
+    },
     {
       "date": "DD.M",
       "location": "נהריה",
@@ -880,8 +922,8 @@
     }
   ],
   "stats": {
-    "hit": 8,
-    "frag": 5,
+    "hit": 9,
+    "frag": 7,
     "intercept": 3,
     "ballistic": 10,
     "uav": 4
