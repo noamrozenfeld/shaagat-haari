@@ -2,7 +2,9 @@ name: Update Dashboard Data
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/5 * * * *'    # scraper — every 5 min
+    - cron: '0 5 * * *'      # email — 08:00 Israel time
+    - cron: '0 13 * * *'     # email — 16:00 Israel time
   workflow_dispatch:
 
 concurrency:
@@ -36,20 +38,29 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/ai_scrape.py
 
+      - name: Send email summary (08:00 and 16:00 only)
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          HOUR=$(date -u +%H)
+          if [ "$HOUR" = "05" ] || [ "$HOUR" = "13" ]; then
+            echo "Sending email summary..."
+            python scripts/send_summary.py
+          else
+            echo "Not email time, skipping."
+          fi
+
       - name: Commit and push updated data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/events.json data/seen_articles.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
+          git add data/
+          git diff --staged --quiet && echo "No changes" && exit 0
           git commit -m "auto: עדכון AI $(date -u '+%Y-%m-%d %H:%M UTC')"
           for i in 1 2 3; do
-            git pull --rebase origin main && git push origin main && break
-            echo "Retry $i..."
-            sleep 5
+            git pull --rebase origin main --autostash && git push origin main && break
+            echo "Retry $i..." && sleep 5
           done
 
       - name: Done
