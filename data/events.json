@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-16T08:39:28.826973+00:00",
-  "total": 67,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-16T09:45:02.452965+00:00",
+  "total": 69,
+  "new_this_run": 2,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "17.10",
+      "location": "ראשון לציון",
+      "lat": 32.0082,
+      "lng": 34.7613,
+      "type": "frag",
+      "desc": "טיל מתפצל גרם להרס בדירה, אישה בת 30 בממ\"ד נפצעה קל",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/rkvguhb5ze",
+      "source_name": "ynet",
+      "id": "c881b61ad464",
+      "pub": "Mon, 16 Mar 2026 11:31:15 +0200"
+    },
+    {
+      "date": "17.10",
+      "location": "שוהם",
+      "lat": 31.9389,
+      "lng": 34.8786,
+      "type": "frag",
+      "desc": "טיל מתפצל גרם להרס בבית, הקומה הראשונה לא ראויה למגורים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rkvguhb5ze",
+      "source_name": "ynet",
+      "id": "4693afbc9ffd",
+      "pub": "Mon, 16 Mar 2026 11:31:15 +0200"
+    },
     {
       "date": "שבת",
       "location": "ירושלים",
@@ -797,7 +825,7 @@
   ],
   "stats": {
     "hit": 6,
-    "frag": 2,
+    "frag": 4,
     "intercept": 3,
     "ballistic": 9,
     "uav": 4
