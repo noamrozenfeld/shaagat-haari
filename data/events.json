@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-16T14:48:38.121618+00:00",
-  "total": 69,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-16T15:47:58.592218+00:00",
+  "total": 72,
+  "new_this_run": 3,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "N/A",
+      "location": "ישראל - צפון, מרכז, דרום וירושלים",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "שיגור טילים מרובים מאיראן לכיוונים שונים בישראל",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/heavy-damage-and-light-injuries-as-iran-fires-multiple-missile-salvos-at-israel/",
+      "source_name": "Times of Israel",
+      "id": "a71b07e49728",
+      "pub": "Mon, 16 Mar 2026 15:02:17 +0000"
+    },
+    {
+      "date": "N/A",
+      "location": "ראשון לציון",
+      "lat": 31.94,
+      "lng": 34.75,
+      "type": "hit",
+      "desc": "פגיעה בבית בראשון לציון, נשה נפצעה קלות",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/heavy-damage-and-light-injuries-as-iran-fires-multiple-missile-salvos-at-israel/",
+      "source_name": "Times of Israel",
+      "id": "fdb2a566bf10",
+      "pub": "Mon, 16 Mar 2026 15:02:17 +0000"
+    },
+    {
+      "date": "N/A",
+      "location": "ירושלים - כנסת ועיר העתיקה",
+      "lat": 31.77,
+      "lng": 35.23,
+      "type": "frag",
+      "desc": "שברים נחתו ליד הכנסת ובקרבת כנסיית הקברה المقدسة",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/heavy-damage-and-light-injuries-as-iran-fires-multiple-missile-salvos-at-israel/",
+      "source_name": "Times of Israel",
+      "id": "f9c177676f1c",
+      "pub": "Mon, 16 Mar 2026 15:02:17 +0000"
+    },
     {
       "date": "17.10",
       "location": "ראשון לציון",
@@ -824,10 +866,10 @@
     }
   ],
   "stats": {
-    "hit": 6,
-    "frag": 4,
+    "hit": 7,
+    "frag": 5,
     "intercept": 3,
-    "ballistic": 9,
+    "ballistic": 10,
     "uav": 4
   }
 }
