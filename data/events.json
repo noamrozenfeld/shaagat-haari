@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-17T11:04:45.176920+00:00",
-  "total": 77,
-  "new_this_run": 0,
-  "articles_processed": 4,
+  "updated": "2026-03-17T11:50:18.005611+00:00",
+  "total": 79,
+  "new_this_run": 2,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "01.4",
+      "location": "חולון",
+      "lat": 32.01,
+      "lng": 34.76,
+      "type": "frag",
+      "desc": "נפילת רסיסי טיל מתפצל, נזק לתחנת רכבת צומת חולון ולאוטובוסים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hyeiu2lcbg",
+      "source_name": "ynet",
+      "id": "5bcdd4f4e07a",
+      "pub": "Tue, 17 Mar 2026 13:29:36 +0200"
+    },
+    {
+      "date": "01.4",
+      "location": "תל אביב",
+      "lat": 32.09,
+      "lng": 34.78,
+      "type": "frag",
+      "desc": "נפילת רסיסי טיל בבריכת גלים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hyeiu2lcbg",
+      "source_name": "ynet",
+      "id": "04b6ac74212a",
+      "pub": "Tue, 17 Mar 2026 13:29:36 +0200"
+    },
     {
       "date": "17.3",
       "location": "ישראל",
@@ -937,7 +965,7 @@
   ],
   "stats": {
     "hit": 9,
-    "frag": 7,
+    "frag": 9,
     "intercept": 3,
     "ballistic": 11,
     "uav": 4
