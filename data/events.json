@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-17T16:08:07.863701+00:00",
-  "total": 79,
-  "new_this_run": 0,
+  "updated": "2026-03-17T17:16:17.291314+00:00",
+  "total": 81,
+  "new_this_run": 2,
   "articles_processed": 4,
   "events": [
+    {
+      "date": "נתון חסר",
+      "location": "רמת גן",
+      "lat": 32.08,
+      "lng": 34.83,
+      "type": "hit",
+      "desc": "בניין מגורים נפגע מטיל איראני, הרס משמעותי בחלונות וממלא מקום, דיירים פונו למלון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/r1vbbyvczg",
+      "source_name": "ynet",
+      "id": "3360270a33a3",
+      "pub": "Tue, 17 Mar 2026 18:15:13 +0200"
+    },
+    {
+      "date": "DD.M",
+      "location": "מרכז ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "frag",
+      "desc": "שברי פצצת אשכול איראנית פגעו בתחנת רכבת וביתות ודרכים במרכז ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/damage-but-no-injuries-as-iranian-cluster-bomb-fragments-impact-in-central-israel/",
+      "source_name": "Times of Israel",
+      "id": "141407c2e1e1",
+      "pub": "Tue, 17 Mar 2026 16:59:32 +0000"
+    },
     {
       "date": "01.4",
       "location": "חולון",
@@ -964,8 +992,8 @@
     }
   ],
   "stats": {
-    "hit": 9,
-    "frag": 9,
+    "hit": 10,
+    "frag": 10,
     "intercept": 3,
     "ballistic": 11,
     "uav": 4
