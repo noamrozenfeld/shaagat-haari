@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-17T23:19:17.106377+00:00",
-  "total": 84,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-17T23:48:48.567642+00:00",
+  "total": 87,
+  "new_this_run": 3,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "18.3",
+      "location": "רמת גן",
+      "lat": 32.083,
+      "lng": 34.817,
+      "type": "hit",
+      "desc": "שני הרוגים מפגיעה ישירה של טיל בליסטי איראני",
+      "killed": 2,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-18-2026/",
+      "source_name": "Times of Israel",
+      "id": "67e829dd09ff",
+      "pub": "Tue, 17 Mar 2026 23:01:26 +0000"
+    },
+    {
+      "date": "18.3",
+      "location": "בני ברק",
+      "lat": 32.098,
+      "lng": 34.847,
+      "type": "frag",
+      "desc": "גבר נפגע קל מרסיסים",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-18-2026/",
+      "source_name": "Times of Israel",
+      "id": "95f5a6b67211",
+      "pub": "Tue, 17 Mar 2026 23:01:26 +0000"
+    },
+    {
+      "date": "18.3",
+      "location": "תחנת הרכבת תל אביב",
+      "lat": 32.055,
+      "lng": 34.768,
+      "type": "frag",
+      "desc": "נזקים בתחנת הרכבת",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-18-2026/",
+      "source_name": "Times of Israel",
+      "id": "21de8887255e",
+      "pub": "Tue, 17 Mar 2026 23:01:26 +0000"
+    },
     {
       "date": "unknown",
       "location": "קרמיאל",
@@ -1034,8 +1076,8 @@
     }
   ],
   "stats": {
-    "hit": 11,
-    "frag": 11,
+    "hit": 12,
+    "frag": 13,
     "intercept": 3,
     "ballistic": 12,
     "uav": 4
