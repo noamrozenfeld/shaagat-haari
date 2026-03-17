@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-17T02:02:05.689543+00:00",
-  "total": 76,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-17T04:23:31.544509+00:00",
+  "total": 77,
+  "new_this_run": 1,
+  "articles_processed": 6,
   "events": [
+    {
+      "date": "17.3",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "שיגור טילים מאיראן לישראל, ללא דיווחים על נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-17-2026/",
+      "source_name": "Times of Israel",
+      "id": "276e78373c6b",
+      "pub": "Tue, 17 Mar 2026 02:23:51 +0000"
+    },
     {
       "date": "17.10",
       "location": "בנהריה",
@@ -925,7 +939,7 @@
     "hit": 9,
     "frag": 7,
     "intercept": 3,
-    "ballistic": 10,
+    "ballistic": 11,
     "uav": 4
   }
 }
