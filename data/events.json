@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-17T18:08:52.201183+00:00",
-  "total": 81,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-17T19:18:17.783993+00:00",
+  "total": 82,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "לא צוין",
+      "location": "מרכז ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "frag",
+      "desc": "פיזור חלקי פצצה ליותר מ-100 קמ״ר וחשש מנפלים שלא התנפצו",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/syckvwp5zx",
+      "source_name": "ynet",
+      "id": "d808ebf00489",
+      "pub": "Tue, 17 Mar 2026 20:10:07 +0200"
+    },
     {
       "date": "נתון חסר",
       "location": "רמת גן",
@@ -993,7 +1007,7 @@
   ],
   "stats": {
     "hit": 10,
-    "frag": 10,
+    "frag": 11,
     "intercept": 3,
     "ballistic": 11,
     "uav": 4
