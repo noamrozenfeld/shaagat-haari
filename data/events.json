@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-17T21:08:16.680933+00:00",
-  "total": 82,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-03-17T21:51:31.357460+00:00",
+  "total": 84,
+  "new_this_run": 2,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "unknown",
+      "location": "קרמיאל",
+      "lat": 32.91,
+      "lng": 35.12,
+      "type": "hit",
+      "desc": "טילים מחזבאללה פגעו בבית בקרמיאל, ללא נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-fires-dozens-of-rockets-at-north-hitting-home-but-no-injuries-idf-pounds-lebanon/",
+      "source_name": "Times of Israel",
+      "id": "0feee6126d29",
+      "pub": "Tue, 17 Mar 2026 21:39:38 +0000"
+    },
+    {
+      "date": "unknown",
+      "location": "צפון ישראל",
+      "lat": 32.95,
+      "lng": 35.15,
+      "type": "ballistic",
+      "desc": "חזבאללה שיגרה עשרות טילים לצפון ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-fires-dozens-of-rockets-at-north-hitting-home-but-no-injuries-idf-pounds-lebanon/",
+      "source_name": "Times of Israel",
+      "id": "697fd8cc0af5",
+      "pub": "Tue, 17 Mar 2026 21:39:38 +0000"
+    },
     {
       "date": "לא צוין",
       "location": "מרכז ישראל",
@@ -1006,10 +1034,10 @@
     }
   ],
   "stats": {
-    "hit": 10,
+    "hit": 11,
     "frag": 11,
     "intercept": 3,
-    "ballistic": 11,
+    "ballistic": 12,
     "uav": 4
   }
 }
