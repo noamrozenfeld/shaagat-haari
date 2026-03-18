@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-18T20:39:12.315047+00:00",
-  "total": 98,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-18T21:07:43.628770+00:00",
+  "total": 100,
+  "new_this_run": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "19.10",
+      "location": "רמת גן",
+      "lat": 32.09,
+      "lng": 34.81,
+      "type": "hit",
+      "desc": "נפילת טיל ברמת גן - הרוג גבר ואישה",
+      "killed": 2,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/r1s4myuq11g",
+      "source_name": "ynet",
+      "id": "be13eee5a2b3",
+      "pub": "Wed, 18 Mar 2026 22:49:37 +0200"
+    },
+    {
+      "date": "Unknown",
+      "location": "עוטף עזה / יישובים דרומיים",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "שיגור חיזבאללה מלבנון למרחק של כ-200 ק\"מ לעוטף, התרעות בישובים דרומיים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hjbuut00511x",
+      "source_name": "ynet",
+      "id": "450d14c8fbe7",
+      "pub": "Wed, 18 Mar 2026 22:47:08 +0200"
+    },
     {
       "date": "9.1",
       "location": "פתח תקווה",
@@ -1230,10 +1258,10 @@
     }
   ],
   "stats": {
-    "hit": 18,
+    "hit": 19,
     "frag": 17,
     "intercept": 4,
-    "ballistic": 12,
+    "ballistic": 13,
     "uav": 4
   }
 }
