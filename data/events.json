@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-18T23:02:04.511662+00:00",
-  "total": 103,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-18T23:35:35.895801+00:00",
+  "total": 106,
+  "new_this_run": 3,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "עדנים",
+      "lat": 32.19,
+      "lng": 34.92,
+      "type": "frag",
+      "desc": "עובד זר כבן 30 נהרג מפגיעה ברסיסים מטיל מתפצל איראני במושב עדנים בדרום השרון",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hja5ss00q11l",
+      "source_name": "ynet",
+      "id": "378f438c9dc6",
+      "pub": "Thu, 19 Mar 2026 01:23:08 +0200"
+    },
+    {
+      "date": "14.4",
+      "location": "תל אביב",
+      "lat": 32.09,
+      "lng": 34.78,
+      "type": "frag",
+      "desc": "פגיעות בבניין בתל אביב - חור בקומה השביעית, נזקים לחלונות, תריסים ומכוניות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hja5ss00q11l",
+      "source_name": "ynet",
+      "id": "44391789425a",
+      "pub": "Thu, 19 Mar 2026 01:23:08 +0200"
+    },
+    {
+      "date": "14.4",
+      "location": "גילגיליה",
+      "lat": 32.18,
+      "lng": 34.78,
+      "type": "frag",
+      "desc": "פגיעות מטיל איראני",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hja5ss00q11l",
+      "source_name": "ynet",
+      "id": "fe492b853d5e",
+      "pub": "Thu, 19 Mar 2026 01:23:08 +0200"
+    },
     {
       "date": "14.4",
       "location": "מושב נטע, לכיש",
@@ -1301,7 +1343,7 @@
   ],
   "stats": {
     "hit": 20,
-    "frag": 19,
+    "frag": 22,
     "intercept": 4,
     "ballistic": 13,
     "uav": 4
