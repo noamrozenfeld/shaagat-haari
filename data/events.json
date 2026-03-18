@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-17T23:48:48.567642+00:00",
-  "total": 87,
+  "updated": "2026-03-18T00:04:11.215825+00:00",
+  "total": 90,
   "new_this_run": 3,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "14.4",
+      "location": "רמת גן",
+      "lat": 32.085,
+      "lng": 34.823,
+      "type": "hit",
+      "desc": "טיל איראני מתפצל פגע בבניין בשכונה רesientialית, הרג בני זוג בשנות השבעים",
+      "killed": 2,
+      "wounded": 6,
+      "source_url": "https://www.ynet.co.il/news/article/r1teevp511x",
+      "source_name": "ynet",
+      "id": "20c4bd07b451",
+      "pub": "Wed, 18 Mar 2026 01:48:43 +0200"
+    },
+    {
+      "date": "14.4",
+      "location": "פתח תקווה",
+      "lat": 32.089,
+      "lng": 34.887,
+      "type": "frag",
+      "desc": "שברי טיל פגעו בבניין ורכבים, הצתת אש",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/r1teevp511x",
+      "source_name": "ynet",
+      "id": "0284bf97210c",
+      "pub": "Wed, 18 Mar 2026 01:48:43 +0200"
+    },
+    {
+      "date": "14.4",
+      "location": "בני ברק",
+      "lat": 32.088,
+      "lng": 34.841,
+      "type": "frag",
+      "desc": "שברי טיל פגעו במכונית",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/r1teevp511x",
+      "source_name": "ynet",
+      "id": "edb553fd9b31",
+      "pub": "Wed, 18 Mar 2026 01:48:43 +0200"
+    },
     {
       "date": "18.3",
       "location": "רמת גן",
@@ -1076,8 +1118,8 @@
     }
   ],
   "stats": {
-    "hit": 12,
-    "frag": 13,
+    "hit": 13,
+    "frag": 15,
     "intercept": 3,
     "ballistic": 12,
     "uav": 4
