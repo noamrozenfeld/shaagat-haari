@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-18T11:27:07.487912+00:00",
-  "total": 95,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-03-18T12:03:26.625194+00:00",
+  "total": 96,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "סבידור",
+      "lat": 31.9,
+      "lng": 34.81,
+      "type": "hit",
+      "desc": "פגיעה בתחנת רכבת סבידור, הנוסעים נכנסו למרחב מוגן לפני הפיצוץ",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1h8qbdcbx",
+      "source_name": "ynet",
+      "id": "27884faa103a",
+      "pub": "Wed, 18 Mar 2026 13:55:31 +0200"
+    },
     {
       "date": "14.4",
       "location": "ישראל",
@@ -1188,7 +1202,7 @@
     }
   ],
   "stats": {
-    "hit": 17,
+    "hit": 18,
     "frag": 15,
     "intercept": 4,
     "ballistic": 12,
