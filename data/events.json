@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-18T21:47:27.498722+00:00",
-  "total": 102,
-  "new_this_run": 2,
-  "articles_processed": 2,
+  "updated": "2026-03-18T22:04:15.323382+00:00",
+  "total": 103,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "14.4",
+      "location": "מושב נטע, לכיש",
+      "lat": 31.73,
+      "lng": 34.58,
+      "type": "frag",
+      "desc": "הרס בבית ממושך נטע מפגיעת ראש קטן של טיל איראני. המשפחה הייתה בממ\"ד, אין נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/syfbu900qwx",
+      "source_name": "ynet",
+      "id": "f456308890cf",
+      "pub": "Wed, 18 Mar 2026 23:55:14 +0200"
+    },
     {
       "date": "14.4",
       "location": "בית עווא, חברון",
@@ -1287,7 +1301,7 @@
   ],
   "stats": {
     "hit": 20,
-    "frag": 18,
+    "frag": 19,
     "intercept": 4,
     "ballistic": 13,
     "uav": 4
