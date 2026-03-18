@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-18T08:54:34.011711+00:00",
-  "total": 92,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-18T09:39:22.679006+00:00",
+  "total": 94,
+  "new_this_run": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "לא ציין",
+      "location": "רמת גן",
+      "lat": 32.08,
+      "lng": 34.81,
+      "type": "hit",
+      "desc": "פגיעה בדירה ברמת גן, הרוג בני זוג. התרעה קצרה, הם לא הספיקו להגיע לממ\"ד",
+      "killed": 2,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/ryaz3rwcbl",
+      "source_name": "ynet",
+      "id": "e164bc6392b6",
+      "pub": "Wed, 18 Mar 2026 10:51:45 +0200"
+    },
+    {
+      "date": "14.4",
+      "location": "רמת גן",
+      "lat": 32.084,
+      "lng": 34.827,
+      "type": "hit",
+      "desc": "זוג בני שבעים נהרגו מפגיעת טיל קלאסטר איראני. הקורבנות ניסו להגיע לחדר הבטיחות בדירתם אך לא הספיקו בזמן",
+      "killed": 2,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/ramat-gan-couple-in-their-70s-killed-by-iranian-cluster-missile/",
+      "source_name": "Times of Israel",
+      "id": "bd60f83a312f",
+      "pub": "Wed, 18 Mar 2026 08:57:42 +0000"
+    },
     {
       "date": "DD.M",
       "location": "תחנת הרכבת בחולון",
@@ -1146,7 +1174,7 @@
     }
   ],
   "stats": {
-    "hit": 15,
+    "hit": 17,
     "frag": 15,
     "intercept": 3,
     "ballistic": 12,
