@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-18T21:07:43.628770+00:00",
-  "total": 100,
+  "updated": "2026-03-18T21:47:27.498722+00:00",
+  "total": 102,
   "new_this_run": 2,
-  "articles_processed": 3,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "בית עווא, חברון",
+      "lat": 31.95,
+      "lng": 35.2,
+      "type": "hit",
+      "desc": "פגיעה של טיל מתפצל איראני בסלון יופי בבית עווא, גרם לתוצאה קטלנית",
+      "killed": 3,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/ryvt119ocbl",
+      "source_name": "ynet",
+      "id": "b50e4ba3ac1f",
+      "pub": "Wed, 18 Mar 2026 23:14:18 +0200"
+    },
+    {
+      "date": "26.3",
+      "location": "אזור התעופה בישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "frag",
+      "desc": "טייסות פרטיות נפגעו משברי טילים. אל על ביטלה טיסות עד 27.3, דלתא ויונייטד הוארכו ההשעיות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/passenger-limits-reimposed-on-outbound-flights-after-private-jets-hit-by-missile-debris/",
+      "source_name": "Times of Israel",
+      "id": "b2dfb7d5befb",
+      "pub": "Wed, 18 Mar 2026 21:21:25 +0000"
+    },
     {
       "date": "19.10",
       "location": "רמת גן",
@@ -1258,8 +1286,8 @@
     }
   ],
   "stats": {
-    "hit": 19,
-    "frag": 17,
+    "hit": 20,
+    "frag": 18,
     "intercept": 4,
     "ballistic": 13,
     "uav": 4
