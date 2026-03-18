@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-18T09:39:22.679006+00:00",
-  "total": 94,
-  "new_this_run": 2,
-  "articles_processed": 3,
+  "updated": "2026-03-18T10:33:30.644421+00:00",
+  "total": 95,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "14.4",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "intercept",
+      "desc": "יירוט טילים איראניים מסוג פזיר במרחק רב - שברים וחימושים ממשיכים בנפילה על שטח ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjmpel00q11e",
+      "source_name": "ynet",
+      "id": "783e8410e59b",
+      "pub": "Wed, 18 Mar 2026 11:45:41 +0200"
+    },
     {
       "date": "לא ציין",
       "location": "רמת גן",
@@ -1176,7 +1190,7 @@
   "stats": {
     "hit": 17,
     "frag": 15,
-    "intercept": 3,
+    "intercept": 4,
     "ballistic": 12,
     "uav": 4
   }
