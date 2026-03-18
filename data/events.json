@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-18T03:14:29.974605+00:00",
-  "total": 90,
-  "new_this_run": 0,
-  "articles_processed": 5,
+  "updated": "2026-03-18T05:06:30.980353+00:00",
+  "total": 92,
+  "new_this_run": 2,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "תחנת הרכבת בחולון",
+      "lat": 32.01,
+      "lng": 34.76,
+      "type": "hit",
+      "desc": "פגיעה בתחנת רכבת חולון על ידי טיל איראני",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjrfo5d911x",
+      "source_name": "ynet",
+      "id": "005a2e2e941c",
+      "pub": "Wed, 18 Mar 2026 05:38:23 +0200"
+    },
+    {
+      "date": "DD.M",
+      "location": "תחנת סבידור מרכז, תל אביב",
+      "lat": 32.06,
+      "lng": 34.77,
+      "type": "hit",
+      "desc": "פגיעה בתחנת סבידור מרכז בתל אביב",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjrfo5d911x",
+      "source_name": "ynet",
+      "id": "e140182c339b",
+      "pub": "Wed, 18 Mar 2026 05:38:23 +0200"
+    },
     {
       "date": "14.4",
       "location": "רמת גן",
@@ -1118,7 +1146,7 @@
     }
   ],
   "stats": {
-    "hit": 13,
+    "hit": 15,
     "frag": 15,
     "intercept": 3,
     "ballistic": 12,
