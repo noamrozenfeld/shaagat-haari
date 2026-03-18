@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-18T15:55:45.444081+00:00",
-  "total": 96,
-  "new_this_run": 0,
-  "articles_processed": 5,
+  "updated": "2026-03-18T16:47:06.229174+00:00",
+  "total": 98,
+  "new_this_run": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "9.1",
+      "location": "פתח תקווה",
+      "lat": 32.1039,
+      "lng": 34.8875,
+      "type": "frag",
+      "desc": "נפילת רסיס מטיל מתפצל בפתח תקווה, פגיעה ישירה ברכב ליד אצטדיון המושבה",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/bk9p0vuqzl",
+      "source_name": "ynet",
+      "id": "9a797b34fbe1",
+      "pub": "Wed, 18 Mar 2026 18:08:21 +0200"
+    },
+    {
+      "date": "9.1",
+      "location": "רמת גן",
+      "lat": 32.0879,
+      "lng": 34.8239,
+      "type": "frag",
+      "desc": "פגיעת רסיס בבית ברמת גן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bk9p0vuqzl",
+      "source_name": "ynet",
+      "id": "de889e191b1d",
+      "pub": "Wed, 18 Mar 2026 18:08:21 +0200"
+    },
     {
       "date": "DD.M",
       "location": "סבידור",
@@ -1203,7 +1231,7 @@
   ],
   "stats": {
     "hit": 18,
-    "frag": 15,
+    "frag": 17,
     "intercept": 4,
     "ballistic": 12,
     "uav": 4
