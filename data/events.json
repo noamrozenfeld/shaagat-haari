@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-19T19:11:37.163947+00:00",
-  "total": 113,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-19T19:51:21.572848+00:00",
+  "total": 114,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "בתאריך לא ברור",
+      "location": "קריית שמונה",
+      "lat": 33.3,
+      "lng": 35.13,
+      "type": "hit",
+      "desc": "פגיעה ישירה בבניין בקריית שמונה - נזק אדיר לדירה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/r1k4d3f5wx",
+      "source_name": "ynet",
+      "id": "fb85ab491616",
+      "pub": "Thu, 19 Mar 2026 21:19:43 +0200"
+    },
     {
       "date": "14.4",
       "location": "עדנים",
@@ -1440,7 +1454,7 @@
     }
   ],
   "stats": {
-    "hit": 25,
+    "hit": 26,
     "frag": 24,
     "intercept": 4,
     "ballistic": 13,
