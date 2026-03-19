@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-19T16:14:48.164516+00:00",
-  "total": 110,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-03-19T17:15:17.760442+00:00",
+  "total": 113,
+  "new_this_run": 3,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "14.4",
+      "location": "עדנים",
+      "lat": 32.16,
+      "lng": 34.96,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני מתפצל במושב עדנים בשרון. נהרג עובד זר מתאילנד בן 34 שחסה תחת סככת טרקטורים",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/skwrqjy511l",
+      "source_name": "ynet",
+      "id": "5cb62a2b9f04",
+      "pub": "Thu, 19 Mar 2026 18:43:41 +0200"
+    },
+    {
+      "date": "1.4",
+      "location": "חיפה - בתי הזיקוק",
+      "lat": 32.8192,
+      "lng": 35.0299,
+      "type": "frag",
+      "desc": "שריפה בבתי הזיקוק בחיפה בעקבות ירי מאיראן, פגיעה בשברי יירוט במבנה המכיל חומרים דליקים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bywac5t9zg",
+      "source_name": "ynet",
+      "id": "09d118636b13",
+      "pub": "Thu, 19 Mar 2026 18:26:52 +0200"
+    },
+    {
+      "date": "unknown",
+      "location": "קישון",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "פגיעה ישירה בשל ירי מלבנון. גבר בן 60 ואישה בת 70 נפגעו בבטנם",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/bkcjwktqzl",
+      "source_name": "ynet",
+      "id": "e85c0b819620",
+      "pub": "Thu, 19 Mar 2026 18:25:38 +0200"
+    },
     {
       "date": "22.10",
       "location": "דרום לבנון",
@@ -1398,8 +1440,8 @@
     }
   ],
   "stats": {
-    "hit": 23,
-    "frag": 23,
+    "hit": 25,
+    "frag": 24,
     "intercept": 4,
     "ballistic": 13,
     "uav": 4
