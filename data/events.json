@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-19T01:03:47.331043+00:00",
-  "total": 106,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-19T03:44:49.313667+00:00",
+  "total": 108,
+  "new_this_run": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "1.4",
+      "location": "ישראל מרכזית",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "פגיעת צבורי איראני - הרג עובד זר",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iranian-cluster-bombs-kill-foreign-worker-in-central-israel-3-west-bank-palestinians/",
+      "source_name": "Times of Israel",
+      "id": "564ca0bd46d4",
+      "pub": "Thu, 19 Mar 2026 01:46:47 +0000"
+    },
+    {
+      "date": "1.4",
+      "location": "בקעת הירדן / אזור חברון",
+      "lat": 31.95,
+      "lng": 35.2,
+      "type": "hit",
+      "desc": "פגיעה בגדה המערבית - הרג 3 פלסטינים (2 נשים וילדה)",
+      "killed": 3,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iranian-cluster-bombs-kill-foreign-worker-in-central-israel-3-west-bank-palestinians/",
+      "source_name": "Times of Israel",
+      "id": "c83d5d6d078f",
+      "pub": "Thu, 19 Mar 2026 01:46:47 +0000"
+    },
     {
       "date": "14.4",
       "location": "עדנים",
@@ -1342,7 +1370,7 @@
     }
   ],
   "stats": {
-    "hit": 20,
+    "hit": 22,
     "frag": 22,
     "intercept": 4,
     "ballistic": 13,
