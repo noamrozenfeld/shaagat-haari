@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-19T22:50:58.709226+00:00",
-  "total": 114,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-19T23:16:04.443591+00:00",
+  "total": 116,
+  "new_this_run": 2,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "קרית שמונה",
+      "lat": 33.31,
+      "lng": 35.42,
+      "type": "hit",
+      "desc": "טיל של חזבלה פגע בקרית שמונה",
+      "killed": 0,
+      "wounded": 4,
+      "source_url": "https://www.timesofisrael.com/4-hurt-as-hezbollah-rocket-hits-kiryat-shmona-iran-missile-fragment-hits-haifa-oil-refinery/",
+      "source_name": "Times of Israel",
+      "id": "ad12f35834ce",
+      "pub": "Thu, 19 Mar 2026 22:54:38 +0000"
+    },
+    {
+      "date": "DD.M",
+      "location": "חיפה - בסיס בזן",
+      "lat": 32.82,
+      "lng": 35.06,
+      "type": "frag",
+      "desc": "שבר של טיל איראני פגע בחיפה - מתקן הצמחים של בזן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/4-hurt-as-hezbollah-rocket-hits-kiryat-shmona-iran-missile-fragment-hits-haifa-oil-refinery/",
+      "source_name": "Times of Israel",
+      "id": "40c5865600d4",
+      "pub": "Thu, 19 Mar 2026 22:54:38 +0000"
+    },
     {
       "date": "בתאריך לא ברור",
       "location": "קריית שמונה",
@@ -1454,8 +1482,8 @@
     }
   ],
   "stats": {
-    "hit": 26,
-    "frag": 24,
+    "hit": 27,
+    "frag": 25,
     "intercept": 4,
     "ballistic": 13,
     "uav": 4
