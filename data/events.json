@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-19T12:30:05.771534+00:00",
-  "total": 108,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-19T13:47:54.664685+00:00",
+  "total": 110,
+  "new_this_run": 2,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "22.10",
+      "location": "דרום לבנון",
+      "lat": 33.2,
+      "lng": 35.3,
+      "type": "frag",
+      "desc": "טיל של צה\"ל התפוצץ ליד כתב רוסי וצלם, שנפצעו מרסיסים בגפיים",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/s1vbqmfq11l",
+      "source_name": "ynet",
+      "id": "ea733cd95e74",
+      "pub": "Thu, 19 Mar 2026 15:32:36 +0200"
+    },
+    {
+      "date": "1.4",
+      "location": "נטע",
+      "lat": 31.62,
+      "lng": 34.7,
+      "type": "hit",
+      "desc": "טיל מתפצל ששיגרה איראן הרס בית ביישוב נטע בלכיש. המשפחה הייתה במקלט והנצילה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hj4sydk5bg",
+      "source_name": "ynet",
+      "id": "a4d4d5066251",
+      "pub": "Thu, 19 Mar 2026 14:27:07 +0200"
+    },
     {
       "date": "1.4",
       "location": "ישראל מרכזית",
@@ -1370,8 +1398,8 @@
     }
   ],
   "stats": {
-    "hit": 22,
-    "frag": 22,
+    "hit": 23,
+    "frag": 23,
     "intercept": 4,
     "ballistic": 13,
     "uav": 4
