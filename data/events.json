@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-20T12:35:33.411468+00:00",
-  "total": 122,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-20T13:43:43.669132+00:00",
+  "total": 123,
+  "new_this_run": 1,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "NA",
+      "location": "חיפה",
+      "lat": 32.82,
+      "lng": 34.99,
+      "type": "hit",
+      "desc": "פגיעה במתחם הזיקוק בחיפה, נמצקו נזקים נוספים ליד האתר",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/haifa-refinery-says-more-missile-attack-damage-found-near-site-but-most-production-online/",
+      "source_name": "Times of Israel",
+      "id": "08ef10b6a048",
+      "pub": "Fri, 20 Mar 2026 13:05:05 +0000"
+    },
     {
       "date": "DD.M",
       "location": "רחובות",
@@ -1566,7 +1580,7 @@
     }
   ],
   "stats": {
-    "hit": 28,
+    "hit": 29,
     "frag": 27,
     "intercept": 4,
     "ballistic": 16,
