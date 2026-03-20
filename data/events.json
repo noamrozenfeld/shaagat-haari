@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-20T09:02:37.487488+00:00",
-  "total": 120,
-  "new_this_run": 0,
+  "updated": "2026-03-20T09:52:57.056811+00:00",
+  "total": 121,
+  "new_this_run": 1,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "23.4",
+      "location": "חיפה",
+      "lat": 32.82,
+      "lng": 34.98,
+      "type": "frag",
+      "desc": "פגיעת שבר טיל איראני מתפזר בחיפה, נזק לתשתית חיונית",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjcdtf5qzx",
+      "source_name": "ynet",
+      "id": "1b358d70a238",
+      "pub": "Fri, 20 Mar 2026 11:43:17 +0200"
+    },
     {
       "date": "שם התאריך אינו מצוין בכתבה",
       "location": "בית שמש",
@@ -1539,7 +1553,7 @@
   ],
   "stats": {
     "hit": 28,
-    "frag": 25,
+    "frag": 26,
     "intercept": 4,
     "ballistic": 16,
     "uav": 4
