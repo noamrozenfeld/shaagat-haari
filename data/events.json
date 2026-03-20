@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-20T09:52:57.056811+00:00",
-  "total": 121,
+  "updated": "2026-03-20T10:24:08.495532+00:00",
+  "total": 122,
   "new_this_run": 1,
-  "articles_processed": 2,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "רחובות",
+      "lat": 31.92,
+      "lng": 34.81,
+      "type": "frag",
+      "desc": "שברי יירוט נפלו בעיר, הרס לבית פרטי. אישה כבת 70 נפצעה בינוני בדרכה למרחב המוגן",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/skgfctc9zg",
+      "source_name": "ynet",
+      "id": "88c1058a6d22",
+      "pub": "Fri, 20 Mar 2026 11:49:36 +0200"
+    },
     {
       "date": "23.4",
       "location": "חיפה",
@@ -1553,7 +1567,7 @@
   ],
   "stats": {
     "hit": 28,
-    "frag": 26,
+    "frag": 27,
     "intercept": 4,
     "ballistic": 16,
     "uav": 4
