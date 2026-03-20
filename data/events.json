@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-20T14:02:23.622455+00:00",
-  "total": 124,
+  "updated": "2026-03-20T14:28:04.689894+00:00",
+  "total": 125,
   "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "14.4",
+      "location": "רחובות",
+      "lat": 31.9,
+      "lng": 34.81,
+      "type": "hit",
+      "desc": "טילים איראניים פגעו בבתים ברחובות, שני טילים עם ראשי נפץ מקוטעים, פגיעות קלות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iranian-missile-attacks-damage-rehovot-homes-idf-reveals-it-killed-basij-intel-chief/",
+      "source_name": "Times of Israel",
+      "id": "42dc1b3a5665",
+      "pub": "Fri, 20 Mar 2026 14:07:53 +0000"
+    },
     {
       "date": "DD.M",
       "location": "חיפה",
@@ -1594,7 +1608,7 @@
     }
   ],
   "stats": {
-    "hit": 30,
+    "hit": 31,
     "frag": 27,
     "intercept": 4,
     "ballistic": 16,
