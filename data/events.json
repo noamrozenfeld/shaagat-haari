@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-20T15:55:12.399343+00:00",
-  "total": 126,
+  "updated": "2026-03-20T16:28:06.682057+00:00",
+  "total": 127,
   "new_this_run": 1,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "1.10",
+      "location": "העיר העתיקה בירושלים",
+      "lat": 31.7769,
+      "lng": 35.2345,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני ליד מסגד אל-אקצא בעיר העתיקה, עשן והתפצלויות ברסיסים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hkqqzji9zl",
+      "source_name": "ynet",
+      "id": "9a81e982cf0d",
+      "pub": "Fri, 20 Mar 2026 18:20:08 +0200"
+    },
     {
       "date": "4.4",
       "location": "כביש 431 ליד ראשל״צ",
@@ -1622,7 +1636,7 @@
     }
   ],
   "stats": {
-    "hit": 32,
+    "hit": 33,
     "frag": 27,
     "intercept": 4,
     "ballistic": 16,
