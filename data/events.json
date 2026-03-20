@@ -1,9 +1,65 @@
 {
-  "updated": "2026-03-20T18:27:05.688599+00:00",
-  "total": 127,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-20T19:10:21.590644+00:00",
+  "total": 131,
+  "new_this_run": 4,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "21.10",
+      "location": "ירושלים",
+      "lat": 31.778,
+      "lng": 35.235,
+      "type": "frag",
+      "desc": "פגיעה כ-350 מטר מהאתר הקדוש (מסגד אל-אקצא)",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1t4nbi9zx",
+      "source_name": "ynet",
+      "id": "da0e2b331119",
+      "pub": "Fri, 20 Mar 2026 20:57:40 +0200"
+    },
+    {
+      "date": "21.10",
+      "location": "רחובות",
+      "lat": 31.933,
+      "lng": 34.808,
+      "type": "frag",
+      "desc": "נפילות ברחובות, בתים נפגעו ובור נפער במגרש כדורגל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1t4nbi9zx",
+      "source_name": "ynet",
+      "id": "a368f6fb6da5",
+      "pub": "Fri, 20 Mar 2026 20:57:40 +0200"
+    },
+    {
+      "date": "21.10",
+      "location": "חיפה",
+      "lat": 32.817,
+      "lng": 34.989,
+      "type": "frag",
+      "desc": "כדור אש וממכולה בוערת",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1t4nbi9zx",
+      "source_name": "ynet",
+      "id": "527f220eafea",
+      "pub": "Fri, 20 Mar 2026 20:57:40 +0200"
+    },
+    {
+      "date": "21.10",
+      "location": "כרמי יוסף",
+      "lat": 32.346,
+      "lng": 34.876,
+      "type": "frag",
+      "desc": "רכב נפגע",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1t4nbi9zx",
+      "source_name": "ynet",
+      "id": "f77f1a867750",
+      "pub": "Fri, 20 Mar 2026 20:57:40 +0200"
+    },
     {
       "date": "1.10",
       "location": "העיר העתיקה בירושלים",
@@ -1637,7 +1693,7 @@
   ],
   "stats": {
     "hit": 33,
-    "frag": 27,
+    "frag": 31,
     "intercept": 4,
     "ballistic": 16,
     "uav": 4
