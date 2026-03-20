@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-20T06:11:47.731797+00:00",
-  "total": 119,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-20T07:12:16.375126+00:00",
+  "total": 120,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "שם התאריך אינו מצוין בכתבה",
+      "location": "בית שמש",
+      "lat": 31.93,
+      "lng": 35.21,
+      "type": "hit",
+      "desc": "פגיעת טיל בבית שמש - הרוגים: אם (שרה) ובת (רונית)",
+      "killed": 2,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bjkmory5bl",
+      "source_name": "ynet",
+      "id": "3f6a5e8491ef",
+      "pub": "Fri, 20 Mar 2026 08:32:54 +0200"
+    },
     {
       "date": "20.3",
       "location": "ירושלים",
@@ -1524,7 +1538,7 @@
     }
   ],
   "stats": {
-    "hit": 27,
+    "hit": 28,
     "frag": 25,
     "intercept": 4,
     "ballistic": 16,
