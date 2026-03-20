@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-20T02:05:03.206216+00:00",
-  "total": 116,
-  "new_this_run": 0,
-  "articles_processed": 7,
+  "updated": "2026-03-20T04:21:04.270056+00:00",
+  "total": 119,
+  "new_this_run": 3,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "20.3",
+      "location": "ירושלים",
+      "lat": 31.77,
+      "lng": 35.23,
+      "type": "ballistic",
+      "desc": "שיגור טילים מאיראן לעבר ירושלים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-20-2026/",
+      "source_name": "Times of Israel",
+      "id": "3c9b11584c30",
+      "pub": "Fri, 20 Mar 2026 02:16:32 +0000"
+    },
+    {
+      "date": "20.3",
+      "location": "צפון ישראל",
+      "lat": 32.8,
+      "lng": 35.2,
+      "type": "ballistic",
+      "desc": "שיגור טילים מאיראן לעבר צפון ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-20-2026/",
+      "source_name": "Times of Israel",
+      "id": "766380cb1223",
+      "pub": "Fri, 20 Mar 2026 02:16:32 +0000"
+    },
+    {
+      "date": "20.3",
+      "location": "טהרן",
+      "lat": 35.69,
+      "lng": 51.39,
+      "type": "ballistic",
+      "desc": "גל חדש של תקיפות אוויריות של צה״ל על טהרן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-20-2026/",
+      "source_name": "Times of Israel",
+      "id": "f8bce737198f",
+      "pub": "Fri, 20 Mar 2026 02:16:32 +0000"
+    },
     {
       "date": "DD.M",
       "location": "קרית שמונה",
@@ -1485,7 +1527,7 @@
     "hit": 27,
     "frag": 25,
     "intercept": 4,
-    "ballistic": 13,
+    "ballistic": 16,
     "uav": 4
   }
 }
