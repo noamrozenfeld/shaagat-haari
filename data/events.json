@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-20T13:43:43.669132+00:00",
-  "total": 123,
+  "updated": "2026-03-20T14:02:23.622455+00:00",
+  "total": 124,
   "new_this_run": 1,
-  "articles_processed": 5,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "חיפה",
+      "lat": 32.82,
+      "lng": 34.97,
+      "type": "hit",
+      "desc": "טיל איראני פגע במכולות בנמל חיפה באזור חוף שמן, גרם לשריפה ב-15 מכולות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/skjhkpq5zx",
+      "source_name": "ynet",
+      "id": "84989d4657cd",
+      "pub": "Fri, 20 Mar 2026 15:43:29 +0200"
+    },
     {
       "date": "NA",
       "location": "חיפה",
@@ -1580,7 +1594,7 @@
     }
   ],
   "stats": {
-    "hit": 29,
+    "hit": 30,
     "frag": 27,
     "intercept": 4,
     "ballistic": 16,
