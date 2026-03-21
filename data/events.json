@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-21T07:31:48.121612+00:00",
-  "total": 131,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-21T07:53:46.803471+00:00",
+  "total": 132,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "26.4",
+      "location": "ראשל״צ",
+      "lat": 31.95,
+      "lng": 34.81,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני בגן ילדים, חור בתקרה, נזק למבנה",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/rkz5ttj9bx",
+      "source_name": "ynet",
+      "id": "022191075239",
+      "pub": "Sat, 21 Mar 2026 09:40:17 +0200"
+    },
     {
       "date": "21.10",
       "location": "ירושלים",
@@ -1692,7 +1706,7 @@
     }
   ],
   "stats": {
-    "hit": 33,
+    "hit": 34,
     "frag": 31,
     "intercept": 4,
     "ballistic": 16,
