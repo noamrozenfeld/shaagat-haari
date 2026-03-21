@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-21T20:22:03.776305+00:00",
-  "total": 140,
-  "new_this_run": 0,
+  "updated": "2026-03-21T20:46:00.747040+00:00",
+  "total": 141,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "14.4",
+      "location": "ירושלים - אל-אקצא",
+      "lat": 31.776,
+      "lng": 35.235,
+      "type": "frag",
+      "desc": "נפילת שברי טיל 350 מטרים ממתחם אל-אקצא",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hktdweh9bl",
+      "source_name": "ynet",
+      "id": "c190a497b33a",
+      "pub": "Sat, 21 Mar 2026 22:27:00 +0200"
+    },
     {
       "date": "1.10",
       "location": "דימונה",
@@ -1819,7 +1833,7 @@
   ],
   "stats": {
     "hit": 40,
-    "frag": 33,
+    "frag": 34,
     "intercept": 4,
     "ballistic": 16,
     "uav": 4
