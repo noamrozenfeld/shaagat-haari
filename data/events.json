@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-21T19:15:20.064338+00:00",
-  "total": 139,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-21T19:36:54.316682+00:00",
+  "total": 140,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "1.10",
+      "location": "דימונה",
+      "lat": 31.07,
+      "lng": 34.76,
+      "type": "hit",
+      "desc": "טיל בליסטי מאיראן חמק ממיירט ופגע ישירות במבנה בדימונה",
+      "killed": 0,
+      "wounded": 51,
+      "source_url": "https://www.ynet.co.il/news/article/hjgxndn5zg",
+      "source_name": "ynet",
+      "id": "62fea6b4791e",
+      "pub": "Sat, 21 Mar 2026 21:17:21 +0200"
+    },
     {
       "date": "DD.M",
       "location": "דימונה",
@@ -1804,7 +1818,7 @@
     }
   ],
   "stats": {
-    "hit": 39,
+    "hit": 40,
     "frag": 33,
     "intercept": 4,
     "ballistic": 16,
