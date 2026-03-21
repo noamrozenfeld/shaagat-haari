@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-21T13:25:11.546116+00:00",
-  "total": 134,
-  "new_this_run": 0,
+  "updated": "2026-03-21T13:44:34.650806+00:00",
+  "total": 135,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "מרכז ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "פגיעת טיל צבר איראני בגן ילדים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/education-minister-scraps-some-passover-camps-after-iran-cluster-bomb-hits-daycare/",
+      "source_name": "Times of Israel",
+      "id": "32d161bd18ba",
+      "pub": "Sat, 21 Mar 2026 13:25:16 +0000"
+    },
     {
       "date": "04.4",
       "location": "ראשון לציון",
@@ -1734,7 +1748,7 @@
     }
   ],
   "stats": {
-    "hit": 36,
+    "hit": 37,
     "frag": 31,
     "intercept": 4,
     "ballistic": 16,
