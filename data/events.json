@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-21T21:56:16.117301+00:00",
-  "total": 143,
-  "new_this_run": 0,
+  "updated": "2026-03-21T22:14:00.209703+00:00",
+  "total": 144,
+  "new_this_run": 1,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "ערד",
+      "lat": 31.27,
+      "lng": 34.75,
+      "type": "hit",
+      "desc": "פגיעה ישירה בין בניינים בערד, 68 נפצעים כולל 10 במצב קשה, 20 בניינים נפגעו",
+      "killed": 0,
+      "wounded": 68,
+      "source_url": "https://www.ynet.co.il/news/article/bkcput39ze",
+      "source_name": "ynet",
+      "id": "bbb155dbca6c",
+      "pub": "Sat, 21 Mar 2026 23:55:16 +0200"
+    },
     {
       "date": "1.4",
       "location": "דימונה",
@@ -1860,7 +1874,7 @@
     }
   ],
   "stats": {
-    "hit": 42,
+    "hit": 43,
     "frag": 34,
     "intercept": 4,
     "ballistic": 16,
