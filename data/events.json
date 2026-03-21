@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-21T09:17:17.097655+00:00",
-  "total": 132,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-21T09:47:30.010654+00:00",
+  "total": 133,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "17.4",
+      "location": "ראשון לציון",
+      "lat": 32.0553,
+      "lng": 34.7683,
+      "type": "hit",
+      "desc": "גן ילדים בראשון לציון נפגע בירי מאיראן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sycu7jh5be",
+      "source_name": "ynet",
+      "id": "48e3b0dfbf10",
+      "pub": "Sat, 21 Mar 2026 11:42:29 +0200"
+    },
     {
       "date": "26.4",
       "location": "ראשל״צ",
@@ -1706,7 +1720,7 @@
     }
   ],
   "stats": {
-    "hit": 34,
+    "hit": 35,
     "frag": 31,
     "intercept": 4,
     "ballistic": 16,
