@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-21T15:58:22.032513+00:00",
-  "total": 137,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-21T16:24:31.952668+00:00",
+  "total": 139,
+  "new_this_run": 2,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "דימונה",
+      "lat": 31.07,
+      "lng": 34.76,
+      "type": "frag",
+      "desc": "שברי יירוט ורסיסים נפלו בדימונה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/s1y01r25wx",
+      "source_name": "ynet",
+      "id": "31a8816b51f8",
+      "pub": "Sat, 21 Mar 2026 18:06:57 +0200"
+    },
+    {
+      "date": "DD.M",
+      "location": "ירוחם",
+      "lat": 31.22,
+      "lng": 34.92,
+      "type": "frag",
+      "desc": "שברי יירוט ורסיסים נפלו בירוחם",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/s1y01r25wx",
+      "source_name": "ynet",
+      "id": "c11faaa12224",
+      "pub": "Sat, 21 Mar 2026 18:06:57 +0200"
+    },
     {
       "date": "00.0",
       "location": "מטולה",
@@ -1777,7 +1805,7 @@
   ],
   "stats": {
     "hit": 39,
-    "frag": 31,
+    "frag": 33,
     "intercept": 4,
     "ballistic": 16,
     "uav": 4
