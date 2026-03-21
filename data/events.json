@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-21T14:59:36.611457+00:00",
-  "total": 135,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-21T15:25:43.566188+00:00",
+  "total": 137,
+  "new_this_run": 2,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "00.0",
+      "location": "מטולה",
+      "lat": 33.27,
+      "lng": 35.59,
+      "type": "hit",
+      "desc": "טילים של חזבאללה פגעו בבתים במטולה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-rockets-damage-buildings-in-north-as-idf-strikes-lebanon-kills-gunmen/",
+      "source_name": "Times of Israel",
+      "id": "65a0eacbd463",
+      "pub": "Sat, 21 Mar 2026 15:09:05 +0000"
+    },
+    {
+      "date": "00.0",
+      "location": "צפת",
+      "lat": 32.96,
+      "lng": 35.5,
+      "type": "hit",
+      "desc": "טילים של חזבאללה פגעו בבתים בצפת",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-rockets-damage-buildings-in-north-as-idf-strikes-lebanon-kills-gunmen/",
+      "source_name": "Times of Israel",
+      "id": "edc8d6a90fef",
+      "pub": "Sat, 21 Mar 2026 15:09:05 +0000"
+    },
     {
       "date": "DD.M",
       "location": "מרכז ישראל",
@@ -1748,7 +1776,7 @@
     }
   ],
   "stats": {
-    "hit": 37,
+    "hit": 39,
     "frag": 31,
     "intercept": 4,
     "ballistic": 16,
