@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-21T20:59:44.421175+00:00",
-  "total": 141,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-21T21:25:11.574949+00:00",
+  "total": 143,
+  "new_this_run": 2,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "1.4",
+      "location": "דימונה",
+      "lat": 31.75,
+      "lng": 34.76,
+      "type": "hit",
+      "desc": "פגיעה ישירה של טיל בליסטי עם ראש קרב כבד לאחר שמיירט פספס",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjgany25ze",
+      "source_name": "ynet",
+      "id": "59c2ce77b689",
+      "pub": "Sat, 21 Mar 2026 22:56:01 +0200"
+    },
+    {
+      "date": "1.4",
+      "location": "ערד",
+      "lat": 31.28,
+      "lng": 34.75,
+      "type": "hit",
+      "desc": "פגיעה ישירה של טיל בליסטי עם ראש קרב כבד לאחר שמיירט פספס",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjgany25ze",
+      "source_name": "ynet",
+      "id": "d28ba3f2d03f",
+      "pub": "Sat, 21 Mar 2026 22:56:01 +0200"
+    },
     {
       "date": "14.4",
       "location": "ירושלים - אל-אקצא",
@@ -1832,7 +1860,7 @@
     }
   ],
   "stats": {
-    "hit": 40,
+    "hit": 42,
     "frag": 34,
     "intercept": 4,
     "ballistic": 16,
