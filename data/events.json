@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-21T10:00:00.272117+00:00",
-  "total": 133,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-21T10:27:39.800159+00:00",
+  "total": 134,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "04.4",
+      "location": "ראשון לציון",
+      "lat": 31.94,
+      "lng": 34.77,
+      "type": "hit",
+      "desc": "פגיעות בפצצות מצרור איראניות בגן ילדים ריק ובאתרים נוספים, 4 סלווים משך הלילה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iranian-cluster-bombs-smash-into-empty-daycare-several-other-sites-in-rishon-lezion/",
+      "source_name": "Times of Israel",
+      "id": "66c3ca32c630",
+      "pub": "Sat, 21 Mar 2026 10:10:28 +0000"
+    },
     {
       "date": "17.4",
       "location": "ראשון לציון",
@@ -1720,7 +1734,7 @@
     }
   ],
   "stats": {
-    "hit": 35,
+    "hit": 36,
     "frag": 31,
     "intercept": 4,
     "ballistic": 16,
