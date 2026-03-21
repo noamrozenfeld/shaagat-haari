@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-21T23:20:48.832517+00:00",
-  "total": 144,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-21T23:42:56.641461+00:00",
+  "total": 145,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "1.4",
+      "location": "דימונה",
+      "lat": 31.75,
+      "lng": 35.08,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני בדימונה, הרס רב, תושבים במקלטים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/syfqcq3cwg",
+      "source_name": "ynet",
+      "id": "36b7abdcd36a",
+      "pub": "Sun, 22 Mar 2026 01:39:05 +0200"
+    },
     {
       "date": "14.4",
       "location": "ערד",
@@ -1874,7 +1888,7 @@
     }
   ],
   "stats": {
-    "hit": 43,
+    "hit": 44,
     "frag": 34,
     "intercept": 4,
     "ballistic": 16,
