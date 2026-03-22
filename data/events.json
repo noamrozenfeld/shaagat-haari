@@ -1,9 +1,65 @@
 {
-  "updated": "2026-03-21T23:56:34.984806+00:00",
-  "total": 145,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-22T01:19:15.767600+00:00",
+  "total": 149,
+  "new_this_run": 4,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "22.3",
+      "location": "דימונה",
+      "lat": 31.07,
+      "lng": 34.76,
+      "type": "ballistic",
+      "desc": "התקף טילים איראני על עיר דימונה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-22-2026/",
+      "source_name": "Times of Israel",
+      "id": "a8751966eb94",
+      "pub": "Sat, 21 Mar 2026 23:55:31 +0000"
+    },
+    {
+      "date": "22.3",
+      "location": "ערד",
+      "lat": 31.25,
+      "lng": 34.71,
+      "type": "ballistic",
+      "desc": "התקף טילים איראני על עיר ערד",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-22-2026/",
+      "source_name": "Times of Israel",
+      "id": "9f796ab88fdc",
+      "pub": "Sat, 21 Mar 2026 23:55:31 +0000"
+    },
+    {
+      "date": "1.10",
+      "location": "ערד",
+      "lat": 31.28,
+      "lng": 34.75,
+      "type": "hit",
+      "desc": "פגיעת טילים איראניים בערד",
+      "killed": 0,
+      "wounded": 100,
+      "source_url": "https://www.timesofisrael.com/over-100-injured-11-seriously-in-iranian-missile-strikes-on-southern-cities-of-arad-dimona/",
+      "source_name": "Times of Israel",
+      "id": "2bb7989640fd",
+      "pub": "Sat, 21 Mar 2026 23:54:11 +0000"
+    },
+    {
+      "date": "1.10",
+      "location": "דימונה",
+      "lat": 31.07,
+      "lng": 34.77,
+      "type": "hit",
+      "desc": "פגיעת טילים איראניים בדימונה, 11 פצועים בחומרה כולל שני ילדים",
+      "killed": 0,
+      "wounded": 11,
+      "source_url": "https://www.timesofisrael.com/over-100-injured-11-seriously-in-iranian-missile-strikes-on-southern-cities-of-arad-dimona/",
+      "source_name": "Times of Israel",
+      "id": "e1aa8b22dbd6",
+      "pub": "Sat, 21 Mar 2026 23:54:11 +0000"
+    },
     {
       "date": "1.4",
       "location": "דימונה",
@@ -1888,10 +1944,10 @@
     }
   ],
   "stats": {
-    "hit": 44,
+    "hit": 46,
     "frag": 34,
     "intercept": 4,
-    "ballistic": 16,
+    "ballistic": 18,
     "uav": 4
   }
 }
