@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-22T07:42:29.869106+00:00",
-  "total": 153,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-22T08:00:32.114468+00:00",
+  "total": 155,
+  "new_this_run": 2,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "14.4",
+      "location": "ערד",
+      "lat": 31.27,
+      "lng": 35.21,
+      "type": "hit",
+      "desc": "פגיעה של טיל בליסטי בערד, מוטות חזיתות בניינים",
+      "killed": 0,
+      "wounded": 100,
+      "source_url": "https://www.ynet.co.il/news/article/syq8emt9be",
+      "source_name": "ynet",
+      "id": "f4bdd094b535",
+      "pub": "Sun, 22 Mar 2026 09:41:26 +0200"
+    },
+    {
+      "date": "14.4",
+      "location": "דימונה",
+      "lat": 31.17,
+      "lng": 34.76,
+      "type": "hit",
+      "desc": "פגיעה של טיל בליסטי בדימונה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/syq8emt9be",
+      "source_name": "ynet",
+      "id": "ba9313b39e41",
+      "pub": "Sun, 22 Mar 2026 09:41:26 +0200"
+    },
     {
       "date": "לא ידוע",
       "location": "משגב",
@@ -2000,7 +2028,7 @@
     }
   ],
   "stats": {
-    "hit": 47,
+    "hit": 49,
     "frag": 35,
     "intercept": 4,
     "ballistic": 20,
