@@ -1,9 +1,79 @@
 {
-  "updated": "2026-03-22T09:58:20.284389+00:00",
-  "total": 156,
-  "new_this_run": 1,
-  "articles_processed": 1,
+  "updated": "2026-03-22T10:22:51.648238+00:00",
+  "total": 161,
+  "new_this_run": 5,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "15.1",
+      "location": "תל אביב",
+      "lat": 32.0853,
+      "lng": 34.7818,
+      "type": "frag",
+      "desc": "נפילת שברים מטיל מתפצל בתל אביב, פגיעה במבנים וכלי רכב",
+      "killed": 0,
+      "wounded": 15,
+      "source_url": "https://www.ynet.co.il/news/article/bkw5nvacwx",
+      "source_name": "ynet",
+      "id": "0c052a41decf",
+      "pub": "Sun, 22 Mar 2026 12:04:38 +0200"
+    },
+    {
+      "date": "15.1",
+      "location": "רמת גן",
+      "lat": 32.0797,
+      "lng": 34.8297,
+      "type": "frag",
+      "desc": "נפילת שברים מטיל בעיר רמת גן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bkw5nvacwx",
+      "source_name": "ynet",
+      "id": "c30f5328d18f",
+      "pub": "Sun, 22 Mar 2026 12:04:38 +0200"
+    },
+    {
+      "date": "15.1",
+      "location": "פתח תקווה",
+      "lat": 32.1117,
+      "lng": 34.8864,
+      "type": "frag",
+      "desc": "נפילת שברים מטיל בעיר פתח תקווה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bkw5nvacwx",
+      "source_name": "ynet",
+      "id": "f613d1dc8b53",
+      "pub": "Sun, 22 Mar 2026 12:04:38 +0200"
+    },
+    {
+      "date": "DD.M",
+      "location": "משגב עם",
+      "lat": 32.95,
+      "lng": 35.58,
+      "type": "hit",
+      "desc": "פגיעה ישירה מרקטה - הרוג אחד (עופר מוסקוביץ)",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/byrsixa511x",
+      "source_name": "ynet",
+      "id": "34afcbe9f80c",
+      "pub": "Sun, 22 Mar 2026 12:02:04 +0200"
+    },
+    {
+      "date": "DD.M",
+      "location": "דרום",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "שיגור טילים דומים בדרום - כמה נתוני יירוט בהצלחה בעבר",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/byrsixa511x",
+      "source_name": "ynet",
+      "id": "d1bfc344917a",
+      "pub": "Sun, 22 Mar 2026 12:02:04 +0200"
+    },
     {
       "date": "26.11",
       "location": "קיבוץ שב בגליל העליון",
@@ -2042,10 +2112,10 @@
     }
   ],
   "stats": {
-    "hit": 50,
-    "frag": 35,
+    "hit": 51,
+    "frag": 38,
     "intercept": 4,
-    "ballistic": 20,
+    "ballistic": 21,
     "uav": 4
   }
 }
