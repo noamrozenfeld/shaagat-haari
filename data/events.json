@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-22T11:47:35.742565+00:00",
-  "total": 161,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-22T11:58:01.516441+00:00",
+  "total": 162,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "כיכר הבימה, תל אביב",
+      "lat": 32.0736,
+      "lng": 34.7694,
+      "type": "frag",
+      "desc": "נפילת שבר טיל איראני ליד רכב בכיכר הבימה בתל אביב. הנהג שלמה עזרא עקד (73) נפגע משברים וחלונות שנשברו",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/hylmxltqbx",
+      "source_name": "ynet",
+      "id": "8786bb68c90d",
+      "pub": "Sun, 22 Mar 2026 13:49:35 +0200"
+    },
     {
       "date": "15.1",
       "location": "תל אביב",
@@ -2113,7 +2127,7 @@
   ],
   "stats": {
     "hit": 51,
-    "frag": 38,
+    "frag": 39,
     "intercept": 4,
     "ballistic": 21,
     "uav": 4
