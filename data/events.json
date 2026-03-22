@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-22T06:05:51.150715+00:00",
-  "total": 152,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-22T07:03:21.964597+00:00",
+  "total": 153,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "לא ידוע",
+      "location": "משגב",
+      "lat": 33.12,
+      "lng": 35.41,
+      "type": "hit",
+      "desc": "פגיעה ישירה ברכב במשגב בגבול לבנון. הרוג אחד שנלכד במושב הנהג",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjn0pwtc11g",
+      "source_name": "ynet",
+      "id": "dd815ea02e11",
+      "pub": "Sun, 22 Mar 2026 08:20:08 +0200"
+    },
     {
       "date": "בתאריך לא מוגדר במאמר",
       "location": "דימונה",
@@ -1986,7 +2000,7 @@
     }
   ],
   "stats": {
-    "hit": 46,
+    "hit": 47,
     "frag": 35,
     "intercept": 4,
     "ballistic": 20,
