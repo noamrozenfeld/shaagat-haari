@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-22T15:39:16.810293+00:00",
-  "total": 176,
+  "updated": "2026-03-22T15:53:35.066809+00:00",
+  "total": 177,
   "new_this_run": 1,
-  "articles_processed": 2,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "ערד",
+      "lat": 31.28,
+      "lng": 34.74,
+      "type": "hit",
+      "desc": "פגיעת טיל בערד. הפסקת חשמל במקלט, נפילת טיח על דיירים, הרס אדיר בבניין",
+      "killed": 0,
+      "wounded": 115,
+      "source_url": "https://www.ynet.co.il/news/article/hywfb00t511l",
+      "source_name": "ynet",
+      "id": "5ebb426a767d",
+      "pub": "Sun, 22 Mar 2026 17:48:06 +0200"
+    },
     {
       "date": "1.4",
       "location": "דימונה",
@@ -2322,7 +2336,7 @@
     }
   ],
   "stats": {
-    "hit": 60,
+    "hit": 61,
     "frag": 44,
     "intercept": 4,
     "ballistic": 21,
