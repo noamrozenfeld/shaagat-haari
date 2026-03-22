@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-22T12:39:01.822026+00:00",
-  "total": 167,
-  "new_this_run": 5,
-  "articles_processed": 5,
+  "updated": "2026-03-22T13:30:06.981558+00:00",
+  "total": 170,
+  "new_this_run": 3,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "1.4",
+      "location": "ישראל המרכזית",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "פגיעת תחמונים צבירים איראניים בישראל המרכזית - 15 פצועים, אחד במצב קשה",
+      "killed": 0,
+      "wounded": 15,
+      "source_url": "https://www.timesofisrael.com/15-injured-one-seriously-as-iranian-cluster-munitions-impact-in-central-israel/",
+      "source_name": "Times of Israel",
+      "id": "b7e873a9edf7",
+      "pub": "Sun, 22 Mar 2026 12:34:13 +0000"
+    },
+    {
+      "date": "1.4",
+      "location": "דימונה",
+      "lat": 31.07,
+      "lng": 34.76,
+      "type": "hit",
+      "desc": "פגיעה ישירה בדימונה - 36 אנשים מאושפזים, 19 מהם ילדים",
+      "killed": 0,
+      "wounded": 36,
+      "source_url": "https://www.timesofisrael.com/15-injured-one-seriously-as-iranian-cluster-munitions-impact-in-central-israel/",
+      "source_name": "Times of Israel",
+      "id": "d12890439984",
+      "pub": "Sun, 22 Mar 2026 12:34:13 +0000"
+    },
+    {
+      "date": "1.4",
+      "location": "ערד",
+      "lat": 31.25,
+      "lng": 34.72,
+      "type": "hit",
+      "desc": "פגיעה ישירה בערד - חלק מ-36 המאושפזים מהם 19 ילדים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/15-injured-one-seriously-as-iranian-cluster-munitions-impact-in-central-israel/",
+      "source_name": "Times of Israel",
+      "id": "ed9726edcdc1",
+      "pub": "Sun, 22 Mar 2026 12:34:13 +0000"
+    },
     {
       "date": "23.10",
       "location": "ערד",
@@ -2196,7 +2238,7 @@
     }
   ],
   "stats": {
-    "hit": 56,
+    "hit": 59,
     "frag": 39,
     "intercept": 4,
     "ballistic": 21,
