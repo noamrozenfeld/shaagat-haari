@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-22T01:19:15.767600+00:00",
-  "total": 149,
-  "new_this_run": 4,
-  "articles_processed": 3,
+  "updated": "2026-03-22T03:46:56.041229+00:00",
+  "total": 152,
+  "new_this_run": 3,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "בתאריך לא מוגדר במאמר",
+      "location": "דימונה",
+      "lat": 31.07,
+      "lng": 34.76,
+      "type": "ballistic",
+      "desc": "פגיעת טיל איראני בעיר דימונה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/after-iranian-missile-attacks-on-south-all-schools-to-go-remote-sunday-and-monday/",
+      "source_name": "Times of Israel",
+      "id": "338ed1e58f73",
+      "pub": "Sun, 22 Mar 2026 01:53:51 +0000"
+    },
+    {
+      "date": "בתאריך לא מוגדר במאמר",
+      "location": "ערד",
+      "lat": 31.27,
+      "lng": 34.74,
+      "type": "ballistic",
+      "desc": "פגיעת טיל איראני בעיר ערד",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/after-iranian-missile-attacks-on-south-all-schools-to-go-remote-sunday-and-monday/",
+      "source_name": "Times of Israel",
+      "id": "7d0240358a92",
+      "pub": "Sun, 22 Mar 2026 01:53:51 +0000"
+    },
+    {
+      "date": "בתאריך לא מוגדר במאמר",
+      "location": "ראשון לציון",
+      "lat": 31.94,
+      "lng": 34.75,
+      "type": "frag",
+      "desc": "נזק מפצצות צבירה לגן ילדים ריק בראשון לציון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/after-iranian-missile-attacks-on-south-all-schools-to-go-remote-sunday-and-monday/",
+      "source_name": "Times of Israel",
+      "id": "dd1f47d9851a",
+      "pub": "Sun, 22 Mar 2026 01:53:51 +0000"
+    },
     {
       "date": "22.3",
       "location": "דימונה",
@@ -1945,9 +1987,9 @@
   ],
   "stats": {
     "hit": 46,
-    "frag": 34,
+    "frag": 35,
     "intercept": 4,
-    "ballistic": 18,
+    "ballistic": 20,
     "uav": 4
   }
 }
