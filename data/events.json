@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-22T09:38:55.912380+00:00",
-  "total": 155,
-  "new_this_run": 0,
+  "updated": "2026-03-22T09:58:20.284389+00:00",
+  "total": 156,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "26.11",
+      "location": "קיבוץ שב בגליל העליון",
+      "lat": 33.27,
+      "lng": 35.58,
+      "type": "hit",
+      "desc": "פגיעה ישירה בקיבוץ שב, הרג של עופר מוסקוביץ",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bkum8ma9bg",
+      "source_name": "ynet",
+      "id": "275986d6e9c4",
+      "pub": "Sun, 22 Mar 2026 11:36:20 +0200"
+    },
     {
       "date": "14.4",
       "location": "ערד",
@@ -2028,7 +2042,7 @@
     }
   ],
   "stats": {
-    "hit": 49,
+    "hit": 50,
     "frag": 35,
     "intercept": 4,
     "ballistic": 20,
