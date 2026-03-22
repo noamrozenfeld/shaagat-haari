@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-22T15:12:38.650484+00:00",
-  "total": 175,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-22T15:39:16.810293+00:00",
+  "total": 176,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "1.4",
+      "location": "דימונה",
+      "lat": 31.767,
+      "lng": 34.764,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני בעיר דימונה ליד מתקן גרעיני. כשל בירוט הטיל הוביל לנזקים נרחבים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iranian-strike-in-town-near-dimona-nuclear-facility-rocks-residents-sense-of-security/",
+      "source_name": "Times of Israel",
+      "id": "6785428414fa",
+      "pub": "Sun, 22 Mar 2026 15:16:00 +0000"
+    },
     {
       "date": "7.10",
       "location": "תל אביב",
@@ -2308,7 +2322,7 @@
     }
   ],
   "stats": {
-    "hit": 59,
+    "hit": 60,
     "frag": 44,
     "intercept": 4,
     "ballistic": 21,
