@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-22T16:47:20.289609+00:00",
-  "total": 177,
-  "new_this_run": 0,
-  "articles_processed": 4,
+  "updated": "2026-03-22T17:02:32.863536+00:00",
+  "total": 178,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "14.4",
+      "location": "תחנת סביدור (תל אביב)",
+      "lat": 32.0853,
+      "lng": 34.7673,
+      "type": "hit",
+      "desc": "פגיעת אמל מחומצן בתחנת הרכבת סבידור בתל אביב, נזק לשדות הנוסעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/jerusalem-train-line-restarts-after-repairs-to-tel-aviv-station-hit-in-iranian-attack/",
+      "source_name": "Times of Israel",
+      "id": "aa85f5a623d4",
+      "pub": "Sun, 22 Mar 2026 16:33:02 +0000"
+    },
     {
       "date": "DD.M",
       "location": "ערד",
@@ -2336,7 +2350,7 @@
     }
   ],
   "stats": {
-    "hit": 61,
+    "hit": 62,
     "frag": 44,
     "intercept": 4,
     "ballistic": 21,
