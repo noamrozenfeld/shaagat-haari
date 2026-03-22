@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-22T20:28:55.340843+00:00",
-  "total": 178,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-22T20:51:38.128182+00:00",
+  "total": 180,
+  "new_this_run": 2,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "ערד",
+      "lat": 31.27,
+      "lng": 34.42,
+      "type": "hit",
+      "desc": "טיל איראני פגע בבתים בערד",
+      "killed": 0,
+      "wounded": 100,
+      "source_url": "https://www.timesofisrael.com/after-a-night-of-destruction-residents-of-arad-and-dimona-begin-picking-up-the-pieces/",
+      "source_name": "Times of Israel",
+      "id": "a7b7c182aa4a",
+      "pub": "Sun, 22 Mar 2026 20:37:01 +0000"
+    },
+    {
+      "date": "14.4",
+      "location": "דימונה",
+      "lat": 31.07,
+      "lng": 34.76,
+      "type": "hit",
+      "desc": "טיל איראני פגע בבתים בדימונה",
+      "killed": 0,
+      "wounded": 100,
+      "source_url": "https://www.timesofisrael.com/after-a-night-of-destruction-residents-of-arad-and-dimona-begin-picking-up-the-pieces/",
+      "source_name": "Times of Israel",
+      "id": "7e2e26509c74",
+      "pub": "Sun, 22 Mar 2026 20:37:01 +0000"
+    },
     {
       "date": "14.4",
       "location": "תחנת סביدור (תל אביב)",
@@ -2350,7 +2378,7 @@
     }
   ],
   "stats": {
-    "hit": 62,
+    "hit": 64,
     "frag": 44,
     "intercept": 4,
     "ballistic": 21,
