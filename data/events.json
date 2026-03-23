@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-22T23:50:20.909590+00:00",
-  "total": 180,
-  "new_this_run": 0,
+  "updated": "2026-03-23T00:03:24.045518+00:00",
+  "total": 181,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "23.3",
+      "location": "מרכז הארץ",
+      "lat": 31.9,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "פגיעת טיל קלוסטר איראני גרם לנזקים ללא נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-23-2026/",
+      "source_name": "Times of Israel",
+      "id": "264a815b1600",
+      "pub": "Sun, 22 Mar 2026 23:58:28 +0000"
+    },
     {
       "date": "14.4",
       "location": "ערד",
@@ -2378,7 +2392,7 @@
     }
   ],
   "stats": {
-    "hit": 64,
+    "hit": 65,
     "frag": 44,
     "intercept": 4,
     "ballistic": 21,
