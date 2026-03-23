@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-23T23:18:53.675301+00:00",
-  "total": 183,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-23T23:49:21.817855+00:00",
+  "total": 184,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "24.3",
+      "location": "פרבר חיפה",
+      "lat": 32.82,
+      "lng": 34.97,
+      "type": "hit",
+      "desc": "פגיעת טיל אשכול איראני בפרבר חיפה, ללא פגיעות בנפש",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-24-2026/",
+      "source_name": "Times of Israel",
+      "id": "07c607f6f7fb",
+      "pub": "Mon, 23 Mar 2026 23:11:42 +0000"
+    },
     {
       "date": "1.1",
       "location": "קריית שמונה",
@@ -2420,7 +2434,7 @@
     }
   ],
   "stats": {
-    "hit": 65,
+    "hit": 66,
     "frag": 46,
     "intercept": 4,
     "ballistic": 21,
