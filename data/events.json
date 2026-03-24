@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-24T00:02:39.692529+00:00",
-  "total": 184,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-24T02:45:19.741173+00:00",
+  "total": 186,
+  "new_this_run": 2,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "26.10",
+      "location": "בנשר",
+      "lat": 32.17,
+      "lng": 34.92,
+      "type": "hit",
+      "desc": "טיל איראני פגע בבית, חדר תקרה והתפוצץ בתוכו. בית נהרס לחלוטין",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/rych4lyjbl",
+      "source_name": "ynet",
+      "id": "51fe4334c165",
+      "pub": "Tue, 24 Mar 2026 02:33:00 +0200"
+    },
+    {
+      "date": "14.11",
+      "location": "ערד",
+      "lat": 31.27,
+      "lng": 34.75,
+      "type": "hit",
+      "desc": "פגיעת טיל בערד",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/yokra14718859",
+      "source_name": "ynet",
+      "id": "6d5e59dff4cd",
+      "pub": "Tue, 24 Mar 2026 00:00:00 +0200"
+    },
     {
       "date": "24.3",
       "location": "פרבר חיפה",
@@ -2434,7 +2462,7 @@
     }
   ],
   "stats": {
-    "hit": 66,
+    "hit": 68,
     "frag": 46,
     "intercept": 4,
     "ballistic": 21,
