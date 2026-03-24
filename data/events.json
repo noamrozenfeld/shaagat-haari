@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-24T16:06:20.288681+00:00",
-  "total": 190,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-24T17:12:11.931874+00:00",
+  "total": 192,
+  "new_this_run": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "N/A",
+      "location": "תל אביב",
+      "lat": 32.09,
+      "lng": 34.78,
+      "type": "hit",
+      "desc": "פגיעה בתל אביב, הרס כבד תיעוד",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/bkidqvejbe",
+      "source_name": "ynet",
+      "id": "7112e16b873a",
+      "pub": "Tue, 24 Mar 2026 19:05:43 +0200"
+    },
+    {
+      "date": "N/A",
+      "location": "הנגב",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "פציעה קשה של רופא מהנגב",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/bkidqvejbe",
+      "source_name": "ynet",
+      "id": "77640074c1a6",
+      "pub": "Tue, 24 Mar 2026 19:05:43 +0200"
+    },
     {
       "date": "14.4",
       "location": "כפר אל-סרה",
@@ -2518,7 +2546,7 @@
     }
   ],
   "stats": {
-    "hit": 70,
+    "hit": 72,
     "frag": 48,
     "intercept": 4,
     "ballistic": 21,
