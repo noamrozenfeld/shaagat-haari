@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-24T10:09:18.447251+00:00",
-  "total": 188,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-24T11:06:19.097618+00:00",
+  "total": 189,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "28.10",
+      "location": "ראש העין",
+      "lat": 32.08,
+      "lng": 34.78,
+      "type": "frag",
+      "desc": "רסיסים שנפלו בראש העין גרמו נזק לבתים, כמעט פגעו בתושבים שהיו בדרכם למרחב מוגן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bjhyi0jozl",
+      "source_name": "ynet",
+      "id": "350ece8c85f0",
+      "pub": "Tue, 24 Mar 2026 12:20:06 +0200"
+    },
     {
       "date": "14.4",
       "location": "תל אביב - מרכז העיר",
@@ -2491,7 +2505,7 @@
   ],
   "stats": {
     "hit": 70,
-    "frag": 46,
+    "frag": 47,
     "intercept": 4,
     "ballistic": 21,
     "uav": 4
