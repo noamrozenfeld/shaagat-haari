@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-24T19:18:06.517288+00:00",
-  "total": 198,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-24T19:57:20.015560+00:00",
+  "total": 201,
+  "new_this_run": 3,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "בני ברק",
+      "lat": 32.0862,
+      "lng": 34.8516,
+      "type": "hit",
+      "desc": "טיל מתפצל שלא יורט פגע בבניין מגורים, קרסה מרפסת",
+      "killed": 0,
+      "wounded": 9,
+      "source_url": "https://www.ynet.co.il/news/article/bjlgbwejzg",
+      "source_name": "ynet",
+      "id": "e77b9994ccfb",
+      "pub": "Tue, 24 Mar 2026 21:46:53 +0200"
+    },
+    {
+      "date": "DD.M",
+      "location": "פתח תקווה",
+      "lat": 32.0879,
+      "lng": 34.8789,
+      "type": "frag",
+      "desc": "נזק למבנים מירי מאיראן, כמה תושבים חוו חרדה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bjlgbwejzg",
+      "source_name": "ynet",
+      "id": "e2e4528341df",
+      "pub": "Tue, 24 Mar 2026 21:46:53 +0200"
+    },
+    {
+      "date": "DD.M",
+      "location": "ראש העין",
+      "lat": 32.0986,
+      "lng": 34.9558,
+      "type": "frag",
+      "desc": "הרס ממטלים/רסיסים מירי איראני",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bjlgbwejzg",
+      "source_name": "ynet",
+      "id": "d1e1be0ea6df",
+      "pub": "Tue, 24 Mar 2026 21:46:53 +0200"
+    },
     {
       "date": "N/A",
       "location": "תל אביב",
@@ -2630,8 +2672,8 @@
     }
   ],
   "stats": {
-    "hit": 75,
-    "frag": 51,
+    "hit": 76,
+    "frag": 53,
     "intercept": 4,
     "ballistic": 21,
     "uav": 4
