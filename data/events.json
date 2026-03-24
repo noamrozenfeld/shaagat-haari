@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-24T14:19:50.606052+00:00",
-  "total": 189,
-  "new_this_run": 0,
+  "updated": "2026-03-24T14:59:49.785588+00:00",
+  "total": 190,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "14.4",
+      "location": "כפר אל-סרה",
+      "lat": 32.19,
+      "lng": 35.19,
+      "type": "frag",
+      "desc": "חלקי טיל פגעו בחדר הורים בבית, רופא נפצע קשה ותינוק נפצע באורח קל",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/hky6gggszg",
+      "source_name": "ynet",
+      "id": "b29b09c84604",
+      "pub": "Tue, 24 Mar 2026 16:17:31 +0200"
+    },
     {
       "date": "28.10",
       "location": "ראש העין",
@@ -2505,7 +2519,7 @@
   ],
   "stats": {
     "hit": 70,
-    "frag": 47,
+    "frag": 48,
     "intercept": 4,
     "ballistic": 21,
     "uav": 4
