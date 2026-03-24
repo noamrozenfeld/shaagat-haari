@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-24T06:02:44.046052+00:00",
-  "total": 187,
+  "updated": "2026-03-24T06:43:38.762207+00:00",
+  "total": 188,
   "new_this_run": 1,
-  "articles_processed": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "14.4",
+      "location": "תל אביב - מרכז העיר",
+      "lat": 32.0853,
+      "lng": 34.7683,
+      "type": "hit",
+      "desc": "פגיעה ישירה של טיל איראני עם ראש קרב של 100 ק\"ג. הרס של לפחות שלושה בניינים, מכוניות עלו באש",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hknhas1o11g",
+      "source_name": "ynet",
+      "id": "7db88171b931",
+      "pub": "Tue, 24 Mar 2026 08:37:41 +0200"
+    },
     {
       "date": "Unknown",
       "location": "ישראל",
@@ -2476,7 +2490,7 @@
     }
   ],
   "stats": {
-    "hit": 69,
+    "hit": 70,
     "frag": 46,
     "intercept": 4,
     "ballistic": 21,
