@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-25T10:08:18.399311+00:00",
-  "total": 204,
-  "new_this_run": 0,
+  "updated": "2026-03-25T11:03:09.264419+00:00",
+  "total": 205,
+  "new_this_run": 1,
   "articles_processed": 4,
   "events": [
+    {
+      "date": "uncertain",
+      "location": "גבעתיים, קרוב למרכז מסחרי",
+      "lat": 32.07,
+      "lng": 34.82,
+      "type": "frag",
+      "desc": "שבר יירוט נפל למושב הנהג של רכב בגבעתיים, ניצוץ חלון המכונית",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjfpvnzswg",
+      "source_name": "ynet",
+      "id": "51749fe24ea4",
+      "pub": "Wed, 25 Mar 2026 12:51:34 +0200"
+    },
     {
       "date": "1.4",
       "location": "בני ברק",
@@ -2715,7 +2729,7 @@
   ],
   "stats": {
     "hit": 77,
-    "frag": 53,
+    "frag": 54,
     "intercept": 4,
     "ballistic": 23,
     "uav": 4
