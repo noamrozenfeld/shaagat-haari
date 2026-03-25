@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-25T00:02:26.169611+00:00",
-  "total": 203,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-25T02:48:02.455911+00:00",
+  "total": 204,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "1.4",
+      "location": "בני ברק",
+      "lat": 32.0885,
+      "lng": 34.8516,
+      "type": "hit",
+      "desc": "פגיעה של תחמונים אשכולות איראניים בבני ברק",
+      "killed": 0,
+      "wounded": 9,
+      "source_url": "https://www.timesofisrael.com/nine-people-wounded-in-bnei-brak-by-iranian-cluster-bomb-munitions/",
+      "source_name": "Times of Israel",
+      "id": "b0c83e257f38",
+      "pub": "Wed, 25 Mar 2026 01:20:58 +0000"
+    },
     {
       "date": "N/A",
       "location": "צפון ישראל",
@@ -2700,7 +2714,7 @@
     }
   ],
   "stats": {
-    "hit": 76,
+    "hit": 77,
     "frag": 53,
     "intercept": 4,
     "ballistic": 23,
