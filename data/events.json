@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-25T14:54:06.393032+00:00",
-  "total": 205,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-25T15:55:23.943150+00:00",
+  "total": 206,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "14.4",
+      "location": "תחנת כוח בישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "איראן שיגרה טיל לכיוון תחנת כוח בישראל, הטיל החטיא את המטרה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iran-appears-to-target-israeli-power-plant-in-missile-attack-but-misses/",
+      "source_name": "Times of Israel",
+      "id": "1609c93b9f73",
+      "pub": "Wed, 25 Mar 2026 14:55:58 +0000"
+    },
     {
       "date": "uncertain",
       "location": "גבעתיים, קרוב למרכז מסחרי",
@@ -2731,7 +2745,7 @@
     "hit": 77,
     "frag": 54,
     "intercept": 4,
-    "ballistic": 23,
+    "ballistic": 24,
     "uav": 4
   }
 }
