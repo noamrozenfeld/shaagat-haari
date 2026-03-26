@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-26T04:39:05.221704+00:00",
-  "total": 207,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-26T06:01:30.486972+00:00",
+  "total": 208,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "N/A",
+      "location": "ישראל מרכזית",
+      "lat": 31.9,
+      "lng": 35.2,
+      "type": "ballistic",
+      "desc": "חיזבאללה ירה טילים לעבר ישראל המרכזית. הצבא הצהיר שהטילים יורטו. נשא טרור טען שהקליע כוונו לנקודות IDF",
+      "killed": 0,
+      "wounded": 8,
+      "source_url": "https://www.timesofisrael.com/hezbollah-fires-missiles-at-central-israel-2-soldiers-seriously-hurt-in-lebanon/",
+      "source_name": "Times of Israel",
+      "id": "445a045d911f",
+      "pub": "Thu, 26 Mar 2026 04:32:41 +0000"
+    },
     {
       "date": "26.3",
       "location": "ישראל מרכזית",
@@ -2759,7 +2773,7 @@
     "hit": 77,
     "frag": 54,
     "intercept": 4,
-    "ballistic": 25,
+    "ballistic": 26,
     "uav": 4
   }
 }
