@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-26T08:09:20.686431+00:00",
-  "total": 209,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-26T09:11:54.409253+00:00",
+  "total": 212,
+  "new_this_run": 3,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "1.10",
+      "location": "כפר קאסם",
+      "lat": 32.18,
+      "lng": 34.99,
+      "type": "hit",
+      "desc": "טיל מתפצל מאיראן פגע בכפר קאסם, רכב עף באוויר",
+      "killed": 0,
+      "wounded": 6,
+      "source_url": "https://www.ynet.co.il/news/article/hkug00vgsbx",
+      "source_name": "ynet",
+      "id": "5425e0d4e35e",
+      "pub": "Thu, 26 Mar 2026 10:48:09 +0200"
+    },
+    {
+      "date": "1.10",
+      "location": "קריית נטפים",
+      "lat": 32.2,
+      "lng": 34.96,
+      "type": "hit",
+      "desc": "טיל מתפצל מאיראן פגע בקריית נטפים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hkug00vgsbx",
+      "source_name": "ynet",
+      "id": "f08ee1a256df",
+      "pub": "Thu, 26 Mar 2026 10:48:09 +0200"
+    },
+    {
+      "date": "1.10",
+      "location": "שבי שומרון",
+      "lat": 32.15,
+      "lng": 35.15,
+      "type": "hit",
+      "desc": "טיל מתפצל מאיראן פגע בשבי שומרון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hkug00vgsbx",
+      "source_name": "ynet",
+      "id": "c553f2939a7b",
+      "pub": "Thu, 26 Mar 2026 10:48:09 +0200"
+    },
     {
       "date": "כתאריך הכתבה",
       "location": "צפת",
@@ -2784,7 +2826,7 @@
     }
   ],
   "stats": {
-    "hit": 78,
+    "hit": 81,
     "frag": 54,
     "intercept": 4,
     "ballistic": 26,
