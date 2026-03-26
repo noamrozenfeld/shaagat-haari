@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-26T10:10:59.732042+00:00",
-  "total": 212,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-26T11:10:28.910315+00:00",
+  "total": 215,
+  "new_this_run": 3,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "1.4",
+      "location": "קריית אתא",
+      "lat": 32.82,
+      "lng": 35.07,
+      "type": "frag",
+      "desc": "נפגע מתחם משחקים iJump משברי טיל מתפצל. הרס רב בציוד המשחקים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/skrl4ygjze",
+      "source_name": "ynet",
+      "id": "4fc80d431ee4",
+      "pub": "Thu, 26 Mar 2026 12:47:46 +0200"
+    },
+    {
+      "date": "unknown",
+      "location": "ישראל - מרכז וצפון",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "איראן שיגרה 7 סלווות טילים לישראל תוך שעות, רבים עם ראשי נשק מקובצים. 9 פצועים, נזקים לבתים וכלים",
+      "killed": 0,
+      "wounded": 9,
+      "source_url": "https://www.timesofisrael.com/9-injured-as-iran-fires-7-missile-salvos-at-israel-within-hours-many-with-cluster-warheads/",
+      "source_name": "Times of Israel",
+      "id": "71c92a3a99ea",
+      "pub": "Thu, 26 Mar 2026 10:34:59 +0000"
+    },
+    {
+      "date": "unknown",
+      "location": "אבו דאבי",
+      "lat": 24.45,
+      "lng": 54.37,
+      "type": "hit",
+      "desc": "2 הרוגים בטיל שיוגרר מאיראן באבו דאבי",
+      "killed": 2,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/9-injured-as-iran-fires-7-missile-salvos-at-israel-within-hours-many-with-cluster-warheads/",
+      "source_name": "Times of Israel",
+      "id": "0cddd0ed0947",
+      "pub": "Thu, 26 Mar 2026 10:34:59 +0000"
+    },
     {
       "date": "1.10",
       "location": "כפר קאסם",
@@ -2826,10 +2868,10 @@
     }
   ],
   "stats": {
-    "hit": 81,
-    "frag": 54,
+    "hit": 82,
+    "frag": 55,
     "intercept": 4,
-    "ballistic": 26,
+    "ballistic": 27,
     "uav": 4
   }
 }
