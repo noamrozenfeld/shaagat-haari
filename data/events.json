@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-26T18:40:18.353277+00:00",
-  "total": 219,
+  "updated": "2026-03-26T19:40:26.881326+00:00",
+  "total": 221,
   "new_this_run": 2,
-  "articles_processed": 3,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "קריית שמונה",
+      "lat": 33.18,
+      "lng": 35.4,
+      "type": "hit",
+      "desc": "פגיעת טיל בנהג אוטובוס. הנהג עלי קדורה נפצע קשה ופינה שני נוסעים מהאוטובוס. לא היתה התרעה קדם לפגיעה.",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/bjplmsfsbl",
+      "source_name": "ynet",
+      "id": "a14e75e75101",
+      "pub": "Thu, 26 Mar 2026 21:35:23 +0200"
+    },
+    {
+      "date": "לא זמין",
+      "location": "דרום לבנון",
+      "lat": 33.0,
+      "lng": 35.5,
+      "type": "hit",
+      "desc": "טיל נ\"ט של חיזבאללה פגע בטנק, הרג סמל אביעד וולנסקי ופצע 4 חיילים נוספים באורח קל. טיל שני יורט על ידי מערכת ההגנה",
+      "killed": 1,
+      "wounded": 4,
+      "source_url": "https://www.ynet.co.il/news/article/hjlaxczjwg",
+      "source_name": "ynet",
+      "id": "badfb60a674d",
+      "pub": "Thu, 26 Mar 2026 20:43:36 +0200"
+    },
     {
       "date": "unknown",
       "location": "נהריה",
@@ -2924,7 +2952,7 @@
     }
   ],
   "stats": {
-    "hit": 84,
+    "hit": 86,
     "frag": 55,
     "intercept": 4,
     "ballistic": 29,
