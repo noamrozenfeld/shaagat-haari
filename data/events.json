@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-26T20:03:46.328982+00:00",
-  "total": 221,
-  "new_this_run": 0,
+  "updated": "2026-03-26T20:45:56.363602+00:00",
+  "total": 222,
+  "new_this_run": 1,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "N/A",
+      "location": "נהריה",
+      "lat": 33.01,
+      "lng": 35.17,
+      "type": "hit",
+      "desc": "פגיעת טיל מחיזבאללה בנהריה - הרג אזרח בשם אורי פרץ בן 43",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjwx8mqjwg",
+      "source_name": "ynet",
+      "id": "cd63e8c36469",
+      "pub": "Thu, 26 Mar 2026 22:29:57 +0200"
+    },
     {
       "date": "DD.M",
       "location": "קריית שמונה",
@@ -2952,7 +2966,7 @@
     }
   ],
   "stats": {
-    "hit": 86,
+    "hit": 87,
     "frag": 55,
     "intercept": 4,
     "ballistic": 29,
