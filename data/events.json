@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-26T06:13:56.034463+00:00",
-  "total": 208,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-26T07:15:29.191835+00:00",
+  "total": 209,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "כתאריך הכתבה",
+      "location": "צפת",
+      "lat": 32.96,
+      "lng": 35.5,
+      "type": "hit",
+      "desc": "ירי מלבנון לצפת, בת 11 נפגעה בדום לב במהלך אזעקה",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/b1ivkifsbg",
+      "source_name": "ynet",
+      "id": "7a3da07e7a6c",
+      "pub": "Thu, 26 Mar 2026 08:53:01 +0200"
+    },
     {
       "date": "N/A",
       "location": "ישראל מרכזית",
@@ -2770,7 +2784,7 @@
     }
   ],
   "stats": {
-    "hit": 77,
+    "hit": 78,
     "frag": 54,
     "intercept": 4,
     "ballistic": 26,
