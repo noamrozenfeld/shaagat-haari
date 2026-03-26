@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-26T11:57:54.193518+00:00",
-  "total": 215,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-26T13:01:43.006188+00:00",
+  "total": 217,
+  "new_this_run": 2,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "date_unknown",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.4,
+      "type": "ballistic",
+      "desc": "הזלקת רקטות וכטב״מ מחיזבאללה לצפון ישראל. 2 פצועים קל בהתקפת כטב״מ",
+      "killed": 1,
+      "wounded": 2,
+      "source_url": "https://www.timesofisrael.com/idf-soldier-killed-in-hezbollah-gunfight-terror-group-fires-rockets-drones-at-north/",
+      "source_name": "Times of Israel",
+      "id": "24299ec5304d",
+      "pub": "Thu, 26 Mar 2026 12:32:09 +0000"
+    },
+    {
+      "date": "date_unknown",
+      "location": "דרום לבנון",
+      "lat": 32.6,
+      "lng": 35.1,
+      "type": "hit",
+      "desc": "חייל אל״ם נפצע בירי ידידותי בדרום לבנון",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/idf-soldier-killed-in-hezbollah-gunfight-terror-group-fires-rockets-drones-at-north/",
+      "source_name": "Times of Israel",
+      "id": "a1a2521ef05e",
+      "pub": "Thu, 26 Mar 2026 12:32:09 +0000"
+    },
     {
       "date": "1.4",
       "location": "קריית אתא",
@@ -2868,10 +2896,10 @@
     }
   ],
   "stats": {
-    "hit": 82,
+    "hit": 83,
     "frag": 55,
     "intercept": 4,
-    "ballistic": 27,
+    "ballistic": 28,
     "uav": 4
   }
 }
