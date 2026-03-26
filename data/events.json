@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-26T17:45:04.220853+00:00",
-  "total": 217,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-26T18:40:18.353277+00:00",
+  "total": 219,
+  "new_this_run": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "unknown",
+      "location": "נהריה",
+      "lat": 33.0,
+      "lng": 35.1,
+      "type": "hit",
+      "desc": "התקף רקטות של חזבאללה על נהריה - הרוג אחד ופצוע קשה",
+      "killed": 1,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/man-killed-another-seriously-hurt-in-hezbollah-rocket-attack-on-nahariya/",
+      "source_name": "Times of Israel",
+      "id": "60a2a8a7758f",
+      "pub": "Thu, 26 Mar 2026 18:15:57 +0000"
+    },
+    {
+      "date": "unknown",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "חזבאללה שגרה למעלה מ-100 רקטות לישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/man-killed-another-seriously-hurt-in-hezbollah-rocket-attack-on-nahariya/",
+      "source_name": "Times of Israel",
+      "id": "14f357177b80",
+      "pub": "Thu, 26 Mar 2026 18:15:57 +0000"
+    },
     {
       "date": "date_unknown",
       "location": "צפון ישראל",
@@ -2896,10 +2924,10 @@
     }
   ],
   "stats": {
-    "hit": 83,
+    "hit": 84,
     "frag": 55,
     "intercept": 4,
-    "ballistic": 28,
+    "ballistic": 29,
     "uav": 4
   }
 }
