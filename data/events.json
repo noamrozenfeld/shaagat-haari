@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-26T23:52:27.205553+00:00",
-  "total": 222,
-  "new_this_run": 0,
+  "updated": "2026-03-27T01:02:55.160277+00:00",
+  "total": 223,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "27.3",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "המשך התקפות טילים איראניות על ישראל במהלך הלילה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-27-2026/",
+      "source_name": "Times of Israel",
+      "id": "d4764192e540",
+      "pub": "Fri, 27 Mar 2026 00:08:49 +0000"
+    },
     {
       "date": "N/A",
       "location": "נהריה",
@@ -2969,7 +2983,7 @@
     "hit": 87,
     "frag": 55,
     "intercept": 4,
-    "ballistic": 29,
+    "ballistic": 30,
     "uav": 4
   }
 }
