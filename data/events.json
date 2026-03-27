@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-27T08:30:18.880427+00:00",
-  "total": 223,
-  "new_this_run": 0,
+  "updated": "2026-03-27T09:26:49.065997+00:00",
+  "total": 224,
+  "new_this_run": 1,
   "articles_processed": 4,
   "events": [
+    {
+      "date": "unknown",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "ballistic",
+      "desc": "שיגור רקטות מחזבollah לעברי צפון ישראל, פגיעות וקצואים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/as-hezbollah-rockets-fall-emergency-medics-in-the-north-work-double-shifts/",
+      "source_name": "Times of Israel",
+      "id": "d377f5700b6d",
+      "pub": "Fri, 27 Mar 2026 09:01:15 +0000"
+    },
     {
       "date": "27.3",
       "location": "ישראל",
@@ -2983,7 +2997,7 @@
     "hit": 87,
     "frag": 55,
     "intercept": 4,
-    "ballistic": 30,
+    "ballistic": 31,
     "uav": 4
   }
 }
