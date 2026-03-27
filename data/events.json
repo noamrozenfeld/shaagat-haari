@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-27T19:09:07.799300+00:00",
-  "total": 224,
-  "new_this_run": 0,
-  "articles_processed": 4,
+  "updated": "2026-03-27T19:48:12.501029+00:00",
+  "total": 225,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "ישראל והגדה המערבית",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "frag",
+      "desc": "שברי טילים בליסטיים איראנים שנעצרו פזורים על פני הנוף בישראל והגדה המערבית",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/a-look-at-the-giant-iranian-missile-hulls-scattered-across-israel-and-the-west-bank/",
+      "source_name": "Times of Israel",
+      "id": "e88d2cf4fc64",
+      "pub": "Fri, 27 Mar 2026 19:02:01 +0000"
+    },
     {
       "date": "unknown",
       "location": "צפון ישראל",
@@ -2995,7 +3009,7 @@
   ],
   "stats": {
     "hit": 87,
-    "frag": 55,
+    "frag": 56,
     "intercept": 4,
     "ballistic": 31,
     "uav": 4
