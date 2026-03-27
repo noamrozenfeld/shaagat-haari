@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-27T21:28:30.751820+00:00",
-  "total": 225,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-27T21:57:02.376150+00:00",
+  "total": 227,
+  "new_this_run": 2,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "28.3",
+      "location": "מרכז ישראל",
+      "lat": 31.9,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "התקף טילי איראני על מרכז ישראל - הרוג אחד וכמה פצועים",
+      "killed": 1,
+      "wounded": 3,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-28-2026/",
+      "source_name": "Times of Israel",
+      "id": "7563edd3adb3",
+      "pub": "Fri, 27 Mar 2026 21:17:12 +0000"
+    },
+    {
+      "date": "28.3",
+      "location": "דרום ישראל",
+      "lat": 31.2,
+      "lng": 34.5,
+      "type": "frag",
+      "desc": "שני פצועים קלים מרסיסי יירוט טיל",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.timesofisrael.com/liveblog-march-28-2026/",
+      "source_name": "Times of Israel",
+      "id": "7fe1e7283234",
+      "pub": "Fri, 27 Mar 2026 21:17:12 +0000"
+    },
     {
       "date": "14.4",
       "location": "ישראל והגדה המערבית",
@@ -3008,8 +3036,8 @@
     }
   ],
   "stats": {
-    "hit": 87,
-    "frag": 56,
+    "hit": 88,
+    "frag": 57,
     "intercept": 4,
     "ballistic": 31,
     "uav": 4
