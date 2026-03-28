@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-28T08:01:49.097460+00:00",
-  "total": 229,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-28T08:42:23.954621+00:00",
+  "total": 230,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "פתח תקווה",
+      "lat": 32.0877,
+      "lng": 34.8876,
+      "type": "hit",
+      "desc": "פגיעה ישירה של תת-תחמושת מטיל קלוסטר בחדר בטוח. שני ילדים ותושבים נמצאו בחדר, לא היו נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/idf-finds-bombproof-room-held-up-to-direct-hit-from-cluster-munition/",
+      "source_name": "Times of Israel",
+      "id": "2913b8e7e0ca",
+      "pub": "Sat, 28 Mar 2026 08:12:44 +0000"
+    },
     {
       "date": "1.11",
       "location": "באר שבע",
@@ -3064,7 +3078,7 @@
     }
   ],
   "stats": {
-    "hit": 88,
+    "hit": 89,
     "frag": 57,
     "intercept": 5,
     "ballistic": 32,
