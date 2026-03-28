@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-28T10:17:57.110283+00:00",
-  "total": 230,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-28T10:52:25.577204+00:00",
+  "total": 231,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "unknown",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "ballistic",
+      "desc": "שיגור טילים וכטב\"מ של חזבאללה לכיוון הצפון; 2 חיילים פצועים קשה ו-7 פצועים בינוניים בעימותים בלבנון",
+      "killed": 0,
+      "wounded": 9,
+      "source_url": "https://www.timesofisrael.com/2-soldiers-seriously-hurt-in-lebanon-clashes-as-hezbollah-rockets-and-drones-pound-north/",
+      "source_name": "Times of Israel",
+      "id": "60411a6aeaa7",
+      "pub": "Sat, 28 Mar 2026 10:19:34 +0000"
+    },
     {
       "date": "DD.M",
       "location": "פתח תקווה",
@@ -3081,7 +3095,7 @@
     "hit": 89,
     "frag": 57,
     "intercept": 5,
-    "ballistic": 32,
+    "ballistic": 33,
     "uav": 4
   }
 }
