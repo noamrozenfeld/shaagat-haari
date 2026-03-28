@@ -1,9 +1,51 @@
 {
-  "updated": "2026-03-28T19:01:58.318352+00:00",
-  "total": 236,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-28T19:34:52.853165+00:00",
+  "total": 239,
+  "new_this_run": 3,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "סביון",
+      "lat": 32.95,
+      "lng": 34.95,
+      "type": "frag",
+      "desc": "נפל של טיל מתפצל נמצא בעליית גג של בית. משקל כ-4 ק\"ג. חבלנים הוזעקו לטיפול",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bkqdsjro11e",
+      "source_name": "ynet",
+      "id": "ac9a140adae6",
+      "pub": "Sat, 28 Mar 2026 22:29:53 +0300"
+    },
+    {
+      "date": "תאריך לא ציין",
+      "location": "אשתאול",
+      "lat": 31.83,
+      "lng": 35.18,
+      "type": "hit",
+      "desc": "טיל איראני פגע בעיר באזור ירושלים, 19 אנשים נפצעו פציעות קלות",
+      "killed": 0,
+      "wounded": 19,
+      "source_url": "https://www.timesofisrael.com/several-hurt-as-iranian-missile-hits-jerusalem-area-town-hezbollah-continues-to-strike-north/",
+      "source_name": "Times of Israel",
+      "id": "28bfd5266ec5",
+      "pub": "Sat, 28 Mar 2026 19:12:30 +0000"
+    },
+    {
+      "date": "תאריך לא ציין",
+      "location": "אילת",
+      "lat": 29.55,
+      "lng": 34.95,
+      "type": "hit",
+      "desc": "שתי פגיעות זוהו קרוב לאילת, ללא פצועים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/several-hurt-as-iranian-missile-hits-jerusalem-area-town-hezbollah-continues-to-strike-north/",
+      "source_name": "Times of Israel",
+      "id": "ea0c9f650074",
+      "pub": "Sat, 28 Mar 2026 19:12:30 +0000"
+    },
     {
       "date": "unknown",
       "location": "תל אביב",
@@ -3162,8 +3204,8 @@
     }
   ],
   "stats": {
-    "hit": 91,
-    "frag": 57,
+    "hit": 93,
+    "frag": 58,
     "intercept": 5,
     "ballistic": 35,
     "uav": 4
