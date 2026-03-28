@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-28T13:35:43.360172+00:00",
-  "total": 231,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-03-28T13:52:37.961051+00:00",
+  "total": 232,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "מושב אשתאול",
+      "lat": 32.17,
+      "lng": 34.93,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני במושב אשתאול, שני מכתשים, הרס ברדיוס 150 מטר, נזקים למבנים",
+      "killed": 0,
+      "wounded": 11,
+      "source_url": "https://www.ynet.co.il/news/article/ryittrrsze",
+      "source_name": "ynet",
+      "id": "94696665dd1c",
+      "pub": "Sat, 28 Mar 2026 16:31:14 +0300"
+    },
     {
       "date": "unknown",
       "location": "צפון ישראל",
@@ -3092,7 +3106,7 @@
     }
   ],
   "stats": {
-    "hit": 89,
+    "hit": 90,
     "frag": 57,
     "intercept": 5,
     "ballistic": 33,
