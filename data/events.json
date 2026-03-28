@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-28T02:52:28.403347+00:00",
-  "total": 228,
+  "updated": "2026-03-28T04:45:23.809048+00:00",
+  "total": 229,
   "new_this_run": 1,
-  "articles_processed": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "1.11",
+      "location": "באר שבע",
+      "lat": 31.25,
+      "lng": 34.79,
+      "type": "intercept",
+      "desc": "טיל ששוגר מתימן יורט מעל באר שבע",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1koza4j11x",
+      "source_name": "ynet",
+      "id": "3a13eb3d79fc",
+      "pub": "Sat, 28 Mar 2026 07:12:12 +0300"
+    },
     {
       "date": "01.10",
       "location": "מרכז הארץ",
@@ -3052,7 +3066,7 @@
   "stats": {
     "hit": 88,
     "frag": 57,
-    "intercept": 4,
+    "intercept": 5,
     "ballistic": 32,
     "uav": 4
   }
