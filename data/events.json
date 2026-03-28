@@ -1,9 +1,65 @@
 {
-  "updated": "2026-03-28T15:58:29.767098+00:00",
-  "total": 232,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-28T16:29:03.442179+00:00",
+  "total": 236,
+  "new_this_run": 4,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "unknown",
+      "location": "תל אביב",
+      "lat": 32.09,
+      "lng": 34.78,
+      "type": "hit",
+      "desc": "הרוג מטיל מתפצל בתל אביב, 13 פצועים והרס עצום באשתאול",
+      "killed": 1,
+      "wounded": 13,
+      "source_url": "https://www.ynet.co.il/news/article/hk21hubobx",
+      "source_name": "ynet",
+      "id": "beb205d97f77",
+      "pub": "Sat, 28 Mar 2026 19:17:13 +0300"
+    },
+    {
+      "date": "unknown",
+      "location": "תימן",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "טילים ראשונים שוגרו מתימן לכיוון ישראל, חודש אחרי תחילת המלחמה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hk21hubobx",
+      "source_name": "ynet",
+      "id": "511846754a48",
+      "pub": "Sat, 28 Mar 2026 19:17:13 +0300"
+    },
+    {
+      "date": "1.4",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "שיגור טיל בליסטי מתימן על ידי החות'ים - יורט",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/r1i6cwbowg",
+      "source_name": "ynet",
+      "id": "f673de97d768",
+      "pub": "Sat, 28 Mar 2026 18:57:03 +0300"
+    },
+    {
+      "date": "1.4",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "cruise",
+      "desc": "שיגור טיל שיוט מתימן על ידי החות'ים - יורט",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/r1i6cwbowg",
+      "source_name": "ynet",
+      "id": "5b35cba7c34a",
+      "pub": "Sat, 28 Mar 2026 18:57:03 +0300"
+    },
     {
       "date": "14.4",
       "location": "מושב אשתאול",
@@ -3106,10 +3162,10 @@
     }
   ],
   "stats": {
-    "hit": 90,
+    "hit": 91,
     "frag": 57,
     "intercept": 5,
-    "ballistic": 33,
+    "ballistic": 35,
     "uav": 4
   }
 }
