@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-28T00:02:57.411691+00:00",
-  "total": 227,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-28T02:52:28.403347+00:00",
+  "total": 228,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "01.10",
+      "location": "מרכז הארץ",
+      "lat": 31.95,
+      "lng": 34.85,
+      "type": "ballistic",
+      "desc": "התקפת טילים בליסטיים איראנים על מרכז ישראל, פגיעה בשישה אתרים נפרדים",
+      "killed": 1,
+      "wounded": 4,
+      "source_url": "https://www.timesofisrael.com/one-killed-several-wounded-in-iranian-ballistic-missile-attack-on-central-israel/",
+      "source_name": "Times of Israel",
+      "id": "0b80ddd47731",
+      "pub": "Sat, 28 Mar 2026 00:23:28 +0000"
+    },
     {
       "date": "28.3",
       "location": "מרכז ישראל",
@@ -3039,7 +3053,7 @@
     "hit": 88,
     "frag": 57,
     "intercept": 4,
-    "ballistic": 31,
+    "ballistic": 32,
     "uav": 4
   }
 }
