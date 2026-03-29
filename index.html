@@ -57,7 +57,7 @@
   .leaflet-control-zoom a { background:var(--panel)!important; color:var(--text)!important; border-color:var(--border)!important; }
   .map-legend { padding:10px 16px; border-top:1px solid var(--border); display:flex; gap:18px; flex-wrap:wrap; align-items:center; }
   .leg-item { display:flex; align-items:center; gap:6px; font-size:0.7rem; font-family:var(--mono); color:var(--text-dim); }
-  .leg-line { width:28px; height:3px; } .leg-dot { width:10px; height:10px; border-radius:50%; }
+  .leg-dot { width:10px; height:10px; border-radius:50%; }
   .sidebar { display:flex; flex-direction:column; gap:12px; }
   .sidebar > .panel:last-child { flex:1; overflow-y:auto; }
   .panel { background:var(--panel); border:1px solid var(--border); border-radius:6px; padding:14px 16px; position:relative; overflow:hidden; }
@@ -74,15 +74,6 @@
   .tag-hit{background:rgba(204,34,0,0.25);color:#ff6644;border:1px solid rgba(204,34,0,0.4);}
   .tag-frag{background:rgba(232,93,0,0.2);color:var(--accent2);border:1px solid rgba(232,93,0,0.4);}
   .bottom-row { display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px; margin-bottom:14px; }
-  .bar-group { display:flex; flex-direction:column; gap:9px; }
-  .bar-row { display:flex; align-items:center; gap:10px; }
-  .bar-label { font-size:0.73rem; min-width:90px; text-align:right; color:var(--text); }
-  .bar-track { flex:1; height:18px; background:rgba(255,255,255,0.05); border-radius:2px; overflow:hidden; }
-  .bar-fill { height:100%; border-radius:2px; display:flex; align-items:center; padding-right:6px; justify-content:flex-end; }
-  .bar-fill span { font-family:var(--mono); font-size:0.65rem; color:#fff; font-weight:700; }
-  .bar-fill.ballistic{background:linear-gradient(90deg,#7a1400,#cc2200);}
-  .bar-fill.drone{background:linear-gradient(90deg,#103050,#3a9fd8);}
-  .bar-fill.cruise{background:linear-gradient(90deg,#804400,#ff9900);}
   .donut-row { display:flex; align-items:center; gap:14px; margin-bottom:10px; }
   .donut-chart { width:100px; height:100px; flex-shrink:0; }
   .donut-legend { flex:1; display:flex; flex-direction:column; gap:7px; }
@@ -127,8 +118,8 @@
     </div>
     <div class="stat-card blue">
       <div class="label">פונו לבתי חולים</div>
-      <div class="value">5,045</div>
-      <div class="sub">משרד הבריאות · 25.3 · 07:00</div>
+      <div class="value">5,492</div>
+      <div class="sub">משרד הבריאות · 27.3 · 07:00</div>
     </div>
     <div class="stat-card green">
       <div class="label">אחוז יירוט</div>
@@ -164,7 +155,7 @@
             <div class="impact-icon">💥</div>
             <div>
               <div class="impact-location">אשתאול — 28.3 (יום 29) <span style="color:var(--accent);font-size:0.68rem;font-family:var(--mono);">★ חדש</span> <a href="https://www.israelhayom.co.il/news/defense/article/20214709" target="_blank" style="font-family:var(--mono);font-size:0.6rem;color:#3a9fd8;text-decoration:none;white-space:nowrap;">↗ ישראל היום</a></div>
-              <div class="impact-desc">שבר יירוט פגע בבית כנסת — נהרס לחלוטין. 11 פצועים קל: שבר ביד, חלקי גג שעפו, הדף. מטה יהודה.</div>
+              <div class="impact-desc">שבר יירוט פגע בבית כנסת — נהרס לחלוטין. 11 פצועים קל. מטה יהודה.</div>
             </div>
             <span class="impact-tag tag-hit">בית כנסת נהרס</span>
           </div>
@@ -174,9 +165,19 @@
             <div class="impact-icon">💥</div>
             <div>
               <div class="impact-location">אשתאול — 27.3 (יום 28) <span style="color:var(--accent);font-size:0.68rem;font-family:var(--mono);">★ חדש</span> <a href="https://www.ynet.co.il/news/article/ryittrrsze" target="_blank" style="font-family:var(--mono);font-size:0.6rem;color:#3a9fd8;text-decoration:none;white-space:nowrap;">↗ ynet</a></div>
-              <div class="impact-desc">פגיעה ישירה במטח גדול — מבנים רבים נהרסו, מגרש מכוניות עם 100+ רכבים הרוסים. 13 פצועים קל. תושב: "כל הבית התפרק מאלף עד תו".</div>
+              <div class="impact-desc">פגיעה ישירה — מבנים רבים נהרסו, 100+ רכבים הרוסים. 13 פצועים קל.</div>
             </div>
             <span class="impact-tag tag-hit">13 פצועים</span>
+          </div>
+
+          <!-- 26.3 — יום 27 -->
+          <div class="impact-item" style="border-color:rgba(204,34,0,0.5);background:rgba(204,34,0,0.06);">
+            <div class="impact-icon">🔶</div>
+            <div>
+              <div class="impact-location">גוש דן / תל אביב — 26.3 ערב (יום 27) <span style="color:var(--accent);font-size:0.68rem;font-family:var(--mono);">★ חדש</span> <a href="https://www.mako.co.il/news-military/2026_q1/liveblog-32c1c26dbec1d91027.htm" target="_blank" style="font-family:var(--mono);font-size:0.6rem;color:#3a9fd8;text-decoration:none;white-space:nowrap;">↗ N12</a></div>
+              <div class="impact-desc">טיל מצרר — פגיעות במבנים בגוש דן, 6 פצועים קל, נזק כבד, שריפה. במקביל: 5 רקטות מלבנון לכרמיאל וגליל.</div>
+            </div>
+            <span class="impact-tag tag-frag">6 פצועים</span>
           </div>
 
           <!-- 24.3 — יום 25 -->
@@ -192,7 +193,7 @@
             <div class="impact-icon">💥</div>
             <div>
               <div class="impact-location">בני ברק — 24.3 (יום 25) <a href="https://www.israelhayom.co.il/news/defense/article/20186936" target="_blank" style="font-family:var(--mono);font-size:0.6rem;color:#3a9fd8;text-decoration:none;white-space:nowrap;">↗ ישראל היום</a></div>
-              <div class="impact-desc">טיל מתפצל — 12 פצועים (גבר 23 בינוני, 6 ילדים קל). קריסת מבנה. זירות נפילה נוספות בפ"ת וגבעת שמואל.</div>
+              <div class="impact-desc">טיל מתפצל — 12 פצועים (גבר 23 בינוני, 6 ילדים קל). קריסת מבנה.</div>
             </div>
             <span class="impact-tag tag-hit">12 פצועים</span>
           </div>
@@ -210,7 +211,7 @@
             <div class="impact-icon">💥</div>
             <div>
               <div class="impact-location">משגב עם — 22.3 (יום 23) <a href="https://www.ice.co.il/local-news/news/article/1106982" target="_blank" style="font-family:var(--mono);font-size:0.6rem;color:#3a9fd8;text-decoration:none;white-space:nowrap;">↗ ice</a></div>
-              <div class="impact-desc">נ"ט פגע ישירות ברכב — הנהג נרצח. מטחים של 400+ טילים. אחוז יירוט 92% — הגבוה ביותר במבצע.</div>
+              <div class="impact-desc">נ"ט פגע ישירות ברכב — הנהג נרצח. מטחים של 400+ טילים. אחוז יירוט 92%.</div>
             </div>
             <span class="impact-tag tag-hit">הרוג</span>
           </div>
@@ -236,7 +237,7 @@
             <div class="impact-icon">💥</div>
             <div>
               <div class="impact-location">דימונה — 21.3 ערב <span style="color:#ff4444;font-size:0.68rem;font-family:var(--mono);">★ חמור</span> <a href="https://www.mako.co.il/news-military/2026_q1/Article-c5e2e4b64121d91027.htm" target="_blank" style="font-family:var(--mono);font-size:0.6rem;color:#3a9fd8;text-decoration:none;white-space:nowrap;">↗ N12</a></div>
-              <div class="impact-desc">פגיעה ישירה — 12 זירות נפילה. 54 פצועים (ילד 12 קשה). יירוט כשל.</div>
+              <div class="impact-desc">פגיעה ישירה — 54 פצועים (ילד 12 קשה). יירוט כשל.</div>
             </div>
             <span class="impact-tag tag-hit">54 פצועים</span>
           </div>
@@ -354,7 +355,7 @@
       <div style="padding:11px;background:rgba(232,93,0,0.05);border:1px solid rgba(232,93,0,0.2);border-radius:4px;">
         <div style="font-size:0.65rem;font-family:var(--mono);color:var(--accent);margin-bottom:7px;letter-spacing:1px;">⚠ סיכום קורבנות</div>
         <div style="font-size:0.75rem;color:var(--text-dim);line-height:1.8;">
-          🇮🇱 ישראל: 21 הרוגים, 5,045+ פצועים<br>
+          🇮🇱 ישראל: 21 הרוגים, 5,492+ פצועים<br>
           🇦🇪 איחוד האמירויות: 3 הרוגים, 68 פצועים<br>
           🇰🇼 כוויית: 4 הרוגים, 32 פצועים<br>
           🇺🇸 חיילים אמריקאים: 6 נהרגו
@@ -369,6 +370,39 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- MOH TABLE -->
+  <div class="panel" style="margin-bottom:14px;border-color:rgba(0,170,85,0.4);">
+    <div class="panel-title" style="color:#00aa55;">
+      🏥 משרד הבריאות — פינויים לבתי חולים
+      <span style="margin-right:auto;font-size:0.62rem;color:var(--text-dim);font-family:var(--mono);">ironswords.health.gov.il</span>
+    </div>
+    <div style="overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:0.74rem;">
+        <thead>
+          <tr style="border-bottom:1px solid var(--border);">
+            <th style="text-align:right;padding:6px 10px;font-family:var(--mono);font-size:0.62rem;color:var(--text-dim);font-weight:400;letter-spacing:1px;">תאריך</th>
+            <th style="text-align:center;padding:6px 8px;font-family:var(--mono);font-size:0.62rem;color:var(--text-dim);font-weight:400;">סה"כ פונו</th>
+            <th style="text-align:center;padding:6px 8px;font-family:var(--mono);font-size:0.62rem;color:#cc2200;font-weight:400;">קשה</th>
+            <th style="text-align:center;padding:6px 8px;font-family:var(--mono);font-size:0.62rem;color:#ff9900;font-weight:400;">בינוני</th>
+            <th style="text-align:center;padding:6px 8px;font-family:var(--mono);font-size:0.62rem;color:#6a8a9a;font-weight:400;">קל</th>
+            <th style="text-align:center;padding:6px 8px;font-family:var(--mono);font-size:0.62rem;color:#00aa55;font-weight:400;">מאושפזים</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">1.3 · 08:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">456</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">1*</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">21</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">92</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">86</td></tr>
+          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">3.3 · 07:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">1,050</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">4*</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">21</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">75</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">102</td></tr>
+          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">6.3 · 18:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">1,681</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">9</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">35</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">65</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">111</td></tr>
+          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">11.3 (יום 12)</td><td style="text-align:center;padding:6px 8px;font-weight:700;">2,557</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">10</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">9</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">71</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">84</td></tr>
+          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">16.3 · 07:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">3,369</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">7+אנוש</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">14</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">59</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">81</td></tr>
+          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">23.3 · 07:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">4,713</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">15</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">27</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">79</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">123</td></tr>
+          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">25.3 · 07:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">5,045</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">12</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">27</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">79</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">120</td></tr>
+          <tr style="background:rgba(0,170,85,0.06);"><td style="padding:6px 10px;color:#00aa55;font-family:var(--mono);font-size:0.7rem;font-weight:700;">27.3 · 07:00 ★</td><td style="text-align:center;padding:6px 8px;font-weight:900;font-size:0.9rem;color:#fff;">5,492</td><td style="text-align:center;padding:6px 8px;color:#cc2200;font-weight:700;">אנוש+16</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">—</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">—</td><td style="text-align:center;padding:6px 8px;color:#00aa55;font-weight:700;">116</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="font-size:0.65rem;font-family:var(--mono);color:var(--text-dim);margin-top:8px;">* חלק מהקשה אינם ישירות מטיל · מקור: ironswords.health.gov.il</div>
   </div>
 
   <!-- DAILY CHART -->
@@ -441,6 +475,7 @@ const impactData = [
   { ll:[33.07,35.57], type:'hit', label:'צומת מחניים — 24.3', desc:'נוריאל דובין בת 27 נהרגה מרקטת חיזבאללה.' },
   { ll:[32.08,34.83], type:'hit', label:'בני ברק — 24.3', desc:'טיל מתפצל — 12 פצועים, קריסת מבנה.' },
   { ll:[31.72,35.01], type:'hit', label:'אשתאול — 27–28.3', desc:'27.3: פגיעה ישירה — 13 פצועים, 100+ רכבים הרוסים.\n28.3: שבר יירוט הרס בית כנסת, 11 פצועים.' },
+  { ll:[32.06,34.81], type:'frag', label:'גוש דן — 26.3', desc:'טיל מצרר — 6 פצועים קל, שריפה, נזק כבד למבנים.' },
 ];
 
 impactData.forEach(d => {
@@ -484,7 +519,7 @@ const dailyData = [
   { day:'23.3\nיום 24', note:'ירי לצפון ולמרכז',              ballistic:35,  uav:20,  cruise:5  },
   { day:'24.3\nיום 25', note:'⚫ נוריאל דובין | 12 פצועים ב.ברק', ballistic:55, uav:35, cruise:8 },
   { day:'25.3\nיום 26', note:'ארה"ב הגישה תוכנית 15 נקודות — נדחתה', ballistic:40, uav:25, cruise:6 },
-  { day:'26.3\nיום 27', note:'לבנון: שגריר איראן פרסונה נון גרטה', ballistic:30, uav:20, cruise:4 },
+  { day:'26.3\nיום 27', note:'גוש דן: 6 פצועים, שריפה | רקטות לכרמיאל', ballistic:30, uav:20, cruise:4 },
   { day:'27.3\nיום 28', note:'★ אשתאול: פגיעה ישירה, 100+ רכבים הרוסים', ballistic:25, uav:15, cruise:3 },
   { day:'28.3\nיום 29', note:'אשתאול: בית כנסת נהרס | ירי לדרום ולמרכז', ballistic:20, uav:12, cruise:3 },
 ];
