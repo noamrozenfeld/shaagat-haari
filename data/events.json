@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-29T14:22:30.862784+00:00",
-  "total": 241,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-29T14:55:44.843001+00:00",
+  "total": 242,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "14.4",
+      "location": "נאות חובב",
+      "lat": 32.17,
+      "lng": 34.92,
+      "type": "hit",
+      "desc": "מפעל אדמה בנאות חובב נפגע מטיל איראני",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/byjowh8i11g",
+      "source_name": "ynet",
+      "id": "cce4fa29831a",
+      "pub": "Sun, 29 Mar 2026 17:38:27 +0300"
+    },
     {
       "date": "DD.M",
       "location": "ירושלים העתיקה",
@@ -3232,7 +3246,7 @@
     }
   ],
   "stats": {
-    "hit": 94,
+    "hit": 95,
     "frag": 59,
     "intercept": 5,
     "ballistic": 35,
