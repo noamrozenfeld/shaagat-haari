@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-29T12:00:32.130096+00:00",
-  "total": 240,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-29T13:00:10.603806+00:00",
+  "total": 241,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "ירושלים העתיקה",
+      "lat": 31.778,
+      "lng": 35.235,
+      "type": "frag",
+      "desc": "נפילת שברי טילים בעיר העתיקה בירושלים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/under-shadow-of-war-with-iran-jerusalem-heads-into-subdued-passover-and-easter/",
+      "source_name": "Times of Israel",
+      "id": "2f75c780ca6d",
+      "pub": "Sun, 29 Mar 2026 12:02:02 +0000"
+    },
     {
       "date": "29.3",
       "location": "דרום ישראל",
@@ -3219,7 +3233,7 @@
   ],
   "stats": {
     "hit": 94,
-    "frag": 58,
+    "frag": 59,
     "intercept": 5,
     "ballistic": 35,
     "uav": 4
