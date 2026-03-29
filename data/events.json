@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-29T19:39:38.614587+00:00",
-  "total": 244,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-29T19:59:22.334569+00:00",
+  "total": 246,
+  "new_this_run": 2,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "נאות הובב",
+      "lat": 31.19,
+      "lng": 34.76,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני בזону תעשייתית, התגעגעות בחממת כימיקלים, ללא נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iranian-missile-attack-sparks-blaze-in-chemical-plant-fears-of-hazardous-leak/",
+      "source_name": "Times of Israel",
+      "id": "dfa427bdabc5",
+      "pub": "Sun, 29 Mar 2026 19:42:06 +0000"
+    },
+    {
+      "date": "14.4",
+      "location": "באר שבע",
+      "lat": 31.25,
+      "lng": 34.79,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני בעיר, פגיעה קלה",
+      "killed": 0,
+      "wounded": 11,
+      "source_url": "https://www.timesofisrael.com/iranian-missile-attack-sparks-blaze-in-chemical-plant-fears-of-hazardous-leak/",
+      "source_name": "Times of Israel",
+      "id": "fcefc510cbb7",
+      "pub": "Sun, 29 Mar 2026 19:42:06 +0000"
+    },
     {
       "date": "N/A",
       "location": "ערד",
@@ -3274,7 +3302,7 @@
     }
   ],
   "stats": {
-    "hit": 96,
+    "hit": 98,
     "frag": 60,
     "intercept": 5,
     "ballistic": 35,
