@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-29T17:18:51.469469+00:00",
-  "total": 243,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-29T17:49:36.665815+00:00",
+  "total": 244,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "N/A",
+      "location": "ערד",
+      "lat": 31.27,
+      "lng": 34.76,
+      "type": "hit",
+      "desc": "פגיעת טיל בערד",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/in-arad-missile-blast-adds-fuel-to-feud-over-shelters-being-used-as-synagogues/",
+      "source_name": "Times of Israel",
+      "id": "2c3a5c2b83cb",
+      "pub": "Sun, 29 Mar 2026 17:34:42 +0000"
+    },
     {
       "date": "1.4",
       "location": "באר שבע",
@@ -3260,7 +3274,7 @@
     }
   ],
   "stats": {
-    "hit": 95,
+    "hit": 96,
     "frag": 60,
     "intercept": 5,
     "ballistic": 35,
