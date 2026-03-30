@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-30T10:00:20.973705+00:00",
-  "total": 247,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-03-30T11:03:13.125929+00:00",
+  "total": 248,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "14.4",
+      "location": "חיפה - בתי הזיקוק",
+      "lat": 32.82,
+      "lng": 35.01,
+      "type": "hit",
+      "desc": "פגיעה ישירה של טיל איראני מתפצל במבנה תעשייתי ומכלית דלק בנפח 3,000 קוב בבתי הזיקוק בחיפה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1bdbavjwx",
+      "source_name": "ynet",
+      "id": "27c149d7794b",
+      "pub": "Mon, 30 Mar 2026 13:10:37 +0300"
+    },
     {
       "date": "14.4",
       "location": "דימונה",
@@ -3316,7 +3330,7 @@
     }
   ],
   "stats": {
-    "hit": 99,
+    "hit": 100,
     "frag": 60,
     "intercept": 5,
     "ballistic": 35,
