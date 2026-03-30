@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-30T15:55:38.939300+00:00",
-  "total": 251,
+  "updated": "2026-03-30T16:44:25.358457+00:00",
+  "total": 252,
   "new_this_run": 1,
-  "articles_processed": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "28.12",
+      "location": "תל אביב",
+      "lat": 32.09,
+      "lng": 34.78,
+      "type": "hit",
+      "desc": "ויאצ'סלב וידמנט נהרג מפגיעת טיל בתל אביב כששמר על בניין שנפגע",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjjonz00swg",
+      "source_name": "ynet",
+      "id": "e988cc089add",
+      "pub": "Mon, 30 Mar 2026 18:56:01 +0300"
+    },
     {
       "date": "14.1",
       "location": "שפרעם",
@@ -3372,7 +3386,7 @@
     }
   ],
   "stats": {
-    "hit": 101,
+    "hit": 102,
     "frag": 61,
     "intercept": 5,
     "ballistic": 36,
