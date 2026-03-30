@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-30T07:08:08.468468+00:00",
-  "total": 246,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-03-30T08:46:03.927259+00:00",
+  "total": 247,
+  "new_this_run": 1,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "14.4",
+      "location": "דימונה",
+      "lat": 31.15,
+      "lng": 34.76,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני בדימונה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/yokra14724698",
+      "source_name": "ynet",
+      "id": "d5197991edf7",
+      "pub": "Mon, 30 Mar 2026 10:52:18 +0300"
+    },
     {
       "date": "14.4",
       "location": "נאות הובב",
@@ -3302,7 +3316,7 @@
     }
   ],
   "stats": {
-    "hit": 98,
+    "hit": 99,
     "frag": 60,
     "intercept": 5,
     "ballistic": 35,
