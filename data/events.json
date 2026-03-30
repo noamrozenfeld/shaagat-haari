@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-30T14:46:43.457322+00:00",
-  "total": 250,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-03-30T15:55:38.939300+00:00",
+  "total": 251,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.1",
+      "location": "שפרעם",
+      "lat": 32.74,
+      "lng": 35.29,
+      "type": "frag",
+      "desc": "פגיעת שברי טיל מתפצל בבית בשכונה ללא מקלטים. ילדים נפצעו קל",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/sjwfheuswl",
+      "source_name": "ynet",
+      "id": "9847ec4d6831",
+      "pub": "Mon, 30 Mar 2026 17:47:45 +0300"
+    },
     {
       "date": "unknown",
       "location": "חיפה",
@@ -3359,7 +3373,7 @@
   ],
   "stats": {
     "hit": 101,
-    "frag": 60,
+    "frag": 61,
     "intercept": 5,
     "ballistic": 36,
     "uav": 4
