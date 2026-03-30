@@ -1,9 +1,37 @@
 {
-  "updated": "2026-03-30T11:03:13.125929+00:00",
-  "total": 248,
-  "new_this_run": 1,
-  "articles_processed": 3,
+  "updated": "2026-03-30T12:00:34.181596+00:00",
+  "total": 250,
+  "new_this_run": 2,
+  "articles_processed": 6,
   "events": [
+    {
+      "date": "unknown",
+      "location": "חיפה",
+      "lat": 32.82,
+      "lng": 34.77,
+      "type": "hit",
+      "desc": "התקפת טיל על בסיס צבאי בחיפה, פגיעה בחיפוי הנפט",
+      "killed": 1,
+      "wounded": 7,
+      "source_url": "https://www.timesofisrael.com/idf-solider-killed-in-lebanon-blaze-at-haifa-refinery-after-iran-hezbollah-missile-attack/",
+      "source_name": "Times of Israel",
+      "id": "9375df8e0c3f",
+      "pub": "Mon, 30 Mar 2026 11:43:14 +0000"
+    },
+    {
+      "date": "DD.M",
+      "location": "דרום ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "איראן שיגרה שישה שיגורי טילים לכיוון דרום ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/idf-hammers-iranian-weapons-production-sites-iran-files-salvos-of-missiles-at-south/",
+      "source_name": "Times of Israel",
+      "id": "d7ef19576456",
+      "pub": "Mon, 30 Mar 2026 10:48:22 +0000"
+    },
     {
       "date": "14.4",
       "location": "חיפה - בתי הזיקוק",
@@ -3330,10 +3358,10 @@
     }
   ],
   "stats": {
-    "hit": 100,
+    "hit": 101,
     "frag": 60,
     "intercept": 5,
-    "ballistic": 35,
+    "ballistic": 36,
     "uav": 4
   }
 }
