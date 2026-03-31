@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-31T16:59:15.186029+00:00",
-  "total": 256,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-03-31T17:55:12.557265+00:00",
+  "total": 257,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "פתח תקווה",
+      "lat": 32.09,
+      "lng": 34.88,
+      "type": "hit",
+      "desc": "טיל איראני פגע סמוך לבית בפתח תקווה, גרם לנזק רב והתלקחות כלי רכב",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b111thskibg",
+      "source_name": "ynet",
+      "id": "e0a0b1e69159",
+      "pub": "Tue, 31 Mar 2026 20:21:01 +0300"
+    },
     {
       "date": "14.4",
       "location": "מרכז ישראל",
@@ -3442,7 +3456,7 @@
     }
   ],
   "stats": {
-    "hit": 102,
+    "hit": 103,
     "frag": 65,
     "intercept": 5,
     "ballistic": 36,
