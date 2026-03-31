@@ -1,9 +1,23 @@
 {
-  "updated": "2026-03-31T11:30:47.714184+00:00",
-  "total": 255,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-03-31T12:07:10.862354+00:00",
+  "total": 256,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "14.4",
+      "location": "מרכז ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "frag",
+      "desc": "8 פצועים קלים מפצצת אשכול בתוך אזור מגורים",
+      "killed": 0,
+      "wounded": 8,
+      "source_url": "https://www.timesofisrael.com/8-lightly-hurt-by-cluster-bomb-in-central-israel-as-iranian-attacks-persist-across-region/",
+      "source_name": "Times of Israel",
+      "id": "e571bcd87a78",
+      "pub": "Tue, 31 Mar 2026 11:40:44 +0000"
+    },
     {
       "date": "10.4",
       "location": "בני ברק",
@@ -3429,7 +3443,7 @@
   ],
   "stats": {
     "hit": 102,
-    "frag": 64,
+    "frag": 65,
     "intercept": 5,
     "ballistic": 36,
     "uav": 4
