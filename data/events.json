@@ -1,9 +1,65 @@
 {
-  "updated": "2026-04-01T15:13:51.974660+00:00",
-  "total": 259,
-  "new_this_run": 0,
+  "updated": "2026-04-01T16:13:41.210907+00:00",
+  "total": 263,
+  "new_this_run": 4,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "חדרה",
+      "lat": 32.43,
+      "lng": 34.96,
+      "type": "frag",
+      "desc": "רקטת חיזבאללה התפוצצה בשטח פתוח",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjfxp3qjwl",
+      "source_name": "ynet",
+      "id": "c47a3b444f19",
+      "pub": "Wed, 01 Apr 2026 18:47:57 +0300"
+    },
+    {
+      "date": "14.4",
+      "location": "ראש העין",
+      "lat": 32.1,
+      "lng": 34.88,
+      "type": "frag",
+      "desc": "נזק לדירות מרקטות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjfxp3qjwl",
+      "source_name": "ynet",
+      "id": "35767eaa878a",
+      "pub": "Wed, 01 Apr 2026 18:47:57 +0300"
+    },
+    {
+      "date": "14.4",
+      "location": "פתח תקווה",
+      "lat": 32.08,
+      "lng": 34.88,
+      "type": "frag",
+      "desc": "נפילה בגן שעשועים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjfxp3qjwl",
+      "source_name": "ynet",
+      "id": "d3635ae0e97b",
+      "pub": "Wed, 01 Apr 2026 18:47:57 +0300"
+    },
+    {
+      "date": "22.4",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "איראן שיגרה להילה של לפחות 10 טילים לכיוון ישראל בשילוב עם התקפות של חזבאללה. דוחות על נזקים לבתים, מכוניות וגן משחקים. אין דיווחים על פצועים.",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iran-fires-largest-missile-barrage-in-weeks-as-israelis-set-to-sit-down-for-passover-seder/",
+      "source_name": "Times of Israel",
+      "id": "9e32a91c2962",
+      "pub": "Wed, 01 Apr 2026 15:47:14 +0000"
+    },
     {
       "date": "DD.M",
       "location": "מרכז ישראל",
@@ -3485,9 +3541,9 @@
   ],
   "stats": {
     "hit": 103,
-    "frag": 66,
+    "frag": 69,
     "intercept": 5,
-    "ballistic": 37,
+    "ballistic": 38,
     "uav": 4
   }
 }
