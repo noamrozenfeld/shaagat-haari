@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-01T04:19:17.105518+00:00",
-  "total": 257,
-  "new_this_run": 0,
-  "articles_processed": 7,
+  "updated": "2026-04-01T06:05:05.331423+00:00",
+  "total": 258,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "בני ברק",
+      "lat": 32.09,
+      "lng": 34.87,
+      "type": "frag",
+      "desc": "פגיעת טיל מתפצל, 14 פצועים כולל ילדה בת 11 במצב קשה",
+      "killed": 0,
+      "wounded": 14,
+      "source_url": "https://www.ynet.co.il/news/article/hjpyrmcjbx",
+      "source_name": "ynet",
+      "id": "43a2546ccd80",
+      "pub": "Wed, 01 Apr 2026 08:54:38 +0300"
+    },
     {
       "date": "DD.M",
       "location": "פתח תקווה",
@@ -3457,7 +3471,7 @@
   ],
   "stats": {
     "hit": 103,
-    "frag": 65,
+    "frag": 66,
     "intercept": 5,
     "ballistic": 36,
     "uav": 4
