@@ -165,6 +165,13 @@
               <td class="td-tag"><span class="impact-tag tag-hit">2 פצועים</span></td>
               <td class="center"><a href="https://www.timesofisrael.com/liveblog-april-02-2026/" target="_blank" class="src-link">↗ ToI</a></td>
             </tr>
+            <tr class="row-severe">
+              <td class="td-date">1.4 <span class="severe-badge">★ חמור</span><br><span style="color:var(--text-dim);font-size:0.62rem;">יום 33</span></td>
+              <td class="td-loc">מרכז ישראל / בני ברק</td>
+              <td class="td-desc">ליל הסדר: המטח הגדול ביותר מאז תחילת המלחמה — 6 גלי ירי, כ-10 טילים בגל. נזק ברוש העין. מצרר בבני ברק — 4 פצועים קל כולל 2 תינוקות. ילדה בת 11 נפצעה קשה.</td>
+              <td class="td-tag"><span class="impact-tag tag-hit">★ מטח ענק</span></td>
+              <td class="center"><a href="https://www.timesofisrael.com/iran-fires-largest-missile-barrage-in-weeks-as-israelis-set-to-sit-down-for-passover-seder/" target="_blank" class="src-link">↗ ToI</a></td>
+            </tr>
             <tr>
               <td class="td-date">31.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 32</span></td>
               <td class="td-loc">פתח תקווה</td>
@@ -376,7 +383,8 @@
       <div class="leg-item"><div class="leg-dot" style="background:#ff9900;border:2px solid #ffcc00;"></div> שברים</div>
       <div class="leg-item"><div class="leg-dot" style="background:#00aa55;border:2px solid #00ff88;"></div> יורט</div>
       <div class="leg-item"><div class="leg-dot" style="background:#aa00cc;border:2px solid #dd44ff;"></div> חומרים מסוכנים</div>
-      <div class="leg-item"><div class="leg-dot" style="background:#e85d00;border:2px solid #ff9900;border-radius:0;"></div> אתר שיגור</div>
+      <div class="leg-item"><div style="width:24px;height:2px;border-top:2px dashed #e85d00;"></div> מסלול איראן</div>
+      <div class="leg-item"><div style="width:24px;height:2px;border-top:2px dashed #ff9900;"></div> מסלול לבנון</div>
     </div>
   </div>
 
@@ -478,13 +486,14 @@ const impactData = [
   { ll:[31.97,34.79], type:'hit', label:'ראשון לציון גן ילדים — 22.3', desc:'טיל מתפצל פגע בגן ילדים.' },
   { ll:[33.06,35.34], type:'hit', label:'משגב עם — 22.3', desc:'נ"ט פגע ברכב — הנהג נרצח.' },
   { ll:[33.07,35.57], type:'hit', label:'צומת מחניים — 24.3', desc:'נוריאל דובין בת 27 נהרגה מרקטת חיזבאללה.' },
-  { ll:[32.08,34.83], type:'hit', label:'בני ברק — 24.3', desc:'טיל מתפצל — 12 פצועים, קריסת מבנה.' },
+  { ll:[32.08,34.83], type:'hit', label:'בני ברק — 24.3 & 1.4', desc:'24.3: טיל מתפצל — 12 פצועים.\n1.4 ליל הסדר: מצרר — 4 פצועים כולל 2 תינוקות, ילדה 11 קשה.' },
   { ll:[31.72,35.01], type:'hit', label:'אשתאול — 27–28.3', desc:'27.3: פגיעה ישירה — 13 פצועים, 100+ רכבים הרוסים.\n28.3: שבר יירוט הרס בית כנסת, 11 פצועים.' },
   { ll:[32.06,34.81], type:'frag', label:'גוש דן — 26.3', desc:'טיל מצרר — 6 פצועים קל, שריפה, נזק כבד למבנים.' },
   { ll:[31.13,35.02], type:'chem', label:'נאות חובב — 29.3 ☣', desc:'טיל איראני פגע במתקן כימי. פצוע אחד. חשש לדליפה מסוכנת.' },
-  { ll:[32.82,34.99], type:'hit', label:'בז"ן חיפה — 30.3', desc:'טיל פגע במפעל הנפט — שריפה גדולה, נכבשה. אין נפגעים.' },
+  { ll:[32.82,34.97], type:'hit', label:'בז"ן חיפה — 30.3', desc:'טיל פגע במפעל הנפט — שריפה גדולה, נכבשה. אין נפגעים.' },
   { ll:[32.09,34.88], type:'hit', label:'פתח תקווה — 31.3', desc:'טיל פגע בסדנה — שריפה, רכבים הרוסים. אין נפגעים.' },
-  { ll:[33.21,35.57], type:'hit', label:'קריית שמונה — 2.4', desc:'מטח 50+ רקטות חיזבאללה לצפון בחג הפסח. 2 פצועים קל.' },
+  { ll:[32.01,34.78], type:'hit', label:'רוש העין — 1.4', desc:'ליל הסדר: מטח 10 טילים — המטח הגדול ביותר מאז תחילת המלחמה. נזק לתשתית מים.' },
+  { ll:[33.21,35.57], type:'hit', label:'קריית שמונה — 2.4', desc:'מטח 50+ רקטות חיזבאללה לצפון. 2 פצועים קל.' },
 ];
 
 impactData.forEach(d => {
@@ -494,6 +503,7 @@ impactData.forEach(d => {
    .addTo(map);
 });
 
+// Launch site markers
 const launchIcon = L.divIcon({
   html:`<div style="width:12px;height:12px;background:#e85d00;clip-path:polygon(50% 0%,100% 38%,82% 100%,18% 100%,0% 38%);border:2px solid #ff9900;"></div>`,
   className:'', iconSize:[12,12], iconAnchor:[6,6]
@@ -501,6 +511,29 @@ const launchIcon = L.divIcon({
 [[34.3,47.1,'כרמאנשאה'],[35.7,51.4,'תהרן/כרג\''],[34.8,50.0,'קום']].forEach(s => {
   L.marker([s[0],s[1]], {icon:launchIcon}).bindPopup(`<b style="color:#e85d00">🎯 אתר שיגור</b><br>${s[2]}`).addTo(map);
 });
+
+// Trajectory arcs: Iran → Israel
+function drawArc(from, to, style, n=28) {
+  const pts = [];
+  for (let i=0; i<=n; i++) {
+    const t = i/n;
+    const lat = from[0] + (to[0]-from[0])*t;
+    const lng = from[1] + (to[1]-from[1])*t;
+    const bulge = Math.sin(Math.PI*t) * 3.8;
+    pts.push([lat + bulge*0.18, lng - bulge*0.65]);
+  }
+  L.polyline(pts, style).addTo(map);
+}
+const arcIran  = {color:'#e85d00', weight:1.4, opacity:0.5, dashArray:'6,5'};
+const arcLeban = {color:'#ff9900', weight:1.2, opacity:0.45, dashArray:'4,4'};
+
+const iranSrcs = [[34.3,47.1],[35.7,51.4],[34.8,50.0]];
+const ilTgts   = [[32.08,34.78],[31.70,35.00],[31.26,35.21],[31.26,35.00],[32.08,34.83],[31.13,35.02]];
+iranSrcs.forEach(s => ilTgts.forEach(t => drawArc(s, t, arcIran)));
+
+const lebSrc    = [33.5, 35.5];
+const northTgts = [[33.00,35.09],[33.07,35.57],[33.06,35.34],[33.21,35.57]];
+northTgts.forEach(t => L.polyline([lebSrc, t], arcLeban).addTo(map));
 
 const dailyData = [
   { day:'28.2\nיום 1',  note:'תל אביב: 2 הרוגות | רמת גן', ballistic:100, uav:210, cruise:12 },
@@ -533,9 +566,9 @@ const dailyData = [
   { day:'27.3\nיום 28', note:'★ אשתאול: פגיעה ישירה, 100+ רכבים הרוסים', ballistic:25, uav:15, cruise:3 },
   { day:'28.3\nיום 29', note:'אשתאול: בית כנסת נהרס | ירי לדרום ולמרכז', ballistic:20, uav:12, cruise:3 },
   { day:'29.3\nיום 30', note:'☣ נאות חובב: פגיעה במתקן כימי | באר שבע', ballistic:15, uav:10, cruise:2 },
-  { day:'30.3\nיום 31', note:'בז"ן חיפה: שריפה ממטח', ballistic:12, uav:8, cruise:2 },
+  { day:'30.3\nיום 31', note:'בז"ן חיפה: שריפה ממטח | ירי לצפון', ballistic:12, uav:8, cruise:2 },
   { day:'31.3\nיום 32', note:'פ"ת: שריפה בסדנה | ירי לכיוון מרכז', ballistic:10, uav:8, cruise:2 },
-  { day:'1.4\nיום 33',  note:'אזעקות בת"א | ירי לצפון', ballistic:10, uav:6, cruise:1 },
+  { day:'1.4\nיום 33',  note:'★ ליל סדר: 6 גלים, 10+ טילים | בני ברק מצרר', ballistic:45, uav:10, cruise:3 },
   { day:'2.4\nיום 34',  note:'50+ רקטות חיזבאללה לצפון | קריית שמונה', ballistic:5, uav:12, cruise:1 },
 ];
 
