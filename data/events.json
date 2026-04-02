@@ -1,9 +1,93 @@
 {
-  "updated": "2026-04-02T16:33:51.740274+00:00",
-  "total": 267,
-  "new_this_run": 0,
+  "updated": "2026-04-02T17:26:11.058228+00:00",
+  "total": 273,
+  "new_this_run": 6,
   "articles_processed": 3,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "מזכרת בתיה",
+      "lat": 32.2,
+      "lng": 34.92,
+      "type": "frag",
+      "desc": "פצוע קל בעקבות ירי מלבנון",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/sjtq11ghozl",
+      "source_name": "ynet",
+      "id": "32a3f060acc9",
+      "pub": "Thu, 02 Apr 2026 20:16:43 +0300"
+    },
+    {
+      "date": "DD.M",
+      "location": "בענה ליד כרמיאל",
+      "lat": 32.91,
+      "lng": 35.29,
+      "type": "frag",
+      "desc": "שני גברים נפצעו באורח קל בעקבول ירי מלבנון",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/sjtq11ghozl",
+      "source_name": "ynet",
+      "id": "7ab3cf60006b",
+      "pub": "Thu, 02 Apr 2026 20:16:43 +0300"
+    },
+    {
+      "date": "DD.M",
+      "location": "פתח תקווה",
+      "lat": 32.09,
+      "lng": 34.89,
+      "type": "frag",
+      "desc": "נזק בפתח תקווה בעקבות ירי",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjtq11ghozl",
+      "source_name": "ynet",
+      "id": "1f2637426f18",
+      "pub": "Thu, 02 Apr 2026 20:16:43 +0300"
+    },
+    {
+      "date": "?.12",
+      "location": "נהריה",
+      "lat": 32.8347,
+      "lng": 35.0686,
+      "type": "hit",
+      "desc": "פגיעה בגן בנהריה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/byk8dznjzg",
+      "source_name": "ynet",
+      "id": "83ff4ce8bfe6",
+      "pub": "Thu, 02 Apr 2026 19:38:34 +0300"
+    },
+    {
+      "date": "?.12",
+      "location": "כפר בענה",
+      "lat": 32.9282,
+      "lng": 35.2469,
+      "type": "hit",
+      "desc": "פגיעה בכפר בענה ליד כרמיאל, שני פצועים",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/byk8dznjzg",
+      "source_name": "ynet",
+      "id": "f92b0bb35357",
+      "pub": "Thu, 02 Apr 2026 19:38:34 +0300"
+    },
+    {
+      "date": "?.12",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "כ-140 שיגורים מלבנון",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/byk8dznjzg",
+      "source_name": "ynet",
+      "id": "31bdbabcb514",
+      "pub": "Thu, 02 Apr 2026 19:38:34 +0300"
+    },
     {
       "date": "15.4",
       "location": "קריית שמונה",
@@ -3596,10 +3680,10 @@
     }
   ],
   "stats": {
-    "hit": 105,
-    "frag": 69,
+    "hit": 107,
+    "frag": 72,
     "intercept": 5,
-    "ballistic": 40,
+    "ballistic": 41,
     "uav": 4
   }
 }
