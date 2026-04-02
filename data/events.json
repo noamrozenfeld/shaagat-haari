@@ -1,9 +1,37 @@
 {
-  "updated": "2026-04-02T09:39:59.994701+00:00",
-  "total": 263,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-04-02T10:33:14.902801+00:00",
+  "total": 265,
+  "new_this_run": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "כתאריך הפרסום",
+      "location": "קריית שמונה",
+      "lat": 32.88,
+      "lng": 35.13,
+      "type": "hit",
+      "desc": "פגיעה ישירה במבנה בקריית שמונה מירי רקטות של חיזבאללה",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/ryckansjbl",
+      "source_name": "ynet",
+      "id": "60a74315500f",
+      "pub": "Thu, 02 Apr 2026 13:00:00 +0300"
+    },
+    {
+      "date": "כתאריך הפרסום",
+      "location": "גן הצפון, ליד קיבוץ מעיין ברוך",
+      "lat": 32.95,
+      "lng": 35.18,
+      "type": "hit",
+      "desc": "פגיעה בסניף מקדונלדס בגן הצפון מירי רקטות של חיזבאללה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/ryckansjbl",
+      "source_name": "ynet",
+      "id": "bcd4d3d6ceee",
+      "pub": "Thu, 02 Apr 2026 13:00:00 +0300"
+    },
     {
       "date": "14.4",
       "location": "חדרה",
@@ -3540,7 +3568,7 @@
     }
   ],
   "stats": {
-    "hit": 103,
+    "hit": 105,
     "frag": 69,
     "intercept": 5,
     "ballistic": 38,
