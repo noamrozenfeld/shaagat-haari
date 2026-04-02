@@ -35,8 +35,6 @@
   @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0.1;} }
   .header-status { display:flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.72rem; color:var(--text-dim); }
   .outer { max-width:1700px; margin:0 auto; padding:16px 24px; display:flex; flex-direction:column; gap:0; }
-
-  /* STAT CARDS */
   .stats-row { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-bottom:14px; }
   .stat-card { background:var(--panel); border:1px solid var(--border); border-radius:6px; padding:14px 16px; position:relative; overflow:hidden; }
   .stat-card::after { content:''; position:absolute; bottom:0; left:0; right:0; height:2px; }
@@ -49,11 +47,7 @@
   .stat-card.yellow .value{color:var(--accent2);} .stat-card.green .value{color:var(--safe);}
   .stat-card.blue .value{color:#3a9fd8;}
   .stat-card .sub { font-size:0.68rem; color:var(--text-dim); }
-
-  /* CONTENT ROW */
   .content-row { display:grid; grid-template-columns:1fr 340px; gap:14px; margin-bottom:14px; align-items:start; }
-
-  /* IMPACT TABLE */
   .impact-table-wrap { background:var(--panel); border:1px solid var(--border); border-radius:6px; overflow:hidden; }
   .panel-title { font-size:0.68rem; font-family:var(--mono); color:var(--accent); letter-spacing:3px; text-transform:uppercase;
     padding:12px 16px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:8px; }
@@ -83,8 +77,6 @@
   .src-link:hover { text-decoration:underline; }
   .new-badge { color:var(--accent); font-size:0.6rem; font-family:var(--mono); }
   .severe-badge { color:#ff4444; font-size:0.6rem; font-family:var(--mono); }
-
-  /* RIGHT SIDE PANEL */
   .side-col { display:flex; flex-direction:column; gap:12px; }
   .panel { background:var(--panel); border:1px solid var(--border); border-radius:6px; padding:14px 16px; position:relative; overflow:hidden; }
   .panel::before { content:''; position:absolute; top:0; right:0; width:36px; height:3px; background:var(--accent); }
@@ -95,8 +87,6 @@
   .source-info h4{font-size:0.78rem;font-weight:700;}
   .source-info p{font-size:0.68rem;color:var(--text-dim);margin-top:1px;}
   .source-count{margin-right:auto;font-family:var(--mono);font-size:0.82rem;font-weight:700;color:var(--accent);white-space:nowrap;}
-
-  /* MAP full width */
   .map-panel { background:var(--panel); border:1px solid var(--border); border-radius:6px; overflow:hidden; margin-bottom:14px; }
   #map { width:100%; height:350px; background:#061018; }
   .leaflet-tile-pane { filter:brightness(0.5) saturate(0.6) hue-rotate(180deg); }
@@ -105,7 +95,6 @@
   .map-legend { padding:8px 16px; border-top:1px solid var(--border); display:flex; gap:18px; flex-wrap:wrap; align-items:center; }
   .leg-item { display:flex; align-items:center; gap:6px; font-size:0.7rem; font-family:var(--mono); color:var(--text-dim); }
   .leg-dot { width:10px; height:10px; border-radius:50%; }
-
   footer { text-align:center; padding:14px; border-top:1px solid var(--border); font-size:0.65rem; font-family:var(--mono); color:var(--text-dim); letter-spacing:1px; }
 </style>
 </head>
@@ -126,8 +115,6 @@
 </header>
 
 <div class="outer">
-
-  <!-- STAT CARDS -->
   <div class="stats-row">
     <div class="stat-card orange">
       <div class="label">גלי תקיפה לישראל</div>
@@ -156,10 +143,7 @@
     </div>
   </div>
 
-  <!-- CONTENT ROW: impact table + side panel -->
   <div class="content-row">
-
-    <!-- IMPACT TABLE -->
     <div class="impact-table-wrap">
       <div class="panel-title">💥 נפילות ושברים מתועדים</div>
       <div style="overflow-x:auto;">
@@ -174,8 +158,29 @@
             </tr>
           </thead>
           <tbody>
+            <tr class="row-new">
+              <td class="td-date">2.4 <span class="new-badge">★ חדש</span><br><span style="color:var(--text-dim);font-size:0.62rem;">יום 34</span></td>
+              <td class="td-loc">קריית שמונה</td>
+              <td class="td-desc">מטח של 50+ רקטות חיזבאללה לצפון בחג הפסח. רקטה פגעה בקריית שמונה — 2 פצועים קל. נזק לבית בשפרעם.</td>
+              <td class="td-tag"><span class="impact-tag tag-hit">2 פצועים</span></td>
+              <td class="center"><a href="https://www.timesofisrael.com/liveblog-april-02-2026/" target="_blank" class="src-link">↗ ToI</a></td>
+            </tr>
+            <tr>
+              <td class="td-date">31.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 32</span></td>
+              <td class="td-loc">פתח תקווה</td>
+              <td class="td-desc">טיל איראני פגע בסדנה — שריפה, רכבים עלו באש. אין נפגעים.</td>
+              <td class="td-tag"><span class="impact-tag tag-hit">שריפה</span></td>
+              <td class="center"><a href="https://www.timesofisrael.com/liveblog-march-31-2026/" target="_blank" class="src-link">↗ ToI</a></td>
+            </tr>
+            <tr>
+              <td class="td-date">30.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 31</span></td>
+              <td class="td-loc">חיפה — בז"ן</td>
+              <td class="td-desc">טיל פגע במפעל הנפט בז"ן — שריפה גדולה, עמודי עשן שחורים. אין נפגעים. השריפה נכבשה.</td>
+              <td class="td-tag"><span class="impact-tag tag-hit">שריפה</span></td>
+              <td class="center"><a href="https://www.aljazeera.com/amp/news/2026/3/30/fire-contained-after-missile-attack-on-oil-refinery-in-israels-haifa" target="_blank" class="src-link">↗ AJ</a></td>
+            </tr>
             <tr class="row-chem">
-              <td class="td-date">29.3 <span class="new-badge">★ חדש</span><br><span style="color:var(--text-dim);font-size:0.62rem;">יום 30</span></td>
+              <td class="td-date">29.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 30</span></td>
               <td class="td-loc">נאות חובב</td>
               <td class="td-desc">טיל איראני פגע במתקן כימי. פצוע אחד. חשש לדליפה מסוכנת — כבאים פעלו לשליטה בשריפה.</td>
               <td class="td-tag"><span class="impact-tag tag-chem">☣ דליפה כימית</span></td>
@@ -312,7 +317,6 @@
       </div>
     </div>
 
-    <!-- RIGHT SIDE PANEL -->
     <div class="side-col">
       <div class="panel">
         <div class="panel-title">📡 אתרי שיגור</div>
@@ -364,7 +368,6 @@
     </div>
   </div>
 
-  <!-- MAP full width horizontal -->
   <div class="map-panel">
     <div class="panel-title">🗺 מפת נפילות ומסלולים — Leaflet / OSM</div>
     <div id="map"></div>
@@ -377,7 +380,6 @@
     </div>
   </div>
 
-  <!-- MOH TABLE -->
   <div class="panel" style="margin-bottom:14px;border-color:rgba(0,170,85,0.4);">
     <div class="panel-title" style="color:#00aa55;">
       🏥 משרד הבריאות — פינויים לבתי חולים
@@ -410,7 +412,6 @@
     <div style="font-size:0.65rem;font-family:var(--mono);color:var(--text-dim);margin-top:8px;">* חלק מהקשה אינם ישירות מטיל · מקור: ironswords.health.gov.il</div>
   </div>
 
-  <!-- DAILY CHART -->
   <div class="panel" style="margin-bottom:14px;">
     <div class="panel-title">
       📊 מתקפות איראן לפי יום — מאז תחילת המבצע (28.2.2026)
@@ -425,7 +426,6 @@
     </div>
   </div>
 
-  <!-- EXTERNAL LINKS -->
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;">
     <div class="panel">
       <div class="panel-title">🔗 מקורות חיצוניים</div>
@@ -443,7 +443,7 @@
 </div>
 
 <footer>
-  מקורות גלויים: ויקיפדיה · ynet · כאן חדשות · INSS | מבצע שאגת הארי — 28.2.2026 | Epic Fury (USA) | עדכון יום 30 — 29.3.2026
+  מקורות גלויים: ויקיפדיה · ynet · כאן חדשות · INSS · Times of Israel | מבצע שאגת הארי — 28.2.2026 | Epic Fury (USA) | עדכון יום 34 — 2.4.2026
   <br>מפה: © OpenStreetMap contributors | Leaflet | נתונים: מודיעין פתוח בלבד
 </footer>
 
@@ -482,6 +482,9 @@ const impactData = [
   { ll:[31.72,35.01], type:'hit', label:'אשתאול — 27–28.3', desc:'27.3: פגיעה ישירה — 13 פצועים, 100+ רכבים הרוסים.\n28.3: שבר יירוט הרס בית כנסת, 11 פצועים.' },
   { ll:[32.06,34.81], type:'frag', label:'גוש דן — 26.3', desc:'טיל מצרר — 6 פצועים קל, שריפה, נזק כבד למבנים.' },
   { ll:[31.13,35.02], type:'chem', label:'נאות חובב — 29.3 ☣', desc:'טיל איראני פגע במתקן כימי. פצוע אחד. חשש לדליפה מסוכנת.' },
+  { ll:[32.82,34.99], type:'hit', label:'בז"ן חיפה — 30.3', desc:'טיל פגע במפעל הנפט — שריפה גדולה, נכבשה. אין נפגעים.' },
+  { ll:[32.09,34.88], type:'hit', label:'פתח תקווה — 31.3', desc:'טיל פגע בסדנה — שריפה, רכבים הרוסים. אין נפגעים.' },
+  { ll:[33.21,35.57], type:'hit', label:'קריית שמונה — 2.4', desc:'מטח 50+ רקטות חיזבאללה לצפון בחג הפסח. 2 פצועים קל.' },
 ];
 
 impactData.forEach(d => {
@@ -530,6 +533,10 @@ const dailyData = [
   { day:'27.3\nיום 28', note:'★ אשתאול: פגיעה ישירה, 100+ רכבים הרוסים', ballistic:25, uav:15, cruise:3 },
   { day:'28.3\nיום 29', note:'אשתאול: בית כנסת נהרס | ירי לדרום ולמרכז', ballistic:20, uav:12, cruise:3 },
   { day:'29.3\nיום 30', note:'☣ נאות חובב: פגיעה במתקן כימי | באר שבע', ballistic:15, uav:10, cruise:2 },
+  { day:'30.3\nיום 31', note:'בז"ן חיפה: שריפה ממטח', ballistic:12, uav:8, cruise:2 },
+  { day:'31.3\nיום 32', note:'פ"ת: שריפה בסדנה | ירי לכיוון מרכז', ballistic:10, uav:8, cruise:2 },
+  { day:'1.4\nיום 33',  note:'אזעקות בת"א | ירי לצפון', ballistic:10, uav:6, cruise:1 },
+  { day:'2.4\nיום 34',  note:'50+ רקטות חיזבאללה לצפון | קריית שמונה', ballistic:5, uav:12, cruise:1 },
 ];
 
 const ctx2 = document.getElementById('dailyChart').getContext('2d');
