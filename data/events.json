@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-03T19:10:27.955914+00:00",
-  "total": 282,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-04-03T19:51:09.075593+00:00",
+  "total": 283,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "8.4",
+      "location": "פתח תקווה",
+      "lat": 32.0887,
+      "lng": 34.8767,
+      "type": "frag",
+      "desc": "נפילת שברים מטיל איראני על מפעל אירוסול פתרונות תעופתיים בפתח תקווה, נזק משמעותי לתקרה והחלל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1ogrk6iwl",
+      "source_name": "ynet",
+      "id": "8417396f52f4",
+      "pub": "Fri, 03 Apr 2026 22:13:27 +0300"
+    },
     {
       "date": "14.4",
       "location": "פתח תקווה",
@@ -3807,7 +3821,7 @@
   ],
   "stats": {
     "hit": 109,
-    "frag": 77,
+    "frag": 78,
     "intercept": 5,
     "ballistic": 43,
     "uav": 4
