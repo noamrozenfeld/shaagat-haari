@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-03T23:21:41.496671+00:00",
-  "total": 283,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-03T23:51:56.445176+00:00",
+  "total": 284,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "4.4",
+      "location": "אזור תעשייתי ליד באר שבע",
+      "lat": 31.25,
+      "lng": 34.79,
+      "type": "hit",
+      "desc": "טיל איראני גרם להצתת שריפה באזור תעשייתי ליד באר שבע",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-april-4-2026/",
+      "source_name": "Times of Israel",
+      "id": "38f19fbba562",
+      "pub": "Fri, 03 Apr 2026 23:38:38 +0000"
+    },
     {
       "date": "8.4",
       "location": "פתח תקווה",
@@ -3820,7 +3834,7 @@
     }
   ],
   "stats": {
-    "hit": 109,
+    "hit": 110,
     "frag": 78,
     "intercept": 5,
     "ballistic": 43,
