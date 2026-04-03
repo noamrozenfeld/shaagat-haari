@@ -1,9 +1,51 @@
 {
-  "updated": "2026-04-03T14:02:51.322445+00:00",
-  "total": 279,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-03T14:08:52.853246+00:00",
+  "total": 282,
+  "new_this_run": 3,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "פתח תקווה",
+      "lat": 32.1,
+      "lng": 34.87,
+      "type": "hit",
+      "desc": "פגיעה בראש קרב של טיל איראני במפעל רחפנים ביטחוניים (אירוסול פתרונות תעופתיים) באזור התעשייה בפתח תקווה, נזק משמעותי",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bkovqbaobg",
+      "source_name": "ynet",
+      "id": "dc11fa2a6407",
+      "pub": "Fri, 03 Apr 2026 17:05:40 +0300"
+    },
+    {
+      "date": "DD.M",
+      "location": "מרכז ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "שיגור טילי כלuster munitions מאיראן לישראל, פגיעה באזור מרכזי",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/iran-fires-multiple-cluster-munitions-at-israel-wounding-1-tehran-claims-to-down-us-jet/",
+      "source_name": "Times of Israel",
+      "id": "23d9106e177c",
+      "pub": "Fri, 03 Apr 2026 13:55:48 +0000"
+    },
+    {
+      "date": "DD.M",
+      "location": "חיפה",
+      "lat": 32.82,
+      "lng": 34.96,
+      "type": "ballistic",
+      "desc": "שיגור טילים מאיראן לאזור חיפה, גרימת נזקים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iran-fires-multiple-cluster-munitions-at-israel-wounding-1-tehran-claims-to-down-us-jet/",
+      "source_name": "Times of Israel",
+      "id": "15e29bc5a5ff",
+      "pub": "Fri, 03 Apr 2026 13:55:48 +0000"
+    },
     {
       "date": "DD.M",
       "location": "קריית אתא",
@@ -3764,10 +3806,10 @@
     }
   ],
   "stats": {
-    "hit": 108,
+    "hit": 109,
     "frag": 77,
     "intercept": 5,
-    "ballistic": 41,
+    "ballistic": 43,
     "uav": 4
   }
 }
