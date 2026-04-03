@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-03T10:07:45.911513+00:00",
-  "total": 278,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-04-03T10:59:00.905861+00:00",
+  "total": 279,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "קריית אתא",
+      "lat": 32.83,
+      "lng": 35.12,
+      "type": "hit",
+      "desc": "פגיעת טיל מתפצל בקריית אתא, שלוש זירות נפילה, דירה הפכה לחורבות, כלי רכב עלו באש, נזק כבד לחניה ולבתים",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/bj8v7bpi11g",
+      "source_name": "ynet",
+      "id": "73655ad362aa",
+      "pub": "Fri, 03 Apr 2026 13:25:06 +0300"
+    },
     {
       "date": "DD.M",
       "location": "רמת גן",
@@ -3750,7 +3764,7 @@
     }
   ],
   "stats": {
-    "hit": 107,
+    "hit": 108,
     "frag": 77,
     "intercept": 5,
     "ballistic": 41,
