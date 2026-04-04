@@ -1,9 +1,51 @@
 {
-  "updated": "2026-04-04T09:50:09.698385+00:00",
-  "total": 291,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-04T10:19:03.934704+00:00",
+  "total": 294,
+  "new_this_run": 3,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "רמת גן",
+      "lat": 32.087,
+      "lng": 34.816,
+      "type": "frag",
+      "desc": "טיל מתפצל שוגר מאיראן - נזק בזירה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hkqcau0jbx",
+      "source_name": "ynet",
+      "id": "09f42f3363be",
+      "pub": "Sat, 04 Apr 2026 12:50:55 +0300"
+    },
+    {
+      "date": "DD.M",
+      "location": "בני ברק",
+      "lat": 32.087,
+      "lng": 34.857,
+      "type": "frag",
+      "desc": "טיל מתפצל שוגר מאיראן - נזק בזירה, 2 פצועים קל",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/hkqcau0jbx",
+      "source_name": "ynet",
+      "id": "19d240df9461",
+      "pub": "Sat, 04 Apr 2026 12:50:55 +0300"
+    },
+    {
+      "date": "DD.M",
+      "location": "פתח תקווה",
+      "lat": 32.086,
+      "lng": 34.887,
+      "type": "frag",
+      "desc": "טיל מתפצל שוגר מאיראן - נזק בזירה, פצוע קל",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/hkqcau0jbx",
+      "source_name": "ynet",
+      "id": "febbbd0d4db1",
+      "pub": "Sat, 04 Apr 2026 12:50:55 +0300"
+    },
     {
       "date": "DD.M",
       "location": "נאות חובב",
@@ -3933,7 +3975,7 @@
   ],
   "stats": {
     "hit": 114,
-    "frag": 81,
+    "frag": 84,
     "intercept": 5,
     "ballistic": 43,
     "uav": 4
