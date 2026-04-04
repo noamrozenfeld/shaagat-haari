@@ -1,9 +1,65 @@
 {
-  "updated": "2026-04-04T16:03:38.331059+00:00",
-  "total": 296,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-04T16:48:08.569928+00:00",
+  "total": 300,
+  "new_this_run": 4,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "1.4",
+      "location": "הקריה, תל אביב",
+      "lat": 32.09,
+      "lng": 34.77,
+      "type": "hit",
+      "desc": "פגיעה בקריה, טייס F-15 הופל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjcqpncjbx",
+      "source_name": "ynet",
+      "id": "53c23d917b48",
+      "pub": "Sat, 04 Apr 2026 19:29:09 +0300"
+    },
+    {
+      "date": "1.4",
+      "location": "גוש דן",
+      "lat": 32.08,
+      "lng": 34.78,
+      "type": "ballistic",
+      "desc": "שני טילים איראניים מתפצלים, נזק כבד בערי גוש דן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjcqpncjbx",
+      "source_name": "ynet",
+      "id": "303ebca80960",
+      "pub": "Sat, 04 Apr 2026 19:29:09 +0300"
+    },
+    {
+      "date": "1.4",
+      "location": "נאות חובב",
+      "lat": 32.05,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "פגיעה באזור התעשייה נאות חובב",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjcqpncjbx",
+      "source_name": "ynet",
+      "id": "abc27f7c936e",
+      "pub": "Sat, 04 Apr 2026 19:29:09 +0300"
+    },
+    {
+      "date": "1.4",
+      "location": "צפון ישראל",
+      "lat": 32.95,
+      "lng": 35.2,
+      "type": "ballistic",
+      "desc": "ירי מאיראן ומלבנון לצפון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjcqpncjbx",
+      "source_name": "ynet",
+      "id": "4ecfc547e57f",
+      "pub": "Sat, 04 Apr 2026 19:29:09 +0300"
+    },
     {
       "date": "1.4",
       "location": "רמת גן",
@@ -4002,10 +4058,10 @@
     }
   ],
   "stats": {
-    "hit": 114,
+    "hit": 116,
     "frag": 85,
     "intercept": 5,
-    "ballistic": 44,
+    "ballistic": 46,
     "uav": 4
   }
 }
