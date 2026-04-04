@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-04T15:17:54.630208+00:00",
-  "total": 295,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-04T15:47:59.124895+00:00",
+  "total": 296,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "1.4",
+      "location": "רמת גן",
+      "lat": 32.09,
+      "lng": 34.82,
+      "type": "frag",
+      "desc": "שתי פצצות של טיל מתפצל איראני פגעו ליד הקריה ברמת גן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/r16xdsrizx",
+      "source_name": "ynet",
+      "id": "8ee9bf8cdcc7",
+      "pub": "Sat, 04 Apr 2026 18:25:52 +0300"
+    },
     {
       "date": "01.04",
       "location": "מרכז ישראל",
@@ -3989,7 +4003,7 @@
   ],
   "stats": {
     "hit": 114,
-    "frag": 84,
+    "frag": 85,
     "intercept": 5,
     "ballistic": 44,
     "uav": 4
