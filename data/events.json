@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-04T11:59:26.206114+00:00",
-  "total": 294,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-04T12:53:30.295229+00:00",
+  "total": 295,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "01.04",
+      "location": "מרכז ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "ירן שיגרה פצצות אשכול לישראל, פגיעה בבתים",
+      "killed": 0,
+      "wounded": 6,
+      "source_url": "https://www.timesofisrael.com/5-wounded-as-iran-cluster-bombs-damage-homes-in-central-israel-idf-hits-iran-infrastructure/",
+      "source_name": "Times of Israel",
+      "id": "e1c6dddcbb7d",
+      "pub": "Sat, 04 Apr 2026 11:59:44 +0000"
+    },
     {
       "date": "DD.M",
       "location": "רמת גן",
@@ -3977,7 +3991,7 @@
     "hit": 114,
     "frag": 84,
     "intercept": 5,
-    "ballistic": 43,
+    "ballistic": 44,
     "uav": 4
   }
 }
