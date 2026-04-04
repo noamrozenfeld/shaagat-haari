@@ -159,7 +159,21 @@
           </thead>
           <tbody>
             <tr class="row-new">
-              <td class="td-date">2.4 <span class="new-badge">★ חדש</span><br><span style="color:var(--text-dim);font-size:0.62rem;">יום 34</span></td>
+              <td class="td-date">4.4 <span class="new-badge">★ חדש</span><br><span style="color:var(--text-dim);font-size:0.62rem;">יום 36</span></td>
+              <td class="td-loc">רמת גן / גבעתיים / בני ברק</td>
+              <td class="td-desc">טיל מצרר על מרכז הארץ — 15 אתרי פגיעה. רכבים עלו באש ברמת גן. פצוע קל בן 52. רסיסים ליד הקריה בת"א.</td>
+              <td class="td-tag"><span class="impact-tag tag-hit">15 אתרים</span></td>
+              <td class="center"><a href="https://www.haaretz.com/israel-news/israel-security/2026-04-04/ty-article/.premium/cars-buildings-catch-fire-across-15-reported-impact-sites-negev-factory-struck/0000019d-55d4-db37-a3bd-5fdeebf90000" target="_blank" class="src-link">↗ הארץ</a></td>
+            </tr>
+            <tr>
+              <td class="td-date">3.4<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 35</span></td>
+              <td class="td-loc">פתח תקווה / קריית אתא</td>
+              <td class="td-desc">טיל פגע ליד בית ספר בפ"ת — בור ענק, 3 פצועים קל. גן ילדים בנהריה נפגע מחיזבאללה. מצרר בקריית אתא — פצוע קל בן 79. 2 פצועים בינוני מחיזבאללה בצפון.</td>
+              <td class="td-tag"><span class="impact-tag tag-hit">6 פצועים</span></td>
+              <td class="center"><a href="https://www.jpost.com/israel-news/defense-news/article-891936" target="_blank" class="src-link">↗ J.Post</a></td>
+            </tr>
+            <tr class="row-new">
+              <td class="td-date">2.4<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 34</span></td>
               <td class="td-loc">קריית שמונה</td>
               <td class="td-desc">מטח של 50+ רקטות חיזבאללה לצפון בחג הפסח. רקטה פגעה בקריית שמונה — 2 פצועים קל. נזק לבית בשפרעם.</td>
               <td class="td-tag"><span class="impact-tag tag-hit">2 פצועים</span></td>
@@ -193,7 +207,7 @@
               <td class="td-tag"><span class="impact-tag tag-chem">☣ דליפה כימית</span></td>
               <td class="center">—</td>
             </tr>
-            <tr class="row-new">
+            <tr>
               <td class="td-date">28.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 29</span></td>
               <td class="td-loc">אשתאול</td>
               <td class="td-desc">שבר יירוט פגע בבית כנסת — נהרס לחלוטין. 11 פצועים קל. מטה יהודה.</td>
@@ -451,7 +465,7 @@
 </div>
 
 <footer>
-  מקורות גלויים: ויקיפדיה · ynet · כאן חדשות · INSS · Times of Israel | מבצע שאגת הארי — 28.2.2026 | Epic Fury (USA) | עדכון יום 34 — 2.4.2026
+  מקורות גלויים: ויקיפדיה · ynet · כאן חדשות · INSS · Times of Israel · הארץ | מבצע שאגת הארי — 28.2.2026 | Epic Fury (USA) | עדכון יום 36 — 4.4.2026
   <br>מפה: © OpenStreetMap contributors | Leaflet | נתונים: מודיעין פתוח בלבד
 </footer>
 
@@ -491,9 +505,11 @@ const impactData = [
   { ll:[32.06,34.81], type:'frag', label:'גוש דן — 26.3', desc:'טיל מצרר — 6 פצועים קל, שריפה, נזק כבד למבנים.' },
   { ll:[31.13,35.02], type:'chem', label:'נאות חובב — 29.3 ☣', desc:'טיל איראני פגע במתקן כימי. פצוע אחד. חשש לדליפה מסוכנת.' },
   { ll:[32.82,34.97], type:'hit', label:'בז"ן חיפה — 30.3', desc:'טיל פגע במפעל הנפט — שריפה גדולה, נכבשה. אין נפגעים.' },
-  { ll:[32.09,34.88], type:'hit', label:'פתח תקווה — 31.3', desc:'טיל פגע בסדנה — שריפה, רכבים הרוסים. אין נפגעים.' },
-  { ll:[32.01,34.78], type:'hit', label:'רוש העין — 1.4', desc:'ליל הסדר: מטח 10 טילים — המטח הגדול ביותר מאז תחילת המלחמה. נזק לתשתית מים.' },
+  { ll:[32.09,34.88], type:'hit', label:'פתח תקווה — 31.3 & 3.4', desc:'31.3: טיל בסדנה, שריפה.\n3.4: טיל ליד בית ספר — בור ענק, 3 פצועים קל.' },
+  { ll:[32.01,34.78], type:'hit', label:'רוש העין — 1.4', desc:'ליל הסדר: מטח 10 טילים — המטח הגדול מאז תחילת המלחמה.' },
   { ll:[33.21,35.57], type:'hit', label:'קריית שמונה — 2.4', desc:'מטח 50+ רקטות חיזבאללה לצפון. 2 פצועים קל.' },
+  { ll:[32.80,35.10], type:'hit', label:'קריית אתא — 3.4', desc:'מצרר מטיל איראני פגע בבית — פצוע קל בן 79.' },
+  { ll:[32.07,34.82], type:'frag', label:'רמת גן — 4.4', desc:'טיל מצרר: 15 אתרי פגיעה — רמת גן, גבעתיים, בני ברק. פצוע קל בן 52. רסיסים ליד הקריה.' },
 ];
 
 impactData.forEach(d => {
@@ -503,7 +519,6 @@ impactData.forEach(d => {
    .addTo(map);
 });
 
-// Launch site markers
 const launchIcon = L.divIcon({
   html:`<div style="width:12px;height:12px;background:#e85d00;clip-path:polygon(50% 0%,100% 38%,82% 100%,18% 100%,0% 38%);border:2px solid #ff9900;"></div>`,
   className:'', iconSize:[12,12], iconAnchor:[6,6]
@@ -512,7 +527,6 @@ const launchIcon = L.divIcon({
   L.marker([s[0],s[1]], {icon:launchIcon}).bindPopup(`<b style="color:#e85d00">🎯 אתר שיגור</b><br>${s[2]}`).addTo(map);
 });
 
-// Trajectory arcs: Iran → Israel
 function drawArc(from, to, style, n=28) {
   const pts = [];
   for (let i=0; i<=n; i++) {
@@ -570,6 +584,8 @@ const dailyData = [
   { day:'31.3\nיום 32', note:'פ"ת: שריפה בסדנה | ירי לכיוון מרכז', ballistic:10, uav:8, cruise:2 },
   { day:'1.4\nיום 33',  note:'★ ליל סדר: 6 גלים, 10+ טילים | בני ברק מצרר', ballistic:45, uav:10, cruise:3 },
   { day:'2.4\nיום 34',  note:'50+ רקטות חיזבאללה לצפון | קריית שמונה', ballistic:5, uav:12, cruise:1 },
+  { day:'3.4\nיום 35',  note:'פ"ת: טיל ליד בית ספר | ק.אתא מצרר | גן ילדים נהריה', ballistic:12, uav:8, cruise:2 },
+  { day:'4.4\nיום 36',  note:'מצרר: 15 אתרים — ר"ג, גבעתיים, ב.ברק | רסיסים ליד הקריה', ballistic:15, uav:6, cruise:1 },
 ];
 
 const ctx2 = document.getElementById('dailyChart').getContext('2d');
