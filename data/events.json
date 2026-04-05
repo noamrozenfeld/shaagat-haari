@@ -1,9 +1,37 @@
 {
-  "updated": "2026-04-05T19:24:54.601557+00:00",
-  "total": 310,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-05T19:52:35.724987+00:00",
+  "total": 312,
+  "new_this_run": 2,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "1.4",
+      "location": "חיפה",
+      "lat": 32.8192,
+      "lng": 34.7673,
+      "type": "hit",
+      "desc": "פגיעה בטיל איראני בבניין בחיפה, 4 פצועים ו-4 אנשים חסרים תחת ההריסות",
+      "killed": 0,
+      "wounded": 10,
+      "source_url": "https://www.timesofisrael.com/4-injured-4-feared-trapped-under-rubble-in-iranian-missile-strike-on-haifa-building/",
+      "source_name": "Times of Israel",
+      "id": "04aea941896c",
+      "pub": "Sun, 05 Apr 2026 19:40:22 +0000"
+    },
+    {
+      "date": "1.4",
+      "location": "דיר אל-אסד",
+      "lat": 32.7167,
+      "lng": 35.1667,
+      "type": "hit",
+      "desc": "פגיעת טיל חיזבאללה בדיר אל-אסד, 6 פצועים קלים",
+      "killed": 0,
+      "wounded": 6,
+      "source_url": "https://www.timesofisrael.com/4-injured-4-feared-trapped-under-rubble-in-iranian-missile-strike-on-haifa-building/",
+      "source_name": "Times of Israel",
+      "id": "aebaca3c57ec",
+      "pub": "Sun, 05 Apr 2026 19:40:22 +0000"
+    },
     {
       "date": "DD.M",
       "location": "קיבוץ שמרת",
@@ -4198,7 +4226,7 @@
     }
   ],
   "stats": {
-    "hit": 121,
+    "hit": 123,
     "frag": 85,
     "intercept": 5,
     "ballistic": 49,
