@@ -1,9 +1,37 @@
 {
-  "updated": "2026-04-05T13:57:00.601924+00:00",
-  "total": 303,
-  "new_this_run": 0,
+  "updated": "2026-04-05T14:29:15.552212+00:00",
+  "total": 305,
+  "new_this_run": 2,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "נאות חובב",
+      "lat": 31.15,
+      "lng": 34.75,
+      "type": "hit",
+      "desc": "פגיעה בטיל איראני באזור תעשייתי בנאות חובב, נזק לרכוש, אין נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iran-fires-missile-salvos-at-israel-strikes-critical-energy-infrastructure-across-gulf/",
+      "source_name": "Times of Israel",
+      "id": "b0405e177750",
+      "pub": "Sun, 05 Apr 2026 13:55:36 +0000"
+    },
+    {
+      "date": "14.4",
+      "location": "ישראל - מרכז",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "שיגור מילאות טילים מאיראן לעבר ישראל, פגיעות בתשתיות אנרגיה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/iran-fires-missile-salvos-at-israel-strikes-critical-energy-infrastructure-across-gulf/",
+      "source_name": "Times of Israel",
+      "id": "7df79c88df99",
+      "pub": "Sun, 05 Apr 2026 13:55:36 +0000"
+    },
     {
       "date": "הערה: תאריך לא ציין במאמר",
       "location": "אזור התעשייה נאות חובב, נגב",
@@ -4100,10 +4128,10 @@
     }
   ],
   "stats": {
-    "hit": 117,
+    "hit": 118,
     "frag": 85,
     "intercept": 5,
-    "ballistic": 48,
+    "ballistic": 49,
     "uav": 4
   }
 }
