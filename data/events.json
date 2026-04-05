@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-05T17:04:00.680981+00:00",
-  "total": 309,
-  "new_this_run": 3,
-  "articles_processed": 2,
+  "updated": "2026-04-05T17:40:38.086058+00:00",
+  "total": 310,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "קיבוץ שמרת",
+      "lat": 32.95,
+      "lng": 35.18,
+      "type": "hit",
+      "desc": "פגיעה ישירה של כטב\"ם בבית בקיבוץ שמרת בגליל המערבי. משפחה (מרינה ו-3 בנות) שהו בממ\"ד וחיו את הפגיעה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/s1bn00mg3wg",
+      "source_name": "ynet",
+      "id": "3308f42dc671",
+      "pub": "Sun, 05 Apr 2026 20:36:13 +0300"
+    },
     {
       "date": "1.4",
       "location": "חיפה",
@@ -4184,7 +4198,7 @@
     }
   ],
   "stats": {
-    "hit": 120,
+    "hit": 121,
     "frag": 85,
     "intercept": 5,
     "ballistic": 49,
