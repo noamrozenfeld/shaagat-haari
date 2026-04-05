@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-05T11:16:15.098045+00:00",
-  "total": 302,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-05T11:46:09.113393+00:00",
+  "total": 303,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "הערה: תאריך לא ציין במאמר",
+      "location": "אזור התעשייה נאות חובב, נגב",
+      "lat": 31.37,
+      "lng": 34.78,
+      "type": "hit",
+      "desc": "פגיעה שלישית תוך שבוע באזור התעשייה נאות חובב. טיל התפוצץ סמוך למפעל, נזק קל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/ry9e02y211g",
+      "source_name": "ynet",
+      "id": "b706df4882c8",
+      "pub": "Sun, 05 Apr 2026 14:26:52 +0300"
+    },
     {
       "date": "5.4",
       "location": "צפון ישראל",
@@ -4086,7 +4100,7 @@
     }
   ],
   "stats": {
-    "hit": 116,
+    "hit": 117,
     "frag": 85,
     "intercept": 5,
     "ballistic": 48,
