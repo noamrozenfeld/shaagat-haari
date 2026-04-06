@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-06T15:25:44.240729+00:00",
-  "total": 322,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-06T16:05:01.833235+00:00",
+  "total": 323,
+  "new_this_run": 1,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "1.4",
+      "location": "חיפה",
+      "lat": 32.8193,
+      "lng": 34.7694,
+      "type": "hit",
+      "desc": "פגיעת טיל ישיר בדיור בחיפה. נהרגו: לנה, ולדימיר, דימה גרשוביץ וכלתו לוסיל",
+      "killed": 4,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/s1ystm11nzx",
+      "source_name": "ynet",
+      "id": "e31a1816d367",
+      "pub": "Mon, 06 Apr 2026 18:39:30 +0300"
+    },
     {
       "date": "28.10",
       "location": "רמת גן",
@@ -4366,7 +4380,7 @@
     }
   ],
   "stats": {
-    "hit": 132,
+    "hit": 133,
     "frag": 85,
     "intercept": 5,
     "ballistic": 50,
