@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-06T20:51:17.829777+00:00",
-  "total": 323,
-  "new_this_run": 0,
+  "updated": "2026-04-06T21:24:06.003347+00:00",
+  "total": 324,
+  "new_this_run": 1,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "חסר",
+      "location": "חיפה",
+      "lat": 32.82,
+      "lng": 34.97,
+      "type": "hit",
+      "desc": "פגיעה בטיל בחיפה - 4 חברי משפחת גרשוביץ נהרגו: לנה אוסטרובסקי גרשוביץ, בעלה וולדימיר, בנם דימיטרי ואשתו לוסיל ג'יין",
+      "killed": 4,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/four-members-of-the-gershovitz-family-identified-as-victims-of-haifa-missile-attack/",
+      "source_name": "Times of Israel",
+      "id": "f2beeb6121b2",
+      "pub": "Mon, 06 Apr 2026 20:50:26 +0000"
+    },
     {
       "date": "1.4",
       "location": "חיפה",
@@ -4380,7 +4394,7 @@
     }
   ],
   "stats": {
-    "hit": 133,
+    "hit": 134,
     "frag": 85,
     "intercept": 5,
     "ballistic": 50,
