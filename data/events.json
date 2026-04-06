@@ -1,9 +1,51 @@
 {
-  "updated": "2026-04-06T12:07:43.262103+00:00",
-  "total": 319,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-04-06T13:42:10.185992+00:00",
+  "total": 322,
+  "new_this_run": 3,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "28.10",
+      "location": "רמת גן",
+      "lat": 32.0853,
+      "lng": 34.8267,
+      "type": "hit",
+      "desc": "פגיעה ישירה של טיל איראני בבניין, כוחות חילצו לכודים ממקלט",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/hjhdnf11nze",
+      "source_name": "ynet",
+      "id": "b02418aed07b",
+      "pub": "Mon, 06 Apr 2026 15:02:35 +0300"
+    },
+    {
+      "date": "28.10",
+      "location": "פתח תקווה",
+      "lat": 32.0883,
+      "lng": 34.8866,
+      "type": "hit",
+      "desc": "פגיעה של טיל איראני, נזקים למכוניות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hjhdnf11nze",
+      "source_name": "ynet",
+      "id": "6cc88b2352cb",
+      "pub": "Mon, 06 Apr 2026 15:02:35 +0300"
+    },
+    {
+      "date": "28.10",
+      "location": "מרכז הארץ",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "שיגור טילים איראניים שפגעו ב-5 ערים, הרוג נפצע בנתיבי איילון",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/hjhdnf11nze",
+      "source_name": "ynet",
+      "id": "4dc00b0cce4a",
+      "pub": "Mon, 06 Apr 2026 15:02:35 +0300"
+    },
     {
       "date": "01.10",
       "location": "חיפה",
@@ -4324,10 +4366,10 @@
     }
   ],
   "stats": {
-    "hit": 130,
+    "hit": 132,
     "frag": 85,
     "intercept": 5,
-    "ballistic": 49,
+    "ballistic": 50,
     "uav": 6
   }
 }
