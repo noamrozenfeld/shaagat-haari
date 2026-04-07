@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-07T23:01:34.844877+00:00",
-  "total": 328,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-07T23:41:28.573306+00:00",
+  "total": 329,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "8.4",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "איראן שיגרה טיל לעבר ישראל דקות לאחר הכרזת טראמפ על הפסקת ירי של 2 שבועות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-april-08-2026/",
+      "source_name": "Times of Israel",
+      "id": "7b39dc1241ce",
+      "pub": "Tue, 07 Apr 2026 22:45:53 +0000"
+    },
     {
       "date": "DD.M",
       "location": "נהריה",
@@ -4453,7 +4467,7 @@
     "hit": 136,
     "frag": 87,
     "intercept": 5,
-    "ballistic": 50,
+    "ballistic": 51,
     "uav": 6
   }
 }
