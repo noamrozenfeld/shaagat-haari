@@ -1,9 +1,37 @@
 {
-  "updated": "2026-04-07T12:38:33.992230+00:00",
-  "total": 326,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-07T14:10:47.646296+00:00",
+  "total": 328,
+  "new_this_run": 2,
+  "articles_processed": 7,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "נהריה",
+      "lat": 33.01,
+      "lng": 35.1,
+      "type": "hit",
+      "desc": "התקפת רקטה של חזבאללה על נהריה",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/us-israeli-strikes-hit-iranian-rail-and-kharg-island-israel-faces-ongoing-missile-attacks/",
+      "source_name": "Times of Israel",
+      "id": "80d4e03aa7f1",
+      "pub": "Tue, 07 Apr 2026 12:53:16 +0000"
+    },
+    {
+      "date": "DD.M",
+      "location": "מרכז הארץ",
+      "lat": 31.95,
+      "lng": 34.85,
+      "type": "frag",
+      "desc": "נזקים מתחמונים אשכול של איראן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/us-israeli-strikes-hit-iranian-rail-and-kharg-island-israel-faces-ongoing-missile-attacks/",
+      "source_name": "Times of Israel",
+      "id": "4546c46fd600",
+      "pub": "Tue, 07 Apr 2026 12:53:16 +0000"
+    },
     {
       "date": "14.4",
       "location": "בית משפחת גרשוביץ'",
@@ -4422,8 +4450,8 @@
     }
   ],
   "stats": {
-    "hit": 135,
-    "frag": 86,
+    "hit": 136,
+    "frag": 87,
     "intercept": 5,
     "ballistic": 50,
     "uav": 6
