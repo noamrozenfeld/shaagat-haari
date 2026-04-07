@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-07T07:51:20.865225+00:00",
-  "total": 324,
-  "new_this_run": 0,
+  "updated": "2026-04-07T08:46:43.763619+00:00",
+  "total": 325,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "01.01",
+      "location": "ראש העין",
+      "lat": 32.09,
+      "lng": 34.95,
+      "type": "frag",
+      "desc": "פגיעת טיל מתפצל בבית בראש העין, נזק לחומה ולרכב, כניסה לממ\"ד של משפחה בזמן האזעקות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/s1qnfnfnbl",
+      "source_name": "ynet",
+      "id": "c58c343d46c9",
+      "pub": "Tue, 07 Apr 2026 11:19:25 +0300"
+    },
     {
       "date": "חסר",
       "location": "חיפה",
@@ -4395,7 +4409,7 @@
   ],
   "stats": {
     "hit": 134,
-    "frag": 85,
+    "frag": 86,
     "intercept": 5,
     "ballistic": 50,
     "uav": 6
