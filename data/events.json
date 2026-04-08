@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-08T00:06:49.834056+00:00",
-  "total": 329,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-08T03:28:18.797077+00:00",
+  "total": 330,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "31.3",
+      "location": "תל שבע",
+      "lat": 31.25,
+      "lng": 34.78,
+      "type": "ballistic",
+      "desc": "שיגור טילים מאיראן לעבר ישראל, שלושה נערים נפצעו קל בתל שבע",
+      "killed": 0,
+      "wounded": 3,
+      "source_url": "https://www.ynet.co.il/news/article/sj5647m211x",
+      "source_name": "ynet",
+      "id": "31ebb1825aeb",
+      "pub": "Wed, 08 Apr 2026 04:17:13 +0300"
+    },
     {
       "date": "8.4",
       "location": "ישראל",
@@ -4467,7 +4481,7 @@
     "hit": 136,
     "frag": 87,
     "intercept": 5,
-    "ballistic": 51,
+    "ballistic": 52,
     "uav": 6
   }
 }
