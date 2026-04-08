@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-08T17:20:48.458453+00:00",
-  "total": 330,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-04-08T18:42:08.567894+00:00",
+  "total": 331,
+  "new_this_run": 1,
+  "articles_processed": 6,
   "events": [
+    {
+      "date": "40 days",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "אלפי טילים ששוגרו לישראל מאיראן ומלבנון גרמו לנזק רב. 22 בני אדם נהרגו מפגיעות ישירות",
+      "killed": 42,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/s1ipmtm3wx",
+      "source_name": "ynet",
+      "id": "67b119054d2c",
+      "pub": "Wed, 08 Apr 2026 21:05:23 +0300"
+    },
     {
       "date": "31.3",
       "location": "תל שבע",
@@ -4481,7 +4495,7 @@
     "hit": 136,
     "frag": 87,
     "intercept": 5,
-    "ballistic": 52,
+    "ballistic": 53,
     "uav": 6
   }
 }
