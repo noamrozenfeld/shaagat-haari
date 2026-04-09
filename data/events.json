@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-09T10:36:55.834529+00:00",
-  "total": 331,
-  "new_this_run": 0,
+  "updated": "2026-04-09T11:34:11.824334+00:00",
+  "total": 332,
+  "new_this_run": 1,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "N/A",
+      "location": "קהילות גבול ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "הטלת רקטות חוזרות מלבנון על קהילות גבול ישראלי. לא דווח על נפגעים או נזקים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/idf-says-it-killed-hezbollah-chiefs-secretary-as-rocket-fire-from-lebanon-persists/",
+      "source_name": "Times of Israel",
+      "id": "0ed21129178d",
+      "pub": "Thu, 09 Apr 2026 11:22:08 +0000"
+    },
     {
       "date": "40 days",
       "location": "ישראל",
@@ -4495,7 +4509,7 @@
     "hit": 136,
     "frag": 87,
     "intercept": 5,
-    "ballistic": 53,
+    "ballistic": 54,
     "uav": 6
   }
 }
