@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-09T20:35:10.694005+00:00",
-  "total": 332,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-04-09T21:25:48.517918+00:00",
+  "total": 333,
+  "new_this_run": 1,
+  "articles_processed": 6,
   "events": [
+    {
+      "date": "unknown",
+      "location": "נאות חובב, נגב",
+      "lat": 31.25,
+      "lng": 34.75,
+      "type": "hit",
+      "desc": "פגיעה שנייה של איראנים באזור התעשייה נאות חובב בנגב, שבה מפעלים כימיים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/yokra14732846",
+      "source_name": "ynet",
+      "id": "0a656bb554d6",
+      "pub": "Fri, 10 Apr 2026 00:00:00 +0300"
+    },
     {
       "date": "N/A",
       "location": "קהילות גבול ישראל",
@@ -4506,7 +4520,7 @@
     }
   ],
   "stats": {
-    "hit": 136,
+    "hit": 137,
     "frag": 87,
     "intercept": 5,
     "ballistic": 54,
