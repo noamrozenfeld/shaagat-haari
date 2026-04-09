@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-09T23:26:29.487349+00:00",
-  "total": 333,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-09T23:57:55.230015+00:00",
+  "total": 334,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "10.4",
+      "location": "אשדוד",
+      "lat": 31.81,
+      "lng": 34.64,
+      "type": "intercept",
+      "desc": "טיל של חזבאללה נורה לעבר אשדוד, יורט על ידי צה״ל, רסיסים ממערכת ההגנה הפעילו אזעקות בתל אביב",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-april-10-2026/",
+      "source_name": "Times of Israel",
+      "id": "df490e70b259",
+      "pub": "Thu, 09 Apr 2026 23:24:21 +0000"
+    },
     {
       "date": "unknown",
       "location": "נאות חובב, נגב",
@@ -4522,7 +4536,7 @@
   "stats": {
     "hit": 137,
     "frag": 87,
-    "intercept": 5,
+    "intercept": 6,
     "ballistic": 54,
     "uav": 6
   }
