@@ -1,9 +1,51 @@
 {
-  "updated": "2026-04-10T01:59:48.454669+00:00",
-  "total": 334,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-04-10T04:47:15.106680+00:00",
+  "total": 337,
+  "new_this_run": 3,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "N/A",
+      "location": "אשדוד",
+      "lat": 31.8,
+      "lng": 34.64,
+      "type": "ballistic",
+      "desc": "טיל של חזבאללה נורה לעבר נמל אשדוד בדרום",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-fires-missile-at-southern-port-of-ashdod-as-idf-strikes-launchers-in-lebanon/",
+      "source_name": "Times of Israel",
+      "id": "5ad751ce127c",
+      "pub": "Fri, 10 Apr 2026 04:31:26 +0000"
+    },
+    {
+      "date": "N/A",
+      "location": "אזור תל אביב",
+      "lat": 32.09,
+      "lng": 34.77,
+      "type": "frag",
+      "desc": "שבר מ-יירוט טיל גרם להפעלת סירנות באזור תל אביב",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-fires-missile-at-southern-port-of-ashdod-as-idf-strikes-launchers-in-lebanon/",
+      "source_name": "Times of Israel",
+      "id": "5f9452a2841a",
+      "pub": "Fri, 10 Apr 2026 04:31:26 +0000"
+    },
+    {
+      "date": "14.4",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "650 טילים איראניים שוגרו לעבר ישראל, 24 הרוגים אזרחיים, 16 טילים קונבנציונליים פגעו באזורים מיושובים",
+      "killed": 24,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/650-iranian-missiles-fired-24-killed-and-10800-israeli-strikes-the-war-in-numbers/",
+      "source_name": "Times of Israel",
+      "id": "90c8cc7fe6d3",
+      "pub": "Fri, 10 Apr 2026 03:01:19 +0000"
+    },
     {
       "date": "10.4",
       "location": "אשדוד",
@@ -4535,9 +4577,9 @@
   ],
   "stats": {
     "hit": 137,
-    "frag": 87,
+    "frag": 88,
     "intercept": 6,
-    "ballistic": 54,
+    "ballistic": 56,
     "uav": 6
   }
 }
