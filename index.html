@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>דשבורד שאגת הארי</title>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 <style>
   :root {
@@ -94,7 +94,7 @@
   .source-info p{font-size:0.68rem;color:var(--text-dim);margin-top:1px;}
   .source-count{margin-right:auto;font-family:var(--mono);font-size:0.82rem;font-weight:700;color:var(--accent);white-space:nowrap;}
   .map-panel { background:var(--panel); border:1px solid var(--border); border-radius:6px; overflow:hidden; margin-bottom:14px; }
-  #map { width:100%; height:350px; background:#061018; }
+  #map { width:100%; height:420px; background:#061018; }
   .leaflet-tile-pane { filter:brightness(0.5) saturate(0.6) hue-rotate(180deg); }
   .leaflet-control-attribution { background:rgba(5,10,14,0.8)!important; color:#6a8a9a!important; font-size:9px!important; }
   .leaflet-control-zoom a { background:var(--panel)!important; color:var(--text)!important; border-color:var(--border)!important; }
@@ -122,7 +122,6 @@
 
 <div class="outer">
 
-  <!-- CEASEFIRE BANNER -->
   <div class="ceasefire-banner">
     <div class="icon">🕊</div>
     <div class="text">
@@ -144,8 +143,8 @@
     </div>
     <div class="stat-card blue">
       <div class="label">פונו לבתי חולים</div>
-      <div class="value">6,833</div>
-      <div class="sub">משרד הבריאות · 5.4 · 07:00</div>
+      <div class="value">7,183</div>
+      <div class="sub">משרד הבריאות · 7.4 · 07:00</div>
     </div>
     <div class="stat-card green">
       <div class="label">אחוז יירוט</div>
@@ -184,21 +183,21 @@
             <tr>
               <td class="td-date">9.4<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 41</span></td>
               <td class="td-loc">צפון ישראל (לבנון)</td>
-              <td class="td-desc">חיזבאללה ירה רקטות לצפון ישראל — "תגובה על הפרת הפסקת האש" בלבנון. רקטה פגעה בבית במשגב עם, נזק אין נפגעים. אסדוד: רקטה יורטה. צה"ל תקף 10 משגרים בלבנון.</td>
+              <td class="td-desc">חיזבאללה ירה רקטות לצפון ישראל — "תגובה על הפרת הפסקת האש". רקטה פגעה בבית במשגב עם — נזק, אין נפגעים. אסדוד: רקטה יורטה. צה"ל תקף 10 משגרים.</td>
               <td class="td-tag"><span class="impact-tag tag-frag">רקטות לבנון</span></td>
               <td class="center"><a href="https://www.timesofisrael.com/liveblog-april-09-2026/" target="_blank" class="src-link">↗ ToI</a></td>
             </tr>
             <tr class="row-ceasefire">
               <td class="td-date" style="color:#00ff88;">8.4 <span style="color:#00ff88;font-size:0.6rem;font-family:var(--mono);">★ היסטורי</span><br><span style="color:var(--text-dim);font-size:0.62rem;">יום 40</span></td>
               <td class="td-loc" style="color:#00ff88;">הסכמי איסלמאבאד</td>
-              <td class="td-desc">הפסקת אש לשבועיים בין ארה"ב, ישראל ואיראן — נכנסה לתוקף. ברוקרית: פקיסטן. הורמוז נפתח. ישראל תקפה 100+ מטרות בביירות ב-10 דקות — המתקפה הכבדה ביותר בלבנון. לבנון אינה כלולה.</td>
+              <td class="td-desc">הפסקת אש לשבועיים — נכנסה לתוקף. ברוקרית: פקיסטן. הורמוז נפתח. ישראל תקפה 100+ מטרות בביירות ב-10 דקות — המתקפה הכבדה ביותר בלבנון. לבנון אינה כלולה.</td>
               <td class="td-tag"><span class="impact-tag tag-ceasefire">🕊 הפסקת אש</span></td>
               <td class="center"><a href="https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-ceasefire-trump-hormuz-israel-lebanon-rcna267205" target="_blank" class="src-link">↗ NBC</a></td>
             </tr>
             <tr>
               <td class="td-date">7.4<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 39</span></td>
               <td class="td-loc">מרכז ישראל</td>
-              <td class="td-desc">ירי בליסטי נמשך — פגיעות מרכז, נזק לאתרים ורכבים. פצועים קל. טראמפ מאיים "ציוויליזציה שלמה תמות הלילה" — לאחר שעות הודיע על הפסקת אש.</td>
+              <td class="td-desc">ירי בליסטי נמשך — פגיעות מרכז, פצועים קל. טראמפ מאיים "ציוויליזציה שלמה תמות הלילה" — לאחר שעות הודיע על הפסקת אש.</td>
               <td class="td-tag"><span class="impact-tag tag-frag">ירי נמשך</span></td>
               <td class="center"><a href="https://abcnews.com/International/live-updates/iran-live-updates-casualties-reported-missile-strikes-israel/?id=131757074" target="_blank" class="src-link">↗ ABC</a></td>
             </tr>
@@ -212,7 +211,7 @@
             <tr class="row-severe">
               <td class="td-date">5.4 <span class="severe-badge">★ חמור</span><br><span style="color:var(--text-dim);font-size:0.62rem;">יום 37</span></td>
               <td class="td-loc">חיפה — בניין מגורים</td>
-              <td class="td-desc">פגיעה ישירה בבניין 7 קומות — 3 קומות קרסו. 4 הרוגים: זוג קשישים, בנם ומטפלת פיליפינית. איש בן 82 קשה. תינוק בן 10 חודשים נפצע קל. יירוט כשל — ח"א פותח חקירה.</td>
+              <td class="td-desc">פגיעה ישירה בבניין 7 קומות — 3 קומות קרסו. 4 הרוגים: זוג קשישים, בנם ומטפלת פיליפינית. איש בן 82 קשה. תינוק בן 10 חודשים פצוע קל. יירוט כשל — ח"א פותח חקירה.</td>
               <td class="td-tag"><span class="impact-tag tag-hit">⚫ 4 הרוגים</span></td>
               <td class="center"><a href="https://www.timesofisrael.com/4-injured-4-feared-trapped-under-rubble-in-iranian-missile-strike-on-haifa-building/" target="_blank" class="src-link">↗ ToI</a></td>
             </tr>
@@ -300,26 +299,12 @@
               <td class="td-tag"><span class="impact-tag tag-hit">12 פצועים</span></td>
               <td class="center"><a href="https://www.israelhayom.co.il/news/defense/article/20186936" target="_blank" class="src-link">↗ ישראל היום</a></td>
             </tr>
-            <tr>
-              <td class="td-date">24.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 25</span></td>
-              <td class="td-loc">נצאצרה / נגב</td>
-              <td class="td-desc">רסיסי יירוט — גבר 40 קשה, 2 תינוקות ואישה 26 קל בפזורה הבדואית.</td>
-              <td class="td-tag"><span class="impact-tag tag-frag">4 פצועים</span></td>
-              <td class="center"><a href="https://www.mako.co.il/news-military/2026_q1/liveblog-32c1c26dbec1d91027.htm" target="_blank" class="src-link">↗ N12</a></td>
-            </tr>
             <tr class="row-severe">
               <td class="td-date">22.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 23</span></td>
               <td class="td-loc">משגב עם</td>
               <td class="td-desc">נ"ט פגע ישירות ברכב — הנהג נרצח. מטחים של 400+ טילים.</td>
               <td class="td-tag"><span class="impact-tag tag-hit">💀 הרוג</span></td>
               <td class="center"><a href="https://www.ice.co.il/local-news/news/article/1106982" target="_blank" class="src-link">↗ ice</a></td>
-            </tr>
-            <tr>
-              <td class="td-date">22.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 23</span></td>
-              <td class="td-loc">חולון / ת"א / ר"ג</td>
-              <td class="td-desc">רסיסי טיל בשכונות מגורים. מספר פצועים קל.</td>
-              <td class="td-tag"><span class="impact-tag tag-frag">שברים</span></td>
-              <td class="center"><a href="https://www.mako.co.il/pzm-soldiers/liveblog-af56dc9572d0d91027.htm" target="_blank" class="src-link">↗ mako</a></td>
             </tr>
             <tr class="row-severe">
               <td class="td-date">21.3 <span class="severe-badge">★ חמור</span><br><span style="color:var(--text-dim);font-size:0.62rem;">יום 22</span></td>
@@ -335,13 +320,6 @@
               <td class="td-tag"><span class="impact-tag tag-hit">54 פצועים</span></td>
               <td class="center"><a href="https://www.mako.co.il/news-military/2026_q1/Article-c5e2e4b64121d91027.htm" target="_blank" class="src-link">↗ N12</a></td>
             </tr>
-            <tr>
-              <td class="td-date">22.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 23</span></td>
-              <td class="td-loc">ראשון לציון</td>
-              <td class="td-desc">טיל מתפצל פגע בגן ילדים. ביטול קייטנות פסח ב-16 ערים.</td>
-              <td class="td-tag"><span class="impact-tag tag-hit">גן ילדים</span></td>
-              <td class="center"><a href="https://13tv.co.il/item/news/politics/security/iran-war-905040279/" target="_blank" class="src-link">↗ 13</a></td>
-            </tr>
             <tr class="row-kill">
               <td class="td-date">20.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 21</span></td>
               <td class="td-loc">טהראן</td>
@@ -355,13 +333,6 @@
               <td class="td-desc">רקטת חיזבאללה — בית נשרף. 15 פצועים קל.</td>
               <td class="td-tag"><span class="impact-tag tag-hit">15 פצועים</span></td>
               <td class="center"><a href="https://www.ynet.co.il/news/article/skq00a2hcwl" target="_blank" class="src-link">↗ ynet</a></td>
-            </tr>
-            <tr>
-              <td class="td-date">15.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 16</span></td>
-              <td class="td-loc">בני ברק</td>
-              <td class="td-desc">פגיעה ישירה בבניין — בן 60 בינוני. 4 מוקדי נפילה.</td>
-              <td class="td-tag"><span class="impact-tag tag-hit">פצוע בינוני</span></td>
-              <td class="center"><a href="https://www.ynet.co.il/news/article/bjap211e5wg" target="_blank" class="src-link">↗ ynet</a></td>
             </tr>
             <tr>
               <td class="td-date">13.3<br><span style="color:var(--text-dim);font-size:0.62rem;">יום 14</span></td>
@@ -410,11 +381,20 @@
         </div>
       </div>
       <div class="panel">
-        <div class="panel-title">📡 אתרי שיגור</div>
-        <div class="source-list">
-          <div class="source-item"><div class="source-flag">🇮🇷</div><div class="source-info"><h4>מערב איראן — כרמאנשאה</h4><p>בסיסי משמרות המהפכה; 300+ משגרים הושמדו</p></div><div class="source-count">ראשי</div></div>
-          <div class="source-item"><div class="source-flag">🇮🇷</div><div class="source-info"><h4>מרכז — קום / תהרן / כרג'</h4><p>מפעלי ייצור טילים ומפקדות הותקפו</p></div><div class="source-count">תשתית</div></div>
-          <div class="source-item"><div class="source-flag">🌍</div><div class="source-info"><h4>עיראק + לבנון (שלוחים)</h4><p>מיליציות פרו-איראניות וחיזבאללה</p></div><div class="source-count">פרוקסי</div></div>
+        <div class="panel-title">🏥 נפגעים — משרד הבריאות</div>
+        <div style="padding:12px;background:rgba(58,159,216,0.06);border:1px solid rgba(58,159,216,0.25);border-radius:4px;margin-bottom:10px;">
+          <div style="font-size:0.62rem;font-family:var(--mono);color:#3a9fd8;margin-bottom:8px;letter-spacing:1px;">📊 סיכום מצטבר — 7.4.2026 · 07:00</div>
+          <div style="font-size:2rem;font-weight:900;font-family:var(--mono);color:#fff;line-height:1;">7,183</div>
+          <div style="font-size:0.68rem;color:var(--text-dim);margin-top:4px;">פונו לבתי חולים מתחילת המבצע</div>
+          <div style="margin-top:10px;font-size:0.7rem;color:var(--text-dim);line-height:1.8;border-top:1px solid var(--border);padding-top:8px;">
+            מאושפזים כרגע: <b style="color:#fff;">118</b><br>
+            אנוש: <b style="color:#cc2200;">2</b> · קשה: <b style="color:#ff6644;">14</b><br>
+            בינוני: <b style="color:#ff9900;">27</b> · קל: <b style="color:#6a8a9a;">74</b><br>
+            חרדה: <b style="color:#6a8a9a;">1</b>
+          </div>
+        </div>
+        <div style="font-size:0.62rem;font-family:var(--mono);color:var(--text-dim);">
+          מקור: <a href="https://www.gov.il/he/pages/09042026-01" target="_blank" style="color:#3a9fd8;text-decoration:none;">gov.il · 9.4.2026</a>
         </div>
       </div>
       <div class="panel">
@@ -422,7 +402,7 @@
         <div style="padding:11px;background:rgba(232,93,0,0.05);border:1px solid rgba(232,93,0,0.2);border-radius:4px;margin-bottom:10px;">
           <div style="font-size:0.65rem;font-family:var(--mono);color:var(--accent);margin-bottom:7px;letter-spacing:1px;">⚠ נזקים אזוריים</div>
           <div style="font-size:0.75rem;color:var(--text-dim);line-height:1.8;">
-            🇮🇱 ישראל: 25 הרוגים, 6,833+ פצועים<br>
+            🇮🇱 ישראל: 25 הרוגים, 7,183+ פצועים<br>
             🇦🇪 איחוד האמירויות: 3 הרוגים, 68 פצועים<br>
             🇰🇼 כוויית: 4 הרוגים, 32 פצועים<br>
             🇺🇸 חיילים אמריקאים: 6 נהרגו
@@ -439,6 +419,14 @@
           </div>
         </div>
       </div>
+      <div class="panel">
+        <div class="panel-title">📡 אתרי שיגור</div>
+        <div class="source-list">
+          <div class="source-item"><div class="source-flag">🇮🇷</div><div class="source-info"><h4>מערב איראן — כרמאנשאה</h4><p>בסיסי משמרות המהפכה; 300+ משגרים הושמדו</p></div><div class="source-count">ראשי</div></div>
+          <div class="source-item"><div class="source-flag">🇮🇷</div><div class="source-info"><h4>מרכז — קום / תהרן / כרג'</h4><p>מפעלי ייצור טילים ומפקדות הותקפו</p></div><div class="source-count">תשתית</div></div>
+          <div class="source-item"><div class="source-flag">🌍</div><div class="source-info"><h4>עיראק + לבנון (שלוחים)</h4><p>מיליציות פרו-איראניות וחיזבאללה</p></div><div class="source-count">פרוקסי</div></div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -453,39 +441,6 @@
       <div class="leg-item"><div style="width:24px;height:2px;border-top:2px dashed #e85d00;"></div> מסלול איראן</div>
       <div class="leg-item"><div style="width:24px;height:2px;border-top:2px dashed #ff9900;"></div> מסלול לבנון</div>
     </div>
-  </div>
-
-  <div class="panel" style="margin-bottom:14px;border-color:rgba(0,170,85,0.4);">
-    <div class="panel-title" style="color:#00aa55;">
-      🏥 משרד הבריאות — פינויים לבתי חולים
-      <span style="margin-right:auto;font-size:0.62rem;color:var(--text-dim);font-family:var(--mono);">ironswords.health.gov.il</span>
-    </div>
-    <div style="overflow-x:auto;">
-      <table style="width:100%;border-collapse:collapse;font-size:0.74rem;">
-        <thead>
-          <tr style="border-bottom:1px solid var(--border);">
-            <th style="text-align:right;padding:6px 10px;font-family:var(--mono);font-size:0.62rem;color:var(--text-dim);font-weight:400;letter-spacing:1px;">תאריך</th>
-            <th style="text-align:center;padding:6px 8px;font-family:var(--mono);font-size:0.62rem;color:var(--text-dim);font-weight:400;">סה"כ פונו</th>
-            <th style="text-align:center;padding:6px 8px;font-family:var(--mono);font-size:0.62rem;color:#cc2200;font-weight:400;">קשה</th>
-            <th style="text-align:center;padding:6px 8px;font-family:var(--mono);font-size:0.62rem;color:#ff9900;font-weight:400;">בינוני</th>
-            <th style="text-align:center;padding:6px 8px;font-family:var(--mono);font-size:0.62rem;color:#6a8a9a;font-weight:400;">קל</th>
-            <th style="text-align:center;padding:6px 8px;font-family:var(--mono);font-size:0.62rem;color:#00aa55;font-weight:400;">מאושפזים</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">1.3 · 08:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">456</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">1*</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">21</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">92</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">86</td></tr>
-          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">3.3 · 07:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">1,050</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">4*</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">21</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">75</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">102</td></tr>
-          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">6.3 · 18:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">1,681</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">9</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">35</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">65</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">111</td></tr>
-          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">11.3 (יום 12)</td><td style="text-align:center;padding:6px 8px;font-weight:700;">2,557</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">10</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">9</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">71</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">84</td></tr>
-          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">16.3 · 07:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">3,369</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">7+אנוש</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">14</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">59</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">81</td></tr>
-          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">23.3 · 07:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">4,713</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">15</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">27</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">79</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">123</td></tr>
-          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">25.3 · 07:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">5,045</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">12</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">27</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">79</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">120</td></tr>
-          <tr style="border-bottom:1px solid rgba(26,58,80,0.4);"><td style="padding:6px 10px;color:var(--accent);font-family:var(--mono);font-size:0.7rem;">27.3 · 07:00</td><td style="text-align:center;padding:6px 8px;font-weight:700;">5,492</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">אנוש+16</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">—</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">—</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">116</td></tr>
-          <tr style="background:rgba(0,170,85,0.06);"><td style="padding:6px 10px;color:#00aa55;font-family:var(--mono);font-size:0.7rem;font-weight:700;">5.4 · 07:00 ★</td><td style="text-align:center;padding:6px 8px;font-weight:900;font-size:0.9rem;color:#fff;">6,833</td><td style="text-align:center;padding:6px 8px;color:#cc2200;">—</td><td style="text-align:center;padding:6px 8px;color:#ff9900;">—</td><td style="text-align:center;padding:6px 8px;color:#6a8a9a;">—</td><td style="text-align:center;padding:6px 8px;color:#00aa55;">—</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div style="font-size:0.65rem;font-family:var(--mono);color:var(--text-dim);margin-top:8px;">* חלק מהקשה אינם ישירות מטיל · מקור: ironswords.health.gov.il / ALMA</div>
   </div>
 
   <div class="panel" style="margin-bottom:14px;">
@@ -519,7 +474,7 @@
 </div>
 
 <footer>
-  מקורות גלויים: ויקיפדיה · ynet · כאן חדשות · INSS · Times of Israel · הארץ · ALMA · NBC · CNN | מבצע שאגת הארי — 28.2–8.4.2026 | עדכון יום 42 — 10.4.2026 | 🕊 הסכמי איסלמאבאד בתוקף
+  מקורות גלויים: ויקיפדיה · ynet · כאן חדשות · INSS · Times of Israel · הארץ · ALMA · NBC · CNN · gov.il | מבצע שאגת הארי — 28.2–8.4.2026 | עדכון יום 42 — 10.4.2026 | 🕊 הסכמי איסלמאבאד בתוקף
   <br>מפה: © OpenStreetMap contributors | Leaflet | נתונים: מודיעין פתוח בלבד
 </footer>
 
@@ -527,83 +482,93 @@
 document.getElementById('live-date').textContent =
   'עדכון: ' + new Date().toLocaleDateString('he-IL', {day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
 
-const map = L.map('map', { center:[31.5,34.8], zoom:7 });
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution:'© OpenStreetMap contributors © CARTO', subdomains:'abcd', maxZoom:19
-}).addTo(map);
+// MAP — init after DOM ready
+window.addEventListener('load', function() {
+  try {
+    const map = L.map('map', { center:[31.5,34.8], zoom:7 });
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution:'© OpenStreetMap contributors',
+      subdomains:'abc',
+      maxZoom:18
+    }).addTo(map);
 
-function mkIcon(color) {
-  return L.divIcon({
-    html:`<div style="width:12px;height:12px;background:${color};border-radius:50%;border:2px solid white;box-shadow:0 0 6px ${color};"></div>`,
-    className:'', iconSize:[12,12], iconAnchor:[6,6]
-  });
-}
-const colors = { hit:'#cc2200', frag:'#ff9900', intercept:'#00aa55', chem:'#aa00cc' };
+    function mkIcon(color) {
+      return L.divIcon({
+        html:'<div style="width:13px;height:13px;background:'+color+';border-radius:50%;border:2px solid #fff;box-shadow:0 0 6px '+color+';"></div>',
+        className:'', iconSize:[13,13], iconAnchor:[6,6]
+      });
+    }
+    const colors = { hit:'#cc2200', frag:'#ff9900', intercept:'#00aa55', chem:'#aa00cc' };
 
-const impactData = [
-  { ll:[32.08,34.78], type:'hit', label:'תל אביב — 28.2', desc:'פגיעה ישירה — מטפלת פיליפינית נהרגה.' },
-  { ll:[32.09,34.80], type:'hit', label:'רמת גן — 28.2', desc:'פגיעת מצרר — קשיש בן 102 נפטר מפצעיו.' },
-  { ll:[31.70,35.00], type:'hit', label:'בית שמש — 1.3 ⚫', desc:'9 הרוגים, 51 פצועים. פגיעה ישירה בבית כנסת + מקלט.' },
-  { ll:[32.09,34.89], type:'hit', label:'יהוד — 3.3', desc:'עובד זר נהרג מטיל מצרר.' },
-  { ll:[32.70,35.19], type:'hit', label:'זרזיר — 13.3', desc:'~60 פצועים, כמעט 300 בתים ניזוקו.' },
-  { ll:[32.82,34.99], type:'intercept', label:'חיפה — יירוט', desc:'כטב"מים — יורטו.' },
-  { ll:[33.00,35.09], type:'hit', label:'נהריה — 16.3', desc:'רקטת חיזבאללה — בית נשרף, 15 פצועים.' },
-  { ll:[31.90,34.81], type:'frag', label:'רחובות — 20.3', desc:'דירה נפגעה משבר יירוט.' },
-  { ll:[31.26,35.21], type:'hit', label:'דימונה — 21.3', desc:'פגיעה ישירה — 54 פצועים, יירוט כשל.' },
-  { ll:[31.26,35.00], type:'hit', label:'ערד — 21.3', desc:'פגיעה ישירה טיל 450 ק"ג — 115 פצועים.' },
-  { ll:[31.97,34.79], type:'hit', label:'ראשון לציון גן ילדים — 22.3', desc:'טיל מתפצל פגע בגן ילדים.' },
-  { ll:[33.06,35.34], type:'hit', label:'משגב עם — 22.3 & 9.4', desc:'22.3: נ"ט פגע ברכב — הנהג נרצח.\n9.4: רקטת חיזבאללה — נזק לבית, אין נפגעים.' },
-  { ll:[33.07,35.57], type:'hit', label:'צומת מחניים — 24.3', desc:'נוריאל דובין בת 27 נהרגה מרקטת חיזבאללה.' },
-  { ll:[32.08,34.83], type:'hit', label:'בני ברק — 24.3 & 1.4', desc:'24.3: טיל מתפצל — 12 פצועים.\n1.4 ליל הסדר: מצרר — 4 פצועים כולל 2 תינוקות, ילדה 11 קשה.' },
-  { ll:[31.72,35.01], type:'hit', label:'אשתאול — 27–28.3', desc:'27.3: פגיעה ישירה — 13 פצועים, 100+ רכבים הרוסים.\n28.3: שבר יירוט הרס בית כנסת, 11 פצועים.' },
-  { ll:[32.06,34.81], type:'frag', label:'גוש דן — 26.3', desc:'טיל מצרר — 6 פצועים קל, שריפה, נזק כבד למבנים.' },
-  { ll:[31.13,35.02], type:'chem', label:'נאות חובב — 29.3 ☣', desc:'טיל איראני פגע במתקן כימי. פצוע אחד. חשש לדליפה מסוכנת.' },
-  { ll:[32.82,34.97], type:'hit', label:'בז"ן חיפה — 30.3', desc:'טיל פגע במפעל הנפט — שריפה גדולה, נכבשה. אין נפגעים.' },
-  { ll:[32.09,34.88], type:'hit', label:'פתח תקווה — 31.3 & 3.4', desc:'31.3: טיל בסדנה, שריפה.\n3.4: טיל ליד בית ספר — בור ענק, 3 פצועים קל.' },
-  { ll:[32.01,34.78], type:'hit', label:'רוש העין — 1.4', desc:'ליל הסדר: מטח 10 טילים — המטח הגדול מאז תחילת המלחמה.' },
-  { ll:[33.21,35.57], type:'hit', label:'קריית שמונה — 2.4', desc:'מטח 50+ רקטות חיזבאללה לצפון. 2 פצועים קל.' },
-  { ll:[32.80,35.10], type:'hit', label:'קריית אתא — 3.4', desc:'מצרר מטיל איראני פגע בבית — פצוע קל בן 79.' },
-  { ll:[32.07,34.82], type:'frag', label:'רמת גן — 4.4', desc:'טיל מצרר: 15 אתרי פגיעה — רמת גן, גבעתיים, בני ברק. פצוע קל בן 52. רסיסים ליד הקריה.' },
-  { ll:[32.81,34.98], type:'hit', label:'חיפה בניין — 5.4 ⚫', desc:'פגיעה ישירה בבניין 7 קומות — 3 קומות קרסו. 4 הרוגים. יירוט כשל.' },
-];
+    const impactData = [
+      { ll:[32.08,34.78], type:'hit', label:'תל אביב — 28.2', desc:'פגיעה ישירה — מטפלת פיליפינית נהרגה.' },
+      { ll:[32.09,34.80], type:'hit', label:'רמת גן — 28.2', desc:'פגיעת מצרר — קשיש בן 102 נפטר מפצעיו.' },
+      { ll:[31.70,35.00], type:'hit', label:'בית שמש — 1.3 ⚫', desc:'9 הרוגים, 51 פצועים. פגיעה ישירה בבית כנסת + מקלט.' },
+      { ll:[32.09,34.89], type:'hit', label:'יהוד — 3.3', desc:'עובד זר נהרג מטיל מצרר.' },
+      { ll:[32.70,35.19], type:'hit', label:'זרזיר — 13.3', desc:'~60 פצועים, כמעט 300 בתים ניזוקו.' },
+      { ll:[32.82,34.99], type:'intercept', label:'חיפה — יירוט', desc:'כטב"מים — יורטו.' },
+      { ll:[33.00,35.09], type:'hit', label:'נהריה — 16.3', desc:'רקטת חיזבאללה — בית נשרף, 15 פצועים.' },
+      { ll:[31.26,35.21], type:'hit', label:'דימונה — 21.3', desc:'פגיעה ישירה — 54 פצועים, יירוט כשל.' },
+      { ll:[31.26,35.00], type:'hit', label:'ערד — 21.3', desc:'פגיעה ישירה טיל 450 ק"ג — 115 פצועים.' },
+      { ll:[31.97,34.79], type:'hit', label:'ראשון לציון — 22.3', desc:'טיל מתפצל פגע בגן ילדים.' },
+      { ll:[33.06,35.34], type:'hit', label:'משגב עם — 22.3 & 9.4', desc:'22.3: נ"ט פגע ברכב — הנהג נרצח.\n9.4: רקטת חיזבאללה — נזק לבית.' },
+      { ll:[33.07,35.57], type:'hit', label:'צומת מחניים — 24.3', desc:'נוריאל דובין בת 27 נהרגה מרקטת חיזבאללה.' },
+      { ll:[32.08,34.83], type:'hit', label:'בני ברק — 24.3 & 1.4', desc:'24.3: טיל מתפצל — 12 פצועים.\n1.4: מצרר — 4 פצועים, ילדה 11 קשה.' },
+      { ll:[31.72,35.01], type:'hit', label:'אשתאול — 27-28.3', desc:'27.3: פגיעה ישירה — 13 פצועים.\n28.3: שבר יירוט הרס בית כנסת.' },
+      { ll:[32.06,34.81], type:'frag', label:'גוש דן — 26.3', desc:'טיל מצרר — 6 פצועים קל, שריפה.' },
+      { ll:[31.13,35.02], type:'chem', label:'נאות חובב — 29.3 ☣', desc:'טיל איראני פגע במתקן כימי. חשש לדליפה.' },
+      { ll:[32.82,34.97], type:'hit', label:'בז"ן חיפה — 30.3', desc:'שריפה גדולה, נכבשה. אין נפגעים.' },
+      { ll:[32.09,34.88], type:'hit', label:'פתח תקווה — 31.3 & 3.4', desc:'31.3: שריפה בסדנה.\n3.4: טיל ליד בית ספר — 3 פצועים קל.' },
+      { ll:[32.01,34.78], type:'hit', label:'רוש העין — 1.4', desc:'ליל הסדר: מטח 10 טילים.' },
+      { ll:[33.21,35.57], type:'hit', label:'קריית שמונה — 2.4', desc:'50+ רקטות חיזבאללה. 2 פצועים קל.' },
+      { ll:[32.80,35.10], type:'hit', label:'קריית אתא — 3.4', desc:'מצרר מטיל איראני — פצוע קל בן 79.' },
+      { ll:[32.07,34.82], type:'frag', label:'רמת גן — 4.4', desc:'מצרר: 15 אתרי פגיעה. פצוע קל בן 52.' },
+      { ll:[32.81,34.98], type:'hit', label:'חיפה בניין — 5.4 ⚫', desc:'פגיעה ישירה בבניין 7 קומות — 4 הרוגים. יירוט כשל.' },
+    ];
 
-impactData.forEach(d => {
-  const color = colors[d.type] || colors.hit;
-  L.marker(d.ll, { icon: mkIcon(color) })
-   .bindPopup(`<b style="color:${color}">${d.type==='hit'?'💥':d.type==='frag'?'🔶':d.type==='chem'?'☣️':'🛡'} ${d.label}</b><br>${d.desc}`)
-   .addTo(map);
+    impactData.forEach(function(d) {
+      const color = colors[d.type] || colors.hit;
+      const emoji = d.type==='hit'?'💥':d.type==='frag'?'🔶':d.type==='chem'?'☣️':'🛡';
+      L.marker(d.ll, { icon: mkIcon(color) })
+       .bindPopup('<b style="color:'+color+'">'+emoji+' '+d.label+'</b><br>'+d.desc.replace(/\n/g,'<br>'))
+       .addTo(map);
+    });
+
+    const launchIcon = L.divIcon({
+      html:'<div style="width:13px;height:13px;background:#e85d00;clip-path:polygon(50% 0%,100% 38%,82% 100%,18% 100%,0% 38%);border:2px solid #ff9900;"></div>',
+      className:'', iconSize:[13,13], iconAnchor:[6,6]
+    });
+    [[34.3,47.1,'כרמאנשאה'],[35.7,51.4,'תהרן/כרג\''],[34.8,50.0,'קום']].forEach(function(s) {
+      L.marker([s[0],s[1]], {icon:launchIcon}).bindPopup('<b style="color:#e85d00">🎯 אתר שיגור</b><br>'+s[2]).addTo(map);
+    });
+
+    function drawArc(from, to, style, n) {
+      n = n || 28;
+      const pts = [];
+      for (let i=0; i<=n; i++) {
+        const t = i/n;
+        const lat = from[0] + (to[0]-from[0])*t;
+        const lng = from[1] + (to[1]-from[1])*t;
+        const bulge = Math.sin(Math.PI*t) * 3.8;
+        pts.push([lat + bulge*0.18, lng - bulge*0.65]);
+      }
+      L.polyline(pts, style).addTo(map);
+    }
+    const arcIran  = {color:'#e85d00', weight:1.4, opacity:0.5, dashArray:'6,5'};
+    const arcLeban = {color:'#ff9900', weight:1.2, opacity:0.45, dashArray:'4,4'};
+
+    const iranSrcs = [[34.3,47.1],[35.7,51.4],[34.8,50.0]];
+    const ilTgts   = [[32.08,34.78],[31.70,35.00],[31.26,35.21],[31.26,35.00],[32.08,34.83],[31.13,35.02]];
+    iranSrcs.forEach(function(s) { ilTgts.forEach(function(t) { drawArc(s, t, arcIran); }); });
+
+    const lebSrc    = [33.5, 35.5];
+    const northTgts = [[33.00,35.09],[33.07,35.57],[33.06,35.34],[33.21,35.57]];
+    northTgts.forEach(function(t) { L.polyline([lebSrc, t], arcLeban).addTo(map); });
+
+  } catch(e) { console.error('Map init error:', e); }
 });
 
-const launchIcon = L.divIcon({
-  html:`<div style="width:12px;height:12px;background:#e85d00;clip-path:polygon(50% 0%,100% 38%,82% 100%,18% 100%,0% 38%);border:2px solid #ff9900;"></div>`,
-  className:'', iconSize:[12,12], iconAnchor:[6,6]
-});
-[[34.3,47.1,'כרמאנשאה'],[35.7,51.4,'תהרן/כרג\''],[34.8,50.0,'קום']].forEach(s => {
-  L.marker([s[0],s[1]], {icon:launchIcon}).bindPopup(`<b style="color:#e85d00">🎯 אתר שיגור</b><br>${s[2]}`).addTo(map);
-});
-
-function drawArc(from, to, style, n=28) {
-  const pts = [];
-  for (let i=0; i<=n; i++) {
-    const t = i/n;
-    const lat = from[0] + (to[0]-from[0])*t;
-    const lng = from[1] + (to[1]-from[1])*t;
-    const bulge = Math.sin(Math.PI*t) * 3.8;
-    pts.push([lat + bulge*0.18, lng - bulge*0.65]);
-  }
-  L.polyline(pts, style).addTo(map);
-}
-const arcIran  = {color:'#e85d00', weight:1.4, opacity:0.5, dashArray:'6,5'};
-const arcLeban = {color:'#ff9900', weight:1.2, opacity:0.45, dashArray:'4,4'};
-
-const iranSrcs = [[34.3,47.1],[35.7,51.4],[34.8,50.0]];
-const ilTgts   = [[32.08,34.78],[31.70,35.00],[31.26,35.21],[31.26,35.00],[32.08,34.83],[31.13,35.02]];
-iranSrcs.forEach(s => ilTgts.forEach(t => drawArc(s, t, arcIran)));
-
-const lebSrc    = [33.5, 35.5];
-const northTgts = [[33.00,35.09],[33.07,35.57],[33.06,35.34],[33.21,35.57]];
-northTgts.forEach(t => L.polyline([lebSrc, t], arcLeban).addTo(map));
-
+// CHART
 const dailyData = [
   { day:'28.2\nיום 1',  note:'תל אביב: 2 הרוגות | רמת גן', ballistic:100, uav:210, cruise:12 },
   { day:'1.3\nיום 2',   note:'⚫ בית שמש: 9 הרוגים',        ballistic:55,  uav:90,  cruise:8  },
@@ -622,65 +587,69 @@ const dailyData = [
   { day:'14.3\nיום 15', note:'אילת: 3 פצועים',                ballistic:25,  uav:60,  cruise:5  },
   { day:'15.3\nיום 16', note:'בני ברק | ר"ג | פ"ת | אילת',  ballistic:35,  uav:70,  cruise:4  },
   { day:'16.3\nיום 17', note:'נהריה: בית נשרף | שוהם',       ballistic:18,  uav:40,  cruise:3  },
-  { day:'17.3\nיום 18', note:'כרמיאל: פגיעה | חיסול לאריג׳אני', ballistic:0, uav:22, cruise:12 },
+  { day:'17.3\nיום 18', note:'כרמיאל | חיסול לאריג׳אני',     ballistic:0,   uav:22,  cruise:12 },
   { day:'18.3\nיום 19', note:'⚫ ר"ג: זוג הרוג | בז"ן חיפה', ballistic:35,  uav:70,  cruise:8  },
   { day:'19.3\nיום 20', note:'⚫ עדנים: תאילנדי הרוג',        ballistic:20,  uav:35,  cruise:6  },
   { day:'20.3\nיום 21', note:'חוסל דובר משמרות המהפכה',      ballistic:18,  uav:28,  cruise:5  },
   { day:'21.3\nיום 22', note:'★ דימונה 54 | ★ ערד 115',      ballistic:85,  uav:45,  cruise:8  },
-  { day:'22.3\nיום 23', note:'400+ טילים | נהג משגב עם נרצח', ballistic:120, uav:60, cruise:10 },
+  { day:'22.3\nיום 23', note:'400+ טילים | נהג משגב עם נרצח',ballistic:120, uav:60,  cruise:10 },
   { day:'23.3\nיום 24', note:'ירי לצפון ולמרכז',              ballistic:35,  uav:20,  cruise:5  },
-  { day:'24.3\nיום 25', note:'⚫ נוריאל דובין | 12 פצועים ב.ברק', ballistic:55, uav:35, cruise:8 },
-  { day:'25.3\nיום 26', note:'ארה"ב הגישה תוכנית 15 נקודות — נדחתה', ballistic:40, uav:25, cruise:6 },
-  { day:'26.3\nיום 27', note:'גוש דן: 6 פצועים, שריפה | רקטות לכרמיאל', ballistic:30, uav:20, cruise:4 },
-  { day:'27.3\nיום 28', note:'★ אשתאול: פגיעה ישירה, 100+ רכבים הרוסים', ballistic:25, uav:15, cruise:3 },
-  { day:'28.3\nיום 29', note:'אשתאול: בית כנסת נהרס | ירי לדרום ולמרכז', ballistic:20, uav:12, cruise:3 },
-  { day:'29.3\nיום 30', note:'☣ נאות חובב: פגיעה במתקן כימי | באר שבע', ballistic:15, uav:10, cruise:2 },
-  { day:'30.3\nיום 31', note:'בז"ן חיפה: שריפה ממטח | ירי לצפון', ballistic:12, uav:8, cruise:2 },
-  { day:'31.3\nיום 32', note:'פ"ת: שריפה בסדנה | ירי לכיוון מרכז', ballistic:10, uav:8, cruise:2 },
-  { day:'1.4\nיום 33',  note:'★ ליל סדר: 6 גלים, 10+ טילים | בני ברק מצרר', ballistic:45, uav:10, cruise:3 },
-  { day:'2.4\nיום 34',  note:'50+ רקטות חיזבאללה לצפון | קריית שמונה', ballistic:5, uav:12, cruise:1 },
-  { day:'3.4\nיום 35',  note:'פ"ת: טיל ליד בית ספר | ק.אתא מצרר | גן ילדים נהריה', ballistic:12, uav:8, cruise:2 },
-  { day:'4.4\nיום 36',  note:'מצרר: 15 אתרים — ר"ג, גבעתיים, ב.ברק | רסיסים ליד הקריה', ballistic:15, uav:6, cruise:1 },
-  { day:'5.4\nיום 37',  note:'⚫ חיפה: פגיעה ישירה בבניין — 4 הרוגים | ירי לכל הארץ', ballistic:18, uav:8, cruise:2 },
-  { day:'6.4\nיום 38',  note:'מטחים לכל חלקי ישראל | מצרר על מרכז | ירי מלבנון', ballistic:14, uav:7, cruise:1 },
-  { day:'7.4\nיום 39',  note:'ירי נמשך | טראמפ מאיים | לאחר שעות — הכרזה על הפסקת אש', ballistic:12, uav:6, cruise:1 },
-  { day:'8.4\nיום 40',  note:'🕊 הסכמי איסלמאבאד — הפסקת אש בתוקף | הורמוז נפתח', ballistic:0, uav:0, cruise:0 },
-  { day:'9.4\nיום 41',  note:'חיזבאללה ירה לצפון — תגובה על הפרת ההסכם בלבנון | אין ירי איראני', ballistic:0, uav:3, cruise:0 },
-  { day:'10.4\nיום 42', note:'🕊 שיחות ארה"ב–איראן באיסלמאבאד | הפסקת אש מחזיקה', ballistic:0, uav:0, cruise:0 },
+  { day:'24.3\nיום 25', note:'⚫ נוריאל דובין | 12 פצועים',  ballistic:55,  uav:35,  cruise:8  },
+  { day:'25.3\nיום 26', note:'15 נקודות — נדחתה',             ballistic:40,  uav:25,  cruise:6  },
+  { day:'26.3\nיום 27', note:'גוש דן: 6 פצועים | כרמיאל',   ballistic:30,  uav:20,  cruise:4  },
+  { day:'27.3\nיום 28', note:'★ אשתאול: 100+ רכבים הרוסים',  ballistic:25,  uav:15,  cruise:3  },
+  { day:'28.3\nיום 29', note:'אשתאול: בית כנסת נהרס',        ballistic:20,  uav:12,  cruise:3  },
+  { day:'29.3\nיום 30', note:'☣ נאות חובב: כימי',             ballistic:15,  uav:10,  cruise:2  },
+  { day:'30.3\nיום 31', note:'בז"ן חיפה: שריפה',              ballistic:12,  uav:8,   cruise:2  },
+  { day:'31.3\nיום 32', note:'פ"ת: שריפה בסדנה',              ballistic:10,  uav:8,   cruise:2  },
+  { day:'1.4\nיום 33',  note:'★ ליל סדר: 6 גלים, 10+ טילים', ballistic:45,  uav:10,  cruise:3  },
+  { day:'2.4\nיום 34',  note:'50+ רקטות חיזבאללה | ק.שמונה', ballistic:5,   uav:12,  cruise:1  },
+  { day:'3.4\nיום 35',  note:'פ"ת: טיל ליד בית ספר | ק.אתא', ballistic:12,  uav:8,   cruise:2  },
+  { day:'4.4\nיום 36',  note:'מצרר: 15 אתרים — ר"ג, גב., ב.ברק',ballistic:15,uav:6, cruise:1  },
+  { day:'5.4\nיום 37',  note:'⚫ חיפה: 4 הרוגים | ירי לכל הארץ',ballistic:18,uav:8, cruise:2  },
+  { day:'6.4\nיום 38',  note:'מטחים לכל ישראל | ירי מלבנון', ballistic:14,  uav:7,   cruise:1  },
+  { day:'7.4\nיום 39',  note:'ירי נמשך | טראמפ מאיים | הפסקת אש מוכרזת',ballistic:12,uav:6,cruise:1},
+  { day:'8.4\nיום 40',  note:'🕊 הסכמי איסלמאבאד — הפסקת אש בתוקף', ballistic:0, uav:0, cruise:0 },
+  { day:'9.4\nיום 41',  note:'חיזבאללה ירה לצפון | אין ירי איראני', ballistic:0, uav:3, cruise:0 },
+  { day:'10.4\nיום 42', note:'🕊 שיחות ארה"ב–איראן באיסלמאבאד', ballistic:0, uav:0, cruise:0 },
 ];
 
-const ctx2 = document.getElementById('dailyChart').getContext('2d');
-new Chart(ctx2, {
-  type: 'bar',
-  data: {
-    labels: dailyData.map(d => d.day),
-    datasets: [
-      { label:'טילים בליסטיים', data:dailyData.map(d=>d.ballistic), backgroundColor:'rgba(204,34,0,0.82)', borderRadius:{topLeft:3,topRight:3}, borderSkipped:false },
-      { label:'כטב"מים',        data:dailyData.map(d=>d.uav),       backgroundColor:'rgba(58,159,216,0.75)', borderRadius:{topLeft:3,topRight:3}, borderSkipped:false },
-      { label:'טילי שיוט',      data:dailyData.map(d=>d.cruise),    backgroundColor:'rgba(255,153,0,0.75)', borderRadius:{topLeft:3,topRight:3}, borderSkipped:false },
-    ]
-  },
-  options: {
-    responsive:true, maintainAspectRatio:false,
-    interaction:{ mode:'index', intersect:false },
-    plugins:{
-      legend:{display:false},
-      tooltip:{
-        rtl:true, backgroundColor:'rgba(5,10,14,0.95)',
-        borderColor:'rgba(26,58,80,0.8)', borderWidth:1,
-        titleColor:'#e85d00', bodyColor:'#c8dde8', padding:12,
-        callbacks:{
-          title:(items)=>{const i=items[0].dataIndex; return `${dailyData[i].day.replace('\n',' ')} — ${dailyData[i].note}`;},
-          afterBody:(items)=>{const i=items[0].dataIndex; const t=dailyData[i].ballistic+dailyData[i].uav+dailyData[i].cruise; return t>0?[`סה"כ: ${t} שיגורים`]:['🕊 הפסקת אש'];}
-        }
+window.addEventListener('load', function() {
+  try {
+    const ctx2 = document.getElementById('dailyChart').getContext('2d');
+    new Chart(ctx2, {
+      type: 'bar',
+      data: {
+        labels: dailyData.map(function(d){ return d.day; }),
+        datasets: [
+          { label:'טילים בליסטיים', data:dailyData.map(function(d){return d.ballistic;}), backgroundColor:'rgba(204,34,0,0.82)', borderRadius:{topLeft:3,topRight:3}, borderSkipped:false },
+          { label:'כטב"מים',        data:dailyData.map(function(d){return d.uav;}),       backgroundColor:'rgba(58,159,216,0.75)', borderRadius:{topLeft:3,topRight:3}, borderSkipped:false },
+          { label:'טילי שיוט',      data:dailyData.map(function(d){return d.cruise;}),    backgroundColor:'rgba(255,153,0,0.75)', borderRadius:{topLeft:3,topRight:3}, borderSkipped:false },
+        ]
+      },
+      options: {
+        responsive:true, maintainAspectRatio:false,
+        interaction:{ mode:'index', intersect:false },
+        plugins:{
+          legend:{display:false},
+          tooltip:{
+            rtl:true, backgroundColor:'rgba(5,10,14,0.95)',
+            borderColor:'rgba(26,58,80,0.8)', borderWidth:1,
+            titleColor:'#e85d00', bodyColor:'#c8dde8', padding:12,
+            callbacks:{
+              title:function(items){const i=items[0].dataIndex; return dailyData[i].day.replace('\n',' ')+' — '+dailyData[i].note;},
+              afterBody:function(items){const i=items[0].dataIndex; const t=dailyData[i].ballistic+dailyData[i].uav+dailyData[i].cruise; return t>0?['סה"כ: '+t+' שיגורים']:['🕊 הפסקת אש'];}
+            }
+          }
+        },
+        scales:{
+          x:{stacked:true, grid:{color:'rgba(26,58,80,0.4)'}, ticks:{color:'#6a8a9a',font:{size:9},maxRotation:0}},
+          y:{stacked:true, grid:{color:'rgba(26,58,80,0.35)'}, ticks:{color:'#6a8a9a',font:{size:9},stepSize:50}, beginAtZero:true}
+        },
+        animation:{duration:900,easing:'easeOutQuart'}
       }
-    },
-    scales:{
-      x:{stacked:true, grid:{color:'rgba(26,58,80,0.4)'}, ticks:{color:'#6a8a9a',font:{size:9},maxRotation:0}},
-      y:{stacked:true, grid:{color:'rgba(26,58,80,0.35)'}, ticks:{color:'#6a8a9a',font:{size:9},stepSize:50}, beginAtZero:true}
-    },
-    animation:{duration:900,easing:'easeOutQuart'}
-  }
+    });
+  } catch(e) { console.error('Chart init error:', e); }
 });
 </script>
 </body>
