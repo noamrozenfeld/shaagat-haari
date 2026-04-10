@@ -479,13 +479,10 @@
 </footer>
 
 <script>
-document.getElementById('live-date').textContent =
-  'עדכון: ' + new Date().toLocaleDateString('he-IL', {day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
-
 // MAP — init after DOM ready
 window.addEventListener('load', function() {
   try {
-    const map = L.map('map', { center:[31.5,34.8], zoom:7 });
+    var map = L.map('map', { center:[31.5,34.8], zoom:7 });
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution:'© OpenStreetMap contributors',
       subdomains:'abc',
@@ -498,9 +495,9 @@ window.addEventListener('load', function() {
         className:'', iconSize:[13,13], iconAnchor:[6,6]
       });
     }
-    const colors = { hit:'#cc2200', frag:'#ff9900', intercept:'#00aa55', chem:'#aa00cc' };
+    var colors = { hit:'#cc2200', frag:'#ff9900', intercept:'#00aa55', chem:'#aa00cc' };
 
-    const impactData = [
+    var impactData = [
       { ll:[32.08,34.78], type:'hit', label:'תל אביב — 28.2', desc:'פגיעה ישירה — מטפלת פיליפינית נהרגה.' },
       { ll:[32.09,34.80], type:'hit', label:'רמת גן — 28.2', desc:'פגיעת מצרר — קשיש בן 102 נפטר מפצעיו.' },
       { ll:[31.70,35.00], type:'hit', label:'בית שמש — 1.3 ⚫', desc:'9 הרוגים, 51 פצועים. פגיעה ישירה בבית כנסת + מקלט.' },
@@ -527,14 +524,14 @@ window.addEventListener('load', function() {
     ];
 
     impactData.forEach(function(d) {
-      const color = colors[d.type] || colors.hit;
-      const emoji = d.type==='hit'?'💥':d.type==='frag'?'🔶':d.type==='chem'?'☣️':'🛡';
+      var color = colors[d.type] || colors.hit;
+      var emoji = d.type==='hit'?'💥':d.type==='frag'?'🔶':d.type==='chem'?'☣️':'🛡';
       L.marker(d.ll, { icon: mkIcon(color) })
        .bindPopup('<b style="color:'+color+'">'+emoji+' '+d.label+'</b><br>'+d.desc.replace(/\n/g,'<br>'))
        .addTo(map);
     });
 
-    const launchIcon = L.divIcon({
+    var launchIcon = L.divIcon({
       html:'<div style="width:13px;height:13px;background:#e85d00;clip-path:polygon(50% 0%,100% 38%,82% 100%,18% 100%,0% 38%);border:2px solid #ff9900;"></div>',
       className:'', iconSize:[13,13], iconAnchor:[6,6]
     });
@@ -544,32 +541,32 @@ window.addEventListener('load', function() {
 
     function drawArc(from, to, style, n) {
       n = n || 28;
-      const pts = [];
-      for (let i=0; i<=n; i++) {
-        const t = i/n;
-        const lat = from[0] + (to[0]-from[0])*t;
-        const lng = from[1] + (to[1]-from[1])*t;
-        const bulge = Math.sin(Math.PI*t) * 3.8;
+      var pts = [];
+      for (var i=0; i<=n; i++) {
+        var t = i/n;
+        var lat = from[0] + (to[0]-from[0])*t;
+        var lng = from[1] + (to[1]-from[1])*t;
+        var bulge = Math.sin(Math.PI*t) * 3.8;
         pts.push([lat + bulge*0.18, lng - bulge*0.65]);
       }
       L.polyline(pts, style).addTo(map);
     }
-    const arcIran  = {color:'#e85d00', weight:1.4, opacity:0.5, dashArray:'6,5'};
-    const arcLeban = {color:'#ff9900', weight:1.2, opacity:0.45, dashArray:'4,4'};
+    var arcIran  = {color:'#e85d00', weight:1.4, opacity:0.5, dashArray:'6,5'};
+    var arcLeban = {color:'#ff9900', weight:1.2, opacity:0.45, dashArray:'4,4'};
 
-    const iranSrcs = [[34.3,47.1],[35.7,51.4],[34.8,50.0]];
-    const ilTgts   = [[32.08,34.78],[31.70,35.00],[31.26,35.21],[31.26,35.00],[32.08,34.83],[31.13,35.02]];
+    var iranSrcs = [[34.3,47.1],[35.7,51.4],[34.8,50.0]];
+    var ilTgts   = [[32.08,34.78],[31.70,35.00],[31.26,35.21],[31.26,35.00],[32.08,34.83],[31.13,35.02]];
     iranSrcs.forEach(function(s) { ilTgts.forEach(function(t) { drawArc(s, t, arcIran); }); });
 
-    const lebSrc    = [33.5, 35.5];
-    const northTgts = [[33.00,35.09],[33.07,35.57],[33.06,35.34],[33.21,35.57]];
+    var lebSrc    = [33.5, 35.5];
+    var northTgts = [[33.00,35.09],[33.07,35.57],[33.06,35.34],[33.21,35.57]];
     northTgts.forEach(function(t) { L.polyline([lebSrc, t], arcLeban).addTo(map); });
 
   } catch(e) { console.error('Map init error:', e); }
 });
 
 // CHART
-const dailyData = [
+var dailyData = [
   { day:'28.2\nיום 1',  note:'תל אביב: 2 הרוגות | רמת גן', ballistic:100, uav:210, cruise:12 },
   { day:'1.3\nיום 2',   note:'⚫ בית שמש: 9 הרוגים',        ballistic:55,  uav:90,  cruise:8  },
   { day:'2.3\nיום 3',   note:'חיזבאללה: חיפה, עכו',          ballistic:22,  uav:60,  cruise:5  },
@@ -616,7 +613,7 @@ const dailyData = [
 
 window.addEventListener('load', function() {
   try {
-    const ctx2 = document.getElementById('dailyChart').getContext('2d');
+    var ctx2 = document.getElementById('dailyChart').getContext('2d');
     new Chart(ctx2, {
       type: 'bar',
       data: {
@@ -637,8 +634,8 @@ window.addEventListener('load', function() {
             borderColor:'rgba(26,58,80,0.8)', borderWidth:1,
             titleColor:'#e85d00', bodyColor:'#c8dde8', padding:12,
             callbacks:{
-              title:function(items){const i=items[0].dataIndex; return dailyData[i].day.replace('\n',' ')+' — '+dailyData[i].note;},
-              afterBody:function(items){const i=items[0].dataIndex; const t=dailyData[i].ballistic+dailyData[i].uav+dailyData[i].cruise; return t>0?['סה"כ: '+t+' שיגורים']:['🕊 הפסקת אש'];}
+              title:function(items){var i=items[0].dataIndex; return dailyData[i].day.replace('\n',' ')+' — '+dailyData[i].note;},
+              afterBody:function(items){var i=items[0].dataIndex; var t=dailyData[i].ballistic+dailyData[i].uav+dailyData[i].cruise; return t>0?['סה"כ: '+t+' שיגורים']:['🕊 הפסקת אש'];}
             }
           }
         },
