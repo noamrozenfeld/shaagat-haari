@@ -1,9 +1,93 @@
 {
-  "updated": "2026-04-11T17:18:53.841572+00:00",
-  "total": 337,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-11T17:51:08.901082+00:00",
+  "total": 343,
+  "new_this_run": 6,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "23.11",
+      "location": "נהריה",
+      "lat": 33.008,
+      "lng": 35.098,
+      "type": "ballistic",
+      "desc": "שיגור מלבנון לאזור נהריה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/by9plldhwx",
+      "source_name": "ynet",
+      "id": "0b37b81eafb9",
+      "pub": "Sat, 11 Apr 2026 20:38:20 +0300"
+    },
+    {
+      "date": "23.11",
+      "location": "כרמיאל",
+      "lat": 32.92,
+      "lng": 35.303,
+      "type": "ballistic",
+      "desc": "שיגור מלבנון לאזור כרמיאל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/by9plldhwx",
+      "source_name": "ynet",
+      "id": "d0ca14d04f2f",
+      "pub": "Sat, 11 Apr 2026 20:38:20 +0300"
+    },
+    {
+      "date": "23.11",
+      "location": "צפת",
+      "lat": 32.963,
+      "lng": 35.495,
+      "type": "ballistic",
+      "desc": "שיגור מלבנון לאזור צפת",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/by9plldhwx",
+      "source_name": "ynet",
+      "id": "c2f2abf8e1e2",
+      "pub": "Sat, 11 Apr 2026 20:38:20 +0300"
+    },
+    {
+      "date": "23.11",
+      "location": "גליל המערבי",
+      "lat": 32.95,
+      "lng": 35.25,
+      "type": "uav",
+      "desc": "כטב\"מים חדרו לגליל המערבי",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/by9plldhwx",
+      "source_name": "ynet",
+      "id": "12a1be9b458e",
+      "pub": "Sat, 11 Apr 2026 20:38:20 +0300"
+    },
+    {
+      "date": "23.11",
+      "location": "שלומי",
+      "lat": 33.017,
+      "lng": 35.192,
+      "type": "hit",
+      "desc": "בית נפגע בשלומי",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/by9plldhwx",
+      "source_name": "ynet",
+      "id": "4ffa7243a110",
+      "pub": "Sat, 11 Apr 2026 20:38:20 +0300"
+    },
+    {
+      "date": "23.11",
+      "location": "קריית שמונה",
+      "lat": 32.998,
+      "lng": 35.612,
+      "type": "hit",
+      "desc": "פגיעה ישירה בקריית שמונה - השיגורים לא זוהו",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/by9plldhwx",
+      "source_name": "ynet",
+      "id": "77c273caa2f5",
+      "pub": "Sat, 11 Apr 2026 20:38:20 +0300"
+    },
     {
       "date": "N/A",
       "location": "אשדוד",
@@ -4576,10 +4660,10 @@
     }
   ],
   "stats": {
-    "hit": 137,
+    "hit": 139,
     "frag": 88,
     "intercept": 6,
-    "ballistic": 56,
-    "uav": 6
+    "ballistic": 59,
+    "uav": 7
   }
 }
