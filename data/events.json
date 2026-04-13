@@ -1,9 +1,51 @@
 {
-  "updated": "2026-04-13T11:57:32.668524+00:00",
-  "total": 344,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-04-13T13:08:53.670766+00:00",
+  "total": 347,
+  "new_this_run": 3,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "חיפה",
+      "lat": 32.82,
+      "lng": 34.98,
+      "type": "hit",
+      "desc": "משפחה שלמה נהרגה בהתקפת טילים בליסטיים של איראן",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/these-are-the-20-people-killed-in-israel-by-iranian-ballistic-missile-attacks/",
+      "source_name": "Times of Israel",
+      "id": "efec395960f7",
+      "pub": "Mon, 13 Apr 2026 12:19:04 +0000"
+    },
+    {
+      "date": "14.4",
+      "location": "בית שמש",
+      "lat": 31.93,
+      "lng": 34.99,
+      "type": "hit",
+      "desc": "שלושה אחים בני עשרה נהרגו בהתקפת טילים בליסטיים של איראן",
+      "killed": 3,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/these-are-the-20-people-killed-in-israel-by-iranian-ballistic-missile-attacks/",
+      "source_name": "Times of Israel",
+      "id": "0277a320d5ee",
+      "pub": "Mon, 13 Apr 2026 12:19:04 +0000"
+    },
+    {
+      "date": "14.4",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "התקפת טילים בליסטיים של איראן - 20 נהרגים בסך הכל במהלך 40 ימי קרב",
+      "killed": 20,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/these-are-the-20-people-killed-in-israel-by-iranian-ballistic-missile-attacks/",
+      "source_name": "Times of Israel",
+      "id": "3bca1c24f7cd",
+      "pub": "Mon, 13 Apr 2026 12:19:04 +0000"
+    },
     {
       "date": "DD.M",
       "location": "נהריה",
@@ -4674,10 +4716,10 @@
     }
   ],
   "stats": {
-    "hit": 140,
+    "hit": 142,
     "frag": 88,
     "intercept": 6,
-    "ballistic": 59,
+    "ballistic": 60,
     "uav": 7
   }
 }
