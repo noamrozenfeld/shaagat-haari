@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-15T10:45:17.716940+00:00",
-  "total": 350,
+  "updated": "2026-04-15T11:39:39.249616+00:00",
+  "total": 351,
   "new_this_run": 1,
-  "articles_processed": 2,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.1,
+      "type": "ballistic",
+      "desc": "חיזבאללה שיגר יותר מ-40 טילים לעבר צפון ישראל",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/one-hurt-as-hezbollah-fires-over-40-rockets-at-northern-israel/",
+      "source_name": "Times of Israel",
+      "id": "c0d1b8c55cfc",
+      "pub": "Wed, 15 Apr 2026 11:28:40 +0000"
+    },
     {
       "date": "15.4",
       "location": "צפון ישראל",
@@ -4761,7 +4775,7 @@
     "hit": 142,
     "frag": 88,
     "intercept": 6,
-    "ballistic": 61,
+    "ballistic": 62,
     "uav": 9
   }
 }
