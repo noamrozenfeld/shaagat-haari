@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-15T09:43:18.221750+00:00",
-  "total": 349,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-04-15T10:45:17.716940+00:00",
+  "total": 350,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "15.4",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.1,
+      "type": "ballistic",
+      "desc": "שיגור טילים מחיזבאללה לעבר צפון ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/daily-briefing-april-15-hezbollah-rockets-continue-to-pummel-israels-north/",
+      "source_name": "Times of Israel",
+      "id": "7bd5d380d4f9",
+      "pub": "Wed, 15 Apr 2026 10:25:26 +0000"
+    },
     {
       "date": "10.1",
       "location": "קריית שמונה",
@@ -4747,7 +4761,7 @@
     "hit": 142,
     "frag": 88,
     "intercept": 6,
-    "ballistic": 60,
+    "ballistic": 61,
     "uav": 9
   }
 }
