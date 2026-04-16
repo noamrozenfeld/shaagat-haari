@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-16T22:30:13.456144+00:00",
-  "total": 351,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-16T23:09:48.071724+00:00",
+  "total": 352,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "Unknown",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "שני אנשים נפצעו קשה מירי רקטות שעות לפני תחילת ה休שה",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.timesofisrael.com/israel-hezbollah-ceasefire-takes-effect-two-seriously-hurt-by-rocket-hours-before-truce/",
+      "source_name": "Times of Israel",
+      "id": "14ed16d4a3c8",
+      "pub": "Thu, 16 Apr 2026 22:34:26 +0000"
+    },
     {
       "date": "DD.M",
       "location": "צפון ישראל",
@@ -4772,7 +4786,7 @@
     }
   ],
   "stats": {
-    "hit": 142,
+    "hit": 143,
     "frag": 88,
     "intercept": 6,
     "ballistic": 62,
