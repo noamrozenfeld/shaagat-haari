@@ -1,9 +1,37 @@
 {
-  "updated": "2026-04-21T17:39:25.010498+00:00",
-  "total": 355,
-  "new_this_run": 0,
+  "updated": "2026-04-21T18:42:07.213597+00:00",
+  "total": 357,
+  "new_this_run": 2,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.1,
+      "type": "intercept",
+      "desc": "יירוט כטב\"מ של חיזבאללה שעורר אזעקות בקהילות גבול ישראליות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/idf-says-hezbollah-breached-truce-launching-rockets-at-troops-drone-at-israel/",
+      "source_name": "Times of Israel",
+      "id": "9f9f824d41ee",
+      "pub": "Tue, 21 Apr 2026 17:36:45 +0000"
+    },
+    {
+      "date": "DD.M",
+      "location": "דרום לבנון",
+      "lat": 33.1,
+      "lng": 35.2,
+      "type": "ballistic",
+      "desc": "שיגור רקטות של חיזבאללה לעבר כוחות צה\"ל בדרום לבנון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/idf-says-hezbollah-breached-truce-launching-rockets-at-troops-drone-at-israel/",
+      "source_name": "Times of Israel",
+      "id": "b7e87603b506",
+      "pub": "Tue, 21 Apr 2026 17:36:45 +0000"
+    },
     {
       "date": "28.1",
       "location": "אצבע הגליל",
@@ -4830,8 +4858,8 @@
   "stats": {
     "hit": 143,
     "frag": 88,
-    "intercept": 7,
-    "ballistic": 63,
+    "intercept": 8,
+    "ballistic": 64,
     "uav": 10
   }
 }
