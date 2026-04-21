@@ -1,9 +1,51 @@
 {
-  "updated": "2026-04-21T15:45:38.587258+00:00",
-  "total": 352,
-  "new_this_run": 0,
+  "updated": "2026-04-21T16:41:01.882845+00:00",
+  "total": 355,
+  "new_this_run": 3,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "28.1",
+      "location": "אצבע הגליל",
+      "lat": 32.98,
+      "lng": 35.16,
+      "type": "ballistic",
+      "desc": "שיגור רקטות מחיזבאללה לעבר כוחות צה\"ל בדרום לבנון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1sy9fb611g",
+      "source_name": "ynet",
+      "id": "3daa7bbec4ed",
+      "pub": "Tue, 21 Apr 2026 19:19:44 +0300"
+    },
+    {
+      "date": "28.1",
+      "location": "אצבע הגליל",
+      "lat": 32.98,
+      "lng": 35.16,
+      "type": "uav",
+      "desc": "שיגור כטב\"ם שיורט על ידי כיפת ברזל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1sy9fb611g",
+      "source_name": "ynet",
+      "id": "485b43caf2fa",
+      "pub": "Tue, 21 Apr 2026 19:19:44 +0300"
+    },
+    {
+      "date": "28.1",
+      "location": "אצבע הגליל",
+      "lat": 32.98,
+      "lng": 35.16,
+      "type": "intercept",
+      "desc": "יירוט כטב\"ם על ידי כיפת ברזל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1sy9fb611g",
+      "source_name": "ynet",
+      "id": "5bc8e6f14420",
+      "pub": "Tue, 21 Apr 2026 19:19:44 +0300"
+    },
     {
       "date": "Unknown",
       "location": "ישראל",
@@ -4788,8 +4830,8 @@
   "stats": {
     "hit": 143,
     "frag": 88,
-    "intercept": 6,
-    "ballistic": 62,
-    "uav": 9
+    "intercept": 7,
+    "ballistic": 63,
+    "uav": 10
   }
 }
