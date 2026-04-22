@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-22T22:11:32.643728+00:00",
-  "total": 357,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-04-22T23:04:21.760643+00:00",
+  "total": 358,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "23.4",
+      "location": "לבנון",
+      "lat": 33.5,
+      "lng": 35.5,
+      "type": "hit",
+      "desc": "בניין שנפגע בהמלט IDF, גוף עיתונאי הוחלץ מהריסות, צלם נפצע בראש",
+      "killed": 1,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/liveblog-april-23-2026/",
+      "source_name": "Times of Israel",
+      "id": "3d7c5cac5734",
+      "pub": "Wed, 22 Apr 2026 22:11:55 +0000"
+    },
     {
       "date": "DD.M",
       "location": "צפון ישראל",
@@ -4856,7 +4870,7 @@
     }
   ],
   "stats": {
-    "hit": 143,
+    "hit": 144,
     "frag": 88,
     "intercept": 8,
     "ballistic": 64,
