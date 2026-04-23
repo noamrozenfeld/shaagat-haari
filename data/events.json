@@ -1,9 +1,37 @@
 {
-  "updated": "2026-04-23T20:12:37.988715+00:00",
-  "total": 359,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-04-23T21:06:25.747597+00:00",
+  "total": 361,
+  "new_this_run": 2,
+  "articles_processed": 7,
   "events": [
+    {
+      "date": "לא ידוע",
+      "location": "שתולה",
+      "lat": 33.27,
+      "lng": 35.42,
+      "type": "ballistic",
+      "desc": "חיזבאללה שיגר רקטות לשתולה, לא היו נפגעים ולא נזק",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjay1zutwx",
+      "source_name": "ynet",
+      "id": "afda8e0c4a2a",
+      "pub": "Thu, 23 Apr 2026 23:31:59 +0300"
+    },
+    {
+      "date": "לא ידוע",
+      "location": "לא ידוע",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "uav",
+      "desc": "לוחם מילואים נפצע מכטב\"ם נפץ של חיזבאללה",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/sjay1zutwx",
+      "source_name": "ynet",
+      "id": "03ca544b2ebe",
+      "pub": "Thu, 23 Apr 2026 23:31:59 +0300"
+    },
     {
       "date": "21.3",
       "location": "ערד",
@@ -4887,7 +4915,7 @@
     "hit": 145,
     "frag": 88,
     "intercept": 8,
-    "ballistic": 64,
-    "uav": 10
+    "ballistic": 65,
+    "uav": 11
   }
 }
