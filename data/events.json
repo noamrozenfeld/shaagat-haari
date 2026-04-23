@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-23T13:21:47.919765+00:00",
-  "total": 358,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-04-23T15:22:42.434951+00:00",
+  "total": 359,
+  "new_this_run": 1,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "21.3",
+      "location": "ערד",
+      "lat": 31.27,
+      "lng": 34.75,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני בערד. ילדה בת 7 נפצעה קשה",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/7-year-old-girl-critically-injured-by-iranian-missile-is-discharged-from-hospital/",
+      "source_name": "Times of Israel",
+      "id": "3b299d4b0af1",
+      "pub": "Thu, 23 Apr 2026 14:02:58 +0000"
+    },
     {
       "date": "23.4",
       "location": "לבנון",
@@ -4870,7 +4884,7 @@
     }
   ],
   "stats": {
-    "hit": 144,
+    "hit": 145,
     "frag": 88,
     "intercept": 8,
     "ballistic": 64,
