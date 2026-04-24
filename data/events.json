@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-24T19:08:59.802684+00:00",
-  "total": 364,
-  "new_this_run": 0,
+  "updated": "2026-04-24T19:57:47.021955+00:00",
+  "total": 365,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "1.4",
+      "location": "בני ברק",
+      "lat": 32.0883,
+      "lng": 34.8247,
+      "type": "hit",
+      "desc": "נערה בת 11 נפצעה קשות מפגיעת תת-תחמוletition מטיל אירני בביתה ב-1 באפריל, והרוג",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/11-year-old-girl-from-bnei-brak-dies-of-wounds-from-iranian-strike-on-passover-eve/",
+      "source_name": "Times of Israel",
+      "id": "d023c51821d7",
+      "pub": "Fri, 24 Apr 2026 19:12:15 +0000"
+    },
     {
       "date": "14.4",
       "location": "בני ברק",
@@ -4954,7 +4968,7 @@
     }
   ],
   "stats": {
-    "hit": 146,
+    "hit": 147,
     "frag": 88,
     "intercept": 8,
     "ballistic": 66,
