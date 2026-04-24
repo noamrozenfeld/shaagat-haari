@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-24T14:18:33.091735+00:00",
-  "total": 363,
-  "new_this_run": 0,
+  "updated": "2026-04-24T15:39:44.039646+00:00",
+  "total": 364,
+  "new_this_run": 1,
   "articles_processed": 3,
   "events": [
+    {
+      "date": "14.4",
+      "location": "בני ברק",
+      "lat": 32.16,
+      "lng": 34.85,
+      "type": "hit",
+      "desc": "נסיה כראדי בת 11 נהרגה מפצעיה שנגרמו בפגיעת טיל איראני בבני ברק בערב פסח",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1tqu11ya11x",
+      "source_name": "ynet",
+      "id": "66a3ecff90b5",
+      "pub": "Fri, 24 Apr 2026 18:10:28 +0300"
+    },
     {
       "date": "unknown",
       "location": "צפון ישראל",
@@ -4940,7 +4954,7 @@
     }
   ],
   "stats": {
-    "hit": 145,
+    "hit": 146,
     "frag": 88,
     "intercept": 8,
     "ballistic": 66,
