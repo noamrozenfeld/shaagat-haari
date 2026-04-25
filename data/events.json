@@ -1,9 +1,51 @@
 {
-  "updated": "2026-04-25T12:29:46.317898+00:00",
-  "total": 365,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-25T13:42:55.846974+00:00",
+  "total": 368,
+  "new_this_run": 3,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "21.1",
+      "location": "אצבע הגליל",
+      "lat": 33.12,
+      "lng": 35.58,
+      "type": "frag",
+      "desc": "רקטה התפוצצה בשטח פתוח",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bycrnv96zg",
+      "source_name": "ynet",
+      "id": "570b41f20a43",
+      "pub": "Sat, 25 Apr 2026 16:14:19 +0300"
+    },
+    {
+      "date": "21.1",
+      "location": "אצבע הגליל",
+      "lat": 33.12,
+      "lng": 35.58,
+      "type": "intercept",
+      "desc": "רקטה יורטה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bycrnv96zg",
+      "source_name": "ynet",
+      "id": "933ad7509339",
+      "pub": "Sat, 25 Apr 2026 16:14:19 +0300"
+    },
+    {
+      "date": "21.1",
+      "location": "דרום לבנון",
+      "lat": 33.05,
+      "lng": 35.42,
+      "type": "intercept",
+      "desc": "מטרה אווירית חשודה יורטה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bycrnv96zg",
+      "source_name": "ynet",
+      "id": "b4b69cee1316",
+      "pub": "Sat, 25 Apr 2026 16:14:19 +0300"
+    },
     {
       "date": "1.4",
       "location": "בני ברק",
@@ -4969,8 +5011,8 @@
   ],
   "stats": {
     "hit": 147,
-    "frag": 88,
-    "intercept": 8,
+    "frag": 89,
+    "intercept": 10,
     "ballistic": 66,
     "uav": 12
   }
