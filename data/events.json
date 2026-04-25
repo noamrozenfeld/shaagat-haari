@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-25T15:51:34.597617+00:00",
-  "total": 369,
-  "new_this_run": 0,
+  "updated": "2026-04-25T16:24:36.315997+00:00",
+  "total": 370,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "שבת",
+      "location": "צפון ישראל",
+      "lat": 32.8,
+      "lng": 35.2,
+      "type": "ballistic",
+      "desc": "שיגור רקטות וכטב\"מים מלבנון לעבר צפון ישראל, למרות הפסקת האש",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sytm0i96bl",
+      "source_name": "ynet",
+      "id": "50377162ebad",
+      "pub": "Sat, 25 Apr 2026 18:57:08 +0300"
+    },
     {
       "date": "DD.M",
       "location": "צפון ישראל",
@@ -5027,7 +5041,7 @@
     "hit": 147,
     "frag": 89,
     "intercept": 10,
-    "ballistic": 67,
+    "ballistic": 68,
     "uav": 12
   }
 }
