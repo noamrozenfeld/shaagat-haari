@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-25T14:27:22.893088+00:00",
-  "total": 368,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-25T15:05:48.899695+00:00",
+  "total": 369,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "צפון ישראל",
+      "lat": 32.95,
+      "lng": 35.2,
+      "type": "ballistic",
+      "desc": "חיזבאללה יורה טילים לעבר קהילות בצפון ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-fires-rockets-at-north-israel-hits-terror-targets-in-lebanon-amid-shaky-truce/",
+      "source_name": "Times of Israel",
+      "id": "0b4113f81e4b",
+      "pub": "Sat, 25 Apr 2026 14:39:43 +0000"
+    },
     {
       "date": "21.1",
       "location": "אצבע הגליל",
@@ -5013,7 +5027,7 @@
     "hit": 147,
     "frag": 89,
     "intercept": 10,
-    "ballistic": 66,
+    "ballistic": 67,
     "uav": 12
   }
 }
