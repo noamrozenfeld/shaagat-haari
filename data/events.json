@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-29T17:05:07.195995+00:00",
-  "total": 371,
-  "new_this_run": 0,
+  "updated": "2026-04-29T18:20:47.984396+00:00",
+  "total": 372,
+  "new_this_run": 1,
   "articles_processed": 4,
   "events": [
+    {
+      "date": "כתבה ללא תאריך ספציפי",
+      "location": "אשתאול ליד בית שמש",
+      "lat": 31.95,
+      "lng": 34.97,
+      "type": "hit",
+      "desc": "בתים נפגעו קשות מטיל איראני, שבע משפחות נפגעו",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h16xbn1awl",
+      "source_name": "ynet",
+      "id": "cb55095a9864",
+      "pub": "Wed, 29 Apr 2026 20:27:49 +0300"
+    },
     {
       "date": "14.4",
       "location": "בני ברק",
@@ -5052,7 +5066,7 @@
     }
   ],
   "stats": {
-    "hit": 148,
+    "hit": 149,
     "frag": 89,
     "intercept": 10,
     "ballistic": 68,
