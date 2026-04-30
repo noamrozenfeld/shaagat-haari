@@ -1,9 +1,23 @@
 {
-  "updated": "2026-04-30T12:51:02.294449+00:00",
-  "total": 374,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-04-30T14:54:19.930858+00:00",
+  "total": 375,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "unknown",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.1,
+      "type": "hit",
+      "desc": "כטב\"ם של חזבאללה פגע בעמדת ארטילריה ליד הגבול",
+      "killed": 0,
+      "wounded": 12,
+      "source_url": "https://www.timesofisrael.com/12-soldiers-injured-by-hezbollah-drone-in-northern-israel-idf-strikes-in-lebanon/",
+      "source_name": "Times of Israel",
+      "id": "5d7a641c08e5",
+      "pub": "Thu, 30 Apr 2026 13:13:07 +0000"
+    },
     {
       "date": "N/A",
       "location": "קו העימות בצפון ישראל",
@@ -5094,7 +5108,7 @@
     }
   ],
   "stats": {
-    "hit": 150,
+    "hit": 151,
     "frag": 89,
     "intercept": 11,
     "ballistic": 68,
