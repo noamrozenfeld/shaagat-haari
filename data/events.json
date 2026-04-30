@@ -1,9 +1,37 @@
 {
-  "updated": "2026-04-30T07:13:57.203300+00:00",
-  "total": 372,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-04-30T09:25:19.276236+00:00",
+  "total": 374,
+  "new_this_run": 2,
+  "articles_processed": 6,
   "events": [
+    {
+      "date": "N/A",
+      "location": "קו העימות בצפון ישראל",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "intercept",
+      "desc": "שיגור מיירט מעל ראשי תלמידים בדרכם לבית הספר, אזעקות בקו העימות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1flpdgr11g",
+      "source_name": "ynet",
+      "id": "ba74e0bfd9e2",
+      "pub": "Thu, 30 Apr 2026 10:49:41 +0300"
+    },
+    {
+      "date": "N/A",
+      "location": "מנות",
+      "lat": 33.21,
+      "lng": 35.57,
+      "type": "hit",
+      "desc": "פגיעה ברכב בעיר מנות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1flpdgr11g",
+      "source_name": "ynet",
+      "id": "272436f5b5b2",
+      "pub": "Thu, 30 Apr 2026 10:49:41 +0300"
+    },
     {
       "date": "כתבה ללא תאריך ספציפי",
       "location": "אשתאול ליד בית שמש",
@@ -5066,9 +5094,9 @@
     }
   ],
   "stats": {
-    "hit": 149,
+    "hit": 150,
     "frag": 89,
-    "intercept": 10,
+    "intercept": 11,
     "ballistic": 68,
     "uav": 12
   }
