@@ -1,9 +1,37 @@
 {
-  "updated": "2026-04-30T14:54:19.930858+00:00",
-  "total": 375,
-  "new_this_run": 1,
-  "articles_processed": 4,
+  "updated": "2026-04-30T16:10:02.760734+00:00",
+  "total": 377,
+  "new_this_run": 2,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "23.1",
+      "location": "דרום לבנון",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "uav",
+      "desc": "סמל ליאם בן חמו נהרג מפגיעת רחפן נפץ בדרום לבנון",
+      "killed": 1,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/hyu7xyzcwe",
+      "source_name": "ynet",
+      "id": "c542e81b36d8",
+      "pub": "Thu, 30 Apr 2026 18:09:06 +0300"
+    },
+    {
+      "date": "23.1",
+      "location": "גליל המערבי",
+      "lat": 32.95,
+      "lng": 35.1,
+      "type": "uav",
+      "desc": "פגיעה ישירה של רחפן נפץ ברכב צבאי בגליל המערבי",
+      "killed": 0,
+      "wounded": 12,
+      "source_url": "https://www.ynet.co.il/news/article/hyu7xyzcwe",
+      "source_name": "ynet",
+      "id": "f0b798ffe69e",
+      "pub": "Thu, 30 Apr 2026 18:09:06 +0300"
+    },
     {
       "date": "unknown",
       "location": "צפון ישראל",
@@ -5112,6 +5140,6 @@
     "frag": 89,
     "intercept": 11,
     "ballistic": 68,
-    "uav": 12
+    "uav": 14
   }
 }
