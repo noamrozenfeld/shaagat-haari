@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-01T20:29:08.064165+00:00",
-  "total": 377,
-  "new_this_run": 0,
+  "updated": "2026-05-01T21:13:33.378350+00:00",
+  "total": 378,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "23.11",
+      "location": "אצבע הגליל",
+      "lat": 33.15,
+      "lng": 35.4,
+      "type": "uav",
+      "desc": "רצף אזעקות ב-23 יישובים, שיגורי רחפני נפץ של חיזבאללה, חשש לחדירות כטב\"ם ורקטות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hj1gz5za11l",
+      "source_name": "ynet",
+      "id": "aaad4d4af6fe",
+      "pub": "Fri, 01 May 2026 23:58:50 +0300"
+    },
     {
       "date": "23.1",
       "location": "דרום לבנון",
@@ -5140,6 +5154,6 @@
     "frag": 89,
     "intercept": 11,
     "ballistic": 68,
-    "uav": 14
+    "uav": 15
   }
 }
