@@ -1,9 +1,37 @@
 {
-  "updated": "2026-05-07T00:09:17.729150+00:00",
-  "total": 378,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-05-07T04:00:08.515518+00:00",
+  "total": 380,
+  "new_this_run": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "unknown",
+      "location": "לבנון",
+      "lat": 33.2,
+      "lng": 35.1,
+      "type": "uav",
+      "desc": "7 לוחמים נפצעו מפגיעות רחפני נפץ של חיזבאללה - 1 קשה ו-3 נוספים באורח קל",
+      "killed": 0,
+      "wounded": 7,
+      "source_url": "https://www.ynet.co.il/news/article/b13rmty0wl",
+      "source_name": "ynet",
+      "id": "99aeb4c210bd",
+      "pub": "Thu, 07 May 2026 06:24:24 +0300"
+    },
+    {
+      "date": "unknown",
+      "location": "קריית שמונה",
+      "lat": 32.88,
+      "lng": 35.55,
+      "type": "intercept",
+      "desc": "חיל האוויר יירט כטב\"ם מלבנון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b13rmty0wl",
+      "source_name": "ynet",
+      "id": "570a79b73c16",
+      "pub": "Thu, 07 May 2026 06:24:24 +0300"
+    },
     {
       "date": "23.11",
       "location": "אצבע הגליל",
@@ -5152,8 +5180,8 @@
   "stats": {
     "hit": 151,
     "frag": 89,
-    "intercept": 11,
+    "intercept": 12,
     "ballistic": 68,
-    "uav": 15
+    "uav": 16
   }
 }
