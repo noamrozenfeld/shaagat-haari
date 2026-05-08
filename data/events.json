@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-08T08:46:31.642298+00:00",
-  "total": 381,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-05-08T10:08:21.521988+00:00",
+  "total": 382,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "לא ידוע",
+      "location": "נהריה",
+      "lat": 32.83,
+      "lng": 35.1,
+      "type": "uav",
+      "desc": "כטב\"ם שיגר מחיזבאללה התגלה על גג בית ספר בנהריה, נוטרל על ידי שוטרים וחבלנים. בית הספר היה ריק מתלמידים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1bvvxsa11g",
+      "source_name": "ynet",
+      "id": "cf1e40362ae7",
+      "pub": "Fri, 08 May 2026 12:52:28 +0300"
+    },
     {
       "date": "14.4",
       "location": "מרכז ישראל",
@@ -5196,6 +5210,6 @@
     "frag": 89,
     "intercept": 12,
     "ballistic": 68,
-    "uav": 16
+    "uav": 17
   }
 }
