@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-08T00:04:09.900746+00:00",
-  "total": 380,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-05-08T03:46:32.584427+00:00",
+  "total": 381,
+  "new_this_run": 1,
+  "articles_processed": 7,
   "events": [
+    {
+      "date": "14.4",
+      "location": "מרכז ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "טיל איראני פגע בבית משפחה. הרוגים בקומה תחתונה. בית נהרס לחלוטין",
+      "killed": 4,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/yokra14764010",
+      "source_name": "ynet",
+      "id": "86caa93754ae",
+      "pub": "Fri, 08 May 2026 06:06:11 +0300"
+    },
     {
       "date": "unknown",
       "location": "לבנון",
@@ -5178,7 +5192,7 @@
     }
   ],
   "stats": {
-    "hit": 151,
+    "hit": 152,
     "frag": 89,
     "intercept": 12,
     "ballistic": 68,
