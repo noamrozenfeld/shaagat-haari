@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-08T10:08:21.521988+00:00",
-  "total": 382,
+  "updated": "2026-05-08T11:41:37.423359+00:00",
+  "total": 383,
   "new_this_run": 1,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "כ.א",
+      "location": "עכו, קריות, נהריה ויישובים בצפון",
+      "lat": 32.92,
+      "lng": 35.07,
+      "type": "intercept",
+      "desc": "ירי רקטות מלבנון לצפון ישראל בתגובה לחיסול מפקד כוח רדואן. רקטה אחת יורטה, אחרות התפוצצו בשטחים פתוחים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rj11dcnjrze",
+      "source_name": "ynet",
+      "id": "02662d3f8043",
+      "pub": "Fri, 08 May 2026 14:02:06 +0300"
+    },
     {
       "date": "לא ידוע",
       "location": "נהריה",
@@ -5208,7 +5222,7 @@
   "stats": {
     "hit": 152,
     "frag": 89,
-    "intercept": 12,
+    "intercept": 13,
     "ballistic": 68,
     "uav": 17
   }
