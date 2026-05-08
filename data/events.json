@@ -1,9 +1,37 @@
 {
-  "updated": "2026-05-08T14:47:46.690702+00:00",
-  "total": 383,
-  "new_this_run": 0,
+  "updated": "2026-05-08T16:03:28.282213+00:00",
+  "total": 385,
+  "new_this_run": 2,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "N/A",
+      "location": "חיפה",
+      "lat": 32.82,
+      "lng": 34.76,
+      "type": "ballistic",
+      "desc": "חיזבאללה ירה רקטות לעבר אזור חיפה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-fires-rockets-at-haifa-area-drones-wound-2-troops-in-north-israel-1-in-lebanon/",
+      "source_name": "Times of Israel",
+      "id": "76fe9d2f4954",
+      "pub": "Fri, 08 May 2026 15:36:21 +0000"
+    },
+    {
+      "date": "N/A",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "uav",
+      "desc": "כטב\"ם עם מטען חבלתי פגע בחיילים בצפון ישראל",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.timesofisrael.com/hezbollah-fires-rockets-at-haifa-area-drones-wound-2-troops-in-north-israel-1-in-lebanon/",
+      "source_name": "Times of Israel",
+      "id": "5bb489b13f0c",
+      "pub": "Fri, 08 May 2026 15:36:21 +0000"
+    },
     {
       "date": "כ.א",
       "location": "עכו, קריות, נהריה ויישובים בצפון",
@@ -5223,7 +5251,7 @@
     "hit": 152,
     "frag": 89,
     "intercept": 13,
-    "ballistic": 68,
-    "uav": 17
+    "ballistic": 69,
+    "uav": 18
   }
 }
