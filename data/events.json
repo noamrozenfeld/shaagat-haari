@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-10T19:32:34.051696+00:00",
-  "total": 385,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-05-10T20:10:55.308923+00:00",
+  "total": 386,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.1,
+      "type": "hit",
+      "desc": "חיזבאללה פרסם וידאו של כטב\"ם המציג פגיעה בסוללת כיפת ברזל בצפון ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-airs-drone-footage-showing-strike-on-iron-dome-in-northern-israel/",
+      "source_name": "Times of Israel",
+      "id": "fe3f42a5c9b0",
+      "pub": "Sun, 10 May 2026 19:34:02 +0000"
+    },
     {
       "date": "N/A",
       "location": "חיפה",
@@ -5248,7 +5262,7 @@
     }
   ],
   "stats": {
-    "hit": 152,
+    "hit": 153,
     "frag": 89,
     "intercept": 13,
     "ballistic": 69,
