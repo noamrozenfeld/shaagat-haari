@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-11T01:23:08.681727+00:00",
-  "total": 386,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-05-11T05:08:02.274073+00:00",
+  "total": 387,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "unknown",
+      "location": "רמלה",
+      "lat": 31.92,
+      "lng": 34.87,
+      "type": "hit",
+      "desc": "יריות לעבר שלוש נשים, אחת במצב אנוש",
+      "killed": 0,
+      "wounded": 4,
+      "source_url": "https://www.ynet.co.il/news/article/rkgdkyykfx",
+      "source_name": "ynet",
+      "id": "5423fcf547f9",
+      "pub": "Mon, 11 May 2026 07:51:36 +0300"
+    },
     {
       "date": "DD.M",
       "location": "צפון ישראל",
@@ -5262,7 +5276,7 @@
     }
   ],
   "stats": {
-    "hit": 153,
+    "hit": 154,
     "frag": 89,
     "intercept": 13,
     "ballistic": 69,
