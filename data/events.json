@@ -1,9 +1,37 @@
 {
-  "updated": "2026-05-11T08:32:42.211204+00:00",
-  "total": 387,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-05-11T11:43:02.839828+00:00",
+  "total": 389,
+  "new_this_run": 2,
+  "articles_processed": 6,
   "events": [
+    {
+      "date": "unknown",
+      "location": "קריית שמונה",
+      "lat": 33.17,
+      "lng": 35.37,
+      "type": "intercept",
+      "desc": "יירוט של טיל שפגע במטבח, ללא אזעקה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hypxj111jfe",
+      "source_name": "ynet",
+      "id": "14c08419c86f",
+      "pub": "Mon, 11 May 2026 12:03:06 +0300"
+    },
+    {
+      "date": "unknown",
+      "location": "מרגליות",
+      "lat": 33.15,
+      "lng": 35.35,
+      "type": "intercept",
+      "desc": "ירי ארטילריה ושיגורי מיירטים בשטח",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hypxj111jfe",
+      "source_name": "ynet",
+      "id": "2c2b464d7ef8",
+      "pub": "Mon, 11 May 2026 12:03:06 +0300"
+    },
     {
       "date": "unknown",
       "location": "רמלה",
@@ -5278,7 +5306,7 @@
   "stats": {
     "hit": 154,
     "frag": 89,
-    "intercept": 13,
+    "intercept": 15,
     "ballistic": 69,
     "uav": 18
   }
