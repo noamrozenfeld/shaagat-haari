@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-14T06:51:54.786232+00:00",
-  "total": 389,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-05-14T09:24:29.145997+00:00",
+  "total": 390,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "כתבה חדישה",
+      "location": "ראש הנקרה",
+      "lat": 33.07,
+      "lng": 35.17,
+      "type": "uav",
+      "desc": "רחפן נפץ של חיזבאללה פגע בחניון אתר הנקרות ללא התרעה",
+      "killed": 0,
+      "wounded": 3,
+      "source_url": "https://www.ynet.co.il/news/article/s1e8jzxjfe",
+      "source_name": "ynet",
+      "id": "f5de7dbf2622",
+      "pub": "Thu, 14 May 2026 11:47:57 +0300"
+    },
     {
       "date": "unknown",
       "location": "קריית שמונה",
@@ -5308,6 +5322,6 @@
     "frag": 89,
     "intercept": 15,
     "ballistic": 69,
-    "uav": 18
+    "uav": 19
   }
 }
