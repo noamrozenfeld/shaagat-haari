@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-14T13:10:16.484918+00:00",
-  "total": 390,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-05-14T15:29:22.541916+00:00",
+  "total": 391,
+  "new_this_run": 1,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "Unknown",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "uav",
+      "desc": "התקף כטב״ם של חזבאללה בצפון ישראל - 3 אזרחים נפצעו, שניים מהם בחומרה",
+      "killed": 0,
+      "wounded": 3,
+      "source_url": "https://www.timesofisrael.com/3-civilians-hurt-in-hezbollah-attack-on-north-as-israel-lebanon-set-for-3rd-round-of-talks/",
+      "source_name": "Times of Israel",
+      "id": "beecb9b8cf4d",
+      "pub": "Thu, 14 May 2026 13:34:05 +0000"
+    },
     {
       "date": "כתבה חדישה",
       "location": "ראש הנקרה",
@@ -5322,6 +5336,6 @@
     "frag": 89,
     "intercept": 15,
     "ballistic": 69,
-    "uav": 19
+    "uav": 20
   }
 }
