@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-16T11:39:11.496455+00:00",
-  "total": 391,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-05-16T12:41:51.671714+00:00",
+  "total": 392,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "לבנון",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "ballistic",
+      "desc": "כטב\"ם שוגר מלבנון לעבר ישראל, ללא נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/idf-launches-strikes-targeting-hezbollah-for-1st-time-since-lebanon-ceasefire-extended/",
+      "source_name": "Times of Israel",
+      "id": "21fea32a857b",
+      "pub": "Sat, 16 May 2026 12:06:22 +0000"
+    },
     {
       "date": "Unknown",
       "location": "צפון ישראל",
@@ -5335,7 +5349,7 @@
     "hit": 154,
     "frag": 89,
     "intercept": 15,
-    "ballistic": 69,
+    "ballistic": 70,
     "uav": 20
   }
 }
