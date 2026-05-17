@@ -1,9 +1,37 @@
 {
-  "updated": "2026-05-17T00:12:42.742573+00:00",
-  "total": 392,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-05-17T04:20:24.332715+00:00",
+  "total": 394,
+  "new_this_run": 2,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "17.5",
+      "location": "דרום לבנון",
+      "lat": 33.2,
+      "lng": 35.3,
+      "type": "intercept",
+      "desc": "צה\"ל הגיד שיירט טילים שנשלחו על ידי חזבולה לכיוון כוחות בדרום לבנון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-may-17-2026/",
+      "source_name": "Times of Israel",
+      "id": "044fe9fa6cb7",
+      "pub": "Sun, 17 May 2026 01:35:34 +0000"
+    },
+    {
+      "date": "17.5",
+      "location": "צפון ישראל",
+      "lat": 33.0,
+      "lng": 35.4,
+      "type": "uav",
+      "desc": "חזבולה טוענת כי שיגרה נחיל כטב\"מ לכיוון בסיס צה\"ל בצפון ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-may-17-2026/",
+      "source_name": "Times of Israel",
+      "id": "7693f9f356c3",
+      "pub": "Sun, 17 May 2026 01:35:34 +0000"
+    },
     {
       "date": "DD.M",
       "location": "לבנון",
@@ -5348,8 +5376,8 @@
   "stats": {
     "hit": 154,
     "frag": 89,
-    "intercept": 15,
+    "intercept": 16,
     "ballistic": 70,
-    "uav": 20
+    "uav": 21
   }
 }
