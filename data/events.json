@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-19T14:16:44.174367+00:00",
-  "total": 395,
+  "updated": "2026-05-19T17:14:55.266277+00:00",
+  "total": 396,
   "new_this_run": 1,
-  "articles_processed": 4,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "ראש הנקרה",
+      "lat": 33.07,
+      "lng": 35.18,
+      "type": "uav",
+      "desc": "פגיעת רחפן נפץ של חיזבאללה ליד ראש הנקרה. פועל אחד (ראמי דהוד) בحالة خطيرة, פועל שני נפצע בינוני",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/skv61jkjzg",
+      "source_name": "ynet",
+      "id": "edf984452a03",
+      "pub": "Tue, 19 May 2026 19:13:28 +0300"
+    },
     {
       "date": "עדכון זמני",
       "location": "דרום לבנון",
@@ -5392,6 +5406,6 @@
     "frag": 89,
     "intercept": 16,
     "ballistic": 70,
-    "uav": 22
+    "uav": 23
   }
 }
