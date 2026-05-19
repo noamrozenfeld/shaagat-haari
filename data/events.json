@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-19T11:44:38.772794+00:00",
-  "total": 394,
-  "new_this_run": 0,
+  "updated": "2026-05-19T14:16:44.174367+00:00",
+  "total": 395,
+  "new_this_run": 1,
   "articles_processed": 4,
   "events": [
+    {
+      "date": "עדכון זמני",
+      "location": "דרום לבנון",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "uav",
+      "desc": "רחפן ששוגר לעבר כוחות צה\"ל התפוצץ בשטח ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/yokra14775284",
+      "source_name": "ynet",
+      "id": "0eea603c1d8f",
+      "pub": "Tue, 19 May 2026 14:46:08 +0300"
+    },
     {
       "date": "17.5",
       "location": "דרום לבנון",
@@ -5378,6 +5392,6 @@
     "frag": 89,
     "intercept": 16,
     "ballistic": 70,
-    "uav": 21
+    "uav": 22
   }
 }
