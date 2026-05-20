@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-20T21:03:55.152222+00:00",
-  "total": 396,
-  "new_this_run": 0,
+  "updated": "2026-05-20T22:38:57.735669+00:00",
+  "total": 397,
+  "new_this_run": 1,
   "articles_processed": 3,
   "events": [
+    {
+      "date": "N/A",
+      "location": "דרום לבנון",
+      "lat": 33.2,
+      "lng": 35.3,
+      "type": "uav",
+      "desc": "שתי התקפות כטב״מ נפרדות של חזבאללה על כוחות בדרום לבנון, פגיעה בקומנדנט הגדוד 401 לשריון וחיילים נוספים",
+      "killed": 0,
+      "wounded": 10,
+      "source_url": "https://www.timesofisrael.com/10-soldiers-including-brigade-commander-hurt-in-separate-hezbollah-drone-attacks/",
+      "source_name": "Times of Israel",
+      "id": "45e37f5c290e",
+      "pub": "Wed, 20 May 2026 21:03:08 +0000"
+    },
     {
       "date": "DD.M",
       "location": "ראש הנקרה",
@@ -5406,6 +5420,6 @@
     "frag": 89,
     "intercept": 16,
     "ballistic": 70,
-    "uav": 23
+    "uav": 24
   }
 }
