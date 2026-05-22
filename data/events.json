@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-21T23:17:08.954006+00:00",
-  "total": 397,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-05-22T00:16:15.944397+00:00",
+  "total": 398,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "1.4",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "intercept",
+      "desc": "ארה״ב השתמשה ביותר מחצי מיירוטיה THAAD להגנה על ישראל במהלך מלחמה עם איראן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/us-used-over-half-its-thaad-interceptors-defending-israel-during-iran-war-report/",
+      "source_name": "Times of Israel",
+      "id": "5f43f1ac18a8",
+      "pub": "Thu, 21 May 2026 23:55:45 +0000"
+    },
     {
       "date": "N/A",
       "location": "דרום לבנון",
@@ -5418,7 +5432,7 @@
   "stats": {
     "hit": 154,
     "frag": 89,
-    "intercept": 16,
+    "intercept": 17,
     "ballistic": 70,
     "uav": 24
   }
