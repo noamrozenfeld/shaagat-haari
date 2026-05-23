@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-23T15:18:55.419347+00:00",
-  "total": 399,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-05-23T16:14:54.308776+00:00",
+  "total": 400,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "מ.ח",
+      "location": "קיבוץ אדמית",
+      "lat": 33.24,
+      "lng": 35.38,
+      "type": "uav",
+      "desc": "רחפן נפץ של חיזבאללה התפוצץ בשטח ישראל באזור קיבוץ אדמית, בראש הנקרה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hkmuc4yxgx",
+      "source_name": "ynet",
+      "id": "b1f0b3a5bdaf",
+      "pub": "Sat, 23 May 2026 18:26:03 +0300"
+    },
     {
       "date": "חג",
       "location": "אזור הגבול צפון",
@@ -5448,6 +5462,6 @@
     "frag": 89,
     "intercept": 17,
     "ballistic": 70,
-    "uav": 25
+    "uav": 26
   }
 }
