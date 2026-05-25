@@ -1,9 +1,37 @@
 {
-  "updated": "2026-05-25T10:26:53.573097+00:00",
-  "total": 400,
-  "new_this_run": 0,
-  "articles_processed": 11,
+  "updated": "2026-05-25T13:44:41.387758+00:00",
+  "total": 402,
+  "new_this_run": 2,
+  "articles_processed": 8,
   "events": [
+    {
+      "date": "בתאריך לא צוין",
+      "location": "מטולה",
+      "lat": 33.27,
+      "lng": 35.78,
+      "type": "uav",
+      "desc": "כטב\"ם התפוצץ על גג בית בשכונת הר צפייה במטולה. קשיש ומטפלת סיעודית שהו בבית - לא נפצעו",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b1df5obemg",
+      "source_name": "ynet",
+      "id": "3c02a4ee15d2",
+      "pub": "Mon, 25 May 2026 14:22:07 +0300"
+    },
+    {
+      "date": "01.1",
+      "location": "מטולה",
+      "lat": 33.25,
+      "lng": 35.78,
+      "type": "uav",
+      "desc": "כטב\"ם של חזבאללה פגע בבית במטולה, ללא נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-drone-hits-metula-home-amid-wave-of-attacks-nobody-hurt-ministers-urge-escalation/",
+      "source_name": "Times of Israel",
+      "id": "5cf76a9d180e",
+      "pub": "Mon, 25 May 2026 12:04:41 +0000"
+    },
     {
       "date": "מ.ח",
       "location": "קיבוץ אדמית",
@@ -5462,6 +5490,6 @@
     "frag": 89,
     "intercept": 17,
     "ballistic": 70,
-    "uav": 26
+    "uav": 28
   }
 }
