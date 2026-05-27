@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-27T22:48:06.942257+00:00",
-  "total": 404,
-  "new_this_run": 0,
+  "updated": "2026-05-27T23:48:56.225128+00:00",
+  "total": 405,
+  "new_this_run": 1,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "תאריך לא ברור מהטקסט",
+      "location": "מיקום לא מוגדר בישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "uav",
+      "desc": "רחפן התפוצץ על לוחם גולני לאחר ניסיון ליירוט בנשק אישי. רסיס פגע בעמוד השדרה",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/yokra14783277",
+      "source_name": "ynet",
+      "id": "b2200b2628e3",
+      "pub": "Thu, 28 May 2026 00:00:00 +0300"
+    },
     {
       "date": "N/A",
       "location": "שלומי",
@@ -5518,6 +5532,6 @@
     "frag": 89,
     "intercept": 17,
     "ballistic": 71,
-    "uav": 29
+    "uav": 30
   }
 }
