@@ -1,9 +1,37 @@
 {
-  "updated": "2026-05-27T10:12:35.206723+00:00",
-  "total": 402,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-05-27T13:47:16.731931+00:00",
+  "total": 404,
+  "new_this_run": 2,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "N/A",
+      "location": "שלומי",
+      "lat": 33.02,
+      "lng": 35.18,
+      "type": "uav",
+      "desc": "רחפנים התפוצצו באזור שלומי",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/byglpjxemx",
+      "source_name": "ynet",
+      "id": "243ee394f097",
+      "pub": "Wed, 27 May 2026 14:14:50 +0300"
+    },
+    {
+      "date": "N/A",
+      "location": "צפון ישראל",
+      "lat": 33.0,
+      "lng": 35.2,
+      "type": "ballistic",
+      "desc": "רקטות וכטב\"מים ורחפני נפץ - לוחמים שנהרגו",
+      "killed": 11,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/byglpjxemx",
+      "source_name": "ynet",
+      "id": "24fc57583a27",
+      "pub": "Wed, 27 May 2026 14:14:50 +0300"
+    },
     {
       "date": "בתאריך לא צוין",
       "location": "מטולה",
@@ -5489,7 +5517,7 @@
     "hit": 154,
     "frag": 89,
     "intercept": 17,
-    "ballistic": 70,
-    "uav": 28
+    "ballistic": 71,
+    "uav": 29
   }
 }
