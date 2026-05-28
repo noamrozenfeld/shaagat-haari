@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-28T05:40:15.650312+00:00",
-  "total": 405,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-05-28T09:02:18.826089+00:00",
+  "total": 406,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "0.0",
+      "location": "אזור צבאי בגבול הצפוני",
+      "lat": 33.2,
+      "lng": 35.1,
+      "type": "uav",
+      "desc": "התקפת כטב\"ם של חזבאללה - סרג'נט נהרג בזמן ריצה למקלט באזור צבאי בגבול הצפוני, שני חיילי מילואים נפצעו",
+      "killed": 1,
+      "wounded": 2,
+      "source_url": "https://www.timesofisrael.com/soldier-killed-in-hezbollah-drone-attack-as-israel-widens-strikes-on-terror-group/",
+      "source_name": "Times of Israel",
+      "id": "b7104df0ad99",
+      "pub": "Thu, 28 May 2026 06:09:43 +0000"
+    },
     {
       "date": "תאריך לא ברור מהטקסט",
       "location": "מיקום לא מוגדר בישראל",
@@ -5532,6 +5546,6 @@
     "frag": 89,
     "intercept": 17,
     "ballistic": 71,
-    "uav": 30
+    "uav": 31
   }
 }
