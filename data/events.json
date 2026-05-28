@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-28T16:39:25.587714+00:00",
-  "total": 406,
-  "new_this_run": 0,
-  "articles_processed": 6,
+  "updated": "2026-05-28T19:16:12.302174+00:00",
+  "total": 407,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "29.10",
+      "location": "מושב גורן",
+      "lat": 33.18,
+      "lng": 35.42,
+      "type": "uav",
+      "desc": "פגיעת רחפן של חיזבאללה בקהל אזרחים בחנייה. נהרגה סמלת רותם ינאי ופצועים נוספים כולל חברי הכיתה הקוננות",
+      "killed": 1,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/rkcyry8ege",
+      "source_name": "ynet",
+      "id": "8c643bf5106f",
+      "pub": "Thu, 28 May 2026 20:59:38 +0300"
+    },
     {
       "date": "0.0",
       "location": "אזור צבאי בגבול הצפוני",
@@ -5546,6 +5560,6 @@
     "frag": 89,
     "intercept": 17,
     "ballistic": 71,
-    "uav": 31
+    "uav": 32
   }
 }
