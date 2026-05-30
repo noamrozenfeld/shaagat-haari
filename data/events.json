@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-30T15:38:43.654480+00:00",
-  "total": 410,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-05-30T16:37:32.762299+00:00",
+  "total": 411,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "ballistic",
+      "desc": "חיזבאללה שיגר מספר רקטות וכטב\"מ לעבר צפון ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-fires-several-rockets-and-drones-at-north-as-idf-expands-south-lebanon-op/",
+      "source_name": "Times of Israel",
+      "id": "ac7437ff4edc",
+      "pub": "Sat, 30 May 2026 16:04:28 +0000"
+    },
     {
       "date": "N/A",
       "location": "קריית שמונה",
@@ -5601,7 +5615,7 @@
     "hit": 156,
     "frag": 90,
     "intercept": 17,
-    "ballistic": 71,
+    "ballistic": 72,
     "uav": 32
   }
 }
