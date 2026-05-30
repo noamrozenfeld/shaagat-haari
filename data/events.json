@@ -1,9 +1,65 @@
 {
-  "updated": "2026-05-30T16:37:32.762299+00:00",
-  "total": 411,
-  "new_this_run": 1,
+  "updated": "2026-05-30T17:40:27.793654+00:00",
+  "total": 415,
+  "new_this_run": 4,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "שבת",
+      "location": "קריית שמונה",
+      "lat": 33.31,
+      "lng": 35.41,
+      "type": "hit",
+      "desc": "פגיעה ישירה ברקטה בחנות חד-קומתית במרכז מסחרי בקריית שמונה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjlo7f00emx",
+      "source_name": "ynet",
+      "id": "14b6f096c213",
+      "pub": "Sat, 30 May 2026 20:18:00 +0300"
+    },
+    {
+      "date": "שבת",
+      "location": "כרמיאל",
+      "lat": 32.92,
+      "lng": 35.3,
+      "type": "ballistic",
+      "desc": "ירי רקטות מחיזבאללה לכרמיאל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjlo7f00emx",
+      "source_name": "ynet",
+      "id": "6c3c0a13d6e9",
+      "pub": "Sat, 30 May 2026 20:18:00 +0300"
+    },
+    {
+      "date": "שבת",
+      "location": "נהריה",
+      "lat": 33.0,
+      "lng": 35.27,
+      "type": "ballistic",
+      "desc": "ירי רקטות מחיזבאללה לנהריה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjlo7f00emx",
+      "source_name": "ynet",
+      "id": "0bded7007e5e",
+      "pub": "Sat, 30 May 2026 20:18:00 +0300"
+    },
+    {
+      "date": "שבת",
+      "location": "צפת",
+      "lat": 32.96,
+      "lng": 35.49,
+      "type": "ballistic",
+      "desc": "ירי רקטות מחיזבאללה לצפת לראשונה מאז הפסקת האש",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/sjlo7f00emx",
+      "source_name": "ynet",
+      "id": "31cb275269fa",
+      "pub": "Sat, 30 May 2026 20:18:00 +0300"
+    },
     {
       "date": "DD.M",
       "location": "צפון ישראל",
@@ -5612,10 +5668,10 @@
     }
   ],
   "stats": {
-    "hit": 156,
+    "hit": 157,
     "frag": 90,
     "intercept": 17,
-    "ballistic": 72,
+    "ballistic": 75,
     "uav": 32
   }
 }
