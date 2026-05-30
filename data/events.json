@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-30T08:03:43.808250+00:00",
-  "total": 409,
+  "updated": "2026-05-30T10:08:58.295300+00:00",
+  "total": 410,
   "new_this_run": 1,
-  "articles_processed": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "N/A",
+      "location": "קריית שמונה",
+      "lat": 33.31,
+      "lng": 35.42,
+      "type": "hit",
+      "desc": "הפגזה רקטית של חזבאללה - כ-15 רקטות שוגרו לצפון ישראל בלילה, רובן יורטו, פגיעה במרכז מסחרי בקריית שמונה ללא נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/hezbollah-rocket-barrage-targets-kiryat-shmona-hitting-commercial-center-no-injuries/",
+      "source_name": "Times of Israel",
+      "id": "59c3edf1f019",
+      "pub": "Sat, 30 May 2026 09:28:47 +0000"
+    },
     {
       "date": "כ-היום",
       "location": "קריית שמונה",
@@ -5584,7 +5598,7 @@
     }
   ],
   "stats": {
-    "hit": 155,
+    "hit": 156,
     "frag": 90,
     "intercept": 17,
     "ballistic": 71,
