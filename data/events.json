@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-29T23:51:37.515641+00:00",
-  "total": 407,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-05-30T01:44:48.527705+00:00",
+  "total": 408,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "date_unknown",
+      "location": "קריית שמונה",
+      "lat": 33.31,
+      "lng": 35.41,
+      "type": "frag",
+      "desc": "זוהתה נפילה בקריית שמונה, אין נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hji1ljplzl",
+      "source_name": "ynet",
+      "id": "fc3167011ccd",
+      "pub": "Sat, 30 May 2026 03:45:45 +0300"
+    },
     {
       "date": "29.10",
       "location": "מושב גורן",
@@ -5557,7 +5571,7 @@
   ],
   "stats": {
     "hit": 154,
-    "frag": 89,
+    "frag": 90,
     "intercept": 17,
     "ballistic": 71,
     "uav": 32
