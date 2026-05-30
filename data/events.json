@@ -1,9 +1,23 @@
 {
-  "updated": "2026-05-30T05:34:01.977486+00:00",
-  "total": 408,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-05-30T08:03:43.808250+00:00",
+  "total": 409,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "כ-היום",
+      "location": "קריית שמונה",
+      "lat": 33.3,
+      "lng": 35.42,
+      "type": "hit",
+      "desc": "חיזבאללה שיגר כ-15 רקטות, אחת מהן התפוצצה במרכז המסחרי בקריית שמונה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/ryvelzugmg",
+      "source_name": "ynet",
+      "id": "fdcbfa78b04e",
+      "pub": "Sat, 30 May 2026 10:45:48 +0300"
+    },
     {
       "date": "date_unknown",
       "location": "קריית שמונה",
@@ -5570,7 +5584,7 @@
     }
   ],
   "stats": {
-    "hit": 154,
+    "hit": 155,
     "frag": 90,
     "intercept": 17,
     "ballistic": 71,
