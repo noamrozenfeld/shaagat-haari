@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-01T06:50:05.684621+00:00",
-  "total": 415,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-06-01T12:25:50.906583+00:00",
+  "total": 416,
+  "new_this_run": 1,
+  "articles_processed": 8,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "טירת אל-קלעה (עוז הנמר)",
+      "lat": 33.31,
+      "lng": 35.46,
+      "type": "uav",
+      "desc": "התקף כטב\"מ של חזבאללה ליד טירת אל-קלעה שנכבשה לאחרונה. סגן בראשות אדם צרפתי נהרג, 3 פצועים",
+      "killed": 1,
+      "wounded": 3,
+      "source_url": "https://www.timesofisrael.com/idf-soldier-killed-3-hurt-in-hezbollah-drone-attack-near-newly-seized-beaufort-castle/",
+      "source_name": "Times of Israel",
+      "id": "4933987c9303",
+      "pub": "Mon, 01 Jun 2026 09:29:53 +0000"
+    },
     {
       "date": "שבת",
       "location": "קריית שמונה",
@@ -5672,6 +5686,6 @@
     "frag": 90,
     "intercept": 17,
     "ballistic": 75,
-    "uav": 32
+    "uav": 33
   }
 }
