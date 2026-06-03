@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-03T06:31:48.615957+00:00",
-  "total": 416,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-06-03T11:27:49.836207+00:00",
+  "total": 417,
+  "new_this_run": 1,
+  "articles_processed": 7,
   "events": [
+    {
+      "date": "undated",
+      "location": "קריית שמונה",
+      "lat": 33.3,
+      "lng": 35.42,
+      "type": "intercept",
+      "desc": "יירוט כטב״ם בשמי קריית שמונה, הופעלו אזעקות בקרייה ובסביבה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1dhebtxmx",
+      "source_name": "ynet",
+      "id": "cd469d1476f8",
+      "pub": "Wed, 03 Jun 2026 12:13:36 +0300"
+    },
     {
       "date": "DD.M",
       "location": "טירת אל-קלעה (עוז הנמר)",
@@ -5684,7 +5698,7 @@
   "stats": {
     "hit": 157,
     "frag": 90,
-    "intercept": 17,
+    "intercept": 18,
     "ballistic": 75,
     "uav": 33
   }
