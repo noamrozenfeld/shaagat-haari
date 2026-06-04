@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-04T14:15:22.175817+00:00",
-  "total": 418,
+  "updated": "2026-06-04T17:22:29.955520+00:00",
+  "total": 419,
   "new_this_run": 1,
-  "articles_processed": 5,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "N/A",
+      "location": "שלומי",
+      "lat": 33.02,
+      "lng": 35.19,
+      "type": "ballistic",
+      "desc": "שיגור של חיזבאללה על שלומי בצפון, פגיעה קרובה למיגונית עם פעוטה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rjuq11zyzze",
+      "source_name": "ynet",
+      "id": "bb45b01c27bd",
+      "pub": "Thu, 04 Jun 2026 17:58:03 +0300"
+    },
     {
       "date": "נ.א",
       "location": "שלומי",
@@ -5713,7 +5727,7 @@
     "hit": 157,
     "frag": 90,
     "intercept": 18,
-    "ballistic": 75,
+    "ballistic": 76,
     "uav": 34
   }
 }
