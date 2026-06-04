@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-04T11:34:40.409339+00:00",
-  "total": 417,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-06-04T14:15:22.175817+00:00",
+  "total": 418,
+  "new_this_run": 1,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "נ.א",
+      "location": "שלומי",
+      "lat": 32.98,
+      "lng": 35.19,
+      "type": "uav",
+      "desc": "כטב\"ם פגע ליד שלומי לאחר שנתניהו עזב את האזור",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1zvpk111ml",
+      "source_name": "ynet",
+      "id": "7041b2f66908",
+      "pub": "Thu, 04 Jun 2026 15:26:11 +0300"
+    },
     {
       "date": "undated",
       "location": "קריית שמונה",
@@ -5700,6 +5714,6 @@
     "frag": 90,
     "intercept": 18,
     "ballistic": 75,
-    "uav": 33
+    "uav": 34
   }
 }
