@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-05T12:49:15.691594+00:00",
-  "total": 419,
-  "new_this_run": 0,
-  "articles_processed": 4,
+  "updated": "2026-06-05T15:41:00.129297+00:00",
+  "total": 420,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "unknown",
+      "location": "רכס הבופור",
+      "lat": 33.25,
+      "lng": 35.45,
+      "type": "hit",
+      "desc": "נפצע קל מפקד סיירת גבעתי בהיתקלות בזוטר א-שרקייה ברכס הבופור",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.ynet.co.il/news/article/rjsjgixbgx",
+      "source_name": "ynet",
+      "id": "29c25b882cae",
+      "pub": "Fri, 05 Jun 2026 17:42:05 +0300"
+    },
     {
       "date": "N/A",
       "location": "שלומי",
@@ -5724,7 +5738,7 @@
     }
   ],
   "stats": {
-    "hit": 157,
+    "hit": 158,
     "frag": 90,
     "intercept": 18,
     "ballistic": 76,
