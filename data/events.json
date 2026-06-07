@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-07T17:58:48.838353+00:00",
-  "total": 422,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-06-07T19:17:29.504856+00:00",
+  "total": 423,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "1.10",
+      "location": "חיפה ויישובים בצפון",
+      "lat": 32.82,
+      "lng": 34.97,
+      "type": "ballistic",
+      "desc": "שיגור טילים מאיראן לעבר ישראל, הפעלת אזעקות בחיפה ועשרות יישובים בצפון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/s1tp1s7bfl",
+      "source_name": "ynet",
+      "id": "0ca64137bf16",
+      "pub": "Sun, 07 Jun 2026 22:01:07 +0300"
+    },
     {
       "date": "N/A",
       "location": "צפון ישראל",
@@ -5769,7 +5783,7 @@
     "hit": 159,
     "frag": 90,
     "intercept": 18,
-    "ballistic": 77,
+    "ballistic": 78,
     "uav": 34
   }
 }
