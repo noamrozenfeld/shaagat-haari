@@ -1,9 +1,37 @@
 {
-  "updated": "2026-06-07T14:17:25.693666+00:00",
-  "total": 420,
-  "new_this_run": 0,
+  "updated": "2026-06-07T15:44:00.205735+00:00",
+  "total": 422,
+  "new_this_run": 2,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "N/A",
+      "location": "צפון ישראל",
+      "lat": 32.95,
+      "lng": 35.12,
+      "type": "ballistic",
+      "desc": "חזבאללה שיגר רקטות לעבר צפון ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/idf-strikes-beiruts-dahiyeh-after-hezbollah-fires-rockets-at-northern-israel/",
+      "source_name": "Times of Israel",
+      "id": "1438f0d6d2cc",
+      "pub": "Sun, 07 Jun 2026 15:04:31 +0000"
+    },
+    {
+      "date": "N/A",
+      "location": "דהיה, בירות",
+      "lat": 33.85,
+      "lng": 35.49,
+      "type": "hit",
+      "desc": "צה״ל תקף את דהיה בבירות לאחר שיגור רקטות מחזבאללה",
+      "killed": 2,
+      "wounded": 11,
+      "source_url": "https://www.timesofisrael.com/idf-strikes-beiruts-dahiyeh-after-hezbollah-fires-rockets-at-northern-israel/",
+      "source_name": "Times of Israel",
+      "id": "843cdcaf1bfe",
+      "pub": "Sun, 07 Jun 2026 15:04:31 +0000"
+    },
     {
       "date": "unknown",
       "location": "רכס הבופור",
@@ -5738,10 +5766,10 @@
     }
   ],
   "stats": {
-    "hit": 158,
+    "hit": 159,
     "frag": 90,
     "intercept": 18,
-    "ballistic": 76,
+    "ballistic": 77,
     "uav": 34
   }
 }
