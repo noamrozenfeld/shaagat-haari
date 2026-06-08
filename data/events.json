@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-08T14:56:51.810106+00:00",
-  "total": 430,
-  "new_this_run": 0,
-  "articles_processed": 10,
+  "updated": "2026-06-08T17:43:21.789918+00:00",
+  "total": 431,
+  "new_this_run": 1,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "14.4",
+      "location": "ראשון לציון",
+      "lat": 31.94,
+      "lng": 34.75,
+      "type": "hit",
+      "desc": "נהרס בית כליל מפגיעה ישירה של טיל איראני",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/b15lg7ewze",
+      "source_name": "ynet",
+      "id": "30362a380ff1",
+      "pub": "Mon, 08 Jun 2026 17:55:33 +0300"
+    },
     {
       "date": "DD.M",
       "location": "ים סוף",
@@ -5878,7 +5892,7 @@
     }
   ],
   "stats": {
-    "hit": 160,
+    "hit": 161,
     "frag": 92,
     "intercept": 18,
     "ballistic": 82,
