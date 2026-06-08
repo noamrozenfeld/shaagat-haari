@@ -1,9 +1,37 @@
 {
-  "updated": "2026-06-08T21:28:51.383278+00:00",
-  "total": 431,
-  "new_this_run": 0,
-  "articles_processed": 4,
+  "updated": "2026-06-08T22:55:02.117204+00:00",
+  "total": 433,
+  "new_this_run": 2,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "25.12",
+      "location": "אילת",
+      "lat": 29.55,
+      "lng": 34.95,
+      "type": "intercept",
+      "desc": "יירוט כלי טיס (כטב\"ם) ששיגרו החות'ים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1dk11nezze",
+      "source_name": "ynet",
+      "id": "2e48522d5605",
+      "pub": "Tue, 09 Jun 2026 00:42:54 +0300"
+    },
+    {
+      "date": "25.12",
+      "location": "גליל מערבי",
+      "lat": 33.05,
+      "lng": 35.45,
+      "type": "intercept",
+      "desc": "מטרה אווירית שחצתה לישראל בגבול הגליל המערבי - זוהתה וירטה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/h1dk11nezze",
+      "source_name": "ynet",
+      "id": "0e1f25a38453",
+      "pub": "Tue, 09 Jun 2026 00:42:54 +0300"
+    },
     {
       "date": "14.4",
       "location": "ראשון לציון",
@@ -5894,7 +5922,7 @@
   "stats": {
     "hit": 161,
     "frag": 92,
-    "intercept": 18,
+    "intercept": 20,
     "ballistic": 82,
     "uav": 34
   }
