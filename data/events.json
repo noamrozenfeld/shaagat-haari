@@ -1,9 +1,93 @@
 {
-  "updated": "2026-06-08T06:50:12.714023+00:00",
-  "total": 424,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-06-08T11:31:29.079809+00:00",
+  "total": 430,
+  "new_this_run": 6,
+  "articles_processed": 17,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "ים סוף",
+      "lat": 29.5,
+      "lng": 34.7,
+      "type": "ballistic",
+      "desc": "שיגור טיל מחות'ים יומנים שיורט ללא נפגעים ונזקים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/synvl11nwmg",
+      "source_name": "ynet",
+      "id": "a1c52ddf83c4",
+      "pub": "Mon, 08 Jun 2026 12:31:54 +0300"
+    },
+    {
+      "date": "4.4",
+      "location": "איתמר",
+      "lat": 32.12,
+      "lng": 35.28,
+      "type": "frag",
+      "desc": "נפילת רסיסי טיל איראני גרמה לנזק במספר בתים בסמוך להתנחלות איתמר בשומרון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rypyblv11me",
+      "source_name": "ynet",
+      "id": "116613d00f24",
+      "pub": "Mon, 08 Jun 2026 11:28:54 +0300"
+    },
+    {
+      "date": "8.6",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "איראן שיגרה טילים לישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/daily-briefing-june-8-iran-fires-on-israel-reigniting-smoldering-war/",
+      "source_name": "Times of Israel",
+      "id": "156894d033a9",
+      "pub": "Mon, 08 Jun 2026 08:49:35 +0000"
+    },
+    {
+      "date": "DD.M",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "frag",
+      "desc": "רסיס טיל פגע בבתי יישוב, ללא נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/defying-trump-israel-strikes-iranian-military-fuel-targets-iran-houthis-fire-missiles-at-israel/",
+      "source_name": "Times of Israel",
+      "id": "cfa52162f92f",
+      "pub": "Mon, 08 Jun 2026 08:13:23 +0000"
+    },
+    {
+      "date": "DD.M",
+      "location": "איראן",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "ישראל תקפה יעדים צבאיים איראניים וחומרי דלק",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/defying-trump-israel-strikes-iranian-military-fuel-targets-iran-houthis-fire-missiles-at-israel/",
+      "source_name": "Times of Israel",
+      "id": "c6827ce2bebb",
+      "pub": "Mon, 08 Jun 2026 08:13:23 +0000"
+    },
+    {
+      "date": "DD.M",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "איראן והותיים שיגרו טילים לעבר ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/defying-trump-israel-strikes-iranian-military-fuel-targets-iran-houthis-fire-missiles-at-israel/",
+      "source_name": "Times of Israel",
+      "id": "a6bf98ed7873",
+      "pub": "Mon, 08 Jun 2026 08:13:23 +0000"
+    },
     {
       "date": "unknown",
       "location": "צפון ישראל",
@@ -5794,10 +5878,10 @@
     }
   ],
   "stats": {
-    "hit": 159,
-    "frag": 90,
+    "hit": 160,
+    "frag": 92,
     "intercept": 18,
-    "ballistic": 79,
+    "ballistic": 82,
     "uav": 34
   }
 }
