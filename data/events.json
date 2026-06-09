@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-09T05:52:58.217844+00:00",
-  "total": 435,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-06-09T08:52:41.111885+00:00",
+  "total": 436,
+  "new_this_run": 1,
+  "articles_processed": 6,
   "events": [
+    {
+      "date": "29.12",
+      "location": "אילת",
+      "lat": 29.56,
+      "lng": 34.95,
+      "type": "intercept",
+      "desc": "יירוט כטב״מ שהשיקו החות׳יים מתימן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/idf-downs-drone-over-eilat-launched-by-yemens-houthis/",
+      "source_name": "Times of Israel",
+      "id": "bda1acd9f890",
+      "pub": "Tue, 09 Jun 2026 05:55:46 +0000"
+    },
     {
       "date": "09.6",
       "location": "אילת",
@@ -5950,7 +5964,7 @@
   "stats": {
     "hit": 161,
     "frag": 92,
-    "intercept": 21,
+    "intercept": 22,
     "ballistic": 82,
     "uav": 35
   }
