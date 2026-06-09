@@ -1,9 +1,37 @@
 {
-  "updated": "2026-06-08T23:55:01.940554+00:00",
-  "total": 433,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-06-09T01:45:11.115680+00:00",
+  "total": 435,
+  "new_this_run": 2,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "09.6",
+      "location": "אילת",
+      "lat": 29.56,
+      "lng": 34.95,
+      "type": "intercept",
+      "desc": "צה\"ל הוריד כטב\"ם שיוטה על ידי החות'ים ביממן",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-june-09-2026/",
+      "source_name": "Times of Israel",
+      "id": "192e499fb650",
+      "pub": "Tue, 09 Jun 2026 00:28:45 +0000"
+    },
+    {
+      "date": "09.6",
+      "location": "גליל מערבי",
+      "lat": 32.97,
+      "lng": 35.13,
+      "type": "uav",
+      "desc": "סירנות הופעלו בגליל המערבי לאחר שיגור כטב\"ם של חזבאללה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-june-09-2026/",
+      "source_name": "Times of Israel",
+      "id": "9292a8321148",
+      "pub": "Tue, 09 Jun 2026 00:28:45 +0000"
+    },
     {
       "date": "25.12",
       "location": "אילת",
@@ -5922,8 +5950,8 @@
   "stats": {
     "hit": 161,
     "frag": 92,
-    "intercept": 20,
+    "intercept": 21,
     "ballistic": 82,
-    "uav": 34
+    "uav": 35
   }
 }
