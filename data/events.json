@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-09T11:48:51.079022+00:00",
-  "total": 437,
+  "updated": "2026-06-09T14:07:15.367774+00:00",
+  "total": 438,
   "new_this_run": 1,
-  "articles_processed": 8,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "14.4",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "ballistic",
+      "desc": "שיגור טילים מאיראן לישראל - הפעם השלישית בשנה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/third-time-within-a-year-israelis-weather-yet-another-wartime-flare-up-under-iranian-fire/",
+      "source_name": "Times of Israel",
+      "id": "4682c40763b5",
+      "pub": "Tue, 09 Jun 2026 11:50:53 +0000"
+    },
     {
       "date": "Unknown",
       "location": "בסיס רמת דוד",
@@ -5979,7 +5993,7 @@
     "hit": 162,
     "frag": 92,
     "intercept": 22,
-    "ballistic": 82,
+    "ballistic": 83,
     "uav": 35
   }
 }
