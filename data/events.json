@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-09T14:07:15.367774+00:00",
-  "total": 438,
+  "updated": "2026-06-09T16:39:52.310335+00:00",
+  "total": 439,
   "new_this_run": 1,
-  "articles_processed": 3,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "31.3",
+      "location": "בסיס חיל האוויר רמת דוד",
+      "lat": 32.5544,
+      "lng": 35.2117,
+      "type": "hit",
+      "desc": "תמונות לוויין מצביעות על נזק לחנייה בבסיס רמת דוד בעקבות התקיפות טילים איראניות",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/satellite-images-appear-to-indicate-damage-at-iaf-base-following-iranian-missile-attacks/",
+      "source_name": "Times of Israel",
+      "id": "92d1707b73dc",
+      "pub": "Tue, 09 Jun 2026 14:05:17 +0000"
+    },
     {
       "date": "14.4",
       "location": "ישראל",
@@ -5990,7 +6004,7 @@
     }
   ],
   "stats": {
-    "hit": 162,
+    "hit": 163,
     "frag": 92,
     "intercept": 22,
     "ballistic": 83,
