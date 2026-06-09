@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-09T08:52:41.111885+00:00",
-  "total": 436,
+  "updated": "2026-06-09T11:48:51.079022+00:00",
+  "total": 437,
   "new_this_run": 1,
-  "articles_processed": 6,
+  "articles_processed": 8,
   "events": [
+    {
+      "date": "Unknown",
+      "location": "בסיס רמת דוד",
+      "lat": 32.59,
+      "lng": 35.21,
+      "type": "hit",
+      "desc": "ייתכן ששיגור מאיראן פגע בהאנגר בבסיס חיל האוויר רמת דוד בצפון, לפי תיעוד לוויין",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hya2qpsbmg",
+      "source_name": "ynet",
+      "id": "673f50252672",
+      "pub": "Tue, 09 Jun 2026 13:40:03 +0300"
+    },
     {
       "date": "29.12",
       "location": "אילת",
@@ -5962,7 +5976,7 @@
     }
   ],
   "stats": {
-    "hit": 161,
+    "hit": 162,
     "frag": 92,
     "intercept": 22,
     "ballistic": 82,
