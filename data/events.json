@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-10T13:50:00.111587+00:00",
-  "total": 440,
+  "updated": "2026-06-10T16:49:47.639573+00:00",
+  "total": 441,
   "new_this_run": 1,
   "articles_processed": 5,
   "events": [
+    {
+      "date": "14.4",
+      "location": "בסיס רמת דוד",
+      "lat": 32.577,
+      "lng": 35.186,
+      "type": "frag",
+      "desc": "פגיעת שברים בחניה בבסיס רמת דוד מהתקפת טילים איראנית, ללא נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/idf-confirms-damage-to-airbase-during-iranian-missile-attack-this-week/",
+      "source_name": "Times of Israel",
+      "id": "a9defdd6eeb8",
+      "pub": "Wed, 10 Jun 2026 16:03:00 +0000"
+    },
     {
       "date": "14.4",
       "location": "רמת דוד",
@@ -6019,7 +6033,7 @@
   ],
   "stats": {
     "hit": 164,
-    "frag": 92,
+    "frag": 93,
     "intercept": 22,
     "ballistic": 83,
     "uav": 35
