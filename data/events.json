@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-11T14:36:18.057932+00:00",
-  "total": 442,
-  "new_this_run": 0,
+  "updated": "2026-06-11T17:53:34.583931+00:00",
+  "total": 443,
+  "new_this_run": 1,
   "articles_processed": 5,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "ג'נין",
+      "lat": 32.2667,
+      "lng": 35.2833,
+      "type": "hit",
+      "desc": "שני חיילי צה\"ל נפגעו בהתפוצצות במהלך סריקה בג'נין, אחד בפגיעה קשה",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.timesofisrael.com/as-idf-prepares-to-build-post-in-jenin-2-soldiers-hurt-1-seriously-in-blast/",
+      "source_name": "Times of Israel",
+      "id": "d712a02cb702",
+      "pub": "Thu, 11 Jun 2026 15:09:29 +0000"
+    },
     {
       "date": "DD.M",
       "location": "אזור צפון ישראל",
@@ -6046,7 +6060,7 @@
     }
   ],
   "stats": {
-    "hit": 164,
+    "hit": 165,
     "frag": 93,
     "intercept": 22,
     "ballistic": 84,
