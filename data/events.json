@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-11T17:53:34.583931+00:00",
-  "total": 443,
+  "updated": "2026-06-11T20:02:35.441622+00:00",
+  "total": 444,
   "new_this_run": 1,
-  "articles_processed": 5,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "צפון ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "uav",
+      "desc": "חייל IDF נפגע בדרגה בינונית מהתקפת כטב\"מ של חזבאללה",
+      "killed": 0,
+      "wounded": 1,
+      "source_url": "https://www.timesofisrael.com/idf-poised-for-offensive-against-hezbollah-in-southern-lebanon-city-soldier-moderately-injured-by-drone/",
+      "source_name": "Times of Israel",
+      "id": "2839b75cdedb",
+      "pub": "Thu, 11 Jun 2026 19:50:48 +0000"
+    },
     {
       "date": "DD.M",
       "location": "ג'נין",
@@ -6064,6 +6078,6 @@
     "frag": 93,
     "intercept": 22,
     "ballistic": 84,
-    "uav": 35
+    "uav": 36
   }
 }
