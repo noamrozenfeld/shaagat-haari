@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-11T06:20:44.991926+00:00",
-  "total": 441,
-  "new_this_run": 0,
-  "articles_processed": 3,
+  "updated": "2026-06-11T11:00:14.955374+00:00",
+  "total": 442,
+  "new_this_run": 1,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "DD.M",
+      "location": "אזור צפון ישראל",
+      "lat": 33.2,
+      "lng": 35.1,
+      "type": "ballistic",
+      "desc": "שיגורים מלבנון לאזור בו פועלים כוחות צה\"ל בצפון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bjpsv6v11ml",
+      "source_name": "ynet",
+      "id": "50d55f81dfd2",
+      "pub": "Thu, 11 Jun 2026 11:02:44 +0300"
+    },
     {
       "date": "14.4",
       "location": "בסיס רמת דוד",
@@ -6035,7 +6049,7 @@
     "hit": 164,
     "frag": 93,
     "intercept": 22,
-    "ballistic": 83,
+    "ballistic": 84,
     "uav": 35
   }
 }
