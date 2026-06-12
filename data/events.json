@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-12T18:25:36.981567+00:00",
-  "total": 444,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-06-12T20:31:56.542181+00:00",
+  "total": 445,
+  "new_this_run": 1,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "00.0",
+      "location": "צפון ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "uav",
+      "desc": "כטב\"ם התפוצץ בצפון",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bk5ji0y11mg",
+      "source_name": "ynet",
+      "id": "d45dc2f05429",
+      "pub": "Fri, 12 Jun 2026 23:00:08 +0300"
+    },
     {
       "date": "DD.M",
       "location": "צפון ישראל",
@@ -6078,6 +6092,6 @@
     "frag": 93,
     "intercept": 22,
     "ballistic": 84,
-    "uav": 36
+    "uav": 37
   }
 }
