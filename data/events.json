@@ -1,9 +1,65 @@
 {
-  "updated": "2026-06-13T01:51:25.747067+00:00",
-  "total": 445,
-  "new_this_run": 0,
-  "articles_processed": 2,
+  "updated": "2026-06-13T06:03:21.369941+00:00",
+  "total": 449,
+  "new_this_run": 4,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "13.1",
+      "location": "מטולה",
+      "lat": 33.28,
+      "lng": 35.76,
+      "type": "uav",
+      "desc": "התרעה על חדירת כטב\"ם",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bymtdiczfe",
+      "source_name": "ynet",
+      "id": "a31dbffd74cc",
+      "pub": "Sat, 13 Jun 2026 08:52:18 +0300"
+    },
+    {
+      "date": "13.1",
+      "location": "משגב עם",
+      "lat": 33.27,
+      "lng": 35.67,
+      "type": "uav",
+      "desc": "התרעה על חדירת כטב\"ם",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bymtdiczfe",
+      "source_name": "ynet",
+      "id": "8bef9e5ce9e8",
+      "pub": "Sat, 13 Jun 2026 08:52:18 +0300"
+    },
+    {
+      "date": "13.1",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "frag",
+      "desc": "מטרה אווירית חשודה התפוצצה בשטח ישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bymtdiczfe",
+      "source_name": "ynet",
+      "id": "86cfc6dc8e1b",
+      "pub": "Sat, 13 Jun 2026 08:52:18 +0300"
+    },
+    {
+      "date": "13.1",
+      "location": "הורמוז",
+      "lat": 26.5,
+      "lng": 56.0,
+      "type": "uav",
+      "desc": "כטב\"מים שוגרו מאיראן לעבר ספינות, חלקם יוצרו בהצלחה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/bymtdiczfe",
+      "source_name": "ynet",
+      "id": "ddc264e2fc15",
+      "pub": "Sat, 13 Jun 2026 08:52:18 +0300"
+    },
     {
       "date": "00.0",
       "location": "צפון ישראל",
@@ -6089,9 +6145,9 @@
   ],
   "stats": {
     "hit": 165,
-    "frag": 93,
+    "frag": 94,
     "intercept": 22,
     "ballistic": 84,
-    "uav": 37
+    "uav": 40
   }
 }
