@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-14T10:07:03.965498+00:00",
-  "total": 450,
-  "new_this_run": 0,
-  "articles_processed": 7,
+  "updated": "2026-06-14T12:09:14.306293+00:00",
+  "total": 451,
+  "new_this_run": 1,
+  "articles_processed": 4,
   "events": [
+    {
+      "date": "מועד לא ידוע",
+      "location": "ישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "uav",
+      "desc": "3 כטב\"מים התפוצצו בישראל",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hytvxw2bge",
+      "source_name": "ynet",
+      "id": "3ee972cc2620",
+      "pub": "Sun, 14 Jun 2026 13:33:35 +0300"
+    },
     {
       "date": "14.6",
       "location": "אזור צבאי בצפון",
@@ -6162,6 +6176,6 @@
     "frag": 94,
     "intercept": 22,
     "ballistic": 84,
-    "uav": 40
+    "uav": 41
   }
 }
