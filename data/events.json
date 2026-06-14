@@ -1,9 +1,23 @@
 {
-  "updated": "2026-06-14T02:00:13.400010+00:00",
-  "total": 449,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-06-14T06:41:28.720271+00:00",
+  "total": 450,
+  "new_this_run": 1,
+  "articles_processed": 5,
   "events": [
+    {
+      "date": "14.6",
+      "location": "אזור צבאי בצפון",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "hit",
+      "desc": "שני כטב״מ של חזבאללה פגעו באזור צבאי בצפון, ללא נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-june-14-2026/",
+      "source_name": "Times of Israel",
+      "id": "339535514e3f",
+      "pub": "Sun, 14 Jun 2026 02:26:54 +0000"
+    },
     {
       "date": "13.1",
       "location": "מטולה",
@@ -6144,7 +6158,7 @@
     }
   ],
   "stats": {
-    "hit": 165,
+    "hit": 166,
     "frag": 94,
     "intercept": 22,
     "ballistic": 84,
