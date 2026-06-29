@@ -1,9 +1,37 @@
 {
-  "updated": "2026-06-29T00:19:35.871216+00:00",
-  "total": 451,
-  "new_this_run": 0,
+  "updated": "2026-06-29T05:02:01.611227+00:00",
+  "total": 453,
+  "new_this_run": 2,
   "articles_processed": 1,
   "events": [
+    {
+      "date": "29.6",
+      "location": "נצרת",
+      "lat": 32.7,
+      "lng": 35.3,
+      "type": "hit",
+      "desc": "אדם נהרג ליד נצרת",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-june-29-2026/",
+      "source_name": "Times of Israel",
+      "id": "7e2ab0e78701",
+      "pub": "Mon, 29 Jun 2026 00:30:01 +0000"
+    },
+    {
+      "date": "29.6",
+      "location": "סוריה דרומית",
+      "lat": 33.0,
+      "lng": 35.5,
+      "type": "frag",
+      "desc": "חיילי צה\"ל שורכנים בסוריה דרומית הורו עליהם, אין נפגעים",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.timesofisrael.com/liveblog-june-29-2026/",
+      "source_name": "Times of Israel",
+      "id": "ed7a733d1a07",
+      "pub": "Mon, 29 Jun 2026 00:30:01 +0000"
+    },
     {
       "date": "מועד לא ידוע",
       "location": "ישראל",
@@ -6172,8 +6200,8 @@
     }
   ],
   "stats": {
-    "hit": 166,
-    "frag": 94,
+    "hit": 167,
+    "frag": 95,
     "intercept": 22,
     "ballistic": 84,
     "uav": 41
