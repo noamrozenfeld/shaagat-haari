@@ -1,9 +1,23 @@
 {
-  "updated": "2026-07-15T17:34:08.878475+00:00",
-  "total": 454,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-07-15T18:40:37.646764+00:00",
+  "total": 455,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "14.4",
+      "location": "חיפה",
+      "lat": 32.8193,
+      "lng": 34.9565,
+      "type": "hit",
+      "desc": "פגיעת טיל איראני בבניין מגורים בחיפה שהביא לקריסת הבניין ולמוות מיכאל כץ",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hkc11d11semg",
+      "source_name": "ynet",
+      "id": "6b25a600bac3",
+      "pub": "Wed, 15 Jul 2026 20:38:25 +0300"
+    },
     {
       "date": "1.10",
       "location": "חיפה",
@@ -6214,7 +6228,7 @@
     }
   ],
   "stats": {
-    "hit": 168,
+    "hit": 169,
     "frag": 95,
     "intercept": 22,
     "ballistic": 84,
