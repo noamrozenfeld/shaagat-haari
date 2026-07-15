@@ -1,9 +1,23 @@
 {
-  "updated": "2026-07-15T06:00:42.705323+00:00",
-  "total": 453,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-07-15T08:13:07.165162+00:00",
+  "total": 454,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "1.10",
+      "location": "חיפה",
+      "lat": 32.82,
+      "lng": 34.97,
+      "type": "hit",
+      "desc": "מיכאל כץ בן 82 נפגע מטיל איראני בחיפה במהלך מבצע שאגת הארי ומת מפצעיו לאחר שלושה חודשים",
+      "killed": 1,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hjitgs4nmx",
+      "source_name": "ynet",
+      "id": "4c5b118f1ee5",
+      "pub": "Wed, 15 Jul 2026 09:07:33 +0300"
+    },
     {
       "date": "29.6",
       "location": "נצרת",
@@ -6200,7 +6214,7 @@
     }
   ],
   "stats": {
-    "hit": 167,
+    "hit": 168,
     "frag": 95,
     "intercept": 22,
     "ballistic": 84,
