@@ -1,9 +1,23 @@
 {
-  "updated": "2026-07-17T08:24:21.904398+00:00",
-  "total": 455,
-  "new_this_run": 0,
-  "articles_processed": 1,
+  "updated": "2026-07-17T10:14:08.446123+00:00",
+  "total": 456,
+  "new_this_run": 1,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "unknown",
+      "location": "בסיס צבאי אמריקני בישראל",
+      "lat": 31.5,
+      "lng": 34.8,
+      "type": "hit",
+      "desc": "סוללת פטריוט נפגעה מטיל לפי תמונות לוויין",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/skcqrdpnzg",
+      "source_name": "ynet",
+      "id": "aba482ad2260",
+      "pub": "Fri, 17 Jul 2026 12:33:54 +0300"
+    },
     {
       "date": "14.4",
       "location": "חיפה",
@@ -6228,7 +6242,7 @@
     }
   ],
   "stats": {
-    "hit": 169,
+    "hit": 170,
     "frag": 95,
     "intercept": 22,
     "ballistic": 84,
