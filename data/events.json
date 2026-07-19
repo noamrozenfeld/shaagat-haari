@@ -1,9 +1,23 @@
 {
-  "updated": "2026-07-19T11:40:37.726394+00:00",
-  "total": 456,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-07-19T12:32:42.156187+00:00",
+  "total": 457,
+  "new_this_run": 1,
+  "articles_processed": 1,
   "events": [
+    {
+      "date": "1.4",
+      "location": "אילת",
+      "lat": 29.55,
+      "lng": 34.95,
+      "type": "ballistic",
+      "desc": "שוגרו טילים לעיר עקבה בירדן הממול אילת, נשמעו פיצוצים באילת, הופעלו אזעקות בדרום",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hkewcncnzg",
+      "source_name": "ynet",
+      "id": "125f9149915d",
+      "pub": "Sun, 19 Jul 2026 15:10:45 +0300"
+    },
     {
       "date": "unknown",
       "location": "בסיס צבאי אמריקני בישראל",
@@ -6245,7 +6259,7 @@
     "hit": 170,
     "frag": 95,
     "intercept": 22,
-    "ballistic": 84,
+    "ballistic": 85,
     "uav": 41
   }
 }
