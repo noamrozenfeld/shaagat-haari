@@ -1,9 +1,23 @@
 {
-  "updated": "2026-08-28T03:32:22.114731+00:00",
-  "total": 457,
-  "new_this_run": 0,
+  "updated": "2026-08-28T15:36:30.219764+00:00",
+  "total": 458,
+  "new_this_run": 1,
   "articles_processed": 2,
   "events": [
+    {
+      "date": "בתאריך לא מוצהר",
+      "location": "ג'נין",
+      "lat": 32.28,
+      "lng": 35.28,
+      "type": "uav",
+      "desc": "תקיפת כטב\"ם על 3 מחבלים מחוץ לרכב בפתח מבנה בבנייה בג'נין. אחד מהם קייס ביטאוי שתכנן פיגועים. התקיפה היא הראשונה מהאוויר ביהודה ושומרון ב-10 חודשים",
+      "killed": 3,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/s1r005b1umg",
+      "source_name": "ynet",
+      "id": "faef223b9e25",
+      "pub": "Fri, 28 Aug 2026 16:23:39 +0300"
+    },
     {
       "date": "1.4",
       "location": "אילת",
@@ -6260,6 +6274,6 @@
     "frag": 95,
     "intercept": 22,
     "ballistic": 85,
-    "uav": 41
+    "uav": 42
   }
 }
