@@ -1,9 +1,37 @@
 {
-  "updated": "2026-09-01T06:17:54.294536+00:00",
-  "total": 458,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-09-01T11:43:00.674079+00:00",
+  "total": 460,
+  "new_this_run": 2,
+  "articles_processed": 2,
   "events": [
+    {
+      "date": "1.9",
+      "location": "רמלה",
+      "lat": 31.92,
+      "lng": 34.86,
+      "type": "hit",
+      "desc": "בית ספר שנפגע מטיל איראני ברמלה",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/rkihsl4dgl",
+      "source_name": "ynet",
+      "id": "bd7f4ed70656",
+      "pub": "Tue, 01 Sep 2026 11:29:19 +0300"
+    },
+    {
+      "date": "1.9",
+      "location": "פתח תקווה",
+      "lat": 32.1164,
+      "lng": 34.8853,
+      "type": "hit",
+      "desc": "בית של עמרי נפגע מטיל איראני",
+      "killed": 0,
+      "wounded": 0,
+      "source_url": "https://www.ynet.co.il/news/article/hkbh0yndzx",
+      "source_name": "ynet",
+      "id": "defc38c02e84",
+      "pub": "Tue, 01 Sep 2026 10:51:02 +0300"
+    },
     {
       "date": "בתאריך לא מוצהר",
       "location": "ג'נין",
@@ -6270,7 +6298,7 @@
     }
   ],
   "stats": {
-    "hit": 170,
+    "hit": 172,
     "frag": 95,
     "intercept": 22,
     "ballistic": 85,
