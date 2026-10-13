@@ -1,9 +1,23 @@
 {
-  "updated": "2026-10-13T07:25:24.033740+00:00",
-  "total": 462,
-  "new_this_run": 0,
-  "articles_processed": 0,
+  "updated": "2026-10-13T15:09:36.076675+00:00",
+  "total": 463,
+  "new_this_run": 1,
+  "articles_processed": 3,
   "events": [
+    {
+      "date": "לא צוין",
+      "location": "גבול הצפון",
+      "lat": 33.2,
+      "lng": 35.5,
+      "type": "frag",
+      "desc": "פיצוץ נפל בגבול הצפון. נערה בן 15 נפצע מרסיסים. פצועים נוספים בזירה",
+      "killed": 0,
+      "wounded": 2,
+      "source_url": "https://www.ynet.co.il/news/article/bjm8rqojfx",
+      "source_name": "ynet",
+      "id": "3de722254843",
+      "pub": "Tue, 13 Oct 2026 16:50:34 +0300"
+    },
     {
       "date": "DD.M",
       "location": "הכנרת",
@@ -6327,7 +6341,7 @@
   ],
   "stats": {
     "hit": 173,
-    "frag": 95,
+    "frag": 96,
     "intercept": 23,
     "ballistic": 85,
     "uav": 42
